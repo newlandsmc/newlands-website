@@ -64,6 +64,22 @@ p, h1, h2, h3, h4, h5, h6 {
 
 /*
   ---------------------------
+  Mobile Support Starts Here
+  ---------------------------
+*/
+
+@media (max-width: 750px) {
+  #landing-title-video {
+    display: none;
+  }
+  body {
+    background: url("/assets/images/landing-title.jpg") no-repeat;
+    background-size: cover;
+  }
+}
+
+/*
+  ---------------------------
   Custom CSS Starts Here
   ---------------------------
 */
@@ -72,14 +88,15 @@ p, h1, h2, h3, h4, h5, h6 {
   display: flex;
   justify-content: center;
   padding: 100px;
+  background-color: white;
 }
 
 #nav {
   position: fixed;
   display: flex;
   justify-content: center;
-  box-shadow: 0px 2px 3px -1px rgb(30 30 30 / 10%);
   background-color: white;
+  box-shadow: 0px 2px 3px -1px rgb(30 30 30 / 10%);
   transition: height 0.3s;
   height: 110px;
   width: 100%
@@ -94,12 +111,7 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 #nav img {
-  height: 90px;
-  transition: height 0.3s;
-}
-
-#nav.active img {
-  height: 60px;
+  height: 80%;
 }
 
 #nav ul {
@@ -107,27 +119,38 @@ p, h1, h2, h3, h4, h5, h6 {
   list-style: none;
 }
 
-#nav a {
-  padding: 8px 16px;
-  margin: 0px 5px;
+#nav li {
   border-radius: 5px;
   transition: background-color 0.3s;
+  color: black;
+  margin: 0px 5px;
+}
+
+#nav li:hover {
+  background-color: #309edf;
+  color: white;
+}
+
+#nav li:hover a {
+  color: white;
+}
+
+#nav li.active {
+  background-color: #309edf;
+}
+
+#nav li:active a {
+  color: white;
+}
+
+#nav a {
   text-decoration: none;
   color: black;
 }
 
-#nav a:hover {
-  background-color: #309edf;
-  color: white;
-}
-
-#nav a.active {
-  background-color: #309edf;
-  color: white;
-}
-
 #nav p {
   font-family: 'mctext';
+  padding: 8px 16px;
 }
 
 #main {
@@ -135,6 +158,18 @@ p, h1, h2, h3, h4, h5, h6 {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+#landing-title-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
 }
 
 .title {
@@ -151,6 +186,7 @@ p, h1, h2, h3, h4, h5, h6 {
   color: white;
   font-size: 4em;
   text-shadow: 0 2px black, 2px 0 black;
+  text-align: center;
 }
 
 .title h2 {
@@ -158,9 +194,10 @@ p, h1, h2, h3, h4, h5, h6 {
   color: #d4d4d4;
   font-size: 2em;
   text-shadow: 0 2px black, 2px 0 black;
+  text-align: center;
 }
 
-.content {
+.content, #sub-nav {
   width: 80%;
   max-width: 1020px;
 }

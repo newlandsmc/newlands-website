@@ -36,7 +36,8 @@
   <body>
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/header.html'); ?>
     <div id="main">
-      <div class="title" id="landing_title" style="background: url(/assets/images/home.jpg); background-position: center 0px; background-size: cover; background-attachment: fixed; background-repeat: no-repeat;">
+      <video id="landing-title-video" autoplay loop muted src="/assets/videos/landing-title-video.mp4" poster="/assets/images/landing-title.jpg"></video>
+      <div class="title" id="landing-title"> <!-- style="background: url(/assets/images/landing-title.jpg); background-position: center 0px; background-size: cover; background-attachment: fixed; background-repeat: no-repeat;"> -->
         <h1>You awake in a strange place...</h1>
         <h2>play.semivanilla.com</h2>
       </div>
