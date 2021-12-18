@@ -22,7 +22,7 @@
     <meta name="theme-color" content="#222222">
     <meta name="keywords" content="minecraft, map, dynamic, pl3x, pl3xmap" />
     <meta name="description" content="Minecraft Dynamic Map" />
-    <link rel="shortcut icon" href="favicon.ico" sizes="256x256" crossOrigin="anonymous" />
+    <link rel="shortcut icon" href="/assets/images/favicon.ico" sizes="256x256" crossOrigin="anonymous" />
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
       integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
       crossOrigin="anonymous" />
@@ -43,6 +43,15 @@
     <script type="module" src="js/modules/util/Pin.js" crossOrigin="anonymous"></script>
     <script type="module" src="js/modules/util/Player.js" crossOrigin="anonymous"></script>
     <script type="module" src="js/modules/util/World.js" crossOrigin="anonymous"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-492PDMS8SH"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-492PDMS8SH');
+    </script>
   </head>
   <body>
     <div id="map"></div>
