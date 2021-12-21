@@ -1,19 +1,19 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>SemiVanilla Minecraft Server</title>
+    <title>SemiVanilla Minecraft Server - 404</title>
     <meta charset="utf-8" />
-    <meta name="description" content="SemiVanilla MC - A 1.18.1 survival Minecraft server. Welcome!" />
+    <meta name="description" content="SemiVanilla MC - A 1.18.1 survival Minecraft server. 404 Page not found." />
     <meta property="og:url" content="https://semivanilla.com" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="SemiVanilla MC" />
-    <meta property="og:description" content="A 1.18.1 survival Minecraft server. Welcome!" />
+    <meta property="og:description" content="A 1.18.1 survival Minecraft server. 404 Page not found." />
     <meta property="og:image" content="https://semivanilla.com/assets/images/promo-card.jpg" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta property="twitter:domain" content="semivanilla.com" />
     <meta property="twitter:url" content="https://semivanilla.com" />
     <meta name="twitter:title" content="SemiVanilla MC" />
-    <meta name="twitter:description" content="A 1.18.1 survival Minecraft server. Welcome!" />
+    <meta name="twitter:description" content="A 1.18.1 survival Minecraft server. 404 Page not found." />
     <meta name="twitter:image" content="https://semivanilla.com/assets/images/promo-card.jpg" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -56,8 +56,8 @@
     <div id="main">
       <video id="landing-title-video" autoplay loop muted src="/assets/videos/landing-title-video.mp4" poster="/assets/images/landing-title.jpg"></video>
       <div class="title" id="landing-title"> <!-- style="background: url(/assets/images/landing-title.jpg); background-position: center 0px; background-size: cover; background-attachment: fixed; background-repeat: no-repeat;"> -->
-        <h1>You awaken in a strange place...</h1>
-        <h2>play.semivanilla.com</h2>
+        <h1>404</h1>
+        <h2>Page not found.</h2>
       </div>
     </div>
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/footer.html'); ?>
