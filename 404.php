@@ -54,10 +54,12 @@
   <body>
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/header.html'); ?>
     <div id="main">
-      <video id="landing-title-video" autoplay loop muted src="/assets/videos/landing-title-video.mp4" poster="/assets/images/landing-title.jpg"></video>
-      <div class="title" id="landing-title"> <!-- style="background: url(/assets/images/landing-title.jpg); background-position: center 0px; background-size: cover; background-attachment: fixed; background-repeat: no-repeat;"> -->
-        <h1>404</h1>
-        <h2>Page not found.</h2>
+      <video id="landing-title-video" autoplay loop muted src="/assets/videos/404-video.mp4" poster="/assets/images/404-title.jpg"></video>
+      <div class="title" id="title-404">
+        <div>
+          <h1>404</h1>
+          <h2>Page not found.</h2>
+        </div>
       </div>
     </div>
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/footer.html'); ?>
