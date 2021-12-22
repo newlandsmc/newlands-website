@@ -1,2 +1,2 @@
-# Ignore user data in plugins
-/map/fullscreen/tiles
+# Ignore map tiles
+/map/tiles
