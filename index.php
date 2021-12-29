@@ -3,23 +3,23 @@
   <head>
     <title>SemiVanilla Minecraft Server</title>
     <meta charset="utf-8" />
-    <meta name="description" content="SemiVanilla MC - A 1.18.1 survival Minecraft server. Welcome!" />
+    <meta name="description" content="A 1.18.1 hard mode survival Minecraft server with RPG elements and competitive multiplayer." />
     <meta property="og:url" content="https://semivanilla.com" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="SemiVanilla MC" />
-    <meta property="og:description" content="A 1.18.1 survival Minecraft server. Welcome!" />
+    <meta property="og:description" content="A 1.18.1 hard mode survival Minecraft server with RPG elements and competitive multiplayer." />
     <meta property="og:image" content="https://semivanilla.com/assets/images/promo-card.jpg" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta property="twitter:domain" content="semivanilla.com" />
     <meta property="twitter:url" content="https://semivanilla.com" />
     <meta name="twitter:title" content="SemiVanilla MC" />
-    <meta name="twitter:description" content="A 1.18.1 survival Minecraft server. Welcome!" />
+    <meta name="twitter:description" content="A 1.18.1 hard mode survival Minecraft server with RPG elements and competitive multiplayer." />
     <meta name="twitter:image" content="https://semivanilla.com/assets/images/promo-card.jpg" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <meta name="theme-color" content="#309edf" />
-    <meta name="keywords" content="minecraft, mc, survival, server, semivanilla" />
+    <meta name="keywords" content="minecraft, mc, survival, server, semivanilla, rpg, multiplayer, hardmode" />
     <link rel="shortcut icon" href="/assets/images/favicon.ico" sizes="256x256" crossOrigin="anonymous" />
     <link rel="stylesheet" href="/assets/css/style.css" />
     <!-- Global site tag (gtag.js) - Google Analytics -->

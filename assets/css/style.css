@@ -77,15 +77,16 @@ a {
   justify-content: center;
   flex-wrap: wrap;
   padding: 100px;
-  background-color: white;
+  background-color: black;
+  box-shadow: 0px 0px 10px 2px rgb(0 0 0 / 70%)
 }
 
 #nav {
   position: fixed;
   display: flex;
   justify-content: center;
-  background-color: white;
-  box-shadow: 0px 2px 3px -1px rgb(30 30 30 / 10%);
+  background-color: black;
+  box-shadow: 0px 0px 10px 2px rgb(0 0 0 / 70%);
   transition: height 0.3s;
   height: 110px;
   width: 100%
@@ -101,6 +102,11 @@ a {
 
 #nav img {
   height: 80%;
+  transition: height 0.1s;
+}
+
+#nav img:hover {
+  height: 85%;
 }
 
 #nav ul, #footer ul {
@@ -116,37 +122,34 @@ a {
 }
 
 #nav li:hover {
-  background-color: #309edf;
-  color: white;
-}
-
-#nav li:hover a {
-  color: white;
+  background-color: #c89c19;
 }
 
 #nav li.active {
-  background-color: #309edf;
-}
-
-#nav li:active a {
-  color: white;
-}
-
-#nav a {
-  color: black;
+  background-color: #c89c19;
 }
 
 #nav li p {
   font-family: 'mctext';
   padding: 8px 16px;
+  color: white;
+}
+
+#footer p {
+  color: white;
 }
 
 #footer li p {
   font-family: 'mctext';
+  color: #c89c19;
+}
+
+#footer li p:hover {
+  color: #7d6210;
 }
 
 #footer li {
-  margin: 6px;
+  margin: 10px;
 }
 
 #main {

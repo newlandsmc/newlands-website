@@ -5,7 +5,7 @@ import { UICoordinates } from "./UICoordinates.js";
 import { UILink } from "./UILink.js";
 import { LayerControl } from "./LayerControl.js";
 
-class Pl3xMap {
+class SquaremapMap {
     constructor() {
         this.map = L.map("map", {
             crs: L.CRS.Simple,
@@ -135,7 +135,7 @@ class Pl3xMap {
 }
 
 
-export const P = new Pl3xMap();
+export const P = new SquaremapMap();
 
 
 // https://stackoverflow.com/a/3955096
