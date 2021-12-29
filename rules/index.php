@@ -31,6 +31,9 @@
 
       gtag('config', 'G-492PDMS8SH');
     </script>
+    <script>
+      document.addEventListener("touchstart", function(){}, true);
+    </script>
     <script type="text/javascript">
       function downloadJSAtOnload() {
         var nav = document.createElement("script");
@@ -54,7 +57,7 @@
   <body>
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/header.html'); ?>
     <main>
-      <div class="sub-title" id="sub-title-rules">
+      <div class="sub-title">
         <div>
           <h1>Server Rules</h1>
           <h2>To sustain an ejoyable experience for all...</h2>
@@ -63,16 +66,16 @@
       <div class="content" id="rules">
         <section>
           <h3>Play Fair</h3>
-          <p>Cheats, hacks, bots, and mods are not allowed. Exploit glitches are not allowed.</p>
-          <p>Defrauding, trolling, win trading, and falsely reporting others is not allowed.</p>
+          <p>Any hack or mod that gives you an unfair advantage in the game is not allowed. Exploit glitches are now allowed. Only the following mods may be used: Optifine, shaders, gameplay recording, inventory management, status HUDs.</p>
+          <p>Defrauding, trolling, or falsely reporting others is prohibited. Do not attempt to trick or scam others.</p>
         </section>
-        <div style="width: 200px; height: 3px; background-color: #ff674d;"></div>
+        <div style="width: 200px; border-top: 3px dotted #ff674d;"></div>
         <section>
           <h3>Be Kind</h3>
-          <p>No harassment, bullying, aggression, insults, threats, verbal abuse, hateful speech.</p>
-          <p>Player traps are not allowed in the wild.</p>
+          <p>No harassment, threats, verbal abuse, or hateful speech. Sexist, racist, homophobic, and broad, offensive generalizations about groups of people are prohibited.</p>
+          <p>Player traps are prohibited in the wild! You may only create player traps within your own home.</p>
         </section>
-        <div style="width: 200px; height: 3px; background-color: #ff674d;"></div>
+        <div style="width: 200px; border-top: 3px dotted #ff674d;""></div>
         <section>
           <h3>That's it.</h3>
         </section>

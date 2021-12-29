@@ -31,6 +31,9 @@
 
       gtag('config', 'G-492PDMS8SH');
     </script>
+    <script>
+      document.addEventListener("touchstart", function(){}, true);
+    </script>
     <script type="text/javascript">
       function downloadJSAtOnload() {
         var nav = document.createElement("script");
@@ -50,6 +53,11 @@
       window.attachEvent("onload", downloadJSAtOnload);
       else window.onload = downloadJSAtOnload;
     </script>
+    <style>
+      nav {
+        background-color: rgb(0 0 0 / 20%);
+      }
+    </style>
   </head>
   <body>
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/header.html'); ?>
