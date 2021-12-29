@@ -122,11 +122,11 @@ a {
 }
 
 #nav li:hover {
-  background-color: #c89c19;
+  background-color: #ff674d;
 }
 
 #nav li.active {
-  background-color: #c89c19;
+  background-color: #ff674d;
 }
 
 #nav li p {
@@ -141,11 +141,11 @@ a {
 
 #footer li p {
   font-family: 'mctext';
-  color: #c89c19;
+  color: #ff674d;
 }
 
 #footer li p:hover {
-  color: #7d6210;
+  color: #d61f00;
 }
 
 #footer li {
