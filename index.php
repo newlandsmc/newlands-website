@@ -18,7 +18,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-    <meta name="theme-color" content="#309edf" />
+    <meta name="theme-color" content="#d61f00" />
     <meta name="keywords" content="minecraft, mc, survival, server, semivanilla, rpg, multiplayer, hardmode" />
     <link rel="shortcut icon" href="/assets/images/favicon.ico" sizes="256x256" crossOrigin="anonymous" />
     <link rel="stylesheet" href="/assets/css/style.css" />
@@ -37,12 +37,12 @@
         nav.src = "/assets/javascript/nav.js";
         nav.type = "module";
         document.body.appendChild(nav);
+        var copy_to_clipboard = document.createElement("script");
+        copy_to_clipboard.src = "/assets/javascript/copy_to_clipboard.js";
+        document.body.appendChild(copy_to_clipboard);
         var gtag = document.createElement("script");
         gtag.src = "https://www.googletagmanager.com/gtag/js?id=G-492PDMS8SH";
         document.body.appendChild(gtag);
-        var landingtitle = document.createElement("script");
-        landingtitle.src = "/assets/javascript/landing_title.js";
-        document.body.appendChild(landingtitle);
       }
       if (window.addEventListener)
       window.addEventListener("load", downloadJSAtOnload, false);
@@ -53,15 +53,18 @@
   </head>
   <body>
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/header.html'); ?>
-    <div id="main">
+    <main>
       <video id="landing-title-video" autoplay loop muted src="/assets/videos/landing-title-video.mp4" poster="/assets/images/landing-title.jpg"></video>
       <div class="title" id="title-landing">
         <div>
           <h1>You awake in a strange place...</h1>
           <h2>play.semivanilla.com</h2>
+          <div style="width: 100%; padding: 50px; text-align: center;">
+            <button type="button" id="copybutton" onclick="copyToClipboard()">Play Now</button>
+          </div>
         </div>
       </div>
-    </div>
+    </main>
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/footer.html'); ?>
   </body>
 </html>
