@@ -59,7 +59,7 @@
     <style>
       @media (min-width: 750px) {
         nav {
-          background-color: rgb(0 0 0 / 20%);
+          background-color: rgb(0 0 0 / 30%);
         }
       }
     </style>
