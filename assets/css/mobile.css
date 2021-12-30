@@ -1,0 +1,35 @@
+/*
+  ---------------------------
+  Mobile Support Starts Here
+  ---------------------------
+*/
+
+@media (max-width: 750px) {
+  #landing-title-video {
+    display: none;
+  }
+  .title {
+    background-position: center 0px;
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+  }
+  #title-landing {
+    background-image: url(/assets/images/landing-title.jpg);
+  }
+  #title-404 {
+    background-image: url(/assets/images/404-title.jpg);
+  }
+  .title h1, .sub-title h1 {
+    font-size: 3em;
+  }
+  .title h2, .sub-title h2 {
+    font-size: 1.5em;
+  }
+  #logo-container {
+    display: none;
+  }
+  nav li a, nav li p {
+    padding: 12px 8px;
+  }
+}

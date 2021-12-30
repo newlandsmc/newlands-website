@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'mctext';
+  src: url(/assets/fonts/mctext.woff2) format('woff2'),
+       url(/assets/fonts/mctext.woff) format('woff'),
+       url(/assets/fonts/mctext.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'mctext-bold';
+  src: url(/assets/fonts/mctext-bold.woff2) format('woff2'),
+       url(/assets/fonts/mctext-bold.woff) format('woff'),
+       url(/assets/fonts/mctext-bold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'mctitle';
+  src: url(/assets/fonts/mctitle.woff2) format('woff2'),
+       url(/assets/fonts/mctitle.woff) format('woff'),
+       url(/assets/fonts/mctitle.ttf) format('truetype');
+}

@@ -21,7 +21,11 @@
     <meta name="theme-color" content="#d61f00" />
     <meta name="keywords" content="minecraft, mc, survival, server, semivanilla, rpg, multiplayer, hardmode" />
     <link rel="shortcut icon" href="/assets/images/favicon.ico" sizes="256x256" crossOrigin="anonymous" />
-    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="shortcut icon" href="/assets/images/favicon.ico" sizes="256x256" crossOrigin="anonymous" />
+    <link rel="stylesheet" href="/assets/css/fonts.css" />
+    <link rel="stylesheet" href="/assets/css/reset.css" />
+    <link rel="stylesheet" href="/assets/css/main.css" />
+    <link rel="stylesheet" href="/assets/css/mobile.css" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-492PDMS8SH"></script> -->
     <script>
@@ -66,7 +70,7 @@
       <div class="content" id="rules">
         <section>
           <h3>Play Fair</h3>
-          <p>Any hack or mod that gives you an unfair advantage in the game is not allowed. Exploit glitches are now allowed. Only the following mods may be used: Optifine, shaders, gameplay recording, inventory management, status HUDs.</p>
+          <p>Any hack or mod that gives you an unfair advantage in the game is not allowed. Exploit glitches are not allowed. Only the following mods may be used: Optifine, shaders, gameplay recording, inventory management, status HUDs.</p>
           <p>Defrauding, trolling, or falsely reporting others is prohibited. Do not attempt to trick or scam others.</p>
         </section>
         <div style="width: 200px; border-top: 3px dotted #ff674d;"></div>
