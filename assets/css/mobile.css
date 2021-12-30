@@ -13,6 +13,7 @@
     background-size: cover;
     background-attachment: scroll;
     background-repeat: no-repeat;
+    padding-top: 100px;
   }
   #title-landing {
     background-image: url(/assets/images/landing-title.jpg);
@@ -21,7 +22,7 @@
     background-image: url(/assets/images/404-title.jpg);
   }
   .title h1, .sub-title h1 {
-    font-size: 3em;
+    font-size: 2.5em;
   }
   .title h2, .sub-title h2 {
     font-size: 1.5em;

@@ -57,8 +57,10 @@
       else window.onload = downloadJSAtOnload;
     </script>
     <style>
-      nav {
-        background-color: rgb(0 0 0 / 20%);
+      @media (min-width: 750px) {
+        nav {
+          background-color: rgb(0 0 0 / 20%);
+        }
       }
     </style>
   </head>
