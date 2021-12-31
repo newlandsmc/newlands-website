@@ -44,9 +44,6 @@
         nav.src = "/assets/javascript/nav.js";
         nav.type = "module";
         document.body.appendChild(nav);
-        var copy_to_clipboard = document.createElement("script");
-        copy_to_clipboard.src = "/assets/javascript/copy_to_clipboard.js";
-        document.body.appendChild(copy_to_clipboard);
         var gtag = document.createElement("script");
         gtag.src = "https://www.googletagmanager.com/gtag/js?id=G-492PDMS8SH";
         document.body.appendChild(gtag);
@@ -73,17 +70,20 @@
           <p>Any hack or mod that gives you an unfair advantage in the game is not allowed. Exploit glitches are not allowed. Only the following mods may be used: Optifine, shaders, gameplay recording, inventory management, status HUDs.</p>
           <p>Defrauding, trolling, or falsely reporting others is prohibited. Do not attempt to trick or scam others.</p>
         </section>
-        <div style="width: 200px; border-top: 3px dotted #ff674d;"></div>
+        <section>
+          <div style="width: 200px; border-top: 3px dotted #ff674d;"></div>
+        </section>
         <section>
           <h3>Be Kind</h3>
           <p>No harassment, threats, verbal abuse, or hateful speech. Sexist, racist, homophobic, and broad, offensive generalizations about groups of people are prohibited.</p>
           <p>Player traps are prohibited in the wild! You may only create player traps within your own home.</p>
         </section>
-        <div style="width: 200px; border-top: 3px dotted #ff674d;""></div>
+        <section>
+          <div style="width: 200px; border-top: 3px dotted #ff674d;""></div>
+        </section>
         <section>
           <h3>That's it.</h3>
         </section>
-        <button type="button" id="copybutton" onclick="copyToClipboard()">Play Now</button>
       </div>
     </main>
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/footer.html'); ?>

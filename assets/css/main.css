@@ -10,6 +10,11 @@ body {
 
 a {
   text-decoration: none;
+  color: #ff674d;
+}
+
+a:hover {
+  color: #cc523d;
 }
 
 footer {
@@ -72,10 +77,12 @@ nav li a, nav li p {
 
 nav li:hover > a, nav li:hover > p {
   background-color: #cc523d;
+  color: white;
 }
 
 nav li a.active, nav li p.active {
   background-color: #cc523d;
+  color: white;
 }
 
 nav ul ul {
@@ -110,11 +117,6 @@ footer p {
 
 footer li a {
   font-family: 'mctext';
-  color: #ff674d;
-}
-
-footer li a:hover {
-  color: #cc523d;
 }
 
 footer li {
@@ -194,27 +196,50 @@ main {
 
 .content {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
   color: #c3c3c3;
   font-family: sans-serif;
 }
 
-#rules section {
+#rules section, #vote section {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 50px;
   line-height: 2em;
   text-align: center;
+  width: 100%;
 }
 
 #rules section p {
   margin-top: 2em;
 }
 
+#vote #votelinks {
+  flex-direction: row;
+  justify-content: center;
+  border-radius: 50px;
+  border: #ff674d dotted 3px;
+  flex-wrap: wrap;
+  background-color: ;
+}
+
+#vote #votelinks div {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  line-height: 2em;
+  text-align: center;
+  width: 33%;
+  min-width: 250px;
+}
+
 button {
   padding: 10px;
+  margin: 16px;
+  min-width: 90px;
+  line-height: 1.5em;
   border-radius: 5px;
   background-color: #ff674d;
   font-family: 'mctext';

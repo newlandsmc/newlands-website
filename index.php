@@ -72,7 +72,7 @@
         <div>
           <h1>You awake in a strange place...</h1>
           <h2>play.semivanilla.com</h2>
-          <div style="width: 100%; padding: 50px; text-align: center;">
+          <div style="width: 100%; text-align: center;">
             <button type="button" id="copybutton" onclick="copyToClipboard()">Play Now</button>
           </div>
         </div>

@@ -43,9 +43,9 @@
         nav.src = "/assets/javascript/nav.js";
         nav.type = "module";
         document.body.appendChild(nav);
-        var copy_to_clipboard = document.createElement("script");
-        copy_to_clipboard.src = "/assets/javascript/copy_to_clipboard.js";
-        document.body.appendChild(copy_to_clipboard);
+        var button_clicked = document.createElement("script");
+        button_clicked.src = "/assets/javascript/button_clicked.js";
+        document.body.appendChild(button_clicked);
         var gtag = document.createElement("script");
         gtag.src = "https://www.googletagmanager.com/gtag/js?id=G-492PDMS8SH";
         document.body.appendChild(gtag);
@@ -68,7 +68,41 @@
       </div>
       <div class="content" id="vote">
         <section>
-          <p style="margin-top: 50px;">Coming soon.</p>
+          <h3>Reward: Instant Expeditions</h3>
+          <p>Every day you vote on all 6 sites you will instantly complete a maximum-reward expedition! Do /spoils in-game to claim your reward. Looking to automatically complete instant expeditions every day? Check out the store item: <a href="https://store.semivanilla.com/package/4846618" target="_blank">Instant Expeditions</a></p>
+          <p>Note: Purchasing lifetime Instant Expeditions replaces voting rewards.</p>
+        </section>
+        <section id="votelinks">
+          <div>
+            <h3>minecraftservers.org</h3>
+            <a href="https://minecraftservers.org/" target="_blank"><button type="button" id="vote1" onclick="buttonClicked('vote1')">Vote</button></a>
+          </div>
+          <div>
+            <h3>topminecraftservers.org</h3>
+            <a href="https://topminecraftservers.org/" target="_blank"><button type="button" id="vote2" onclick="buttonClicked('vote2')">Vote</button></a>
+          </div>
+          <div>
+            <h3>planetminecraft.com</h3>
+            <a href="https://www.planetminecraft.com/" target="_blank"><button type="button" id="vote3" onclick="buttonClicked('vote3')">Vote</button></a>
+          </div>
+          <div>
+            <h3>minecraft.buzz</h3>
+            <a href="https://minecraft.buzz/" target="_blank"><button type="button" id="vote4" onclick="buttonClicked('vote4')">Vote</button></a>
+          </div>
+          <div>
+            <h3>minecraft-server.net</h3>
+            <a href="https://minecraft-server.net/" target="_blank"><button type="button" id="vote5" onclick="buttonClicked('vote5')">Vote</button></a>
+          </div>
+          <div>
+            <h3>minecraft-mp.com</h3>
+            <a href="https://minecraft-mp.com/" target="_blank"><button type="button" id="vote6" onclick="buttonClicked('vote6')">Vote</button></a>
+          </div>
+        </section>
+        <section>
+          <h3>Reddit</h3>
+          <p>We are also listed on /r/mcservers! Find our latest post to upvote and comment!</p>
+          <p>Note: This site does not grant voting rewards.</p>
+          <a href="https://reddit.com/" target="_blank"><button type="button" id="vote7" onclick="buttonClicked('vote7')">Visit Reddit</button></a>
         </section>
       </div>
     </main>
