@@ -75,8 +75,8 @@
         </section>
         <section>
           <h3>Be Kind</h3>
-          <p>No harassment, threats, verbal abuse, or hateful speech. Sexist, racist, homophobic, and broad, offensive generalizations about groups of people are prohibited.</p>
-          <p>"Griefing" - destroying builds with the sole intent to harm - is prohibited.</p>
+          <p>Harassment, threats, verbal abuse, and hateful speech are not tolerated. Sexist, racist, homophobic, and broad, offensive generalizations about groups of people are prohibited.</p>
+          <p>Destroying builds with the sole intent to harm others, also known as "Griefing", is prohibited.</p>
           <p>Player traps are prohibited in the wild! You may only create player traps within your own home.</p>
         </section>
         <section class="divider">
