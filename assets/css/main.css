@@ -45,12 +45,12 @@ nav *, footer * {
 }
 
 nav img {
-  height: 80%;
+  height: 60%;
   transition: height 0.1s;
 }
 
 nav img:hover {
-  height: 85%;
+  height: 65%;
 }
 
 nav ul, footer ul {
@@ -162,7 +162,7 @@ main {
   justify-content: center;
   flex-wrap: wrap;
   align-items: center;
-  background-image: url(/assets/images/404-title.jpg);
+  background-image: url(/assets/images/404-title.webp);
   background-position: center 0px;
   background-size: cover;
   background-attachment: scroll;

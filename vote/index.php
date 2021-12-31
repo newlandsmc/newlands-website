@@ -60,7 +60,7 @@
   <body>
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/header.html'); ?>
     <main>
-      <div class="sub-title" style="background-image: url(/assets/images/vote-title.jpg); background-position: center;">
+      <div class="sub-title" style="background-image: url(/assets/images/vote-title.webp); background-position: center;">
         <div>
           <h1>Vote for Us</h1>
           <h2>Earn rewards in-game every day!</h2>

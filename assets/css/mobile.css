@@ -16,10 +16,10 @@
     padding-top: 100px;
   }
   #title-landing {
-    background-image: url(/assets/images/landing-title.jpg);
+    background-image: url(/assets/images/landing-title.webp);
   }
   #title-404 {
-    background-image: url(/assets/images/404-title.jpg);
+    background-image: url(/assets/images/404-title.webp);
   }
   .title h1, .sub-title h1 {
     font-size: 2.5em;
