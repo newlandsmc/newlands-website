@@ -39,4 +39,10 @@
   nav li a, nav li p {
     padding: 12px 8px;
   }
+  #landing section {
+    flex-direction: column;
+  }
+  #landing div {
+    width: 90%;
+  }
 }

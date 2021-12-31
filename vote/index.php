@@ -56,6 +56,11 @@
       window.attachEvent("onload", downloadJSAtOnload);
       else window.onload = downloadJSAtOnload;
     </script>
+    <style>
+      .content p, .content h3 {
+        margin: 0;
+      }
+    </style>
   </head>
   <body>
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/header.html'); ?>

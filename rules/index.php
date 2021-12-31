@@ -70,15 +70,16 @@
           <p>Any hack or mod that gives you an unfair advantage in the game is not allowed. Exploit glitches are not allowed. Only the following mods may be used: Optifine, shaders, gameplay recording, inventory management, status HUDs.</p>
           <p>Defrauding, trolling, or falsely reporting others is prohibited. Do not attempt to trick or scam others.</p>
         </section>
-        <section>
+        <section class="divider">
           <div style="width: 200px; border-top: 3px dotted #ff674d;"></div>
         </section>
         <section>
           <h3>Be Kind</h3>
           <p>No harassment, threats, verbal abuse, or hateful speech. Sexist, racist, homophobic, and broad, offensive generalizations about groups of people are prohibited.</p>
+          <p>"Griefing" - destroying builds with the sole intent to harm - is prohibited.</p>
           <p>Player traps are prohibited in the wild! You may only create player traps within your own home.</p>
         </section>
-        <section>
+        <section class="divider">
           <div style="width: 200px; border-top: 3px dotted #ff674d;""></div>
         </section>
         <section>

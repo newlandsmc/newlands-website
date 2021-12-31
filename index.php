@@ -74,9 +74,43 @@
           <h1>You awake in a strange place...</h1>
           <h2>play.semivanilla.com</h2>
           <div style="width: 100%; text-align: center;">
-            <button type="button" id="copybutton" onclick="copyToClipboard()">Play Now</button>
+            <button type="button" id="copybutton" onclick="copyToClipboard('copybutton')">Play Now</button>
           </div>
         </div>
+      </div>
+      <div class="content" id="landing">
+        <section>
+          <div class="left">
+            <h3>Hard Mode Survival</h3>
+            <p>Zombies can break through wooden doors and spawn reinforcements. Spiders have beneficial status effects. Villagers turn into zombie villagers when killed. Hostile mobs deal more damage. Starvation kills. </p>
+          </div>
+          <div class="right">
+            <img src="/assets/images/landing-zombie.webp" alt="Minecraft Zombie" />
+          </div>
+        </section>
+        <section>
+          <div class="left">
+            <img src="/assets/images/landing-pickaxe.webp" alt="Minecraft Pickaxe" />
+          </div>
+          <div class="right">
+            <h3>+ RPG Elements</h3>
+            <p>Level up your defense to unlock special abilities. Level up your mana to use them. Fight off random boss mobs, or summon a king boss and defeat them to earn powerful rewards.</p>
+          </div>
+        </section>
+        <section>
+          <div class="left">
+            <h3>+ Competitive Multiplayer</h3>
+            <p>Your chests are protected, but your home isn't. Lay player traps to discourage would-be raiders. Watch your back, because PvP is on, or team up to ward off potential attackers.</p>
+          </div>
+          <div class="right">
+            <img src="/assets/images/landing-pvp.webp" alt="Minecraft Swords" />
+          </div>
+        </section>
+        <section style="flex-direction: column; max-width: 600px;">
+          <h3>Welcome to SemiVanilla</h3>
+          <p>A unique survival experience that builds on the vanilla survival game. A challenging adventure awaits... do you accept?</p>
+          <button type="button" id="copybutton2" onclick="copyToClipboard('copybutton2')">Play Now</button>
+        </section>
       </div>
     </main>
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/footer.html'); ?>

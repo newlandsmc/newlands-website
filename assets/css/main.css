@@ -31,13 +31,14 @@ nav {
   justify-content: center;
   background-color: black;
   box-shadow: 0px 0px 10px 2px rgb(0 0 0 / 70%);
-  transition: height 0.3s;
+  transition: all 0.3s;
   height: 110px;
   width: 100%
 }
 
 nav.active {
   height: 80px;
+  background-color: rgb(0 0 0 / 100%);
 }
 
 nav *, footer * {
@@ -203,7 +204,7 @@ main {
   font-family: sans-serif;
 }
 
-#rules section, #vote section {
+.content section {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -213,8 +214,30 @@ main {
   width: 100%;
 }
 
-#rules section p {
-  margin-top: 2em;
+.content p, .content h3 {
+  margin: 1em 0 1em 0;
+}
+
+#landing section {
+  flex-direction: row;
+}
+
+#landing div {
+  width: 50%;
+}
+
+#landing div img {
+  margin: auto;
+  width: 33%;
+}
+
+#landing h3 {
+  font-family: 'mctext';
+  font-size: 2em;
+}
+
+.content section.divider {
+  padding: 0;
 }
 
 #vote #votelinks {
@@ -226,7 +249,7 @@ main {
   background-color: ;
 }
 
-#vote #votelinks div {
+#votelinks div {
   padding-top: 25px;
   padding-bottom: 25px;
   line-height: 2em;
@@ -247,7 +270,7 @@ button {
   border: none;
   transition: all 100ms cubic-bezier(0.55, 0.085, 0.68, 0.53);
   cursor: pointer;
-  box-shadow: 2px 2px 10px 0px #000000;
+  box-shadow: 1px 1px 4px 0px #000000;
 }
 
 button:hover {
