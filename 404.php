@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <title>SemiVanilla Minecraft Server - 404</title>
+    <meta name="robots" content="noindex" />
     <meta charset="utf-8" />
     <meta name="description" content="A 1.18.1 hard mode survival Minecraft server with RPG elements and competitive multiplayer. 404 Page not found." />
     <meta property="og:url" content="https://semivanilla.com" />

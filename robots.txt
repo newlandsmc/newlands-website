@@ -1,0 +1,7 @@
+user-agent: * 
+sitemap: https://semivanilla.com/sitemap.xml
+disallow: /.gitignore
+disallow: /.git
+disallow: /map/tiles/
+disallow: /assets/fonts/
+disallow: /assets/videos/
