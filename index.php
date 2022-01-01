@@ -90,7 +90,7 @@
         </section>
         <section>
           <div class="left">
-            <img src="/assets/images/landing-pickaxe.webp" alt="Minecraft Pickaxe" />
+            <img src="/assets/images/landing-pickaxe.webp" alt="Minecraft Enchanted Pickaxe" />
           </div>
           <div class="right">
             <h3>+ RPG Elements</h3>
