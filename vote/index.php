@@ -19,7 +19,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <meta name="theme-color" content="#d61f00" />
-    <meta name="keywords" content="minecraft, mc, survival, server, semivanilla, rpg, multiplayer, hardmode" />
+    <meta name="keywords" content="minecraft, mc, survival, server, semi, vanilla, semivanilla, rpg, multiplayer, hardmode" />
     <link rel="shortcut icon" href="/assets/images/favicon.ico" sizes="256x256" crossOrigin="anonymous" />
     <link rel="stylesheet" href="/assets/css/fonts.css" />
     <link rel="stylesheet" href="/assets/css/reset.css" />
