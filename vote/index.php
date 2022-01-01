@@ -3,23 +3,23 @@
   <head>
     <title>SemiVanilla Minecraft Server - Vote</title>
     <meta charset="utf-8" />
-    <meta name="description" content="A 1.18.1 hard mode survival Minecraft server with RPG elements and competitive multiplayer. Vote for the server!" />
+    <meta name="description" content="A 1.18.1 hard difficulty survival Minecraft server with RPG elements and competitive multiplayer. Vote for the server!" />
     <meta property="og:url" content="https://semivanilla.com" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="SemiVanilla MC" />
-    <meta property="og:description" content="A 1.18.1 hard mode survival Minecraft server with RPG elements and competitive multiplayer. Vote for the server!" />
+    <meta property="og:description" content="A 1.18.1 hard difficulty survival Minecraft server with RPG elements and competitive multiplayer. Vote for the server!" />
     <meta property="og:image" content="https://semivanilla.com/assets/images/promo-card.jpg" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta property="twitter:domain" content="semivanilla.com" />
     <meta property="twitter:url" content="https://semivanilla.com" />
     <meta name="twitter:title" content="SemiVanilla MC" />
-    <meta name="twitter:description" content="A 1.18.1 hard mode survival Minecraft server with RPG elements and competitive multiplayer. Vote for the server!" />
+    <meta name="twitter:description" content="A 1.18.1 hard difficulty survival Minecraft server with RPG elements and competitive multiplayer. Vote for the server!" />
     <meta name="twitter:image" content="https://semivanilla.com/assets/images/promo-card.jpg" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <meta name="theme-color" content="#d61f00" />
-    <meta name="keywords" content="minecraft, mc, survival, server, semi, vanilla, semivanilla, rpg, multiplayer, hardmode" />
+    <meta name="keywords" content="minecraft, mc, survival, server, semi, vanilla, semivanilla, rpg, multiplayer" />
     <link rel="shortcut icon" href="/assets/images/favicon.ico" sizes="256x256" crossOrigin="anonymous" />
     <link rel="stylesheet" href="/assets/css/fonts.css" />
     <link rel="stylesheet" href="/assets/css/reset.css" />
@@ -107,7 +107,7 @@
           <h3>Reddit</h3>
           <p>We are also listed on /r/mcservers! Find our latest post to upvote and comment!</p>
           <p>Note: This site does not grant voting rewards.</p>
-          <a href="https://reddit.com/" target="_blank"><button type="button" id="vote7" onclick="buttonClicked('vote7')">Visit Reddit</button></a>
+          <a href="https://www.reddit.com/r/mcservers/" target="_blank"><button type="button" id="vote7" onclick="buttonClicked('vote7')">Visit Reddit</button></a>
         </section>
       </div>
     </main>
