@@ -71,7 +71,7 @@
       <div class="title" id="title-landing">
         <div>
           <img src="/assets/images/logo.webp" alt="SemiVanilla MC Logo" style="max-width: 50%; margin: auto;" />
-          <h1>You awake in a strange place...</h1>
+          <h1>You awake in a strange place....</h1>
           <h2>play.semivanilla.com</h2>
           <div style="width: 100%; text-align: center;">
             <button type="button" id="copybutton" onclick="copyToClipboard('copybutton')">Play Now</button>
