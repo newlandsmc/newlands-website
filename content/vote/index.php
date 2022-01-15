@@ -80,27 +80,27 @@
         <section id="votelinks">
           <div>
             <h3>minecraftservers.org</h3>
-            <a href="https://minecraftservers.org/" target="_blank"><button type="button" id="vote1" onclick="buttonClicked('vote1')">Vote</button></a>
+            <a href="https://minecraftservers.org/vote/630602" target="_blank"><button type="button" id="vote1" onclick="buttonClicked('vote1')">Vote</button></a>
           </div>
           <div>
             <h3>topminecraftservers.org</h3>
-            <a href="https://topminecraftservers.org/" target="_blank"><button type="button" id="vote2" onclick="buttonClicked('vote2')">Vote</button></a>
+            <a href="http://topminecraftservers.org/vote/24515" target="_blank"><button type="button" id="vote2" onclick="buttonClicked('vote2')">Vote</button></a>
           </div>
           <div>
             <h3>planetminecraft.com</h3>
-            <a href="https://www.planetminecraft.com/" target="_blank"><button type="button" id="vote3" onclick="buttonClicked('vote3')">Vote</button></a>
+            <a href="https://www.planetminecraft.com/server/semivanilla-mc/vote/" target="_blank"><button type="button" id="vote3" onclick="buttonClicked('vote3')">Vote</button></a>
           </div>
           <div>
             <h3>minecraft.buzz</h3>
-            <a href="https://minecraft.buzz/" target="_blank"><button type="button" id="vote4" onclick="buttonClicked('vote4')">Vote</button></a>
+            <a href="https://minecraft.buzz/vote/3877" target="_blank"><button type="button" id="vote4" onclick="buttonClicked('vote4')">Vote</button></a>
           </div>
           <div>
             <h3>minecraft-server.net</h3>
-            <a href="https://minecraft-server.net/" target="_blank"><button type="button" id="vote5" onclick="buttonClicked('vote5')">Vote</button></a>
+            <a href="https://minecraft-server.net/vote/semivanilla_mc/" target="_blank"><button type="button" id="vote5" onclick="buttonClicked('vote5')">Vote</button></a>
           </div>
           <div>
             <h3>minecraft-mp.com</h3>
-            <a href="https://minecraft-mp.com/" target="_blank"><button type="button" id="vote6" onclick="buttonClicked('vote6')">Vote</button></a>
+            <a href="https://minecraft-mp.com/server/298736/vote/" target="_blank"><button type="button" id="vote6" onclick="buttonClicked('vote6')">Vote</button></a>
           </div>
         </section>
         <section>
