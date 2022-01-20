@@ -3,28 +3,29 @@
   <head>
     <title>SemiVanilla Minecraft Server - Vote</title>
     <meta charset="utf-8" />
-    <meta name="description" content="A 1.18.1 hard difficulty survival Minecraft server with RPG elements and competitive multiplayer. Vote for the server!" />
+    <meta name="description" content="Welcome to SemiVanilla MC! We are a semi-vanilla survival 1.18.1 Java Minecraft server hosting hard difficulty survival with RPG elements and competitive multiplayer. Vote for the server on all 6 sites to earn an in-game reward - an instant expedition!" />
     <meta property="og:url" content="https://semivanilla.com" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="SemiVanilla MC" />
-    <meta property="og:description" content="A 1.18.1 hard difficulty survival Minecraft server with RPG elements and competitive multiplayer. Vote for the server!" />
+    <meta property="og:description" content="A semi-vanilla survival 1.18.1 Java Minecraft server with RPG elements and competitive multiplayer. Vote for the server!" />
     <meta property="og:image" content="https://semivanilla.com/assets/images/promo-card.jpg" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta property="twitter:domain" content="semivanilla.com" />
     <meta property="twitter:url" content="https://semivanilla.com" />
     <meta name="twitter:title" content="SemiVanilla MC" />
-    <meta name="twitter:description" content="A 1.18.1 hard difficulty survival Minecraft server with RPG elements and competitive multiplayer. Vote for the server!" />
+    <meta name="twitter:description" content="A semi-vanilla survival 1.18.1 Java Minecraft server with RPG elements and competitive multiplayer. Vote for the server!" />
     <meta name="twitter:image" content="https://semivanilla.com/assets/images/promo-card.jpg" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <meta name="theme-color" content="#d61f00" />
-    <meta name="keywords" content="minecraft, mc, survival, server, semi, vanilla, semivanilla, rpg, multiplayer" />
+    <meta name="keywords" content="semi, vanilla, java, minecraft, mc, survival, rpg, multiplayer, mcmmo, pvp, pve" />
     <link rel="shortcut icon" href="/assets/images/favicon.ico" sizes="256x256" crossOrigin="anonymous" />
     <link rel="stylesheet" href="/assets/css/fonts.css" />
     <link rel="stylesheet" href="/assets/css/reset.css" />
     <link rel="stylesheet" href="/assets/css/main.css" />
     <link rel="stylesheet" href="/assets/css/mobile.css" />
+    <link rel="stylesheet" href="/assets/css/cookienotice.css" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-492PDMS8SH"></script> -->
     <script>
@@ -43,6 +44,9 @@
         nav.src = "/assets/javascript/nav.js";
         nav.type = "module";
         document.body.appendChild(nav);
+        var cookie_notice = document.createElement("script");
+        cookie_notice.src = "/assets/javascript/cookie_notice.js";
+        document.body.appendChild(cookie_notice);
         var button_clicked = document.createElement("script");
         button_clicked.src = "/assets/javascript/button_clicked.js";
         document.body.appendChild(button_clicked);
@@ -87,8 +91,8 @@
             <a href="http://topminecraftservers.org/vote/24515" target="_blank"><button type="button" id="vote2" onclick="buttonClicked('vote2')">Vote</button></a>
           </div>
           <div>
-            <h3>planetminecraft.com</h3>
-            <a href="https://www.planetminecraft.com/server/semivanilla-mc/vote/" target="_blank"><button type="button" id="vote3" onclick="buttonClicked('vote3')">Vote</button></a>
+            <h3>topmcservers.com</h3>
+            <a href="https://topmcservers.com/server/1610/vote" target="_blank"><button type="button" id="vote3" onclick="buttonClicked('vote3')">Vote</button></a>
           </div>
           <div>
             <h3>minecraft.buzz</h3>
@@ -107,10 +111,11 @@
           <h3>Reddit</h3>
           <p>We are also listed on /r/mcservers! Find our latest post to upvote and comment!</p>
           <p>Note: This site does not grant voting rewards.</p>
-          <a href="https://www.reddit.com/r/mcservers/" target="_blank"><button type="button" id="vote7" onclick="buttonClicked('vote7')">Visit Reddit</button></a>
+          <a href="https://www.reddit.com/user/semivanillamc" target="_blank"><button type="button" id="vote7" onclick="buttonClicked('vote7')">Visit Reddit</button></a>
         </section>
       </div>
     </main>
+    <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/cookies-notice.html'); ?>
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/footer.html'); ?>
   </body>
 </html>

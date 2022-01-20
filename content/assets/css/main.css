@@ -214,8 +214,13 @@ main {
   width: 100%;
 }
 
-.content p, .content h3 {
+.content p {
   margin: 1em 0 1em 0;
+}
+
+.content h3 {
+  margin: 1em 0 1em 0;
+  font-family: 'mctext';
 }
 
 #landing section {
@@ -238,6 +243,17 @@ main {
 
 .content section.divider {
   padding: 0;
+}
+
+#terms {
+  padding-top: 110px;
+  justify-content: flex-start;
+}
+
+#terms h2, #terms p {
+  padding: 20px 0 20px 0;
+  width: 100%;
+  
 }
 
 #vote #votelinks {
