@@ -18,46 +18,28 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-    <meta name="theme-color" content="#d61f00" />
+    <link rel="apple-touch-icon" sizes="180x180" href="https://semivanilla.com/assets/images/apple-touch-icon.png">
+    <meta name="theme-color" content="#000000" />
     <meta name="keywords" content="semi, vanilla, java, minecraft, mc, survival, rpg, multiplayer, mcmmo, pvp, pve" />
     <link rel="shortcut icon" href="/assets/images/favicon.ico" sizes="256x256" crossOrigin="anonymous" />
     <link rel="shortcut icon" href="/assets/images/favicon.ico" sizes="256x256" crossOrigin="anonymous" />
-    <link rel="stylesheet" href="/assets/css/fonts.css" />
-    <link rel="stylesheet" href="/assets/css/reset.css" />
     <link rel="stylesheet" href="/assets/css/main.css" />
-    <link rel="stylesheet" href="/assets/css/mobile.css" />
     <link rel="stylesheet" href="/assets/css/cookienotice.css" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-492PDMS8SH"></script> -->
-    <script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-492PDMS8SH"></script>
+    <script async>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
 
       gtag('config', 'G-492PDMS8SH');
     </script>
-    <script>
+    <script async>
       document.addEventListener("touchstart", function(){}, true);
     </script>
-    <script type="text/javascript">
-      function downloadJSAtOnload() {
-        var nav = document.createElement("script");
-        nav.src = "/assets/javascript/nav.js";
-        nav.type = "module";
-        document.body.appendChild(nav);
-        var cookie_notice = document.createElement("script");
-        cookie_notice.src = "/assets/javascript/cookie_notice.js";
-        document.body.appendChild(cookie_notice);
-        var gtag = document.createElement("script");
-        gtag.src = "https://www.googletagmanager.com/gtag/js?id=G-492PDMS8SH";
-        document.body.appendChild(gtag);
-      }
-      if (window.addEventListener)
-      window.addEventListener("load", downloadJSAtOnload, false);
-      else if (window.attachEvent)
-      window.attachEvent("onload", downloadJSAtOnload);
-      else window.onload = downloadJSAtOnload;
-    </script>
+    <script async type="module" src="/assets/javascript/jquery-3.6.0.min.js"></script>
+    <script async src="/assets/javascript/cookie_notice.js"></script>
+    <script defer async type="module" src="/assets/javascript/nav.js"></script>
   </head>
   <body>
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/header.html'); ?>

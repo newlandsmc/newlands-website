@@ -1,5 +1,6 @@
 @font-face {
   font-family: 'mctext';
+  font-display: swap;
   src: url(https://semivanilla.com/assets/fonts/mctext.woff2) format('woff2'),
        url(https://semivanilla.com/assets/fonts/mctext.woff) format('woff'),
        url(https://semivanilla.com/assets/fonts/mctext.ttf) format('truetype');
