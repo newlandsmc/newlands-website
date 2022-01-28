@@ -282,10 +282,7 @@ main {
 .content section {
   display: flex;
   flex-direction: column;
-  align-items: center;
   padding: 50px;
-  line-height: 2em;
-  text-align: center;
   width: 100%;
 }
 
@@ -293,9 +290,14 @@ main {
   margin: 1em 0 1em 0;
 }
 
+li.rules {
+  margin: 0.5em 0 0.5em 0;
+}
+
 .content h3 {
   margin: 1em 0 1em 0;
   font-family: 'mctext';
+  font-size: 1.5em;
 }
 
 #landing section {
@@ -318,6 +320,7 @@ main {
 
 .content section.divider {
   padding: 0;
+  align-items: center;
 }
 
 #terms {

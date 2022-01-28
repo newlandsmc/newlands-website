@@ -3,7 +3,7 @@
   <head>
     <title>SemiVanilla Minecraft Server - Rules</title>
     <meta charset="utf-8" />
-    <meta name="description" content="Welcome to SemiVanilla MC! We are a semi-vanilla survival 1.18.1 Java Minecraft server hosting hard difficulty survival with RPG elements and competitive multiplayer. Server Rules: Be kind and play fair ..." />
+    <meta name="description" content="Welcome to SemiVanilla MC! We are a semi-vanilla survival 1.18.1 Java Minecraft server hosting hard difficulty survival with RPG elements and competitive multiplayer. Server Rules: Be kind, play fair ..." />
     <meta property="og:url" content="https://semivanilla.com" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="SemiVanilla MC" />
@@ -47,37 +47,53 @@
       <div class="sub-title">
         <div>
           <h1>Server Rules</h1>
-          <h2>To sustain an enjoyable experience for all...</h2>
+          <h2>Be careful. Be kind. Be fair. Be SVMC.</h2>
         </div>
       </div>
       <div class="content" id="rules">
         <section>
-          <h3>Play Fair</h3>
-          <p>Any hack or mod that gives you an unfair advantage in the game is not allowed. Exploit glitches are not allowed. Only the following mods may be used: Optifine, shaders, gameplay recording, inventory management, status HUDs.</p>
-          <p>Defrauding, trolling, or falsely reporting others is prohibited. Do not attempt to trick or scam others.</p>
+          <h3>Be Careful</h3>
+          <ul>
+            <li class="rules">Trusting players is at-your-own-risk - set up your land claim roles and areas carefully!</li>
+            <li class="rules">TPA is at-your-own-risk - remember PVP is on!</li>
+            <li class="rules">Unclaimed land is free-game! You can do anything you want with it.</li>
+          </ul>
         </section>
         <section class="divider">
-          <div style="width: 200px; border-top: 3px dotted #ff674d;"></div>
+          <div style="width: 50%; border-top: 3px dotted #ff674d;"></div>
         </section>
         <section>
           <h3>Be Kind</h3>
-          <p>Harassment, threats, verbal abuse, and hateful speech are not tolerated. Sexist, racist, homophobic, and broad, offensive generalizations about groups of people are prohibited.</p>
-          <p>Actions that provide no gain, and only harm others, also known as "Griefing", is prohibited.</p>
-          <p>Player traps are prohibited in the wild! You may only create player traps within your own home.</p>
+          <ul>
+            <li class="rules">Player traps are completely prohibited.</li>
+            <li class="rules">Harassment, threats, verbal abuse, and hateful speech are not tolerated. Sexist, racist, homophobic, and broad, offensive generalizations about groups of people are prohibited.</li>
+            <li class="rules">Do not troll or antagonize others (actions intended only to upset others).</li>
+            <li class="rules">All topics are generally allowed in chat, but keep other's feelings in mind and staff have the right to shut down a conversation if needed.</li>
+            <li class="rules">Do not spam.</li>
+          </ul>
         </section>
         <section class="divider">
-          <div style="width: 200px; border-top: 3px dotted #ff674d;""></div>
+          <div style="width: 50%; border-top: 3px dotted #ff674d;""></div>
         </section>
         <section>
-          <h3>Respect the Server</h3>
-          <p>Do not intentionally disparage, tarnish, or otherwise harm the server.</p>
-          <p>Do not advertise other Minecraft servers or Discords.</p>
+          <h3>Be Fair</h3>
+          <ul>
+            <li class="rules">Do not trick or scam others during trades or job agreements.</li>
+            <li class="rules">Any hack or mod that gives you an unfair advantage in the game is not allowed. Only the following mods may be used: performance enhancers (Optifine), shaders, gameplay recording, inventory management, status HUDs.</li>
+            <li class="rules">Exploiting glitches or bypassing our anti-swear and anti-cheat tools are not allowed.</li>
+            <lu class="rules">If you share your account, you are responsible for anything that happens on your account.</li>
+            <li class="rules">Alt accounts are prohibited.</li>
+          </ul>
         </section>
         <section class="divider">
-          <div style="width: 200px; border-top: 3px dotted #ff674d;""></div>
+          <div style="width: 50%; border-top: 3px dotted #ff674d;""></div>
         </section>
         <section>
-          <h3>That's it.</h3>
+          <h3>Be SVMC</h3>
+          <ul>
+            <li class="rules">Do not intentionally disparage, tarnish, or otherwise harm the server.</li>
+            <li class="rules">Do not advertise other Minecraft servers or Discords.</li>
+          </ul>
         </section>
       </div>
     </main>

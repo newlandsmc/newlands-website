@@ -85,7 +85,7 @@
         <section>
           <div class="left">
             <h3>+ Competitive Multiplayer</h3>
-            <p>Your chests are protected, but your home isn't. Lay player traps to discourage would-be raiders. Watch your back, because PvP is on, or team up to ward off potential attackers.</p>
+            <p>Hunt down players and you'll become a bounty. Hunt down Bounties and you'll be a hero. Team up with others to build your base and strengthen your defenses.</p>
           </div>
           <div class="right">
             <img src="/assets/images/landing-pvp.webp" alt="Minecraft Swords" />
