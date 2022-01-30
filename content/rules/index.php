@@ -1,26 +1,26 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>SemiVanilla Minecraft Server - Rules</title>
+    <title>SemiVanilla Minecraft Server | Rules</title>
     <meta charset="utf-8" />
-    <meta name="description" content="Welcome to SemiVanilla MC! We are a semi-vanilla survival 1.18.1 Java Minecraft server hosting hard difficulty survival with RPG elements and competitive multiplayer. Server Rules: Be kind, play fair ..." />
+    <meta name="description" content="Server Rules - A semi-vanilla 1.18.1 survival Minecraft server. Java + Bedrock support! Competitive multiplayer adventure. Join Now!" />
     <meta property="og:url" content="https://semivanilla.com" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="SemiVanilla MC" />
-    <meta property="og:description" content="A semi-vanilla survival 1.18.1 Java Minecraft server with RPG elements and competitive multiplayer. Server Rules: ..." />
+    <meta property="og:description" content="A semi-vanilla 1.18.1 survival Minecraft server. Java + Bedrock support! Competitive multiplayer adventure." />
     <meta property="og:image" content="https://semivanilla.com/assets/images/promo-card.jpg" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta property="twitter:domain" content="semivanilla.com" />
     <meta property="twitter:url" content="https://semivanilla.com" />
     <meta name="twitter:title" content="SemiVanilla MC" />
-    <meta name="twitter:description" content="A semi-vanilla survival 1.18.1 Java Minecraft server with RPG elements and competitive multiplayer. Server Rules: ..." />
+    <meta name="twitter:description" content="A semi-vanilla 1.18.1 survival Minecraft server. Java + Bedrock support! Competitive multiplayer adventure." />
     <meta name="twitter:image" content="https://semivanilla.com/assets/images/promo-card.jpg" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <link rel="apple-touch-icon" sizes="180x180" href="https://semivanilla.com/assets/images/apple-touch-icon.png">
     <meta name="theme-color" content="#000000" />
-    <meta name="keywords" content="semi, vanilla, java, minecraft, mc, survival, rpg, multiplayer, mcmmo, pvp, pve" />
+    <meta name="keywords" content="semi, vanilla, minecraft, survival, server, bedrock, java, pvp, pve, mcmmo, rpg, multiplayer" />
     <link rel="shortcut icon" href="/assets/images/favicon.ico" sizes="256x256" crossOrigin="anonymous" />
     <link rel="shortcut icon" href="/assets/images/favicon.ico" sizes="256x256" crossOrigin="anonymous" />
     <link rel="stylesheet" href="/assets/css/main.css" />
@@ -78,7 +78,7 @@
         <section>
           <h3>Be Fair</h3>
           <ul>
-            <li class="rules">Do not trick or scam others during trades or job agreements.</li>
+            <li class="rules">Trades and job agreements are at your own risk! Use the /trade GUI to avoid scams.</li>
             <li class="rules">Any hack or mod that gives you an unfair advantage in the game is not allowed. Only the following mods may be used: performance enhancers (Optifine), shaders, gameplay recording, inventory management, status HUDs.</li>
             <li class="rules">Exploiting glitches or bypassing our anti-swear and anti-cheat tools are not allowed.</li>
             <lu class="rules">If you share your account, you are responsible for anything that happens on your account.</li>

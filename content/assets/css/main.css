@@ -286,6 +286,12 @@ main {
   width: 100%;
 }
 
+section.center {
+  align-items: center;
+  line-height: 2em;
+  text-align: center;
+}
+
 .content p {
   margin: 1em 0 1em 0;
 }
@@ -398,7 +404,7 @@ button:hover {
     height: 90px;
   }
   .content, #sub-nav {
-    width: 90%;
+    width: 100%;
   }
   nav li a, nav li p {
     padding: 12px 8px;

@@ -1,26 +1,26 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>SemiVanilla Minecraft Server</title>
+    <title>SemiVanilla Minecraft Server | Hard Difficulty Survival | RPG</title>
     <meta charset="utf-8" />
-    <meta name="description" content="Welcome to SemiVanilla MC! We are a semi-vanilla survival 1.18.1 Java Minecraft server hosting hard difficulty survival with RPG elements and competitive multiplayer. PvP with bounties, custom mobs and rpg leveling, expeditions and adventure await!" />
+    <meta name="description" content="A semi-vanilla 1.18.1 survival Minecraft server. Java + Bedrock support! Competitive multiplayer adventure. Join Now!" />
     <meta property="og:url" content="https://semivanilla.com" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="SemiVanilla MC" />
-    <meta property="og:description" content="A semi-vanilla 1.18.1 survival Java Minecraft server with RPG elements and competitive multiplayer." />
+    <meta property="og:description" content="A semi-vanilla 1.18.1 survival Minecraft server. Java + Bedrock support! Competitive multiplayer adventure." />
     <meta property="og:image" content="https://semivanilla.com/assets/images/promo-card.jpg" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta property="twitter:domain" content="semivanilla.com" />
     <meta property="twitter:url" content="https://semivanilla.com" />
     <meta name="twitter:title" content="SemiVanilla MC" />
-    <meta name="twitter:description" content="A semi-vanilla 1.18.1 survival Java Minecraft server with RPG elements and competitive multiplayer." />
+    <meta name="twitter:description" content="A semi-vanilla 1.18.1 survival Minecraft server. Java + Bedrock support! Competitive multiplayer adventure." />
     <meta name="twitter:image" content="https://semivanilla.com/assets/images/promo-card.jpg" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <link rel="apple-touch-icon" sizes="180x180" href="https://semivanilla.com/assets/images/apple-touch-icon.png">
     <meta name="theme-color" content="#000000" />
-    <meta name="keywords" content="semi, vanilla, java, minecraft, mc, survival, rpg, multiplayer, mcmmo, pvp, pve" />
+    <meta name="keywords" content="semi, vanilla, minecraft, survival, server, bedrock, java, pvp, pve, mcmmo, rpg, multiplayer" />
     <link rel="shortcut icon" href="/assets/images/favicon.ico" sizes="256x256" crossOrigin="anonymous" />
     <link rel="stylesheet" href="/assets/css/main.css" />
     <link rel="stylesheet" href="/assets/css/cookienotice.css" />
@@ -36,8 +36,20 @@
     <script async>
       document.addEventListener("touchstart", function(){}, true);
     </script>
+    <script async defer>
+      function copyToClipboard(id) {
+        var aux = document.createElement("input");
+        aux.setAttribute("value", "play.semivanilla.com");
+        document.body.appendChild(aux);
+        aux.select();
+        document.execCommand("copy");
+        document.body.removeChild(aux);
+        document.getElementById(id).innerHTML = 'IP Copied!';
+        document.getElementById(id).style.backgroundColor = "#d2a69f";
+      }
+    </script>
     <script async type="module" src="/assets/javascript/jquery-3.6.0.min.js"></script>
-    <script async src="/assets/javascript/cookie_notice.js"></script>
+    <script defer async src="/assets/javascript/cookie_notice.js"></script>
     <script defer async type="module" src="/assets/javascript/nav.js"></script>
     <script defer async type="module" src="/assets/javascript/landing_page.js"></script>
     <style>
@@ -64,7 +76,7 @@
         </div>
       </div>
       <div class="content" id="landing">
-        <section>
+        <section class="center">
           <div class="left">
             <h3>Hard Difficulty Survival</h3>
             <p>Zombies can break through wooden doors and spawn reinforcements. Spiders have beneficial status effects. Villagers turn into zombie villagers when killed. Hostile mobs deal more damage. Starvation kills. </p>
@@ -73,7 +85,7 @@
             <img src="/assets/images/landing-zombie.webp" alt="Minecraft Zombie" />
           </div>
         </section>
-        <section>
+        <section class="center">
           <div class="left">
             <img src="/assets/images/landing-pickaxe.webp" alt="Minecraft Enchanted Pickaxe" />
           </div>
@@ -82,7 +94,7 @@
             <p>Level up your defense to unlock special abilities. Level up your mana to use them. Fight off random boss mobs, or summon a king boss and defeat them to earn powerful rewards.</p>
           </div>
         </section>
-        <section>
+        <section class="center">
           <div class="left">
             <h3>+ Competitive Multiplayer</h3>
             <p>Hunt down players and you'll become a bounty. Hunt down Bounties and you'll be a hero. Team up with others to build your base and strengthen your defenses.</p>
@@ -91,7 +103,7 @@
             <img src="/assets/images/landing-pvp.webp" alt="Minecraft Swords" />
           </div>
         </section>
-        <section style="flex-direction: column; max-width: 600px;">
+        <section class="center" style="flex-direction: column; max-width: 600px;">
           <h3>Redefining Semi-Vanilla</h3>
           <p>A unique survival experience that builds on the vanilla survival game. A challenging adventure awaits... do you accept?</p>
           <button type="button" id="copybutton2" onclick="copyToClipboard('copybutton2')">Play Now</button>
