@@ -383,13 +383,17 @@ button:hover {
   ---------------------------
 */
 
-@media (max-width: 750px) {
+@media (max-width: 650px) {
   .title {
     background-position: center 0px;
     background-size: cover;
     background-attachment: scroll;
     background-repeat: no-repeat;
-    padding-top: 100px;
+    padding-top: initial;
+  }
+  .sub-title {
+    height: 360px;
+    padding-top: 90px;
   }
   .title h1, .sub-title h1 {
     font-size: 2.5em;
@@ -397,7 +401,7 @@ button:hover {
   .title h2, .sub-title h2 {
     font-size: 1.5em;
   }
-  #logo-container {
+  .hide-mobile {
     display: none;
   }
   nav {
