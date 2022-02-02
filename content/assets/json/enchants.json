@@ -38,7 +38,7 @@
     [
       "Jelly Legs",
       "Chance to negate fall damage.",
-      "Boots",
+      "Leggings",
       "3",
       "<span style='color: #ff55ff;'>Legendary</span>"
     ],
@@ -374,7 +374,7 @@
     [
       "Dodge",
       "Chance to dodge physical enemy, chance increases when sneaking.",
-      "Armor",
+      "Leggings",
       "5",
       "<span style='color: #ff55ff;'>Legendary</span>"
     ],
@@ -411,13 +411,6 @@
       "Chance to restore food every few seconds.",
       "Helmets",
       "3",
-      "<span style='color: #ff55ff;'>Legendary</span>"
-    ],
-    [
-      "Piercing",
-      "Increases damage dealt with Bows.",
-      "Bows",
-      "5",
       "<span style='color: #ff55ff;'>Legendary</span>"
     ],
     [
@@ -514,7 +507,7 @@
     [
       "Creeper Armor",
       "Chance to be immune to explosive damage, at higher levels you have a chance to heal.",
-      "Armor",
+      "Leggings",
       "3",
       "<span style='color: #ff55ff;'>Legendary</span>"
     ],
@@ -695,7 +688,7 @@
     ],
     [
       "Slingshot",
-      "Boost yourself into flight by right-clicking.",
+      "Boost yourself into flight by right-clicking. (Has cooldown)",
       "Elytra",
       "3",
       "<span style='color: #ffaa00;'>Exotic</span>"
@@ -715,9 +708,9 @@
       "<span style='color: #55ffff;'>Rare</span>"
     ],
     [
-      "EnderShift",
-      "Gives speed/health boost at low hp.",
-      "Helmets, Boots",
+      "Endershift",
+      "Gives speed/health boost at low hp. (Has cooldown)",
+      "Helmets",
       "3",
       "<span style='color: #55ff55;'>Uncommon</span>"
     ],
@@ -752,7 +745,7 @@
     [
       "Demonic",
       "Chance to remove fire resistance from your enemy.",
-      "Armor",
+      "Swords, Axes",
       "3",
       "<span style='color: #ff55ff;'>Legendary</span>"
     ],
@@ -771,9 +764,9 @@
       "<span style='color: #ff55ff;'>Legendary</span>"
     ],
     [
-      "Ender Walker",
+      "Soul Whisper",
       "Chance to cure Wither and Poison when attacked nand heal at high levels.",
-      "Boots",
+      "Chestplates",
       "5",
       "<span style='color: #ff55ff;'>Legendary</span>"
     ],
@@ -835,8 +828,8 @@
     ],
     [
       "Silence",
-      "Chance to stop activation of your enemy''s custom armor enchants.",
-      "Swords",
+      "Chance to disable all enemy armor enchantments for 3 seconds.",
+      "All Weapons",
       "4",
       "<span style='color: #ffff00;'>Fabled</span>"
     ],
@@ -849,8 +842,15 @@
     ],
     [
       "Defuse",
-      "Chance to disable all enemy defensive enchantment's for 7 seconds. This effect can stack with silence.",
-      "Swords",
+      "Chance to disable all enemy defensive enchantment's for 7 seconds.",
+      "All Weapons",
+      "5",
+      "<span style='color: #ffff00;'>Fabled</span>"
+    ],
+    [
+      "Deactivate",
+      "Chance to disable all enemy offensive enchantment's for 7 seconds.",
+      "All Weapons",
       "5",
       "<span style='color: #ffff00;'>Fabled</span>"
     ],
