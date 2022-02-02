@@ -216,6 +216,11 @@ main {
   z-index: -1;
 }
 
+#landing-logo {
+  max-width: 50%;
+  margin: auto;
+}
+
 .title {
   width: 100%;
   height: 100vh;
@@ -292,11 +297,25 @@ section.center {
   text-align: center;
 }
 
+.split-content {
+  align-items: initial;
+}
+
+.split-content div {
+  width: 50%;
+  box-sizing: border-box;
+  padding: 0 15px;
+}
+
+.split-content section {
+  padding: 30px;
+}
+
 .content p {
   margin: 1em 0 1em 0;
 }
 
-li.rules {
+li.rules, .split-content li {
   margin: 0.5em 0 0.5em 0;
 }
 
@@ -340,12 +359,13 @@ li.rules {
   
 }
 
-#vote #votelinks {
+#votelinks {
   flex-direction: row;
   justify-content: center;
   border-radius: 50px;
   border: #ff674d dotted 3px;
   flex-wrap: wrap;
+  padding: 50px;
 }
 
 #votelinks div {
@@ -379,11 +399,17 @@ button:hover {
 
 /*
   ---------------------------
-  Mobile Support Starts Here
+  Multi-Device Support Starts Here
   ---------------------------
 */
 
-@media (max-width: 650px) {
+@media (max-width: 1500px) {
+  .title h1, .sub-title h1{
+    font-size: 3em;
+  }
+}
+
+@media (max-width: 950px) {
   .title {
     background-position: center 0px;
     background-size: cover;
@@ -391,24 +417,21 @@ button:hover {
     background-repeat: no-repeat;
     padding-top: initial;
   }
-  .sub-title {
-    height: 360px;
-    padding-top: 90px;
-  }
-  .title h1, .sub-title h1 {
+  .title h1, .sub-title h1{
     font-size: 2.5em;
   }
   .title h2, .sub-title h2 {
     font-size: 1.5em;
+  }
+  .sub-title {
+    height: 360px;
+    padding-top: 90px;
   }
   .hide-mobile {
     display: none;
   }
   nav {
     height: 90px;
-  }
-  .content, #sub-nav {
-    width: 100%;
   }
   nav li a, nav li p {
     padding: 12px 8px;
@@ -418,5 +441,35 @@ button:hover {
   }
   #landing div {
     width: 90%;
+  }
+}
+
+@media (max-width: 650px) {
+  .content, #sub-nav {
+    width: 100%;
+  }
+  #votelinks {
+    margin: 50px;
+  }
+  .hide-mobile-2 {
+    display: none;
+  }
+  #landing-logo {
+    max-width: 80%;
+  }
+  .split-content div {
+    width: 100%;
+  }
+}
+
+@media (max-width: 450px) {
+  .title h1, .sub-title h1{
+    font-size: 2em;
+  }
+  .title h2, .sub-title h2 {
+    font-size: 1.2em;
+  }
+  .content h3 {
+    font-size: 1.2em;
   }
 }

@@ -57,7 +57,7 @@
   transform: scale(1.1);
 }
 
-@media (max-width: 600px) {
+@media (max-width: 650px) {
   #cookienotice {
     flex-wrap: wrap;
     justify-content: center;
