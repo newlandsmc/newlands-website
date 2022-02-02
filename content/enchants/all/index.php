@@ -66,8 +66,11 @@
             },
             {
               "targets": [3],
-              "title": "Rarity",
-              "width": "10%"
+              "title": "Lvls"
+            },
+            {
+              "targets": [4],
+              "title": "Rarity"
             }
           ]
         } );
