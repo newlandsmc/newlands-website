@@ -58,11 +58,11 @@
           <p>To see a list of all available enchants, <a href="all/">click here</a>.</p>
           <p>Custom enchants are broken up into 6 different rarity categories. The higher the rarity, the less likely you are to find that enchant.</p>
           <ul>
-            <li><span style="color: #ffffff;">Simple</span> - 22.5% chance</li>
-            <li><span style="color: #55ff55;">Unique</span> - 18% chance</li>
-            <li><span style="color: #55ffff;">Elite</span> - 13.5% chance</li>
-            <li><span style="color: #ff55ff;">Ultimate</span> - 9% chance</li>
-            <li><span style="color: #ffaa00;">Legendary</span> - 4.5% chance</li>
+            <li><span style="color: #ffffff;">Common</span> - 22.5% chance</li>
+            <li><span style="color: #55ff55;">Uncommon</span> - 18% chance</li>
+            <li><span style="color: #55ffff;">Rare</span> - 13.5% chance</li>
+            <li><span style="color: #ff55ff;">Legendary</span> - 9% chance</li>
+            <li><span style="color: #ffaa00;">Exotic</span> - 4.5% chance</li>
             <li><span style="color: #ffff00;">Fabled</span> - 2.25% chance</li>
           </ul>
         </section>
