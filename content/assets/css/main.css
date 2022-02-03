@@ -75,7 +75,8 @@ p, h1, h2, h3, h4, h5, h6 {
 */
 
 body {
-  background-color: black;
+  background-color: #121212;
+  font-family: sans-serif;
 }
 
 a {
@@ -92,7 +93,7 @@ footer {
   justify-content: center;
   flex-wrap: wrap;
   padding: 100px 50px 100px 50px;
-  background-color: #0f0f0f;
+  background-color: #0c0c0c;
   z-index: 1000;
 }
 
@@ -100,7 +101,7 @@ nav {
   position: fixed;
   display: flex;
   justify-content: center;
-  background-color: rgb(0 0 0 / 100%);;
+  background-color: rgb(15 15 15 / 100%);;
   box-shadow: 0px 0px 10px 2px rgb(0 0 0 / 70%);
   transition: all 0.3s;
   height: 110px;
@@ -110,7 +111,7 @@ nav {
 
 nav.scroll {
   height: 80px;
-  background-color: rgb(15 15 15 / 100%);
+  background-color: rgb(30 30 30 / 100%);
 }
 
 nav *, footer * {
@@ -209,10 +210,6 @@ main {
   height: 100vh;
   object-fit: cover;
   position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
   z-index: -1;
 }
 
@@ -281,7 +278,6 @@ main {
   align-items: center;
   justify-content: center;
   color: #c3c3c3;
-  font-family: sans-serif;
 }
 
 .content section {
@@ -325,6 +321,10 @@ li.rules, .split-content li {
   font-size: 1.5em;
 }
 
+#landing h3 {
+  font-size: 2em;
+}
+
 #landing section {
   flex-direction: row;
 }
@@ -336,11 +336,6 @@ li.rules, .split-content li {
 #landing div img {
   margin: auto;
   width: 33%;
-}
-
-#landing h3 {
-  font-family: 'mctext';
-  font-size: 2em;
 }
 
 .content section.divider {
@@ -395,6 +390,47 @@ button {
 button:hover {
   background-color: #cc523d;
   transform: scale(1.1);
+}
+
+.overlay {
+  pointer-events: none;
+  display: flex;
+  opacity: 0;
+  transition: opacity .3s;
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: rgb(0 0 0 / 50%);
+  z-index: 2000;
+}
+
+.overlay.active {
+  pointer-events: initial;
+  opacity: 1;
+}
+
+.overlay div {
+  width: 80%;
+  max-width: 440px;
+  background-color: #2e2e2e;
+  color: #c3c3c3;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 1px 1px 4px 0px #000000;
+}
+
+.overlay h3 {
+  font-family: 'mctext';
+  font-size: 2em;
+  margin-top: 50px;
+}
+
+.overlay button {
+  margin: 50px;
 }
 
 /*
@@ -469,7 +505,7 @@ button:hover {
   .title h2, .sub-title h2 {
     font-size: 1.2em;
   }
-  .content h3 {
+  .content h3, #landing h3, .overlay h3 {
     font-size: 1.2em;
   }
 }
