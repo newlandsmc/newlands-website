@@ -113,7 +113,7 @@ nav {
   background-color: rgb(0 0 0 / 30%);
 }
 
-nav.scroll {
+nav.scroll, #landing-body nav.scroll {
   height: 80px;
   background-color: rgb(30 30 30 / 100%);
 }
