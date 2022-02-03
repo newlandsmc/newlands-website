@@ -54,7 +54,7 @@
         <div>
           <section>
             <h3>Custom Enchants</h3>
-            <p>There are <b>124</b> custom enchants available on SemiVanilla. They are available for all types of weapons, armor, and tools.</p>
+            <p>There are <strong>124</strong> custom enchants available on SemiVanilla. They are available for all types of weapons, armor, and tools.</p>
             <p>To see a list of all available enchants, <a href="all/">click here</a>.</p>
             <p>Custom enchants are broken up into 6 different rarity categories. The higher the rarity, the less likely you are to find that enchant.</p>
             <ul>
@@ -70,11 +70,11 @@
             <h3>Custom Items</h3>
             <p>Some custom items on the server can be used to modify enchanted items:</p>
             <ul>
-              <li><b>Orbs</b> - Increases the maximum enchants you can add to an item. Some increase the items overall limit, while others increase the limit on a specific rarity category.</li>
-              <li><b>Black Scrolls</b> - Removes a random enchant from an item and turns it into a book you can reuse on a different item.</li>
-              <li><b>Trackers</b> - Adds a stat counter to track how many times you've used that item.</li>
+              <li><strong>Orbs</strong> - Increases the maximum enchants you can add to an item. Each one has a unique success rate (chance of the upgrade working).</li>
+              <li><strong>Black Scrolls</strong> - Removes a random enchant from an item and turns it into a book you can reuse on a different item.</li>
+              <li><strong>Trackers</strong> - Adds a stat counter to track how many times you've used that item.</li>
               <li><b>Holy White Scrolls</b> - Allows you to keep the item on death. Only works once.</li>
-              <li><b>Enchant Books</b> - Used in an anvil to enchant an item.</li>
+              <li><strong>Enchant Books</strong> - Used in an anvil to enchant an item.</li>
             </ul>
           </section>
         </div>

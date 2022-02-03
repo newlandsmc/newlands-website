@@ -54,9 +54,9 @@
         <div>
           <section>
             <h3>Better Sleep</h3>
-            <p>Phantoms are disabled on SemiVanilla. Instead, to encourage sleep, players will experience <b>Exhaustion</b> - hearing random noises, occasional blindness, and nausea - if they don't sleep for extended periods of time.</p>
+            <p>Phantoms are disabled on SemiVanilla. Instead, to encourage sleep, players will experience <strong>Exhaustion</strong> - hearing random noises, occasional blindness, and nausea - if they don't sleep for extended periods of time.</p>
             <p>Phantom Membranes are still available on the server - we've added them to our custom lootchests!</p>
-            <p>Additionally, only 33% of players need to sleep to skip night.</p>
+            <p>Hint: Only 33% of players need to sleep to skip night.</p>
           </section>
           <section>
             <h3>Custom Recipes</h3>
@@ -66,7 +66,7 @@
           </section>
           <section>
             <h3>Trade System</h3>
-            <p>Trades and job agreements are at-your-own-risk! Be sure to use the <span style="color:#ff674d;">/trade</span> UI when trading with other players to avoid scams. You can open this UI any time by <span style="color:#ff674d;">shift + right click</span> on another player.</p>
+            <p>Trades and job agreements are at-your-own-risk! Be sure to use the <strong>/trade</strong> UI when trading with other players to avoid scams. You can open this UI any time by <strong>shift + right click</strong> on another player.</p>
           </section>
         </div>
         <div>
