@@ -52,46 +52,46 @@
       </div>
       <div class="content split-content">
         <div>
-        <section>
-          <h3>Custom Enchants</h3>
-          <p>There are <b>124</b> custom enchants available on SemiVanilla. They are available for all types of weapons, armor, and tools.</p>
-          <p>To see a list of all available enchants, <a href="all/">click here</a>.</p>
-          <p>Custom enchants are broken up into 6 different rarity categories. The higher the rarity, the less likely you are to find that enchant.</p>
-          <ul>
-            <li><span style="color: #ffffff;">Common</span> - 15% chance</li>
-            <li><span style="color: #55ff55;">Uncommon</span> - 12% chance</li>
-            <li><span style="color: #55ffff;">Rare</span> - 9% chance</li>
-            <li><span style="color: #ff55ff;">Legendary</span> - 6% chance</li>
-            <li><span style="color: #ffaa00;">Exotic</span> - 3% chance</li>
-            <li><span style="color: #ffff00;">Fabled</span> - 1.5% chance</li>
-          </ul>
-        </section>
-        <section>
-          <h3>Custom Items</h3>
-          <p>Some custom items on the server can be used to modify enchanted items:</p>
-          <ul>
-            <li><b>Orbs</b> - Increases the maximum enchants you can add to an item. Some increase the items overall limit, while others increase the limit on a specific rarity category.</li>
-            <li><b>Black Scrolls</b> - Removes a random enchant from an item and turns it into a book you can reuse on a different item.</li>
-            <li><b>Trackers</b> - Adds a stat counter to track how many times you've used that item.</li>
-            <li><b>Holy White Scrolls</b> - Allows you to keep the item on death. Only works once.</li>
-            <li><b>Enchant Books</b> - Used in an anvil to enchant an item.</li>
-          </ul>
-        </section>
+          <section>
+            <h3>Custom Enchants</h3>
+            <p>There are <b>124</b> custom enchants available on SemiVanilla. They are available for all types of weapons, armor, and tools.</p>
+            <p>To see a list of all available enchants, <a href="all/">click here</a>.</p>
+            <p>Custom enchants are broken up into 6 different rarity categories. The higher the rarity, the less likely you are to find that enchant.</p>
+            <ul>
+              <li><span style="color: #ffffff;">Common</span> - 15% chance</li>
+              <li><span style="color: #55ff55;">Uncommon</span> - 12% chance</li>
+              <li><span style="color: #55ffff;">Rare</span> - 9% chance</li>
+              <li><span style="color: #ff55ff;">Legendary</span> - 6% chance</li>
+              <li><span style="color: #ffaa00;">Exotic</span> - 3% chance</li>
+              <li><span style="color: #ffff00;">Fabled</span> - 1.5% chance</li>
+            </ul>
+          </section>
+          <section>
+            <h3>Custom Items</h3>
+            <p>Some custom items on the server can be used to modify enchanted items:</p>
+            <ul>
+              <li><b>Orbs</b> - Increases the maximum enchants you can add to an item. Some increase the items overall limit, while others increase the limit on a specific rarity category.</li>
+              <li><b>Black Scrolls</b> - Removes a random enchant from an item and turns it into a book you can reuse on a different item.</li>
+              <li><b>Trackers</b> - Adds a stat counter to track how many times you've used that item.</li>
+              <li><b>Holy White Scrolls</b> - Allows you to keep the item on death. Only works once.</li>
+              <li><b>Enchant Books</b> - Used in an anvil to enchant an item.</li>
+            </ul>
+          </section>
         </div>
         <div>
-        <section>
-          <h3>Obtaining Items/Enchants</h3>
-          <p>Custom enchants work just like vanilla enchants! They can be obtained by enchanting an item in an Enchantment Table, or by using a Custom Enchantment Books.</p>
-          <p>Custom enchant items (orbs, scrolls, trackers, and books), can be obtained by trading with villagers or found in loot chests around the world.</p>
-          <p style="color: #ff674d;">Warning: Books CANNOT receive custom enchants in Enchantment Tables.</p>
-        </section>
-        <section>
-          <h3>Using Enchants</h3>
-          <p>All enchants activate automatically! Read the description of each enchant carefully to learn what it does and when it applies.</p>
-          <p>If an enchant description starts with "Chance of" the enchant will activate randomly when the item is used. If an enchant description does NOT say those words, then A) the enchant activates every time the item is used, or B) the enchant activates randomly, and provides an "average benefit".</p>
-          <p>For example, if an enchant provides an increase to damage dealt - it most likely applies randomly while the item is used, providing an increase in damage dealt overall.</p>
-          <p style="color: #ff674d;">Warning: Enchanted items do NOT work in offhand.</p>
-        </section>
+          <section>
+            <h3>Obtaining Items/Enchants</h3>
+            <p>Custom enchants work just like vanilla enchants! They can be obtained by enchanting an item in an Enchantment Table, or by using a Custom Enchantment Books.</p>
+            <p>Custom enchant items (orbs, scrolls, trackers, and books), can be obtained by trading with villagers or found in loot chests around the world.</p>
+            <p style="color: #ff674d;">Warning: Books CANNOT receive custom enchants in Enchantment Tables.</p>
+          </section>
+          <section>
+            <h3>Using Enchants</h3>
+            <p>All enchants activate automatically! Read the description of each enchant carefully to learn what it does and when it applies.</p>
+            <p>If an enchant description starts with "Chance of" the enchant will activate randomly when the item is used. If an enchant description does NOT say those words, then A) the enchant activates every time the item is used, or B) the enchant activates randomly, and provides an "average benefit".</p>
+            <p>For example, if an enchant provides an increase to damage dealt - it most likely applies randomly while the item is used, providing an increase in damage dealt overall.</p>
+            <p style="color: #ff674d;">Warning: Enchanted items do NOT work in offhand.</p>
+          </section>
         </div>
       </div>
     </main>
