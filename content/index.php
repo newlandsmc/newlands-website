@@ -23,7 +23,7 @@
     <script defer async type="module" src="/assets/javascript/nav.js"></script>
     <script defer async type="module" src="/assets/javascript/landing_page.js"></script>
   </head>
-  <body>
+  <body id="landing-body">
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/header.html'); ?>
     <main>
       <div class="title" style="background-image: url(/assets/images/landing-title.webp);">

@@ -101,12 +101,16 @@ nav {
   position: fixed;
   display: flex;
   justify-content: center;
-  background-color: rgb(0 0 0 / 30%);;
+  background-color: rgb(15 15 15 / 100%);
   box-shadow: 0px 0px 10px 2px rgb(0 0 0 / 70%);
   transition: all 0.3s;
   height: 110px;
   width: 100%;
   z-index: 1000;
+}
+
+#landing-body nav {
+  background-color: rgb(0 0 0 / 30%);
 }
 
 nav.scroll {
@@ -165,7 +169,7 @@ nav ul ul {
   opacity: 0;
   position: absolute;
   left: 5px;
-  background-color: black;
+  background-color: #0c0c0c;
   border-radius: 5px;
   width: 180px;
   /* padding: 16px 0px 16px 0px; */
@@ -546,7 +550,7 @@ button:hover {
     .title h2, .sub-title h2, .ip{
       font-size: 1.5em;
     }
-    nav {
+    nav, #landing-body nav {
       height: 90px;
       background-color: rgb(15 15 15 / 100%);
       position: initial;
@@ -585,7 +589,7 @@ button:hover {
     .hide-mobile {
       display: none;
     }
-    nav {
+    nav, #landing-body nav {
       height: 90px;
       background-color: rgb(15 15 15 / 100%);
     }
