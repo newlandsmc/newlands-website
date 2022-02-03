@@ -22,109 +22,14 @@
     <script defer async src="/assets/javascript/cookie_notice.js"></script>
     <script defer async type="module" src="/assets/javascript/nav.js"></script>
     <script defer async type="module" src="/assets/javascript/landing_page.js"></script>
-    <style>
-      #scrollbutton {
-        position: absolute;
-        bottom: 150px; 
-        left: 50%;
-        z-index: 2;
-        display: inline-block;
-        -webkit-transform: translate(0, -50%);
-        transform: translate(0, -50%);
-        color: #fff;
-        transition: opacity .3s;
-        padding-top: 40px;
-      }
-      #scrollbutton:hover {
-         opacity: .5;
-      }
-      #scrollbutton span {
-        position: absolute;
-        top: 0;
-        left: 50%;
-        width: 46px;
-        height: 46px;
-        margin-left: -23px;
-        border: 2px solid #fff;
-        border-radius: 100%;
-        box-sizing: border-box;
-      }
-      #scrollbutton span::after {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        content: '';
-        width: 16px;
-        height: 16px;
-        margin: -12px 0 0 -8px;
-        border-left: 1px solid #fff;
-        border-bottom: 1px solid #fff;
-        -webkit-transform: rotate(-45deg);
-        transform: rotate(-45deg);
-        box-sizing: border-box;
-      }
-      #scrollbutton span::before {
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: -1;
-        content: '';
-        width: 44px;
-        height: 44px;
-        box-shadow: 0 0 0 0 rgba(255,255,255,.1);
-        border-radius: 100%;
-        opacity: 0;
-        -webkit-animation: sdb03 3s infinite;
-        animation: sdb03 3s infinite;
-        box-sizing: border-box;
-      }
-      @-webkit-keyframes sdb03 {
-        0% {
-          opacity: 0;
-        }
-        30% {
-          opacity: 1;
-        }
-        60% {
-          box-shadow: 0 0 0 60px rgba(255,255,255,.1);
-          opacity: 0;
-        }
-        100% {
-          opacity: 0;
-        }
-      }
-      @keyframes sdb03 {
-        0% {
-          opacity: 0;
-        }
-        30% {
-          opacity: 1;
-        }
-        60% {
-          box-shadow: 0 0 0 60px rgba(255,255,255,.1);
-          opacity: 0;
-        }
-        100% {
-          opacity: 0;
-        }
-      }
-      @media (min-width: 650px) {
-        nav {
-          background-color: rgb(0 0 0 / 30%);
-        }
-        #scrollbutton {
-          bottom: 100px;
-        }
-      }
-    </style>
   </head>
   <body>
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/header.html'); ?>
     <main>
       <div class="title" style="background-image: url(/assets/images/landing-title.webp);">
         <video id="landing-title-video" autoplay loop muted hidden-src="/assets/videos/landing-title-video.mp4" poster="/assets/images/landing-title.webp"></video>
-        <div style="text-align: center">
-          <img style="max-width:256px;" id="landing-logo" src="/assets/images/logo.webp" alt="SemiVanilla MC Logo" />
+        <div id="landing-title-text" style="text-align: center">
+          <img id="landing-logo" src="/assets/images/logo.webp" alt="SemiVanilla MC Logo" />
           <h1 class="hide-mobile-2">You awake in a strange place...</h1>
           <h2 class="hide-mobile" id="player-count">0 Players Online</h2>
           <p class="ip">play.semivanilla.com</p>
