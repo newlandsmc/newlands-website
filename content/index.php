@@ -152,12 +152,12 @@
     <main>
       <div class="title" style="background-image: url(/assets/images/landing-title.webp);">
         <video id="landing-title-video" autoplay loop muted hidden-src="/assets/videos/landing-title-video.mp4" poster="/assets/images/landing-title.webp"></video>
-        <div>
+        <div style="text-align: center">
           <img id="landing-logo" src="/assets/images/logo.webp" alt="SemiVanilla MC Logo" />
           <h1 class="hide-mobile-2">You awake in a strange place...</h1>
           <h2 class="hide-mobile" id="player-count">0 Players Online</h2>
-          <h2>play.semivanilla.com</h2>
-          <div style="width: 100%; text-align: center;">
+          <p class="ip">play.semivanilla.com</p>
+          <div style="width:100%">
             <button type="button" id="copybutton" onclick="copyToClipboard('copybutton')">Play Now</button>
           </div>
           <a id="scrollbutton" href="#welcome">
@@ -207,7 +207,7 @@
       </div>
       <div class="overlay">
         <div>
-          <h3>play.semivanilla.com</h3>
+          <p class="ip">play.semivanilla.com</p>
           <p>Copied to Clipboard</p>
           <button type="button" onclick="overlayDismiss()">Okay</button>
         </div>
