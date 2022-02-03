@@ -229,6 +229,7 @@ main {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: scroll;
 }
 
 .sub-title {
@@ -456,10 +457,6 @@ button:hover {
 
 @media (max-width: 950px) {
   .title {
-    background-position: center 0px;
-    background-size: cover;
-    background-attachment: scroll;
-    background-repeat: no-repeat;
     padding-top: initial;
   }
   .title h1, .sub-title h1{
