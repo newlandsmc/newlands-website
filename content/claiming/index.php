@@ -26,9 +26,9 @@
           </section>
           <section>
             <h3>Creating a Claim</h3>
-            <p>To create a new Land, stand in a chunk you wish to claim and type <strong>/lands create [name]</strong>. This will create a new Land and automatically claim the chunk you are standing in.</p>
-            <p>To expand your Land, stand in another nearby chunk and use <strong>/lands claim</strong>, or use <strong>/lands selection</strong> to get the optional selection tool.</p>
-            <p>You can also create camps! Camps are 2x2 claims that last 24 hours.</p>
+            <p>To create a new Land, stand in a chunk you wish to claim and type <strong>/lands create [name]</strong>. This will create a new Land and automatically claim the chunk you are standing in. You can now use <strong>/lands</strong> to access the GUI and manage your claim. If you ever want to delete your claim, use <strong>/lands delete &lt;claim&gt;</strong>.</p>
+            <p>To expand your Land, stand in another nearby chunk and use <strong>/lands claim</strong>, or use <strong>/lands selection</strong> to get the optional selection tool. If you ever want to reduce your claim, stand in a claimed chunk and use <strong>/lands unclaim</strong>.</p>
+            <p style="color:#4ad555;">You can also create camps using <strong>/lands createcamp</strong>! Camps are 2x2 claims that last 24 hours.</p>
           </section>
           <section>
             <h3>Automatic Claim Delection</h3>
