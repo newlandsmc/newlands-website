@@ -295,6 +295,7 @@ main {
 
 section.center {
   align-items: center;
+  justify-content: center;
   line-height: 2em;
   text-align: center;
 }
@@ -311,6 +312,22 @@ section.center {
 
 .split-content section {
   padding: 30px;
+}
+
+section img {
+  margin: 30px auto;
+}
+
+section img.small {
+  width: 33%;
+}
+
+section img.medium {
+  width: 50%;
+}
+
+section img.wide {
+  width: 80%;
 }
 
 .content p {
@@ -339,8 +356,7 @@ li.rules, .split-content li {
   width: 50%;
 }
 
-#landing div img {
-  margin: auto;
+#landing div.narrow {
   width: 33%;
 }
 
@@ -515,7 +531,12 @@ button:hover {
   opacity: 1;
 }
 
-.overlay div {
+.overlay-bg {
+  width: 100%;
+  height: 100vh;
+}
+
+.overlay-fg {
   width: 80%;
   max-width: 440px;
   background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url(/assets/images/the-world-out-there.webp);
@@ -524,14 +545,8 @@ button:hover {
   text-align: center;
   border-radius: 15px;
   box-shadow: 5px 5px 15px 0px #000000;
-}
-
-.overlay .ip {
-  margin: 50px 0 10px 0;
-}
-
-.overlay button {
-  margin: 50px;
+  padding: 50px 0 50px 0;
+  position: fixed;
 }
 
 /*
@@ -556,6 +571,9 @@ button:hover {
       background-color: rgb(15 15 15 / 100%);
       position: initial;
     }
+    #landing div, #landing div.narrow {
+      width: 100%;
+    }
   }
   @media (max-height: 650px) {
     .hide-mobile-2 {
@@ -571,6 +589,9 @@ button:hover {
   @media (max-width: 1500px) {
     .title h1, .sub-title h1{
       font-size: 3em;
+    }
+    #landing div, #landing div.narrow {
+      width: 100%;
     }
   }
   @media (max-width: 950px) {
@@ -600,8 +621,8 @@ button:hover {
     #landing section {
       flex-direction: column;
     }
-    #landing div {
-      width: 90%;
+    section img.wide {
+      width: 100%;
     }
   }
   @media (max-width: 650px) {
@@ -640,6 +661,9 @@ button:hover {
     }
     .content h3, #landing h3, .overlay h3 {
       font-size: 1.2em;
+    }
+    section img.small {
+      width: 50%;
     }
   }
 }

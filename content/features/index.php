@@ -4,7 +4,6 @@
     <title>Semi-Vanilla Minecraft Server | Features</title>
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/seo.html'); ?>
     <script async type="module" src="/assets/javascript/jquery-3.6.0.min.js"></script>
-    <script async src="/assets/javascript/cookie_notice.js"></script>
     <script defer async type="module" src="/assets/javascript/nav.js"></script>
   </head>
   <body>
@@ -54,7 +53,6 @@
         </div>
       </div>
     </main>
-    <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/cookies-notice.html'); ?>
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/footer.html'); ?>
   </body>
 </html>

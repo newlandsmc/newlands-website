@@ -45,7 +45,7 @@
     [
       "Experience",
       "Chance to get more experience from ores.",
-      "Tools",
+      "Pickaxes",
       "5",
       "<span style='color: #ffffff;'>Common</span>"
     ],
@@ -822,14 +822,14 @@
     [
       "Rage",
       "For every combo hit you land, chance to do 0.5 heart damage per combo to your opponent. Up to 5 max combo hits.",
-      "Weapon",
+      "Weapons",
       "6",
       "<span style='color: #ffaa00;'>Exotic</span>"
     ],
     [
       "Silence",
       "Chance to disable all enemy armor enchantments for 3 seconds.",
-      "All Weapons",
+      "Weapons",
       "4",
       "<span style='color: #ffff00;'>Fabled</span>"
     ],
@@ -843,14 +843,14 @@
     [
       "Defuse",
       "Chance to disable all enemy defensive enchantment's for 7 seconds.",
-      "All Weapons",
+      "Weapons",
       "5",
       "<span style='color: #ffff00;'>Fabled</span>"
     ],
     [
       "Deactivate",
       "Chance to disable all enemy offensive enchantment's for 7 seconds.",
-      "All Weapons",
+      "Weapons",
       "5",
       "<span style='color: #ffff00;'>Fabled</span>"
     ],

@@ -19,7 +19,6 @@
       }
     </script>
     <script async type="module" src="/assets/javascript/jquery-3.6.0.min.js"></script>
-    <script defer async src="/assets/javascript/cookie_notice.js"></script>
     <script defer async type="module" src="/assets/javascript/nav.js"></script>
     <script defer async type="module">
       import '/assets/javascript/jquery-3.6.0.min.js';
@@ -46,7 +45,6 @@
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/header.html'); ?>
     <main>
       <div class="title" style="background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url(/assets/images/the-world-out-there.webp); background-size: cover; background-position: 85%;">
-        <!-- <video id="landing-title-video" autoplay loop muted hidden-src="/assets/videos/landing-title-video.mp4" poster="/assets/images/landing-title.webp"></video> -->
         <div id="landing-title-text" style="text-align: center">
           <img id="landing-logo" src="/assets/images/logo.webp" alt="SemiVanilla MC Logo" />
           <h1 class="hide-mobile-2">You awake in a strange place...</h1>
@@ -68,30 +66,30 @@
           <p>A semi-vanilla 1.18.1 survival Minecraft server. Hard survival. RPG skills and abilities. PVP. Java + Bedrock support. A challenging adventure awaits...</p>
         </section>
         <section class="center">
-          <div class="left">
+          <div>
             <h3>Hard Difficulty Survival</h3>
             <p>Zombies can break through wooden doors and spawn reinforcements. Spiders have beneficial status effects. Villagers turn into zombie villagers when killed. Hostile mobs deal more damage. Starvation kills.</p>
           </div>
-          <div class="right">
-            <img src="/assets/images/landing-zombie-oil.webp" alt="Minecraft Zombie" />
+          <div>
+            <img class="small" src="/assets/images/landing-zombie-oil.webp" alt="Minecraft Zombie" />
           </div>
         </section>
         <section class="center">
-          <div class="left">
-            <img src="/assets/images/landing-pickaxe-oil.webp" alt="Minecraft Enchanted Pickaxe" />
+          <div>
+            <img class="small" src="/assets/images/landing-pickaxe-oil.webp" alt="Minecraft Enchanted Pickaxe" />
           </div>
-          <div class="right">
+          <div>
             <h3>+ RPG Elements</h3>
             <p>Level up your skills to unlock special abilities. Level up your mana to use them. Enchant your weapons with custom enchantments and use your power to fight off challenging mobs, or summon a boss and defeat them to earn rewards.</p>
           </div>
         </section>
         <section class="center">
-          <div class="left">
+          <div>
             <h3>+ Competitive Multiplayer</h3>
             <p>Hunt down other players and you'll become a bounty. Hunt down Bounties and you'll become a hero. Team up with others to build your base and strengthen your defenses, or go rogue and fight anyone who dares approach.</p>
           </div>
-          <div class="right">
-            <img src="/assets/images/landing-pvp-oil.webp" alt="Minecraft Swords" />
+          <div>
+            <img class="small" src="/assets/images/landing-pvp-oil.webp" alt="Minecraft Swords" />
           </div>
         </section>
         <section class="center" style="flex-direction: column; max-width: 600px;">
@@ -101,14 +99,15 @@
         </section>
       </div>
       <div class="overlay">
-        <div>
+        <div class="overlay-bg" onclick="overlayDismiss()"></div>
+        <div class="overlay-fg">
           <p class="ip">play.semivanilla.com</p>
-          <p>Copied to Clipboard</p>
+          <p style="margin:10px 0 30px 0;">Copied to Clipboard</p>
+          <a href="/join/"><button type="button">More Help</button></a>
           <button type="button" onclick="overlayDismiss()">Okay</button>
         </div>
       </div>
     </main>
-    <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/cookies-notice.html'); ?>
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/footer.html'); ?>
   </body>
 </html>
