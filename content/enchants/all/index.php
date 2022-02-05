@@ -64,7 +64,7 @@
   <body>
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/header.html'); ?>
     <main>
-      <div class="sub-title" style="background-image: url(/assets/images/enchants-all-title-oil.webp); background-position: center;">
+      <div class="sub-title" style="background-image: url(/assets/images/enchants-all-title.webp); background-position: center;">
         <div>
           <h1>Custom Enchants > All</h1>
           <h2>Powered by Advanced Enchantments</h2>

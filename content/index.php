@@ -71,12 +71,12 @@
             <p>Zombies can break through wooden doors and spawn reinforcements. Spiders have beneficial status effects. Villagers turn into zombie villagers when killed. Hostile mobs deal more damage. Starvation kills.</p>
           </div>
           <div>
-            <img class="small" src="/assets/images/landing-zombie-oil.webp" alt="Minecraft Zombie" />
+            <img class="small" src="/assets/images/landing-zombie.webp" alt="Minecraft Zombie" />
           </div>
         </section>
         <section class="center">
           <div>
-            <img class="small" src="/assets/images/landing-pickaxe-oil.webp" alt="Minecraft Enchanted Pickaxe" />
+            <img class="small" src="/assets/images/landing-pickaxe.webp" alt="Minecraft Enchanted Pickaxe" />
           </div>
           <div>
             <h3>+ RPG Elements</h3>
@@ -89,7 +89,7 @@
             <p>Hunt down other players and you'll become a bounty. Hunt down Bounties and you'll become a hero. Team up with others to build your base and strengthen your defenses, or go rogue and fight anyone who dares approach.</p>
           </div>
           <div>
-            <img class="small" src="/assets/images/landing-pvp-oil.webp" alt="Minecraft Swords" />
+            <img class="small" src="/assets/images/landing-pvp.webp" alt="Minecraft Swords" />
           </div>
         </section>
         <section class="center" style="flex-direction: column; max-width: 600px;">

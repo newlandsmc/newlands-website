@@ -9,7 +9,7 @@
   <body>
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/header.html'); ?>
     <main>
-      <div class="sub-title" style="background-image: url(/assets/images/features-title-oil.webp); background-position: center;">
+      <div class="sub-title" style="background-image: url(/assets/images/features-title.webp); background-position: center;">
         <div>
           <h1>Vanilla+</h1>
           <h2>Custom Features on SVMC</h2>
