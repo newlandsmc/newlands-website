@@ -556,7 +556,15 @@ button:hover {
 */
 
 @media (orientation: landscape){
-  @media (max-height: 950px) {
+  @media (max-width: 1250px) {
+    .title h1, .sub-title h1{
+      font-size: 2.5em;
+    }
+    .title h2, .sub-title h2, .ip{
+      font-size: 1.5em;
+    }
+  }
+  @media (max-height: 850px) {
     .hide-mobile, #scrollbutton {
       display: none;
     }
@@ -569,7 +577,7 @@ button:hover {
     nav, #landing-body nav {
       height: 90px;
       background-color: rgb(15 15 15 / 100%);
-      position: initial;
+      position: absolute;
     }
     #landing div, #landing div.narrow {
       width: 100%;
