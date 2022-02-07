@@ -31,20 +31,6 @@
             <p style="color:#4ad555;">You can also create camps using <strong>/lands createcamp</strong>! Camps are 2x2 claims that last 24 hours.</p>
           </section>
           <section>
-            <h3>Automatic Claim Delection</h3>
-            <p>If a Land owner is offline for 90 days, a new owner will be assigned automatically from the Land members. If there are no eligible new owners, then the Land is deleted and the chunks are free-game to be reused or raided by anyone.</p>
-            <p>Members of Lands are also removed from Lands after they've been inactive for 90 days.</p>
-          </section>
-        </div>
-        <div>
-          <section>
-            <h3>Trusting Others</h3>
-            <p>Trusting players is at-your-own-risk! Land owners have complete control over who can do things in their Land, what they can do, and where they can do it. It is up to you to use the tools at your disposal to appropriately trust players to your land.</p>
-            <p>To grant someone access to a specific part of your Land, use Areas. You can divide your Land into Areas by using the selection tool (<strong>/lands selection</strong>). To create an Area, first open the GUI and navigate to "Areas" and click on "Create Area". Once an Area is created, get the selection tool and click on 2 opposite corners to select a square area, and then use <strong>/lands assign &lt;area&gt;</strong> to create an area with that selection.</p>
-            <p>To trust someone to your Land or an Area of the land, use <strong>/lands trust &lt;player&gt; [area]</strong>. They will receive an invite and must accept it. After that, you can use the GUI to assign that player to a specific role and control their permissions.</p>
-            <img style="border-radius: 5px;" src="/assets/images/claiming-particles.webp" alt="Animation of particle affect showing Lands selection"></img>
-          </section>
-          <section>
             <h3>Useful Commands</h3>
             <ul>
               <li><strong>/lands</strong> - Open Lands GUI</li>
@@ -58,7 +44,28 @@
               <li><strong>/lands trust</strong> - Send invite to someone</li>
               <li><strong>/lands invites</strong> - View received invites</li>
               <li><strong>/lands leave</strong> - Leave a land</li>
+              <li><strong>/lands chat</strong> - Send message to other land members</li>
             </ul>
+          </section>
+        </div>
+        <div>
+          <section>
+            <h3>Trusting Others</h3>
+            <p>Trusting players is at-your-own-risk! Land owners have complete control over who can do things in their Land, what they can do, and where they can do it. It is up to you to use the tools at your disposal to appropriately trust players to your land.</p>
+            <p>To grant someone access to a specific part of your Land, use Areas. You can divide your Land into Areas by using the selection tool (<strong>/lands selection</strong>). To create an Area, first open the GUI and navigate to "Areas" and click on "Create Area". Once an Area is created, get the selection tool and click on 2 opposite corners to select a square area, and then use <strong>/lands assign &lt;area&gt;</strong> to create an area with that selection.</p>
+            <p>To trust someone to your Land or an Area of the land, use <strong>/lands trust &lt;player&gt; [area]</strong>. They will receive an invite and must accept it. After that, you can use the GUI to assign that player to a specific role and control their permissions.</p>
+            <img style="border-radius: 5px;" src="/assets/images/claiming-particles.webp" alt="Animation of particle affect showing Lands selection"></img>
+          </section>
+          <section>
+            <h3>Automatic Claim Delection</h3>
+            <p>If a Land owner is offline for 90 days, a new owner will be assigned automatically from the Land members. If there are no eligible new owners, then the Land is deleted and the chunks are free-game to be reused or raided by anyone.</p>
+            <p>Members of Lands are also removed from Lands after they've been inactive for 90 days.</p>
+          </section>
+          <section>
+            <h3>Limits</h3>
+            <p>New players can claim up to <strong>15 chunks per Land</strong>. You earn an additional 5 chunks every 5 Mining levels (see Skills & Abilities). This limit is per-Land. You can also increase your Land's chunk limit by adding members.</p>
+            <p>New players can create up to <strong>1 Land</strong>. You will unlock an additional Land at Mining level 5, and a third Land at Mining level 49.</p>
+            <p>Players can be a member of up to 5 Lands. This does NOT include their own Lands.</p>
           </section>
         </div>
       </div>

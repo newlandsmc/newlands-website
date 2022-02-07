@@ -90,6 +90,15 @@ the skill activates and is used.</p>
             <p>Each skill has passive abilities that unlock as you level up. Passive abilities are always active and provide you a small benefit, similar to stats. </p>
             <p>You can see which passive abilities are unlocked, or available, by looking at the GUI page for any skill.</p>
           </section>
+          <section>
+            <h3>Useful Commands</h3>
+            <ul>
+              <li><strong>/skills</strong> - View all skills</li>
+              <li><strong>/stats</strong> - View all your stats</li>
+              <li><strong>/&lt;skillname&gt;</strong> - View specific skill details</li>
+              <li><strong>/mana</strong> - View your mana level</li>
+            </ul>
+          </section>
         </div>
       </div>
     </main>

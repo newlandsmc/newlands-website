@@ -47,7 +47,7 @@
       <div class="title" style="background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url(/assets/images/the-world-out-there.webp); background-size: cover; background-position: 85%;">
         <div id="landing-title-text" style="text-align: center">
           <img id="landing-logo" src="/assets/images/logo.webp" alt="SemiVanilla MC Logo" />
-          <h1 class="hide-mobile-2">You awake in a strange place...</h1>
+          <h1 class="hide-mobile-2">Adventure Awaits</h1>
           <h2 class="hide-mobile" id="player-count">0 Players Online</h2>
           <p class="ip">play.semivanilla.com</p>
           <div style="width:100%">
