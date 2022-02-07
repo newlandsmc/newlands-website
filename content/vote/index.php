@@ -45,12 +45,12 @@
             <a href="https://www.planetminecraft.com/server/semivanilla-mc/vote/" target="_blank"><button type="button" id="vote4" onclick="buttonClicked('vote4')">Vote</button></a>
           </div>
           <div>
-            <h3>minecraft-mp.com</h3>
-            <a href="https://minecraft-mp.com/server/298736/vote/" target="_blank"><button type="button" id="vote5" onclick="buttonClicked('vote5')">Vote</button></a>
+            <h3>best-minecraft-servers.co</h3>
+            <a href="https://best-minecraft-servers.co/server-semivanilla-mc.3773/vote" target="_blank"><button type="button" id="vote5" onclick="buttonClicked('vote5')">Vote</button></a>
           </div>
           <div>
-            <h3>minecraft-server.net</h3>
-            <a href="https://minecraft-server.net/vote/semivanilla_mc/" target="_blank"><button type="button" id="vote6" onclick="buttonClicked('vote6')">Vote</button></a>
+            <h3>minecraft.buzz</h3>
+            <a href="https://minecraft.buzz/vote/3877" target="_blank"><button type="button" id="vote6" onclick="buttonClicked('vote6')">Vote</button></a>
           </div>
         </section>
         <section class="center">

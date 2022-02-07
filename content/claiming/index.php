@@ -39,6 +39,7 @@
               <li><strong>/lands claim</strong> - Claim current chunk</li>
               <li><strong>/lands unclaim</strong> - Unclaim current chunk</li>
               <li><strong>/lands selection</strong> - Lands selection tool (used for creating Areas)</li>
+              <li><strong>/lands edit</strong> - Select which land to edit (determines which Land you edit when you open the GUI or claim chunks</li>
               <li><strong>/lands map</strong> - View map of claims around you</li>
               <li><strong>/lands view</strong> - Show outlines of nearby claims</li>
               <li><strong>/lands trust</strong> - Send invite to someone</li>
