@@ -51,7 +51,7 @@
           <div class="narrow">
             <h3>The SVMC Optimization Pack</h3>
             <p>The directions below will walk you through installing our performance modpack!</p>
-            <p>Some uses have alternatively recommended trying <a href="https://www.lunarclient.com/" target="_blank">LunarClient.</a></p>
+            <p>Some users have alternatively recommended trying <a href="https://www.lunarclient.com/" target="_blank">LunarClient.</a></p>
             <p>Our modpack:</p>
             <ul style="columns:2; -webkit-columns:2; -moz-columns:2;">
               <li><a href="https://fabricmc.net/use/installer/" target="_blank">Fabric Core</a></li>
