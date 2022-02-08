@@ -29,7 +29,7 @@
         border-radius: 15px;
       }
       .content ul li {
-        margin: 0.5em 0;
+        margin: 0 0 0.5em 0;
       }
       .content ul p {
         margin: 0;
@@ -49,53 +49,73 @@
       <div class="content" id="landing" style="max-width:1400px;">
         <section>
           <div class="narrow">
-            <h3>Install CurseForge App</h3>
-            <p>We will use the CurseForge App to install some mods. It makes managing your mods very easy.</p>
-            <p>After this, you will always launch Minecraft through the CurseForge App.</p>
-            <p><a href="https://download.curseforge.com/">download.curseforge.com</a></p>
+            <h3>The SVMC Optimization Pack</h3>
+            <p>The directions below will walk you through installing our performance modpack!</p>
+            <p>Some uses have alternatively recommended trying <a href="https://www.lunarclient.com/" target="_blank">LunarClient.</a></p>
+            <p>Our modpack:</p>
+            <ul style="columns:2; -webkit-columns:2; -moz-columns:2;">
+              <li><a href="https://fabricmc.net/use/installer/" target="_blank">Fabric Core</a></li>
+              <li><a href="https://www.curseforge.com/minecraft/mc-mods/fabric-api" target="_blank">Fabric API</a></li>
+              <li><a href="https://www.curseforge.com/minecraft/mc-mods/clumps" target="_blank">Clumps</a></li>
+              <li><a href="https://www.curseforge.com/minecraft/mc-mods/krypton" target="_blank">Krypton</a></li>
+              <li><a href="https://www.curseforge.com/minecraft/mc-mods/lazy-language-loader" target="_blank">lazy-language-loader</a></li>
+              <li><a href="https://www.curseforge.com/minecraft/mc-mods/lazydfu" target="_blank">LazyDFU</a></li>
+              <li><a href="https://www.curseforge.com/minecraft/mc-mods/sodium" target="_blank">Sodium</a></li>
+              <li><a href="https://www.curseforge.com/minecraft/mc-mods/starlight" target="_blank">Starlight</a></li>
+            </ul>
           </div>
+          <div>
+            <img class="wide" src="/assets/images/potato-modpack-icon.webp" alt="SVMC Optimization Modpack Icon" />
+          </div>
+        </section>
+        <section>
           <div>
             <img class="wide" src="/assets/images/potato-curseforgeapp.webp" alt="CurseForge App Screenshot" />
           </div>
+          <div class="narrow">
+            <h3>Install CurseForge App</h3>
+            <p>We will use the CurseForge App to install some mods. It makes managing your mods very easy.</p>
+            <p>After this, you will always launch Minecraft through the CurseForge App.</p>
+            <p><a href="https://download.curseforge.com/" target="_blank">download.curseforge.com</a></p>
+          </div>
         </section>
         <section>
-          <div>
-            <img class="wide" src="/assets/images/potato-search.webp" alt="CurseForge App - Minecraft - Search for SVMC" />
-          </div>
           <div class="narrow">
-            <h3>Add SVMC Optimization Pack</h3>
+            <h3>Add our Modpack</h3>
             <p>Open CurseForge App, click on "Minecraft" and then "Browse Modpacks".</p>
             <p>Search for "SVMC" and select our Modpack "SVMC Potato Optimization Pack"</p>
             <p>Click "Install"</p>
-            <p style="color:#4ad555;">You can also install this modpack without CurseForge App, if you'd prefer. The modpack is available on <a href="https://www.curseforge.com/minecraft/modpacks/svmc-potato-optimization-pack">www.curseforge.com</a>.</p>
+          </div>
+          <div>
+            <img class="wide" src="/assets/images/potato-search.webp" alt="CurseForge App - Minecraft - Search for SVMC" />
           </div>
         </section>
         <section>
+          <div>
+            <img class="wide" src="/assets/images/potato-launchminecraft.webp" alt="CurseForge App - Minecraft - My Modpacks" />
+          </div>
           <div class="narrow">
             <h3>Launch Minecraft</h3>
             <p>Navigate to the "My Modpacks" tab, select our Modpack, and click "Play"!</p>
             <p>This will open a new Minecraft launcher with our mods pre-installed.</p>
-            <p style="color:#4ad555;">Note: If you already had Minecraft installed, this launcher uses a different folder for saving data. You won't have any of your old worlds or servers. You can still access your old worlds and saved servers, just open Minecraft without using CurseForge App.</p>
-          </div>
-          <div>
-            <img class="wide" src="/assets/images/potato-launchminecraft.webp" alt="CurseForge App - Minecraft - My Modpacks" />
+            <p style="color:#4ad555;">Note: This instance of Minecraft will not have your old worlds and servers. You can still access your old worlds and servers by opening Minecraft without using CurseForge App.</p>
           </div>
         </section>
         <section>
-          <div>
-            <img class="wide" src="/assets/images/potato-settings.webp" alt="Minecraft Settings Screenshot" />
-          </div>
           <div class="narrow">
             <h3>Minecraft Settings</h3>
-            <p>Finally, let's apply some optimized settings:</p>
+            <p>Finally, let's apply some optimized settings. In Minecraft, click on "Options", then "Video Settings", and apply the following:</p>
             <ul>
-              <li><p><strong>Render Distance</strong> - 8</p><p>(The server will not show over 10)</p></li>
-              <li><p><strong>Simulation Distance</strong> - 6</p><p>(The server will not show over 8)</p></li>
-              <li><strong>Graphics</strong> - Fast</li>
-              <li><strong>Clouds</strong> - Fast</li>
-              <li><strong>Particles</strong> - Minimal</li>
-              <li><p><strong>Mipmap Levels</strong> - 0</p><p>(Increase if possible)</p></li>
+              <li><p><strong>General -> Render Distance</strong> - <span style="color:#4ad555;">8</span></p><p>(The server will not show over 10)</p></li>
+              <li><p><strong>General -> Simulation Distance</strong> - <span style="color:#4ad555;">6</span></p><p>(The server will not show over 8)</p></li>
+              <li><strong>Quality -> Graphics</strong> - <span style="color:#4ad555;">Fast</span></li>
+              <li><strong>Quality -> Clouds</strong> - <span style="color:#4ad555;">Fast</span></li>
+              <li><strong>Quality -> Particles</strong> - <span style="color:#4ad555;">Minimal</span></li>
+              <li><p><strong>Quality -> Mipmap Levels</strong> - <span style="color:#4ad555;">0</span></p><p>(Increase if possible)</p></li>
             </ul>
+          </div>
+          <div>
+            <img class="wide" src="/assets/images/potato-settings.webp" alt="Minecraft Settings Screenshot" />
           </div>
         </section>
       </div>
