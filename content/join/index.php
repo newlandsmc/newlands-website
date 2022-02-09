@@ -54,6 +54,7 @@
         <div style="position:absolute; bottom:80px;" id="welcome"></div>
       </div>
       <div class="content" id="landing" style="max-width:1400px;">
+        <div class="shadow"></div>
         <section>
           <div class="narrow">
             <h3>Java Edition</h3>

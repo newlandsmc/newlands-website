@@ -71,6 +71,7 @@
         </div>
       </div>
       <div class="content">
+        <div class="shadow"></div>
         <section>
           <table class="table table-striped table-sm no-footer" style="width:100%" id="main"></table>
         </section>

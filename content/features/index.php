@@ -16,6 +16,7 @@
         </div>
       </div>
       <div class="content split-content">
+        <div class="shadow"></div>
         <div>
           <section>
             <h3>Better Sleep</h3>

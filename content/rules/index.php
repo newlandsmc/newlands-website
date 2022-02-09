@@ -16,6 +16,7 @@
         </div>
       </div>
       <div class="content">
+        <div class="shadow"></div>
         <section>
           <h3>Be Careful</h3>
           <ul>

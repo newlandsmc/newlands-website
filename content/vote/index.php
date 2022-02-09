@@ -9,6 +9,7 @@
     <style>
       .content p, .content h3 {
         margin: 0;
+        min-height: 2.5em;
       }
     </style>
   </head>
@@ -18,10 +19,11 @@
       <div class="sub-title" style="background-image: url(/assets/images/vote-title.webp); background-position: center;">
         <div>
           <h1>Vote for Us</h1>
-          <h2>Earn rewards in-game every day!</h2>
+          <h2>Earn Rewards In-Game Every Day!</h2>
         </div>
       </div>
       <div class="content" id="vote">
+        <div class="shadow"></div>
         <section class="center">
           <h3>Reward: Instant Expeditions</h3>
           <p>Every day you vote on all 6 sites you will instantly complete a maximum-reward expedition! Do /spoils in-game to claim your reward. Looking to automatically complete instant expeditions every day? Check out the store item: <a href="https://store.semivanilla.com/package/4846618" target="_blank">Instant Expeditions</a></p>

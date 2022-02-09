@@ -61,6 +61,7 @@
         <div style="position:absolute; bottom:80px;" id="welcome"></div>
       </div>
       <div class="content" id="landing">
+        <div class="shadow"></div>
         <section class="center" style="flex-direction: column; max-width: 600px; border-radius: 50px; border: #ff674d dotted 3px; margin: 50px;">
           <h3>Welcome to SemiVanilla</h3>
           <p>A semi-vanilla 1.18.1 survival Minecraft server. Hard survival. RPG skills and abilities. PVP. Java + Bedrock support. A challenging adventure awaits...</p>

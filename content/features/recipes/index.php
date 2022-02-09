@@ -21,6 +21,7 @@
         </div>
       </div>
       <div class="content split-content">
+        <div class="shadow"></div>
         <div>
           <section class="center">
             <h3>Chainmail can be crafted using chains.</h3>
