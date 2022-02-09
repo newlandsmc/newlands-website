@@ -95,6 +95,7 @@ footer {
   padding: 100px 50px 100px 50px;
   margin-top: 30px;
   background-color: #08090e;
+  border-top: black solid 4px;
   z-index: 1000;
 }
 
@@ -226,11 +227,12 @@ main {
 
 .title {
   width: 100%;
-  height: 100vh;
+  height: calc( 100vh + 4px );
   display: flex;
   flex-direction: column;
   justify-content: center;
   flex-wrap: wrap;
+  border-bottom: black solid 4px;
   align-items: center;
   background-position: center;
   background-size: cover;
