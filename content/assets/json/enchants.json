@@ -52,14 +52,14 @@
     [
       "Hasten",
       "Chance to gain Haste after breaking blocks.",
-      "Tools",
+      "Pickaxes, Axes",
       "3",
       "<span style='color: #ffffff;'>Common</span>"
     ],
     [
       "Haste",
       "Allows you to swing your tools faster.",
-      "Tools",
+      "Pickaxes, Axes",
       "3",
       "<span style='color: #ffff00;'>Fabled</span>"
     ],
@@ -87,14 +87,14 @@
     [
       "Reflect",
       "Chance to absorb enemy damage and reflect it back.",
-      "Armor",
+      "Boots, Leggings, Chestplates, Helmets",
       "5",
       "<span style='color: #55ff55;'>Uncommon</span>"
     ],
     [
       "Ward",
       "Chance to absorb enemy damage",
-      "Armor",
+      "Boots, Leggings, Chestplates, Helmets",
       "4",
       "<span style='color: #55ff55;'>Uncommon</span>"
     ],
@@ -122,7 +122,7 @@
     [
       "Telepathy",
       "Automatically places blocks broken by tools in your inventory.",
-      "Tools",
+      "Pickaxes, Axes, Shovels",
       "1",
       "<span style='color: #55ff55;'>Uncommon</span>"
     ],
@@ -212,7 +212,7 @@
     ],
     [
       "Reaper",
-      "Chance to give your opponent the Wither and Blindness effects while dealing damage",
+      "Chance to give your opponent the wither and blindness effects while dealing damage",
       "Axes",
       "4",
       "<span style='color: #55ffff;'>Rare</span>"
@@ -290,7 +290,7 @@
     [
       "Extinguish",
       "Chance to extinguish yourself when on fire.",
-      "Armor",
+      "Boots, Leggings, Chestplates, Helmets",
       "3",
       "<span style='color: #55ffff;'>Rare</span>"
     ],
@@ -310,14 +310,14 @@
     ],
     [
       "Greatsword",
-      "Increases damage against players who are wielding a Bow at the time they are hit.",
+      "Increases damage against players who are wielding a Bows at the time they are hit.",
       "Swords",
       "5",
       "<span style='color: #55ffff;'>Rare</span>"
     ],
     [
-      "Bowmaster",
-      "Multiplies damage against players who are wielding a Sword at the time they are hit.",
+      "Bowsmaster",
+      "Multiplies damage against players who are wielding a Swords at the time they are hit.",
       "Bows, Crossbows",
       "5",
       "<span style='color: #55ffff;'>Rare</span>"
@@ -325,7 +325,7 @@
     [
       "Hardened",
       "Chance to recover durability when damaged.",
-      "Armor",
+      "Boots, Leggings, Chestplates, Helmets",
       "3",
       "<span style='color: #ffaa00;'>Exotic</span>"
     ],
@@ -346,7 +346,7 @@
     [
       "Arrow Deflect",
       "Chance to prevent enemy arrow from dealing damage.",
-      "Armor",
+      "Boots, Leggings, Chestplates, Helmets",
       "4",
       "<span style='color: #ff55ff;'>Legendary</span>"
     ],
@@ -367,7 +367,7 @@
     [
       "Trench",
       "Break in 3x3 area.",
-      "Pickaxes, Shovels",
+      "Pickaxes, Shovelss",
       "1",
       "<span style='color: #ffff00;'>Fabled</span>"
     ],
@@ -402,7 +402,7 @@
     [
       "Restore",
       "Upon breaking, item has a chance to lose this enchantment and repair half of its durability.",
-      "Tools",
+      "Pickaxes, Axes, Shovels",
       "4",
       "<span style='color: #ffff00;'>Fabled</span>"
     ],
@@ -423,7 +423,7 @@
     [
       "Safeguard",
       "Chance to gain Damage Resistance when defending.",
-      "Armor",
+      "Boots, Leggings, Chestplates, Helmets",
       "2",
       "<span style='color: #ff55ff;'>Legendary</span>"
     ],
@@ -437,7 +437,7 @@
     [
       "Heavy",
       "Decreases damage from enemy bows by 5% per level.",
-      "Armor",
+      "Boots, Leggings, Chestplates, Helmets",
       "5",
       "<span style='color: #ff55ff;'>Legendary</span>"
     ],
@@ -465,21 +465,21 @@
     [
       "Longbow",
       "Greatly increases damage dealt to enemy players that have a bow in their hands.",
-      "Bow",
+      "Bows",
       "4",
       "<span style='color: #ff55ff;'>Legendary</span>"
     ],
     [
       "Tank",
       "Decreases damage from enemy axes by 5% per level.",
-      "Armor",
+      "Boots, Leggings, Chestplates, Helmets",
       "5",
       "<span style='color: #ff55ff;'>Legendary</span>"
     ],
     [
       "Valor",
       "Decreases damage from enemy swords by 5% per level.",
-      "Armor",
+      "Boots, Leggings, Chestplates, Helmets",
       "5",
       "<span style='color: #ff55ff;'>Legendary</span>"
     ],
@@ -505,7 +505,7 @@
       "<span style='color: #ffaa00;'>Exotic</span>"
     ],
     [
-      "Creeper Armor",
+      "Creeper Boots, Leggings, Chestplates, Helmets",
       "Chance to be immune to explosive damage, at higher levels you have a chance to heal.",
       "Leggings",
       "3",
@@ -549,14 +549,14 @@
     [
       "Divert",
       "Chance of poisoning opponent and gaining regeneration.",
-      "Armor",
+      "Boots, Leggings, Chestplates, Helmets",
       "5",
       "<span style='color: #ffaa00;'>Exotic</span>"
     ],
     [
       "Unholy",
       "Chance to deal weakness and wither effects.",
-      "Armor",
+      "Boots, Leggings, Chestplates, Helmets",
       "5",
       "<span style='color: #ffaa00;'>Exotic</span>"
     ],
@@ -626,13 +626,13 @@
     [
       "Sniper",
       "Headshots with bows deal more  damage.",
-      "Bow",
+      "Bows",
       "5",
       "<span style='color: #ff55ff;'>Legendary</span>"
     ],
     [
       "Deadshot",
-      "Headshots with tridents deal more damage.",
+      "Headshots with Tridents deal more damage.",
       "Tridents",
       "5",
       "<span style='color: #ffaa00;'>Exotic</span>"
@@ -703,7 +703,7 @@
     [
       "Lifebloom",
       "Heals allies around you on your death.",
-      "Armor",
+      "Boots, Leggings, Chestplates, Helmets",
       "5",
       "<span style='color: #55ffff;'>Rare</span>"
     ],
@@ -717,7 +717,7 @@
     [
       "Skill Swipe",
       "A chance to steal some of your enemy's EXP every time you damage them.",
-      "Sword",
+      "Swords",
       "5",
       "<span style='color: #55ff55;'>Uncommon</span>"
     ],
@@ -731,7 +731,7 @@
     [
       "Trap",
       "Chance to give buffed slowness effect.",
-      "Armor",
+      "Boots, Leggings, Chestplates, Helmets",
       "3",
       "<span style='color: #55ffff;'>Rare</span>"
     ],
@@ -765,7 +765,7 @@
     ],
     [
       "Soul Whisper",
-      "Chance to cure Wither and Poison when attacked and heal at high levels.",
+      "Chance to cure wither and poison when attacked and heal at high levels.",
       "Chestplates",
       "5",
       "<span style='color: #ff55ff;'>Legendary</span>"
@@ -786,7 +786,7 @@
     ],
     [
       "Metaphysical",
-      "Chance to be cured of Slowness when attacked. At max level, you will only be affected approx. 10% of the time.",
+      "Chance to be cured of slowness when attacked. At max level, you will only be affected approx. 10% of the time.",
       "Boots",
       "4",
       "<span style='color: #ff55ff;'>Legendary</span>"
@@ -801,7 +801,7 @@
     [
       "Guardian",
       "Automatically heals and cures all nearby allies.",
-      "Armor",
+      "Boots, Leggings, Chestplates, Helmets",
       "5",
       "<span style='color: #ffaa00;'>Exotic</span>"
     ],
@@ -822,49 +822,49 @@
     [
       "Rage",
       "For every combo hit you land, chance to do 0.5 heart damage per combo to your opponent. Up to 5 max combo hits.",
-      "Weapons",
+      "Swords, Axes",
       "6",
       "<span style='color: #ffaa00;'>Exotic</span>"
     ],
     [
       "Silence",
       "Chance to disable all enemy armor enchantments for 3 seconds.",
-      "Weapons",
+      "Swords, Axes, Tridents, Bows, Crossbows",
       "4",
       "<span style='color: #ffff00;'>Fabled</span>"
     ],
     [
       "Diminish",
       "When this effect procs, the next attack dealt to you cannot deal more than the (total amount of damage / 2) you took from the previous attack.",
-      "Armor",
+      "Boots, Leggings, Chestplates, Helmets",
       "6",
       "<span style='color: #ffaa00;'>Exotic</span>"
     ],
     [
       "Defuse",
       "Chance to disable all enemy defensive enchantment's for 7 seconds.",
-      "Weapons",
+      "Swords, Axes, Tridents, Bows, Crossbows",
       "5",
       "<span style='color: #ffff00;'>Fabled</span>"
     ],
     [
       "Deactivate",
       "Chance to disable all enemy offensive enchantment's for 7 seconds.",
-      "Weapons",
+      "Swords, Axes, Tridents, Bows, Crossbows",
       "5",
       "<span style='color: #ffff00;'>Fabled</span>"
     ],
     [
       "Mark of the Beast",
       "Once an enemy is afflicted with the mark all incoming damage is increased by 2x for up to 5 seconds",
-      "Armor",
+      "Boots, Leggings, Chestplates, Helmets",
       "6",
       "<span style='color: #ffff00;'>Fabled</span>"
     ],
     [
       "Chain Lifesteal",
       "Chance to regain health from multiple enemies near your damaged target based on level",
-      "Armor",
+      "Boots, Leggings, Chestplates, Helmets",
       "2",
       "<span style='color: #ffff00;'>Fabled</span>"
     ]

@@ -46,9 +46,9 @@
             <p>You can purchase XP boosts in our <a href="https://store.semivanilla.com" target="_blank">online store</a>. XP Boosts apply to the <strong>ENTIRE</strong> server and last 2 hours.</p>
             <p>Premium ranks also receive a permanent small XP boost.</p>
             <ul>
+              <li><a href="https://store.semivanilla.com" target="_blank"><span style="color:rgb(0,111,144);">D</span><span style="color:rgb(43,132,162);">i</span><span style="color:rgb(70,154,180);">a</span><span style="color:rgb(95,177,199);">m</span><span style="color:rgb(120,199,217);">o</span><span style="color:rgb(145,223,236);">n</span><span style="color:rgb(171,246,255);">d</span></a> - 30% XP boost</li>
+              <li><a href="https://store.semivanilla.com" target="_blank"><span style="color:rgb(0,83,0);">E</span><span style="color:rgb(28,108,30);">m</span><span style="color:rgb(49,134,58);">e</span><span style="color:rgb(69,161,85);">r</span><span style="color:rgb(89,189,113);">a</span><span style="color:rgb(110,217,143);">l</span><span style="color:rgb(130,246,173);">d</span></a> - 20% XP boost</li>
               <li><a href="https://store.semivanilla.com" target="_blank"><span style="color:rgb(26,61,143);">L</span><span style="color:rgb(51,82,165);">a</span><span style="color:rgb(73,104,188);">p</span><span style="color:rgb(95,127,211);">i</span><span style="color:rgb(116,151,234);">s</span></a> - 10% XP boost</li>
-              <li><a href="https://store.semivanilla.com" target="_blank"><span style="color:rgb(0,83,0);">E</span><span style="color:rgb(28,108,30);">m</span><span style="color:rgb(49,134,58);">e</span><span style="color:rgb(69,161,85);">r</span><span style="color:rgb(89,189,113);">a</span><span style="color:rgb(110,217,143);">l</span><span style="color:rgb(130,246,173);">d</span></a> - 15% XP boost</li>
-              <li><a href="https://store.semivanilla.com" target="_blank"><span style="color:rgb(0,111,144);">D</span><span style="color:rgb(43,132,162);">i</span><span style="color:rgb(70,154,180);">a</span><span style="color:rgb(95,177,199);">m</span><span style="color:rgb(120,199,217);">o</span><span style="color:rgb(145,223,236);">n</span><span style="color:rgb(171,246,255);">d</span></a> - 20% XP boost</li>
             </ul>
           </section>
           <section>
@@ -98,6 +98,7 @@ the skill activates and is used.</p>
               <li><strong>/stats</strong> - View all your stats</li>
               <li><strong>/&lt;skillname&gt;</strong> - View specific skill details</li>
               <li><strong>/mana</strong> - View your mana level</li>
+              <li><strong>/abtoggle</strong> - Toggle actionbar messages</li>
             </ul>
           </section>
         </div>

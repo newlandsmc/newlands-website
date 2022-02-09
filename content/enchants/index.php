@@ -33,8 +33,35 @@
             </ul>
           </section>
           <section>
+            <h3>Obtaining Items/Enchants</h3>
+            <p>Custom enchants work just like vanilla enchants! They can be obtained by enchanting an item in an Enchantment Table, or by using a Custom Enchantment Books.</p>
+            <p>Custom enchant items (orbs, scrolls, trackers, and books), can be obtained by trading with villagers or found in loot chests around the world.</p>
+            <p style="color: #ff674d;">Warning: Books CANNOT receive custom enchants in Enchantment Tables.</p>
+          </section>
+          <section>
+            <h3>Limits</h3>
+            <p>By default, a single item can have up to 3 custom enchantments applied to it. This can be increased up to 7 with <strong>Orbs</strong>.</p>
+            <p>Additionally, some custom enchantments are not compatible with others.</p>
+            <ul>
+              <li>Strike and Area Strike are exclusive.</li>
+              <li>Hasten, Haste, Trench, and Vein Miner are exclusive.</li>
+              <li>Heavy, Tank, and Valor are exclusive.</li>
+            </ul>
+          </section>
+        </div>
+        <div>
+          <section>
+            <h3>Using Enchants</h3>
+            <p>All enchants activate automatically! Read the description of each enchant carefully to learn what it does and when it applies.</p>
+            <p>If an enchant description starts with "Chance of" the enchant will activate randomly when the item is used. If an enchant
+description does NOT say those words, then A) the enchant activates every time the item is used, or B) the enchant activates randomly, and provides an "average benefit".</p>
+            <p>For example, if an enchant provides an increase to damage dealt - it most likely applies randomly while the item is used,
+providing an increase in damage dealt overall.</p>
+            <p style="color: #ff674d;">Warning: Enchanted items do NOT work in offhand.</p>
+          </section>
+          <section>
             <h3>Custom Items</h3>
-            <p>Some custom items on the server can be used to modify enchanted items:</p>
+            <p>Custom enchanting-related items can be found by trading with Villagers, or in loot chests.</p>
             <ul>
               <li><strong>Orbs</strong> - Increases the maximum enchants you can add to an item. Each one has a unique success rate (chance of the upgrade working).</li>
               <li><strong>Black Scrolls</strong> - Removes a random enchant from an item and turns it into a book you can reuse on a different item.</li>
@@ -42,21 +69,6 @@
               <li><b>Holy White Scrolls</b> - Allows you to keep the item on death. Only works once.</li>
               <li><strong>Enchant Books</strong> - Used in an anvil to enchant an item.</li>
             </ul>
-          </section>
-        </div>
-        <div>
-          <section>
-            <h3>Obtaining Items/Enchants</h3>
-            <p>Custom enchants work just like vanilla enchants! They can be obtained by enchanting an item in an Enchantment Table, or by using a Custom Enchantment Books.</p>
-            <p>Custom enchant items (orbs, scrolls, trackers, and books), can be obtained by trading with villagers or found in loot chests around the world.</p>
-            <p style="color: #ff674d;">Warning: Books CANNOT receive custom enchants in Enchantment Tables.</p>
-          </section>
-          <section>
-            <h3>Using Enchants</h3>
-            <p>All enchants activate automatically! Read the description of each enchant carefully to learn what it does and when it applies.</p>
-            <p>If an enchant description starts with "Chance of" the enchant will activate randomly when the item is used. If an enchant description does NOT say those words, then A) the enchant activates every time the item is used, or B) the enchant activates randomly, and provides an "average benefit".</p>
-            <p>For example, if an enchant provides an increase to damage dealt - it most likely applies randomly while the item is used, providing an increase in damage dealt overall.</p>
-            <p style="color: #ff674d;">Warning: Enchanted items do NOT work in offhand.</p>
           </section>
         </div>
       </div>
