@@ -121,8 +121,8 @@
     ],
     [
       "Telepathy",
-      "Automatically places blocks broken by tools in your inventory.",
-      "Pickaxes, Axes, Shovels",
+      "Automatically places ores in your inventory.",
+      "Pickaxes",
       "1",
       "<span style='color: #55ff55;'>Uncommon</span>"
     ],
