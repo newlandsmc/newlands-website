@@ -331,10 +331,10 @@
     ],
     [
       "Timber",
-      "Chance to break a tree in one hit",
+      "Break an entire tree in one hit",
       "Axes",
-      "3",
-      "<span style='color: #ff55ff;'>Legendary</span>"
+      "1",
+      "<span style='color: #ffff00;'>Fabled</span>"
     ],
     [
       "Cleave",
@@ -505,7 +505,7 @@
       "<span style='color: #ffaa00;'>Exotic</span>"
     ],
     [
-      "Creeper Boots, Leggings, Chestplates, Helmets",
+      "Creeper Armor",
       "Chance to be immune to explosive damage, at higher levels you have a chance to heal.",
       "Leggings",
       "3",

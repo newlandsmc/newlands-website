@@ -23,7 +23,7 @@
             <li class="rules">Trusting players is at-your-own-risk - set up your land claim roles and areas carefully!</li>
             <li class="rules">TPA is at-your-own-risk - remember PVP is on!</li>
             <li class="rules">Trades and job agreements are at-your-own-risk! Use the /trade GUI to avoid scams.</li>
-            <li class="rules">Unclaimed land is free-game! You can do anything you want with it.</li>
+            <li class="rules">Unclaimed builds can be griefed*! Make sure you protect your home. <span style="color:#787983">* Significant griefing done to people you know are active and with the intent to cause them distress is not allowed.</span></li>
           </ul>
         </section>
         <section class="divider">
@@ -34,7 +34,7 @@
           <ul>
             <li class="rules">Player traps are completely prohibited.</li>
             <li class="rules">Harassment, threats, verbal abuse, and hateful speech are not tolerated. Sexist, racist, homophobic, and broad, offensive generalizations about groups of people are prohibited.</li>
-            <li class="rules">Do not troll or antagonize others (actions intended only to upset others).</li>
+            <li class="rules">Do not participate in actions intended only to upset others ("trolling", "antagonizing", etc).</li>
             <li class="rules">All topics are generally allowed in chat, but keep other's feelings in mind and staff have the right to shut down a conversation if needed.</li>
             <li class="rules">Do not spam.</li>
           </ul>

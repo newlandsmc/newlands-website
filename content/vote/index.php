@@ -25,9 +25,9 @@
       <div class="content" id="vote">
         <div class="shadow"></div>
         <section class="center">
-          <h3>Reward: Instant Expeditions</h3>
-          <p>Every day you vote on all 6 sites you will instantly complete a maximum-reward expedition! Do /spoils in-game to claim your reward. Looking to automatically complete instant expeditions every day? Check out the store item: <a href="https://store.semivanilla.com/package/4846618" target="_blank">Instant Expeditions</a></p>
-          <p>Note: Purchasing lifetime Instant Expeditions replaces voting rewards.</p>
+          <h3>Reward: Expeditions</h3>
+          <p>Earn up to 7 Expeditions every day + 1 FREE Premium Expedition each week!</p>
+          <p>Every vote earns you a Vote Expedition. Vote on all 6 sites to receive a Super Vote Expedition. Vote 7 days in a row to receive a FREE Premium Expedition. Want more Premium Expeditions? Check out the store item: <a href="https://store.semivanilla.com/category/items" target="_blank">Expeditions</a></p>
         </section>
         <section class="center" id="votelinks">
           <div>

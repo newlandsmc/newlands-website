@@ -30,7 +30,7 @@
         });
       });
       $(document).ready(function () {
-        jQuery.getJSON("https://api.mcsrvstat.us/2/play.semivanilla.com",function(json){
+        jQuery.getJSON("https://api.mcsrvstat.us/2/mc.semivanilla.com",function(json){
           if (json.online == false) {
           }
           else {
