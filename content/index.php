@@ -48,7 +48,7 @@
         <div id="landing-title-text" style="text-align: center">
           <img id="landing-logo" src="/assets/images/logo.webp" alt="SemiVanilla MC Logo" />
           <h1 class="hide-mobile-2">Adventure Awaits</h1>
-          <h2 class="hide-mobile" id="player-count">0 Players Online</h2>
+          <h2 class="hide-mobile" id="player-count">100 Players Online</h2>
           <p class="ip">play.semivanilla.com</p>
           <div style="width:100%">
             <button type="button" id="copybutton" onclick="copyToClipboard('copybutton')">Play Now</button>
