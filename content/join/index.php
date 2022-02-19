@@ -49,7 +49,7 @@
       <div class="sub-title" style="background: url(/assets/images/the-world-out-there.webp); background-size: cover; background-position: 85%;">
         <div>
           <h1>How to Join</h1>
-          <h2 id="player-count">0 Players Online</h2>
+          <h2 id="player-count">100 Players Online</h2>
         </div>
         <div style="position:absolute; bottom:80px;" id="welcome"></div>
       </div>
