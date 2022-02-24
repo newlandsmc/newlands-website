@@ -27,7 +27,7 @@
         <section class="center">
           <h3>Reward: Expeditions</h3>
           <p>Earn up to 7 Expeditions every day + 1 FREE Premium Expedition each week!</p>
-          <p>Every vote earns you a Vote Expedition. Vote on all 6 sites to receive a Super Vote Expedition. Vote 7 days in a row to receive a FREE Premium Expedition. Want more Premium Expeditions? Check out the store item: <a href="https://store.semivanilla.com/category/items" target="_blank">Expeditions</a></p>
+          <p>Every vote earns you a Vote Expedition. Vote on all 6 sites to receive a Super Vote Expedition. Vote 7 days in a row to receive a FREE Premium Expedition. Learn more: <a href="/features/expeditions/">What's in an Expedition?</a></p>
         </section>
         <section class="center" id="votelinks">
           <div>
