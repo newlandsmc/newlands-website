@@ -75,17 +75,17 @@ p, h1, h2, h3, h4, h5, h6 {
 */
 
 body {
-  background-color: #160f12;
+  background-color: #0f1613;
   font-family: sans-serif;
 }
 
 a {
   text-decoration: none;
-  color: #ff674d;
+  color: #23d37b;
 }
 
 a:hover {
-  color: #cc523d;
+  color: #1eb56a;
 }
 
 footer {
@@ -94,7 +94,7 @@ footer {
   flex-wrap: wrap;
   padding: 100px 50px 100px 50px;
   margin-top: 30px;
-  background-color: #0a0606;
+  background-color: #060a08;
   border-top: black solid 4px;
   z-index: 1000;
 }
@@ -117,7 +117,7 @@ nav {
 
 nav.scroll, #landing-body nav.scroll {
   height: 80px;
-  background-color: rgb(36 22 25 / 100%);
+  background-color: rgb(20 32 26 / 100%);
 }
 
 nav *, footer * {
@@ -157,12 +157,12 @@ nav li a, nav li p {
 }
 
 nav li:hover > a, nav li:hover > p {
-  background-color: #cc523d;
+  background-color: #1eb56a;
   color: white;
 }
 
 nav li a.active, nav li p.active {
-  background-color: #cc523d;
+  background-color: #1eb56a;
   color: white;
 }
 
@@ -288,12 +288,8 @@ main {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  color: #cfc0c8;
+  color: #bec9c4;
   position: relative;
-}
-
-.content h3 {
-  color: #f7cce4;
 }
 
 .content section {
@@ -364,6 +360,7 @@ li.rules, .split-content li {
   margin: 1em 0 1em 0;
   font-family: 'mctext';
   font-size: 1.5em;
+  color: #d8e1de;
 }
 
 #landing h3 {
@@ -402,7 +399,7 @@ li.rules, .split-content li {
   flex-direction: row;
   justify-content: center;
   border-radius: 50px;
-  border: #ff674d dotted 3px;
+  border: #23d37b dotted 3px;
   flex-wrap: wrap;
 }
 
@@ -421,7 +418,7 @@ button {
   min-width: 90px;
   line-height: 1.5em;
   border-radius: 5px;
-  background-color: #ff674d;
+  background-color: #1eb56a;
   font-family: 'mctext';
   color: white;
   border: none;
@@ -431,7 +428,7 @@ button {
 }
 
 button:hover {
-  background-color: #cc523d;
+  background-color: #179154;
   transform: scale(1.1);
 }
 

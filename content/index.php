@@ -44,7 +44,7 @@
   <body id="landing-body">
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/header.html'); ?>
     <main>
-      <div class="title" style="background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url(/assets/images/the-world-out-there.webp); background-size: cover; background-position: 85%;">
+      <div class="title" style="background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url(/assets/images/minecraft-repainted.webp); background-size: cover; background-position: 85%;">
         <div id="landing-title-text" style="text-align: center">
           <img id="landing-logo" src="/assets/images/logo.webp" alt="SemiVanilla MC Logo" />
           <h1 class="hide-mobile-2">Adventure Awaits</h1>
@@ -62,7 +62,7 @@
       </div>
       <div class="content" id="landing">
         <div class="shadow"></div>
-        <section class="center" style="flex-direction: column; max-width: 600px; border-radius: 50px; border: #ff674d dotted 3px; margin: 50px;">
+        <section class="center" style="flex-direction: column; max-width: 600px; border-radius: 50px; border: #23d37b dotted 3px; margin: 50px;">
           <h3>Welcome to SemiVanilla</h3>
           <p>Not your average cookie-cutter SMP. SemiVanilla is a hard difficulty, pvp-enabled, survival RPG server. Danger lurks around every corner. Will you survive?</p>
         </section>
