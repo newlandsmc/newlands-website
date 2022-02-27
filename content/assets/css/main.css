@@ -558,7 +558,7 @@ button:hover {
 .overlay-fg {
   width: 80%;
   max-width: 440px;
-  background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url(/assets/images/the-world-out-there.webp);
+  background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url(/assets/images/minecraft-repainted.webp);
   background-size: 1280px;
   color: #dddddd;
   text-align: center;
