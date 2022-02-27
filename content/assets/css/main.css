@@ -75,7 +75,7 @@ p, h1, h2, h3, h4, h5, h6 {
 */
 
 body {
-  background-color: #0f111c;
+  background-color: #160f12;
   font-family: sans-serif;
 }
 
@@ -94,7 +94,7 @@ footer {
   flex-wrap: wrap;
   padding: 100px 50px 100px 50px;
   margin-top: 30px;
-  background-color: #08090e;
+  background-color: #0a0606;
   border-top: black solid 4px;
   z-index: 1000;
 }
@@ -117,7 +117,7 @@ nav {
 
 nav.scroll, #landing-body nav.scroll {
   height: 80px;
-  background-color: rgb(22 25 36 / 100%);
+  background-color: rgb(36 22 25 / 100%);
 }
 
 nav *, footer * {
@@ -288,12 +288,12 @@ main {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  color: #bfc1cf;
+  color: #cfc0c8;
   position: relative;
 }
 
 .content h3 {
-  color: #d5d7e7;
+  color: #f7cce4;
 }
 
 .content section {

@@ -21,7 +21,6 @@
           <h3>Be Careful</h3>
           <ul>
             <li class="rules">Trusting players is at-your-own-risk - set up your land claim roles and areas carefully!</li>
-            <li class="rules">TPA is at-your-own-risk - remember PVP is on!</li>
             <li class="rules">Trades and job agreements are at-your-own-risk! Use the /trade GUI to avoid scams.</li>
             <li class="rules">Unclaimed builds can be griefed*! Make sure you protect your home. <span style="color:#787983">* Significant griefing done to people you know are active and with the intent to cause them distress is not allowed.</span></li>
           </ul>

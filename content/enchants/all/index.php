@@ -50,10 +50,10 @@
         margin-bottom: 30px;
       }
       tr:nth-of-type(odd) {
-        background-color: #161924;
+        background-color: #22171c;
       }
       thead tr:nth-of-type(odd) {
-       background-color: #08090e;
+       background-color: #0a0606;
        cursor: pointer;
       }
       .table-sm th, .table-sm td {

@@ -20,16 +20,16 @@
         <div>
           <section>
             <h3>Custom Enchants</h3>
-            <p>There are <strong>124</strong> custom enchants available on SemiVanilla. They are available for all types of weapons, armor, and tools.</p>
+            <p>There are <strong>123</strong> custom enchants available on SemiVanilla. They are available for all types of weapons, armor, and tools.</p>
             <p>To see a list of all available enchants, <a href="all/">click here</a>.</p>
             <p>Custom enchants are broken up into 6 different rarity categories. The higher the rarity, the less likely you are to find that enchant.</p>
             <ul>
-              <li><span style="color: #ffffff;">Common</span> - 15% chance</li>
-              <li><span style="color: #55ff55;">Uncommon</span> - 12% chance</li>
-              <li><span style="color: #55ffff;">Rare</span> - 9% chance</li>
-              <li><span style="color: #ff55ff;">Legendary</span> - 6% chance</li>
-              <li><span style="color: #ffaa00;">Exotic</span> - 3% chance</li>
-              <li><span style="color: #ffff00;">Fabled</span> - 1.5% chance</li>
+              <li><span style="color: #ffffff;">Common</span> - 25% chance</li>
+              <li><span style="color: #55ff55;">Uncommon</span> - 20% chance</li>
+              <li><span style="color: #55ffff;">Rare</span> - 15% chance</li>
+              <li><span style="color: #ff55ff;">Legendary</span> - 10% chance</li>
+              <li><span style="color: #ffaa00;">Exotic</span> - 5% chance</li>
+              <li><span style="color: #ffff00;">Fabled</span> - 2.5% chance</li>
             </ul>
           </section>
           <section>

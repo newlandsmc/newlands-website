@@ -30,7 +30,7 @@
         });
       });
       $(document).ready(function () {
-        jQuery.getJSON("https://api.mcsrvstat.us/2/mc.semivanilla.com",function(json){
+        jQuery.getJSON("https://api.mcsrvstat.us/2/play.semivanilla.com",function(json){
           if (json.online == false) {
           }
           else {
@@ -64,7 +64,7 @@
         <div class="shadow"></div>
         <section class="center" style="flex-direction: column; max-width: 600px; border-radius: 50px; border: #ff674d dotted 3px; margin: 50px;">
           <h3>Welcome to SemiVanilla</h3>
-          <p>A 1.18.1 semi-vanilla survival Minecraft server set to hard difficulty with RPG skills/abilities, PVP, Java and Bedrock support. A challenging adventure awaits...</p>
+          <p>Not your average cookie-cutter SMP. SemiVanilla is a hard difficulty, pvp-enabled, survival RPG server. Danger lurks around every corner. Will you survive?</p>
         </section>
         <section class="center">
           <div>
