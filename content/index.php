@@ -64,7 +64,7 @@
         <div class="shadow"></div>
         <section class="center" style="flex-direction: column; max-width: 600px; border-radius: 50px; border: #23d37b dotted 3px; margin: 50px;">
           <h3>Welcome to SemiVanilla</h3>
-          <p>Not your average cookie-cutter SMP. SemiVanilla is a hard difficulty, pvp-enabled, survival RPG server. Danger lurks around every corner. Will you survive?</p>
+          <p>Not your average SMP. SemiVanilla is a hard difficulty, pvp-enabled, survival RPG server. Danger lurks around every corner. Will you survive?</p>
         </section>
         <section class="center">
           <div>
@@ -80,14 +80,14 @@
             <img class="small" src="/assets/images/landing-pickaxe.webp" alt="Minecraft Enchanted Pickaxe" />
           </div>
           <div>
-            <h3>+ RPG Elements</h3>
-            <p>Level up your skills to unlock special abilities. Level up your mana to use them. Enchant your weapons with custom enchantments and use your power to fight off challenging mobs, or summon a boss and defeat them to earn rewards.</p>
+            <h3>+ No Shortcuts</h3>
+            <p>There is no tpa or homes on SemiVanilla. There's no sleep percentage either, so night could be a threat, especially with vanilla spawn rates - unlit corners are unforgiving. This is classic survival at its core.</p>
           </div>
         </section>
         <section class="center">
           <div>
-            <h3>+ Competitive Multiplayer</h3>
-            <p>Hunt down other players and you'll become a bounty. Hunt down Bounties and you'll become a hero. Team up with others to build your base and strengthen your defenses, or go rogue and fight anyone who dares approach.</p>
+            <h3>+ PVP Elements</h3>
+            <p>Nowhere is completely safe. Even in land claims PVP is enabled. A chance encounter with another player could be the end. Careful, though - killing players will put a bounty on your head, and bounties are worth XP rewards.</p>
           </div>
           <div>
             <img class="small" src="/assets/images/landing-pvp.webp" alt="Minecraft Swords" />
