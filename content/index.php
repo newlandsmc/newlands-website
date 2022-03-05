@@ -1,41 +1,34 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Semi-Vanilla Minecraft Server | Hard Survival | RPG</title>
+    <title>Semi-Vanilla Team | Minecraft Servers</title>
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/seo.html'); ?>
-    <script async defer>
-      function copyToClipboard(id) {
-        var aux = document.createElement("input");
-        aux.setAttribute("value", "play.semivanilla.com");
-        document.body.appendChild(aux);
-        aux.select();
-        document.execCommand("copy");
-        document.body.removeChild(aux);
-        document.getElementById(id).style.backgroundColor = "#d2a69f";
-        $('.overlay').addClass('active');
-      }
-      function overlayDismiss() {
-        $('.overlay').removeClass('active');
-      }
-    </script>
     <script async type="module" src="/assets/javascript/jquery-3.6.0.min.js"></script>
     <script defer async type="module" src="/assets/javascript/nav.js"></script>
     <script defer async type="module">
       import '/assets/javascript/jquery-3.6.0.min.js';
       $(function() {
-        $('#scrollbutton, #scrollupbutton').click(function() {
+        $('.scroll').click(function() {
           var id = $(this).attr('href');
           $('html,body').animate({ scrollTop: $(id).offset().top }, 'slow');
           return false;
         });
       });
       $(document).ready(function () {
-        jQuery.getJSON("https://api.mcsrvstat.us/2/play.semivanilla.com",function(json){
+        jQuery.getJSON("https://api.mcsrvstat.us/2/play.khavalon.com",function(json){
           if (json.online == false) {
           }
           else {
             // success
-            document.getElementById('player-count').innerHTML = json.players.online + ' Players Online';
+            document.getElementById('player-count-khavalon').innerHTML = json.players.online + ' Players Online';
+          }
+        });
+        jQuery.getJSON("https://api.mcsrvstat.us/2/play.asthonia.com",function(json){
+          if (json.online == false) {
+          }
+          else {
+            // success
+            document.getElementById('player-count-asthonia').innerHTML = json.players.online + ' Players Online';
           }
         });
       });
@@ -44,16 +37,29 @@
   <body id="landing-body">
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/header.html'); ?>
     <main>
-      <div class="title" style="background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url(/assets/images/minecraft-repainted.webp); background-size: cover; background-position: 85%;">
-        <div id="landing-title-text" style="text-align: center">
-          <img id="landing-logo" src="/assets/images/logo.webp" alt="SemiVanilla MC Logo" />
-          <h1 class="hide-mobile-2">1.18.1 PVP Survival</h1>
-          <h2 class="hide-mobile" id="player-count">99 Players Online</h2>
-          <p class="ip">play.semivanilla.com</p>
+      <div class="title" style="background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url(/assets/images/minecraft-repainted.webp); background-size: cover; background-position: 85%; -webkit-clip-path: polygon(0 0, 0 calc( 100vh + 4px ), 100vw 0); clip-path: polygon(0 0, 0 calc( 100vh + 4px ), 100vw 0);">
+        <div id="landing-title-text" style="text-align: center; margin-right: 33vw; margin-bottom: 33vh;">
+          <img id="landing-logo" src="/assets/images/khavalon-logo.webp" alt="Khavalon Logo" />
+          <h2 class="hide-mobile-2">Vanilla+ PVP Survival</h1>
+          <h3 class="hide-mobile" id="player-count-khavalon">99 Players Online</h2>
           <div style="width:100%">
-            <button type="button" id="copybutton" onclick="copyToClipboard('copybutton')">Play Now</button>
+            <a href="https://khavalon.com" target="_blank">
+              <button type="button" id="khavalon" onclick="buttonClicked('khavalon')">Website</button>
+            </a>
           </div>
-          <a id="scrollbutton" href="#welcome">
+        </div>
+      </div>
+      <div class="title" style="background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url(/assets/images/starshrew-bg.webp); background-size: cover; background-position: 85%; -webkit-clip-path: polygon(100vw 0, 0 calc( 100vh + 4px ), 100vw calc( 100vh + 4px )); clip-path: polygon(100vw 0, 0 calc( 100vh + 4px ), 100vw calc( 100vh + 4px )); position: absolute;">
+        <div id="landing-title-text" style="text-align: center; margin-left: 33vw; margin-top: 33vh;">
+          <img id="landing-logo" src="/assets/images/asthonia-logo.webp" alt="Asthonia Logo" />
+          <h2 class="hide-mobile-2">Community RPG Survival</h1>
+          <h3 class="hide-mobile" id="player-count-asthonia">99 Players Online</h2>
+          <div style="width:100%">
+            <a href="https://asthonia.com" target="_blank">
+              <button type="button" id="asthonia" onclick="buttonClicked('asthonia')">Website</button>
+            </a>
+          </div>
+          <a id="scrollbutton" class="scroll" href="#welcome">
             <span></span>
             <p style="display: none;">Learn More</p>
           </a>
@@ -62,51 +68,36 @@
       </div>
       <div class="content" id="landing">
         <div class="shadow"></div>
-        <section class="center" style="flex-direction: column; max-width: 600px; border-radius: 50px; border: #23d37b dotted 3px; margin: 50px;">
-          <h3>Welcome to SemiVanilla</h3>
-          <p>Not your average SMP. SemiVanilla is a hard difficulty, pvp-enabled, survival RPG server. Danger lurks around every corner. Will you survive?</p>
+        <section class="center" style="flex-direction: column; margin: 50px;">
+          <h1 style="line-height: 1em;">We Make Awesome Servers</h1>
         </section>
         <section class="center">
           <div>
-            <h3>Hard Difficulty Survival</h3>
-            <p>Zombies can break through wooden doors and spawn reinforcements. Spiders have beneficial status effects. Villagers turn into zombie villagers when killed. Hostile mobs deal more damage. Starvation kills.</p>
+            <h3>About Us</h3>
+            <p>We are a team of Minecraft players with almost 20 years combined experience running Minecraft servers. We specialize in semi-vanilla and vanilla+ servers that provide a unique survival experience that players new and old can all enjoy. We set trends, not follow them.</p>
           </div>
           <div>
-            <img class="small" src="/assets/images/landing-zombie.webp" alt="Minecraft Zombie" />
-          </div>
-        </section>
-        <section class="center">
-          <div>
-            <img class="small" src="/assets/images/landing-pickaxe.webp" alt="Minecraft Enchanted Pickaxe" />
-          </div>
-          <div>
-            <h3>+ No Shortcuts</h3>
-            <p>There is no tpa or homes on SemiVanilla. There's no sleep percentage either, so night could be a threat, especially with vanilla spawn rates - unlit corners are unforgiving. This is classic survival at its core.</p>
+            <img class="small" src="/assets/images/logo.webp" alt="SemiVanilla Logo" />
           </div>
         </section>
         <section class="center">
           <div>
-            <h3>+ PVP Elements</h3>
-            <p>Nowhere is completely safe. Even in land claims PVP is enabled. A chance encounter with another player could be the end. Careful, though - killing players will put a bounty on your head, and bounties are worth XP rewards.</p>
+            <img class="wide" src="/assets/images/khavalon-logo.webp" alt="Khavalon Logo" />
           </div>
           <div>
-            <img class="small" src="/assets/images/landing-pvp.webp" alt="Minecraft Swords" />
+            <h3>Khavalon</h3>
+            <p>Khavalon is a hard difficulty, pvp-enabled, survival RPG server. It is a seasonal server, with annual resets. This is semi-vanilla survival amplified in every way, designed for those who want a challenge and want to get involved in a fast-paced server that requires grinding to get to the top.</p>
           </div>
         </section>
-        <section class="center" style="flex-direction: column; max-width: 600px;">
-          <h3>Redefining Semi-Vanilla</h3>
-          <p>A unique survival experience that builds on the vanilla survival game. A challenging adventure awaits... do you accept?</p>
-          <button type="button" id="copybutton2" onclick="copyToClipboard('copybutton2')">Play Now</button>
+        <section class="center">
+          <div>
+            <h3>Asthonia</h3>
+            <p>Asthonia is a PVE survival RPG server focused on having a friendly, inviting community. We're one of those servers you come to call home. This is a casual server designed for those who want to join an active and friendly community and have a place to relax and chat, even if not actively playing.</p>
+          </div>
+          <div>
+            <img class="wide" src="/assets/images/asthonia-logo.webp" alt="Asthonia Logo" />
+          </div>
         </section>
-      </div>
-      <div class="overlay">
-        <div class="overlay-bg" onclick="overlayDismiss()"></div>
-        <div class="overlay-fg">
-          <p class="ip">play.semivanilla.com</p>
-          <p style="margin:10px 0 30px 0;">Copied to Clipboard</p>
-          <a href="/join/"><button type="button">More Help</button></a>
-          <button type="button" onclick="overlayDismiss()">Okay</button>
-        </div>
       </div>
     </main>
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/footer.html'); ?>

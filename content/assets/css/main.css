@@ -75,17 +75,17 @@ p, h1, h2, h3, h4, h5, h6 {
 */
 
 body {
-  background-color: #0f1613;
+  background-color: #160f13;
   font-family: sans-serif;
 }
 
 a {
   text-decoration: none;
-  color: #23d37b;
+  color: #ff224b;
 }
 
 a:hover {
-  color: #1eb56a;
+  color: #c11a39;
 }
 
 footer {
@@ -93,8 +93,7 @@ footer {
   justify-content: center;
   flex-wrap: wrap;
   padding: 100px 50px 100px 50px;
-  margin-top: 30px;
-  background-color: #060a08;
+  background-color: #0a0608;
   border-top: black solid 4px;
   z-index: 1000;
 }
@@ -117,7 +116,7 @@ nav {
 
 nav.scroll, #landing-body nav.scroll {
   height: 80px;
-  background-color: rgb(20 32 26 / 100%);
+  background-color: rgb(32 20 25 / 100%);
 }
 
 nav *, footer * {
@@ -157,12 +156,12 @@ nav li a, nav li p {
 }
 
 nav li:hover > a, nav li:hover > p {
-  background-color: #1eb56a;
+  background-color: #ff224b;
   color: white;
 }
 
 nav li a.active, nav li p.active {
-  background-color: #1eb56a;
+  background-color: #ff224b;
   color: white;
 }
 
@@ -258,11 +257,15 @@ main {
   z-index: 2;
 }
 
-.title div, .sub-title div {
-  width: 80%;
+.title h2, .sub-title h1 {
+  font-family: 'mctext';
+  color: white;
+  font-size: 3em;
+  text-shadow: 0 2px black, 2px 0 black;
+  text-align: center;
 }
 
-.title h1, .sub-title h1 {
+#landing h1 {
   font-family: 'mctext';
   color: white;
   font-size: 4em;
@@ -270,7 +273,7 @@ main {
   text-align: center;
 }
 
-.title h2, .sub-title h2 {
+.title h3, .sub-title h2 {
   font-family: 'mctext';
   color: #d4d4d4;
   font-size: 2em;
@@ -288,8 +291,9 @@ main {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  color: #bec9c4;
+  color: #d3cacf;
   position: relative;
+  margin-bottom: 50px;
 }
 
 .content section {
@@ -337,15 +341,11 @@ section img {
 }
 
 section img.small {
-  width: 33%;
-}
-
-section img.medium {
   width: 50%;
 }
 
 section img.wide {
-  width: 80%;
+  width: 70%;
 }
 
 .content p {
@@ -360,7 +360,7 @@ li.rules, .split-content li {
   margin: 1em 0 1em 0;
   font-family: 'mctext';
   font-size: 1.5em;
-  color: #d8e1de;
+  color: #ebe3e7;
 }
 
 #landing h3 {
@@ -418,7 +418,7 @@ button {
   min-width: 90px;
   line-height: 1.5em;
   border-radius: 5px;
-  background-color: #1eb56a;
+  background-color: #ff224b;;
   font-family: 'mctext';
   color: white;
   border: none;
@@ -428,7 +428,7 @@ button {
 }
 
 button:hover {
-  background-color: #179154;
+  background-color: #c11a39;
   transform: scale(1.1);
 }
 
@@ -576,10 +576,10 @@ button:hover {
 
 @media (orientation: landscape){
   @media (max-width: 1250px) {
-    .title h1, .sub-title h1{
+    .title h2, .sub-title h1, #landing h1{
       font-size: 2.5em;
     }
-    .title h2, .sub-title h2, .ip{
+    .title h3, .sub-title h2, .ip{
       font-size: 1.5em;
     }
   }
@@ -587,10 +587,10 @@ button:hover {
     .hide-mobile, #scrollbutton {
       display: none;
     }
-    .title h1, .sub-title h1{
+    .title h2, .sub-title h1, #landing h1{
       font-size: 2.5em;
     }
-    .title h2, .sub-title h2, .ip{
+    .title h3, .sub-title h2, .ip{
       font-size: 1.5em;
     }
     nav, #landing-body nav {
@@ -614,7 +614,7 @@ button:hover {
 
 @media (orientation: portrait) {
   @media (max-width: 1500px) {
-    .title h1, .sub-title h1{
+    .title h2, .sub-title h1, #landing h1{
       font-size: 3em;
     }
     #landing div, #landing div.narrow {
@@ -625,10 +625,10 @@ button:hover {
     .title {
       padding-top: initial;
     }
-    .title h1, .sub-title h1{
+    .title h2, .sub-title h1, #landing h1{
       font-size: 2.5em;
     }
-    .title h2, .sub-title h2, .ip{
+    .title h3, .sub-title h2, .ip{
       font-size: 1.5em;
     }
     .sub-title {
@@ -647,9 +647,6 @@ button:hover {
     }
     #landing section {
       flex-direction: column;
-    }
-    section img.wide {
-      width: 100%;
     }
   }
   @media (max-width: 650px) {
@@ -680,10 +677,10 @@ button:hover {
     }
   }
   @media (max-width: 450px) {
-    .title h1, .sub-title h1{
+    .title h2, .sub-title h1, #landing h1{
       font-size: 2em;
     }
-    .title h2, .sub-title h2, .ip {
+    .title h3, .sub-title h2, .ip {
       font-size: 1.2em;
     }
     .content h3, #landing h3, .overlay h3 {
