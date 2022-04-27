@@ -1,10 +1,28 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Semi-Vanilla Team | Minecraft Servers</title>
+    <title>SemiVanilla Studios | Minecraft Servers</title>
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/seo.html'); ?>
     <script async type="module" src="/assets/javascript/jquery-3.6.0.min.js"></script>
     <script defer async type="module" src="/assets/javascript/nav.js"></script>
+    <script async defer>
+      function copyToClipboard(id,ip,morehelp,bg) {
+        var aux = document.createElement("input");
+        aux.setAttribute("value", ip);
+        document.body.appendChild(aux);
+        aux.select();
+        document.execCommand("copy");
+        document.body.removeChild(aux);
+        document.getElementById(id).style.backgroundColor = "#d2a69f";
+        document.getElementById('overlay-fg-1').style.background = "linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url(" + bg + ") 0px 0px/1280px";
+        document.getElementById('overlay-more-help').href = morehelp;
+        document.getElementById('overlay-ip').innerHTML = ip;
+        $('.overlay').addClass('active');
+      }
+      function overlayDismiss() {
+        $('.overlay').removeClass('active');
+      }
+    </script>
     <script defer async type="module">
       import '/assets/javascript/jquery-3.6.0.min.js';
       $(function() {
@@ -40,24 +58,20 @@
       <div class="title" style="background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url(/assets/images/minecraft-repainted.webp); background-size: cover; background-position: 85%; -webkit-clip-path: polygon(0 0, 0 calc( 100vh + 4px ), 100vw 0); clip-path: polygon(0 0, 0 calc( 100vh + 4px ), 100vw 0);">
         <div id="landing-title-text" style="text-align: center; margin-right: 33vw; margin-bottom: 33vh;">
           <img id="landing-logo" src="/assets/images/khavalon-logo.webp" alt="Khavalon Logo" />
-          <h2 class="hide-mobile-2">Vanilla+ PVP Survival</h1>
+          <h2 class="hide-mobile-2">PVP Competitive Survival</h1>
           <h3 class="hide-mobile" id="player-count-khavalon">99 Players Online</h2>
           <div style="width:100%">
-            <a href="https://khavalon.com" target="_blank">
-              <button type="button" id="khavalon" onclick="buttonClicked('khavalon')">Website</button>
-            </a>
+            <button type="button" id="khavalon" onclick="copyToClipboard('khavalon','play.khavalon.com','https://khavalon.com/join','/assets/images/minecraft-repainted.webp')">Play Now</button>
           </div>
         </div>
       </div>
       <div class="title" style="background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url(/assets/images/starshrew-bg.webp); background-size: cover; background-position: 85%; -webkit-clip-path: polygon(100vw 0, 0 calc( 100vh + 4px ), 100vw calc( 100vh + 4px )); clip-path: polygon(100vw 0, 0 calc( 100vh + 4px ), 100vw calc( 100vh + 4px )); position: absolute;">
         <div id="landing-title-text" style="text-align: center; margin-left: 33vw; margin-top: 33vh;">
           <img id="landing-logo" src="/assets/images/asthonia-logo.webp" alt="Asthonia Logo" />
-          <h2 class="hide-mobile-2">Community RPG Survival</h1>
+          <h2 class="hide-mobile-2">PVE Community Survival</h1>
           <h3 class="hide-mobile" id="player-count-asthonia">99 Players Online</h2>
           <div style="width:100%">
-            <a href="https://asthonia.com" target="_blank">
-              <button type="button" id="asthonia" onclick="buttonClicked('asthonia')">Website</button>
-            </a>
+            <button type="button" id="asthonia" onclick="copyToClipboard('asthonia','play.asthonia.com','https://asthonia.com/join','/assets/images/starshrew-bg.webp')">Play Now</button>
           </div>
           <a id="scrollbutton" class="scroll" href="#welcome">
             <span></span>
@@ -82,22 +96,32 @@
         </section>
         <section class="center">
           <div>
-            <img class="wide" src="/assets/images/khavalon-logo.webp" alt="Khavalon Logo" />
+            <a href="https://khavalon.com" target="_blank"><img class="wide" src="/assets/images/khavalon-logo.webp" alt="Khavalon Logo" /></a>
           </div>
           <div>
-            <h3>Khavalon</h3>
-            <p>Khavalon is a hard difficulty, pvp-enabled, survival RPG server. It is a seasonal server, with annual resets. This is semi-vanilla survival amplified in every way, designed for those who want a challenge and want to get involved in a fast-paced server that requires grinding to get to the top.</p>
+            <a href="https://khavalon.com" target="_blank"><h3>Khavalon</h3></a>
+            <p>Khavalon is a PVP ENABLED survival RPG server. This is semi-vanilla survival amplified in every way, designed for those who want a challenge and want to get involved in a fast-paced server that requires grinding to get to the top.</p>
           </div>
         </section>
         <section class="center">
           <div>
-            <h3>Asthonia</h3>
-            <p>Asthonia is a PVE survival RPG server focused on having a friendly, inviting community. We're one of those servers you come to call home. This is a casual server designed for those who want to join an active and friendly community and have a place to relax and chat, even if not actively playing.</p>
+            <a href="https://asthonia.com" target="_blank"><h3>Asthonia</h3></a>
+            <p>Asthonia is a PVE survival RPG server focused on having a friendly, inviting community. This is a casual server designed for those who want to join an active and friendly community and have a place to relax and chat, even if not actively playing.
+</p>
           </div>
           <div>
-            <img class="wide" src="/assets/images/asthonia-logo.webp" alt="Asthonia Logo" />
+            <a href="https://asthonia.com" target="_blank"><img class="wide" src="/assets/images/asthonia-logo.webp" alt="Asthonia Logo" /></a>
           </div>
         </section>
+      </div>
+      <div class="overlay">
+        <div class="overlay-bg" onclick="overlayDismiss()"></div>
+        <div id="overlay-fg-1" class="overlay-fg">
+          <p id="overlay-ip" class="ip">play.semivanilla.com</p>
+          <p style="margin:10px 0 30px 0;">Copied to Clipboard</p>
+          <a id="overlay-more-help" target="_blank"><button type="button">More Help</button></a>
+          <button type="button" onclick="overlayDismiss()">Okay</button>
+        </div>
       </div>
     </main>
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/footer.html'); ?>
