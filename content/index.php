@@ -58,7 +58,7 @@
       <div class="title" style="background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url(/assets/images/minecraft-repainted.webp); background-size: cover; background-position: 85%; -webkit-clip-path: polygon(0 0, 0 calc( 100vh + 4px ), 100vw 0); clip-path: polygon(0 0, 0 calc( 100vh + 4px ), 100vw 0);">
         <div id="landing-title-text" style="text-align: center; margin-right: 33vw; margin-bottom: 33vh;">
           <img id="landing-logo" src="/assets/images/khavalon-logo.webp" alt="Khavalon Logo" />
-          <h2 class="hide-mobile-2">PVP Competitive Survival</h1>
+          <h2 class="hide-mobile-2">Towny PVP Survival</h1>
           <h3 class="hide-mobile" id="player-count-khavalon">99 Players Online</h2>
           <div style="width:100%">
             <button type="button" id="khavalon" onclick="copyToClipboard('khavalon','play.khavalon.com','https://khavalon.com/join','/assets/images/minecraft-repainted.webp')">Play Now</button>
@@ -68,7 +68,7 @@
       <div class="title" style="background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url(/assets/images/starshrew-bg.webp); background-size: cover; background-position: 85%; -webkit-clip-path: polygon(100vw 0, 0 calc( 100vh + 4px ), 100vw calc( 100vh + 4px )); clip-path: polygon(100vw 0, 0 calc( 100vh + 4px ), 100vw calc( 100vh + 4px )); position: absolute;">
         <div id="landing-title-text" style="text-align: center; margin-left: 33vw; margin-top: 33vh;">
           <img id="landing-logo" src="/assets/images/asthonia-logo.webp" alt="Asthonia Logo" />
-          <h2 class="hide-mobile-2">PVE Community Survival</h1>
+          <h2 class="hide-mobile-2">Casual RPG Survival</h1>
           <h3 class="hide-mobile" id="player-count-asthonia">99 Players Online</h2>
           <div style="width:100%">
             <button type="button" id="asthonia" onclick="copyToClipboard('asthonia','play.asthonia.com','https://asthonia.com/join','/assets/images/starshrew-bg.webp')">Play Now</button>
@@ -100,7 +100,7 @@
           </div>
           <div>
             <a href="https://khavalon.com" target="_blank"><h3>Khavalon</h3></a>
-            <p>Khavalon is a PVP ENABLED survival RPG server. This is semi-vanilla survival amplified in every way, designed for those who want a challenge and want to get involved in a fast-paced server that requires grinding to get to the top.</p>
+            <p>Khavalon is a PVP ENABLED Towny survival server. This is semi-vanilla survival amplified in every way, designed for those who want a challenge and want to get involved in a fast-paced server that requires grinding to get to the top.</p>
           </div>
         </section>
         <section class="center">
