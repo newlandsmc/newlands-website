@@ -75,17 +75,17 @@ p, h1, h2, h3, h4, h5, h6 {
 */
 
 body {
-  background-color: #160f13;
+  background-color: #0f1613;
   font-family: sans-serif;
 }
 
 a {
   text-decoration: none;
-  color: #ff224b;
+  color: #23d37b;
 }
 
 a:hover {
-  color: #c11a39;
+  color: #1eb56a;
 }
 
 footer {
@@ -93,7 +93,7 @@ footer {
   justify-content: center;
   flex-wrap: wrap;
   padding: 100px 50px 100px 50px;
-  background-color: #0a0608;
+  background-color: #060a08;
   border-top: black solid 4px;
   z-index: 1000;
 }
@@ -102,7 +102,7 @@ nav {
   position: fixed;
   display: flex;
   justify-content: center;
-  background-color: rgb(10 6 8 / 100%);
+  background-color: rgb(6 10 8 / 100%);
   box-shadow: 0px 0px 10px 2px rgb(0 0 0 / 70%);
   transition: all 0.3s;
   height: 110px;
@@ -116,7 +116,7 @@ nav {
 
 nav.scroll, #landing-body nav.scroll {
   height: 80px;
-  background-color: rgb(32 20 25 / 100%);
+  background-color: rgb(20 32 26 / 100%);
 }
 
 nav *, footer * {
@@ -144,7 +144,7 @@ nav li {
   position: relative;
 }
 
-nav li a {
+nav li a, nav li p {
   font-family: 'mctext';
   text-shadow: 2px 2px 2px black;
   padding: 12px 16px;
@@ -153,16 +153,15 @@ nav li a {
   transition: background-color 0.3s;
   margin: 0px 5px;
   line-height: 1em;
-  display: block;
 }
 
-nav li:hover > a {
-  background-color: #ff224b;
+nav li:hover > a, nav li:hover > p {
+  background-color: #1eb56a;
   color: white;
 }
 
-nav li a.active {
-  background-color: #ff224b;
+nav li a.active, nav li p.active {
+  background-color: #1eb56a;
   color: white;
 }
 
@@ -206,7 +205,7 @@ footer li {
 
 #footer-divider {
   width: 200px;
-  border-top: 3px dotted #ff224b;
+  border-top: 3px dotted #23d37b;
   margin-bottom: 24px;
 }
 
@@ -264,7 +263,11 @@ main {
   z-index: 2;
 }
 
-.title h2, .sub-title h1 {
+.title div, .sub-title div {
+  width: 80%;
+}
+
+#landing h1, .title h1, .sub-title h1 {
   font-family: 'mctext';
   color: white;
   font-size: 3em;
@@ -273,20 +276,23 @@ main {
   line-height: 1em;
 }
 
-#landing h1 {
-  font-family: 'mctext';
-  color: white;
-  font-size: 4em;
-  text-shadow: 0 2px black, 2px 0 black;
-  text-align: center;
-}
-
-.title h3, .sub-title h2 {
+.title p, .title h2, .sub-title h2 {
   font-family: 'mctext';
   color: #d4d4d4;
   font-size: 2em;
   text-shadow: 0 2px black, 2px 0 black;
   text-align: center;
+}
+
+.ip {
+  font-family: 'mctext';
+  font-size: 2em;
+  padding: 10px 30px;
+  border-radius: 15px;
+  background-color: rgb(0 0 0 / 30%);
+  display: inline-block;
+  color: #d4d4d4;
+  text-shadow: 0 2px black, 2px 0 black;
 }
 
 .content, #sub-nav {
@@ -299,7 +305,7 @@ main {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  color: #d3cacf;
+  color: #bec9c4;
   position: relative;
   margin-bottom: 50px;
 }
@@ -349,11 +355,15 @@ section img {
 }
 
 section img.small {
+  width: 33%;
+}
+
+section img.medium {
   width: 50%;
 }
 
 section img.wide {
-  width: 70%;
+  width: 80%;
 }
 
 .content p {
@@ -368,7 +378,7 @@ li.rules, .split-content li {
   margin: 1em 0 1em 0;
   font-family: 'mctext';
   font-size: 1.5em;
-  color: #ebe3e7;
+  color: #d8e1de;
 }
 
 #landing h3 {
@@ -407,7 +417,7 @@ li.rules, .split-content li {
   flex-direction: row;
   justify-content: center;
   border-radius: 50px;
-  border: #ff224b dotted 3px;
+  border: #23d37b dotted 3px;
   flex-wrap: wrap;
 }
 
@@ -426,7 +436,7 @@ button {
   min-width: 90px;
   line-height: 1.5em;
   border-radius: 5px;
-  background-color: #ff224b;;
+  background-color: #1eb56a;
   font-family: 'mctext';
   color: white;
   border: none;
@@ -436,19 +446,8 @@ button {
 }
 
 button:hover {
-  background-color: #c11a39;
+  background-color: #179154;
   transform: scale(1.1);
-}
-
-.ip {
-  font-family: 'mctext';
-  font-size: 2em;
-  padding: 10px 30px;
-  border-radius: 15px;
-  background-color: rgb(0 0 0 / 30%);
-  display: inline-block;
-  color: #d4d4d4;
-  text-shadow: 0 2px black, 2px 0 black;
 }
 
 #scrollbutton {
@@ -583,10 +582,10 @@ button:hover {
 
 @media (orientation: landscape){
   @media (max-width: 1250px) {
-    .title h2, .sub-title h1, #landing h1{
+    #landing h1, .title h1, .sub-title h1{
       font-size: 2.5em;
     }
-    .title h3, .sub-title h2, .ip{
+    .title p, .title h2, .sub-title h2, .ip{
       font-size: 1.5em;
     }
   }
@@ -594,10 +593,10 @@ button:hover {
     .hide-mobile, #scrollbutton {
       display: none;
     }
-    .title h2, .sub-title h1, #landing h1{
+    #landing h1, .title h1, .sub-title h1{
       font-size: 2.5em;
     }
-    .title h3, .sub-title h2, .ip{
+    .title p, .title h2, .sub-title h2, .ip{
       font-size: 1.5em;
     }
     nav, #landing-body nav {
@@ -621,7 +620,7 @@ button:hover {
 
 @media (orientation: portrait) {
   @media (max-width: 1500px) {
-    .title h2, .sub-title h1, #landing h1{
+    .title h1, .sub-title h1{
       font-size: 3em;
     }
     #landing div, #landing div.narrow {
@@ -632,10 +631,10 @@ button:hover {
     .title {
       padding-top: initial;
     }
-    .title h2, .sub-title h1, #landing h1{
+    #landing h1, .title h1, .sub-title h1{
       font-size: 2.5em;
     }
-    .title h3, .sub-title h2, .ip{
+    .title p, .title h2, .sub-title h2, .ip{
       font-size: 1.5em;
     }
     .sub-title {
@@ -654,6 +653,9 @@ button:hover {
     }
     #landing section {
       flex-direction: column;
+    }
+    section img.wide {
+      width: 100%;
     }
   }
   @media (max-width: 650px) {
@@ -675,6 +677,7 @@ button:hover {
     }
     #landing-logo {
       max-width: 80%;
+      margin: 20px auto 20px auto
     }
     .split-content div {
       width: 100%;
@@ -684,10 +687,10 @@ button:hover {
     }
   }
   @media (max-width: 450px) {
-    .title h2, .sub-title h1, #landing h1{
+    #landing h1, .title h1, .sub-title h1{
       font-size: 2em;
     }
-    .title h3, .sub-title h2, .ip {
+    .title p, .title h2, .sub-title h2, .ip {
       font-size: 1.2em;
     }
     .content h3, #landing h3, .overlay h3 {

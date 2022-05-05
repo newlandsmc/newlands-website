@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>SemiVanilla Studios | Minecraft Servers</title>
+    <title>SemiVanilla Studios | 1.18.2 Minecraft Survival Network</title>
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/seo.html'); ?>
     <script async type="module" src="/assets/javascript/jquery-3.6.0.min.js"></script>
     <script defer async type="module" src="/assets/javascript/nav.js"></script>
@@ -58,20 +58,20 @@
       <div class="title" style="background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url(/assets/images/minecraft-repainted.webp); background-size: cover; background-position: 85%; -webkit-clip-path: polygon(0 0, 0 calc( 100vh + 4px ), 100vw 0); clip-path: polygon(0 0, 0 calc( 100vh + 4px ), 100vw 0);">
         <div id="landing-title-text" style="text-align: center; margin-right: 33vw; margin-bottom: 33vh;">
           <img id="landing-logo" src="/assets/images/khavalon-logo.webp" alt="Khavalon Logo" />
-          <h2 class="hide-mobile-2">Towny PVP Survival</h1>
+          <h2 style="line-height: 1.5em;" class="hide-mobile-2">Towny PVP Survival</h1>
           <h3 class="hide-mobile" id="player-count-khavalon">99 Players Online</h2>
           <div style="width:100%">
-            <button type="button" id="khavalon" onclick="copyToClipboard('khavalon','play.khavalon.com','https://khavalon.com/join','/assets/images/minecraft-repainted.webp')">Play Now</button>
+            <button type="button" id="khavalon" onclick="copyToClipboard('khavalon','play.semivanilla.com','https://semivanilla.com/join','/assets/images/minecraft-repainted.webp')">PLAY NOW!</button>
           </div>
         </div>
       </div>
       <div class="title" style="background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url(/assets/images/starshrew-bg.webp); background-size: cover; background-position: 85%; -webkit-clip-path: polygon(100vw 0, 0 calc( 100vh + 4px ), 100vw calc( 100vh + 4px )); clip-path: polygon(100vw 0, 0 calc( 100vh + 4px ), 100vw calc( 100vh + 4px )); position: absolute;">
         <div id="landing-title-text" style="text-align: center; margin-left: 33vw; margin-top: 33vh;">
           <img id="landing-logo" src="/assets/images/asthonia-logo.webp" alt="Asthonia Logo" />
-          <h2 class="hide-mobile-2">Casual RPG Survival</h1>
+          <h2 style="line-height: 1.5em;" class="hide-mobile-2">Casual RPG Survival</h1>
           <h3 class="hide-mobile" id="player-count-asthonia">99 Players Online</h2>
           <div style="width:100%">
-            <button type="button" id="asthonia" onclick="copyToClipboard('asthonia','play.asthonia.com','https://asthonia.com/join','/assets/images/starshrew-bg.webp')">Play Now</button>
+            <button type="button" id="asthonia" onclick="copyToClipboard('asthonia','play.semivanilla.com','https://semivanilla.com/join','/assets/images/starshrew-bg.webp')">PLAY NOW!</button>
           </div>
           <a id="scrollbutton" class="scroll" href="#welcome">
             <span></span>
@@ -96,30 +96,34 @@
         </section>
         <section class="center">
           <div>
-            <a href="https://khavalon.com" target="_blank"><img class="wide" src="/assets/images/khavalon-logo.webp" alt="Khavalon Logo" /></a>
+            <a href="https://semivanilla.com/khavalon"><img class="wide" src="/assets/images/khavalon-logo.webp" alt="Khavalon Logo" /></a>
           </div>
           <div>
-            <a href="https://khavalon.com" target="_blank"><h3>Khavalon</h3></a>
-            <p>Khavalon is a PVP ENABLED Towny survival server. This is semi-vanilla survival amplified in every way, designed for those who want a challenge and want to get involved in a fast-paced server that requires grinding to get to the top.</p>
+            <a href="https://semivanilla.com/khavalon"><h3>Khavalon</h3></a>
+            <p>Khavalon is a PVP ENABLED towny survival server. This is semi-vanilla survival amplified in every way, designed for those who want a challenge and want to get involved in a fast-paced server that requires grinding to get to the top.</p>
           </div>
         </section>
         <section class="center">
           <div>
-            <a href="https://asthonia.com" target="_blank"><h3>Asthonia</h3></a>
+            <a href="https://semivanilla.com/asthonia"><h3>Asthonia</h3></a>
             <p>Asthonia is a PVE survival RPG server focused on having a friendly, inviting community. This is a casual server designed for those who want to join an active and friendly community and have a place to relax and chat, even if not actively playing.
 </p>
           </div>
           <div>
-            <a href="https://asthonia.com" target="_blank"><img class="wide" src="/assets/images/asthonia-logo.webp" alt="Asthonia Logo" /></a>
+            <a href="https://semivanilla.com/asthonia"><img class="wide" src="/assets/images/asthonia-logo.webp" alt="Asthonia Logo" /></a>
           </div>
+        </section>
+        <section class="center" style="flex-direction: column; max-width: 600px;">
+          <h3>JOIN OUR DISCORD!</h3>
+          <a href="https://discord.gg/3WzZ3x6wGp" target="_blank"><button type="button">JOIN DISCORD!</button></a>
         </section>
       </div>
       <div class="overlay">
         <div class="overlay-bg" onclick="overlayDismiss()"></div>
         <div id="overlay-fg-1" class="overlay-fg">
           <p id="overlay-ip" class="ip">play.semivanilla.com</p>
-          <p style="margin:10px 0 30px 0;">Copied to Clipboard</p>
-          <a id="overlay-more-help" target="_blank"><button type="button">More Help</button></a>
+          <p style="margin:10px 0 30px 0;">Copied to Clipboard!</p>
+          <a id="overlay-more-help"><button type="button">More Help</button></a>
           <button type="button" onclick="overlayDismiss()">Okay</button>
         </div>
       </div>
