@@ -3,7 +3,6 @@
   <head>
     <title>SemiVanilla Studios | Asthonia | Custom Enchants | All</title>
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/seo.html'); ?>
-    <link rel="stylesheet" href="/assets/css/asthonia.css" />
     <script src="/assets/javascript/jquery-3.6.0.min.js"></script>
     <script src="/assets/javascript/datatables.min.js"></script>
     <script defer async type="module" src="/assets/javascript/nav.js"></script>
@@ -67,8 +66,8 @@
     <main>
       <div class="sub-title" style="background-image: url(/assets/images/asthonia/enchants-all-title.webp); background-position: center;">
         <div>
-          <h1>Custom Enchants > All</h1>
-          <h2>Powered by Advanced Enchantments</h2>
+          <h1>Asthonia</h1>
+          <h2>Custom Enchantments > All</h2>
         </div>
       </div>
       <div class="content">

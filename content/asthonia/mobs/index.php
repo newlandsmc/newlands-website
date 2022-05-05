@@ -3,7 +3,6 @@
   <head>
     <title>SemiVanilla Studios | Asthonia | Custom Mobs</title>
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/seo.html'); ?>
-    <link rel="stylesheet" href="/assets/css/asthonia.css" />
     <script async type="module" src="/assets/javascript/jquery-3.6.0.min.js"></script>
     <script defer async type="module" src="/assets/javascript/nav.js"></script>
   </head>
@@ -12,8 +11,8 @@
     <main>
       <div class="sub-title" style="background-image: url(/assets/images/asthonia/mobs-title.webp); background-position: center;">
         <div>
-          <h1>Custom Mobs</h1>
-          <h2>Powered by Mythic Mobs</h2>
+          <h1>Asthonia</h1>
+          <h2>Custom Mobs</h2>
         </div>
       </div>
       <div class="content split-content">

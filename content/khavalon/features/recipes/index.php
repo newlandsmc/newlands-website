@@ -3,7 +3,6 @@
   <head>
     <title>SemiVanilla Studios | Khavalon | Features | Recipes</title>
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/seo.html'); ?>
-    <link rel="stylesheet" href="/assets/css/khavalon.css" />
     <script async type="module" src="/assets/javascript/jquery-3.6.0.min.js"></script>
     <script defer async type="module" src="/assets/javascript/nav.js"></script>
     <style>
@@ -17,8 +16,8 @@
     <main>
       <div class="sub-title" style="background-image: url(/assets/images/khavalon/features-recipes-title.webp); background-position: center;">
         <div>
-          <h1>Other Features > Recipes</h1>
-          <h2>Custom Features on Khavalon</h2>
+          <h1>Khavalon</h1>
+          <h2>Custom Features > Recipes</h2>
         </div>
       </div>
       <div class="content split-content">

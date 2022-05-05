@@ -3,7 +3,6 @@
   <head>
     <title>SemiVanilla Studios | Khavalon | Skills and Abilities</title>
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/seo.html'); ?>
-    <link rel="stylesheet" href="/assets/css/khavalon.css" />
     <script async type="module" src="/assets/javascript/jquery-3.6.0.min.js"></script>
     <script defer async type="module" src="/assets/javascript/nav.js"></script>
   </head>
@@ -12,8 +11,8 @@
     <main>
       <div class="sub-title" style="background-image: url(/assets/images/khavalon/skills-title.webp); background-position: center;">
         <div>
-          <h1>Skills & Abilities</h1>
-          <h2>Powered by Aurelium Skills</h2>
+          <h1>Khavalon</h1>
+          <h2>Skills and Abilities</h2>
         </div>
       </div>
       <div class="content split-content">

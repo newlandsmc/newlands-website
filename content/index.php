@@ -56,22 +56,22 @@
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/header.html'); ?>
     <main>
       <div class="title" style="background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url(/assets/images/minecraft-repainted.webp); background-size: cover; background-position: 85%; -webkit-clip-path: polygon(0 0, 0 calc( 100vh + 4px ), 100vw 0); clip-path: polygon(0 0, 0 calc( 100vh + 4px ), 100vw 0);">
-        <div id="landing-title-text" style="text-align: center; margin-right: 33vw; margin-bottom: 33vh;">
-          <img id="landing-logo" src="/assets/images/khavalon-logo.webp" alt="Khavalon Logo" />
+        <div class="landing-title-text" style="text-align: center; margin-right: 33vw; margin-bottom: 33vh;">
+          <img class="landing-logo" src="/assets/images/khavalon-logo.webp" alt="Khavalon Logo" />
           <h2 style="line-height: 1.5em;" class="hide-mobile-2">Towny PVP Survival</h1>
-          <h3 class="hide-mobile" id="player-count-khavalon">99 Players Online</h2>
+          <p class="ip hide-mobile">play.semivanilla.com</p>
           <div style="width:100%">
-            <button type="button" id="khavalon" onclick="copyToClipboard('khavalon','play.semivanilla.com','https://semivanilla.com/join','/assets/images/minecraft-repainted.webp')">PLAY NOW!</button>
+            <button type="button" id="khavalon-button" onclick="copyToClipboard('khavalon-button','play.semivanilla.com','https://semivanilla.com/join','/assets/images/minecraft-repainted.webp')">PLAY NOW!</button>
           </div>
         </div>
       </div>
       <div class="title" style="background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url(/assets/images/starshrew-bg.webp); background-size: cover; background-position: 85%; -webkit-clip-path: polygon(100vw 0, 0 calc( 100vh + 4px ), 100vw calc( 100vh + 4px )); clip-path: polygon(100vw 0, 0 calc( 100vh + 4px ), 100vw calc( 100vh + 4px )); position: absolute;">
-        <div id="landing-title-text" style="text-align: center; margin-left: 33vw; margin-top: 33vh;">
-          <img id="landing-logo" src="/assets/images/asthonia-logo.webp" alt="Asthonia Logo" />
+        <div class="landing-title-text" style="text-align: center; margin-left: 33vw; margin-top: 33vh;">
+          <img class="landing-logo" src="/assets/images/asthonia-logo.webp" alt="Asthonia Logo" />
           <h2 style="line-height: 1.5em;" class="hide-mobile-2">Casual RPG Survival</h1>
-          <h3 class="hide-mobile" id="player-count-asthonia">99 Players Online</h2>
+          <p class="ip hide-mobile">play.semivanilla.com</p>
           <div style="width:100%">
-            <button type="button" id="asthonia" onclick="copyToClipboard('asthonia','play.semivanilla.com','https://semivanilla.com/join','/assets/images/starshrew-bg.webp')">PLAY NOW!</button>
+            <button type="button" id="asthonia-button" onclick="copyToClipboard('asthonia-button','play.semivanilla.com','https://semivanilla.com/join','/assets/images/starshrew-bg.webp')">PLAY NOW!</button>
           </div>
           <a id="scrollbutton" class="scroll" href="#welcome">
             <span></span>
@@ -83,7 +83,7 @@
       <div class="content" id="landing">
         <div class="shadow"></div>
         <section class="center" style="flex-direction: column; margin: 50px;">
-          <h1 style="line-height: 1em;">We Make Awesome Servers</h1>
+          <h1 style="font-size: 4em;">We Make Awesome Servers</h1>
         </section>
         <section class="center">
           <div>
@@ -114,9 +114,93 @@
           </div>
         </section>
         <section class="center" style="flex-direction: column; max-width: 600px;">
-          <h3>JOIN OUR DISCORD!</h3>
+          <h4>JOIN OUR DISCORD!</h4>
           <a href="https://discord.gg/3WzZ3x6wGp" target="_blank"><button type="button">JOIN DISCORD!</button></a>
         </section>
+      </div>
+      <div id="khavalon" class="sub-title" style="padding-top: 0px; background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url(/assets/images/minecraft-repainted.webp); background-size: cover; background-position: 85%;">
+        <div style="text-align: center; max-width: 80%;">
+          <img src="/assets/images/khavalon/logo.webp" alt="Khavalon Logo" />
+        </div>
+      </div>
+      <div class="content" id="landing">
+        <div class="shadow"></div>
+        <section class="center" style="flex-direction: column; max-width: 600px; border-radius: 50px; border: #23d37b dotted 3px; margin: 50px;">
+          <h1>Hard-Difficulty Towny Survival</h1>
+          <p>Not your average SMP. Khavalon is a hard difficulty, pvp-enabled, towny survival server. Danger lurks around every corner. Will you survive?</p>
+        </section>
+        <section class="center">
+          <div>
+            <h3>Towny PVP</h3>
+            <p>Nowhere is completely safe. War is always a threat. A chance encounter with another player could be the end. Careful, though - killing players will put a bounty on your head, and bounties are worth XP rewards.</p>
+          </div>
+          <div>
+            <img class="small" src="/assets/images/khavalon/landing-pvp.webp" alt="Minecraft Swords" />
+          </div>
+        </section>
+        <section class="center">
+          <div>
+            <img class="small" src="/assets/images/khavalon/landing-pickaxe.webp" alt="Minecraft Enchanted Pickaxe" />
+          </div>
+          <div>
+            <h3>+ RPG Elements</h3>
+            <p>Level up your skills to unlock special abilities. Level up your mana to use them. Enchant your weapons with custom enchantments and use your power to fight off challenging mobs, or summon a boss and defeat them to earn rewards.</p>
+          </div>
+        </section>
+        <section class="center">
+          <div>
+            <h3>+ Hard Difficulty</h3>
+            <p>Zombies can break through wooden doors and spawn reinforcements. Spiders have beneficial status effects. Villagers turn into zombie villagers when killed. Hostile mobs deal more damage. Starvation kills.</p>
+          </div>
+          <div>
+            <img class="small" src="/assets/images/khavalon/landing-zombie.webp" alt="Minecraft Zombie" />
+          </div>
+        </section>
+      </div>
+      <div id="asthonia" class="sub-title" style="padding-top: 0px; background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url(/assets/images/asthonia/starshrew-bg.webp); background-size: cover; background-position: 85%;">
+        <div style="text-align: center; max-width: 80%;">
+          <img src="/assets/images/asthonia/logo.webp" alt="Asthonia Logo" />
+        </div>
+      </div>
+      <div class="content" id="landing">
+        <div class="shadow"></div>
+        <section class="center" style="flex-direction: column; max-width: 600px; border-radius: 50px; border: #329dff dotted 3px; margin: 50px;">
+          <h1>Friendly Community RPG Survival</h1>
+          <p>Asthonia is a PVE survival RPG server focused on having a friendly, inviting community. This is a casual server for those who want an active and friendly community.</p>
+        </section>
+        <section class="center">
+          <div>
+            <h3>Friendly Community</h3>
+            <p>Team up with others, or adventure alone, the choice is yours! Claim land to protect your base and trust others to let them teleport to it. On Asthonia you are safe around other players, since PVP is off.</p>
+          </div>
+          <div>
+            <img class="small" src="/assets/images/asthonia/landing-pvp.webp" alt="Minecraft Swords" />
+          </div>
+        </section>
+        <section class="center">
+          <div>
+            <img class="small" src="/assets/images/asthonia/landing-pickaxe.webp" alt="Minecraft Enchanted Pickaxe" />
+          </div>
+          <div>
+            <h3>+ RPG Elements</h3>
+            <p>Level up your skills to unlock special abilities. Level up your mana to use them. Enchant your weapons with custom enchantments and use your power to fight off challenging mobs, or summon a boss and defeat them to earn rewards.</p>
+          </div>
+        </section>
+        <section class="center">
+          <div>
+            <h3>+ Hard Difficulty</h3>
+            <p>It wouldn't be survival without a challenge! On Asthonia, we set the difficulty to hard, which means zombies can break through wooden doors, spiders have beneficial status effects, starvation kills, and more!</p>
+          </div>
+          <div>
+            <img class="small" src="/assets/images/asthonia/landing-zombie.webp" alt="Minecraft Zombie" />
+          </div>
+        </section>
+      </div>
+      <div class="sub-title" style="padding-top: 0px; background: linear-gradient(rgba(202,178,251, 0.1), rgba(10, 6, 8, 1)); background-size: cover; background-position: 85%;">
+        <div style="text-align: center; max-width: 80%;">
+          <h4 style="color: white;">JOIN OUR DISCORD!</h4>
+          <a href="https://discord.gg/3WzZ3x6wGp" target="_blank"><button type="button">JOIN DISCORD!</button></a>
+        </div>
       </div>
       <div class="overlay">
         <div class="overlay-bg" onclick="overlayDismiss()"></div>
