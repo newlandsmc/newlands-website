@@ -12,7 +12,7 @@
       <div class="sub-title" style="background-image: url(/assets/images/asthonia/skills-title.webp); background-position: center;">
         <div>
           <h1>Asthonia</h1>
-          <h2>Skills and Abilties</h2>
+          <h2>Skills and Abilities</h2>
         </div>
       </div>
       <div class="content split-content">

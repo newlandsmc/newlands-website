@@ -11,7 +11,7 @@
         aux.select();
         document.execCommand("copy");
         document.body.removeChild(aux);
-        document.getElementById(id).style.backgroundColor = "#d2a69f";
+        document.getElementById(id).style.backgroundColor = "var(--action-taken)";
         document.getElementById('overlay-fg-1').style.background = "linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url(" + bg + ") 0px 0px/1280px";
         document.getElementById('overlay-ip').innerHTML = ip;
         $('.overlay').addClass('active');

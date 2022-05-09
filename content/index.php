@@ -13,7 +13,7 @@
         aux.select();
         document.execCommand("copy");
         document.body.removeChild(aux);
-        document.getElementById(id).style.backgroundColor = "#d2a69f";
+        document.getElementById(id).style.backgroundColor = "var(--action-taken)";
         document.getElementById('overlay-fg-1').style.background = "linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url(" + bg + ") 0px 0px/1280px";
         document.getElementById('overlay-more-help').href = morehelp;
         document.getElementById('overlay-ip').innerHTML = ip;
@@ -68,7 +68,7 @@
       <div class="title" style="background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url(/assets/images/starshrew-bg.webp); background-size: cover; background-position: 85%; -webkit-clip-path: polygon(100vw 0, 0 calc( 100vh + 4px ), 100vw calc( 100vh + 4px )); clip-path: polygon(100vw 0, 0 calc( 100vh + 4px ), 100vw calc( 100vh + 4px )); position: absolute;">
         <div class="landing-title-text" style="text-align: center; margin-left: 33vw; margin-top: 33vh;">
           <img class="landing-logo" src="/assets/images/asthonia-logo.webp" alt="Asthonia Logo" />
-          <h2 style="line-height: 1.5em;" class="hide-mobile-2">Casual RPG Survival</h1>
+          <h2 style="line-height: 1.5em;" class="hide-mobile-2">Casual PVE Survival</h1>
           <p class="ip hide-mobile">play.semivanilla.com</p>
           <div style="width:100%">
             <button type="button" id="asthonia-button" onclick="copyToClipboard('asthonia-button','play.semivanilla.com','https://semivanilla.com/join','/assets/images/starshrew-bg.webp')">PLAY NOW!</button>
@@ -88,7 +88,7 @@
         <section class="center">
           <div>
             <h3>About Us</h3>
-            <p>We are a team of Minecraft players with almost 20 years combined experience running Minecraft servers. We specialize in semi-vanilla and vanilla+ servers that provide a unique survival experience that players new and old can all enjoy. We set trends, not follow them.</p>
+            <p>We are a team of Minecraft players with almost 20 years combined experience running Minecraft servers. We specialize in vanilla+ servers that provide a unique survival experience that players new and old can all enjoy.</p>
           </div>
           <div>
             <img class="small" src="/assets/images/logo.webp" alt="SemiVanilla Logo" />
@@ -125,7 +125,7 @@
       </div>
       <div class="content" id="landing">
         <div class="shadow"></div>
-        <section class="center" style="flex-direction: column; max-width: 600px; border-radius: 50px; border: #23d37b dotted 3px; margin: 50px;">
+        <section class="center" style="flex-direction: column; max-width: 600px; border-radius: 50px; border: var(--highlight) dotted 3px; margin: 50px;">
           <h1>Hard-Difficulty Towny Survival</h1>
           <p>Not your average SMP. Khavalon is a hard difficulty, pvp-enabled, towny survival server. Danger lurks around every corner. Will you survive?</p>
         </section>
@@ -164,7 +164,7 @@
       </div>
       <div class="content" id="landing">
         <div class="shadow"></div>
-        <section class="center" style="flex-direction: column; max-width: 600px; border-radius: 50px; border: #329dff dotted 3px; margin: 50px;">
+        <section class="center" style="flex-direction: column; max-width: 600px; border-radius: 50px; border: var(--highlight) dotted 3px; margin: 50px;">
           <h1>Friendly Community RPG Survival</h1>
           <p>Asthonia is a PVE survival RPG server focused on having a friendly, inviting community. This is a casual server for those who want an active and friendly community.</p>
         </section>
@@ -174,7 +174,7 @@
             <p>Team up with others, or adventure alone, the choice is yours! Claim land to protect your base and trust others to let them teleport to it. On Asthonia you are safe around other players, since PVP is off.</p>
           </div>
           <div>
-            <img class="small" src="/assets/images/asthonia/landing-pvp.webp" alt="Minecraft Swords" />
+            <img class="small" src="/assets/images/asthonia/landing-sweet-berries.webp" alt="Minecraft Sweet Berries" />
           </div>
         </section>
         <section class="center">
@@ -196,7 +196,7 @@
           </div>
         </section>
       </div>
-      <div class="sub-title" style="padding-top: 0px; background: linear-gradient(rgba(202,178,251, 0.1), rgba(10, 6, 8, 1)); background-size: cover; background-position: 85%;">
+      <div class="sub-title" style="padding-top: 0px; background: linear-gradient(rgba(34.5, 39.6, 94.9, 0.3), rgba(10, 6, 8, 1)); background-size: cover; background-position: 85%;">
         <div style="text-align: center; max-width: 80%;">
           <h4 style="color: white;">JOIN OUR DISCORD!</h4>
           <a href="https://discord.gg/3WzZ3x6wGp" target="_blank"><button type="button">JOIN DISCORD!</button></a>
