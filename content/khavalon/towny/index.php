@@ -40,7 +40,9 @@
           </section>
           <section>
             <h3>Wars</h3>
-            <p>Coming soon.</p>
+            <p>Towns and nations can go to war using the "EventWars" system. Right now, 2 war modes are enabled: wars between 2 towns, or between 2 nations.</p>
+            <p>Wars are started by purchasing Declarations of War books using Tokens. All non-neutral towns receive one Token at the start of each new day.</p>
+            <p>We highly recommend reading the official documentation on EventWars! <a href="https://townyadvanced.github.io/eventwar.html" target="_blank">Click here to open the official documentation</a>.</p>
           </section>
         </div>
         <div>

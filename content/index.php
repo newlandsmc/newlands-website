@@ -56,19 +56,13 @@
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/header.html'); ?>
     <main>
       <div class="title" style="background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url(/assets/images/minecraft-repainted.webp); background-size: cover; background-position: 85%; -webkit-clip-path: polygon(0 0, 0 calc( 100vh + 4px ), 100vw 0); clip-path: polygon(0 0, 0 calc( 100vh + 4px ), 100vw 0);">
-        <div class="landing-title-text" style="text-align: center; margin-right: 33vw; margin-bottom: 33vh;">
-          <img class="landing-logo" src="/assets/images/khavalon-logo.webp" alt="Khavalon Logo" />
-          <h2 style="line-height: 1.5em;" class="hide-mobile-2">Towny PVP Survival</h1>
-          <p class="ip hide-mobile">play.semivanilla.com</p>
-          <div style="width:100%">
-            <button type="button" id="khavalon-button" onclick="copyToClipboard('khavalon-button','play.semivanilla.com','https://semivanilla.com/join','/assets/images/minecraft-repainted.webp')">PLAY NOW!</button>
-          </div>
-        </div>
       </div>
       <div class="title" style="background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url(/assets/images/starshrew-bg.webp); background-size: cover; background-position: 85%; -webkit-clip-path: polygon(100vw 0, 0 calc( 100vh + 4px ), 100vw calc( 100vh + 4px )); clip-path: polygon(100vw 0, 0 calc( 100vh + 4px ), 100vw calc( 100vh + 4px )); position: absolute;">
-        <div class="landing-title-text" style="text-align: center; margin-left: 33vw; margin-top: 33vh;">
-          <img class="landing-logo" src="/assets/images/asthonia-logo.webp" alt="Asthonia Logo" />
-          <h2 style="line-height: 1.5em;" class="hide-mobile-2">Casual PVE Survival</h1>
+      </div>
+      <div class="title" style="position: absolute; z-index: 3;">
+        <div class="landing-title-text" style="text-align: center;">
+          <img class="landing-logo" src="/assets/images/logo.webp" alt="SemiVanilla Logo" />
+          <h2 style="line-height: 1.5em;" class="hide-mobile-2">RPG Survival Network</h1>
           <p class="ip hide-mobile">play.semivanilla.com</p>
           <div style="width:100%">
             <button type="button" id="asthonia-button" onclick="copyToClipboard('asthonia-button','play.semivanilla.com','https://semivanilla.com/join','/assets/images/starshrew-bg.webp')">PLAY NOW!</button>
