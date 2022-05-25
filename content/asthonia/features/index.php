@@ -47,10 +47,6 @@
             <p>Natural chests also regenerate loot every 2-12 hours, so there's always something to find even if someone else has already been there!</p>
             <p style="color:#ff674d;">Please do not break natural chests if you don't need to! Leave them for someone else to discover.</p>
           </section>
-          <section>
-            <h3>ShulkerPacks</h3>
-            <p>Shulkers can be opened while they are in your inventory! Simply right click on any shulker while in your inventory GUI.</p>
-          </section>
         </div>
       </div>
     </main>
