@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>SemiVanilla Studios | Khavalon | Features | Expeditions</title>
+    <title>SemiVanilla Studios | Features | Other | Expeditions</title>
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/seo.html'); ?>
     <script async type="module" src="/assets/javascript/jquery-3.6.0.min.js"></script>
     <script defer async type="module" src="/assets/javascript/nav.js"></script>
@@ -9,17 +9,17 @@
   <body>
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/header.html'); ?>
     <main>
-      <div class="sub-title" style="background-image: url(/assets/images/khavalon/features-title.webp); background-position: center;">
+      <div class="sub-title" style="background-image: url(/assets/images/asthonia/features-title.webp); background-position: center;">
         <div>
-          <h1>Khavalon</h1>
-          <h2>Custom Features > Expeditions</h2>
+          <h1>Loot Crates</h1>
+          <h2>Found on SemiVanilla</h2>
         </div>
       </div>
       <div class="content split-content">
         <div class="shadow"></div>
         <div>
          <section>
-            <h3>Daily Rewards</h3>
+            <h3>Daily Crate</h3>
             <ul>
               <li>ACACIA_LOG</li>
               <li>ALLIUM</li>
@@ -93,7 +93,7 @@
             </ul>
           </section>
           <section>
-            <h3>Vote Rewards</h3>
+            <h3>Vote Crate</h3>
             <ul>
               <li>AMETHYST_SHARD</li>
               <li>ANCIENT_DEBRIS</li>
@@ -121,7 +121,7 @@
         </div>
         <div>
           <section>
-            <h3>Super Vote Rewards</h3>
+            <h3>Super Vote Crate</h3>
             <ul>
               <li>AMETHYST_SHARD</li>
               <li>ANCIENT_DEBRIS</li>
@@ -161,7 +161,7 @@
             </ul>
           </section>
           <section>
-            <h3>Premium Rewards</h3>
+            <h3>Premium Crate</h3>
             <ul>
               <li>BOW (enchanted)</li>
               <li>DIAMOND_AXE (enchanted)</li>

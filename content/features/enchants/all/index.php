@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>SemiVanilla Studios | Khavalon | Enchants | All</title>
+    <title>SemiVanilla Studios | Features | Custom Enchants | All</title>
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/seo.html'); ?>
     <script src="/assets/javascript/jquery-3.6.0.min.js"></script>
     <script src="/assets/javascript/datatables.min.js"></script>
@@ -9,7 +9,7 @@
     <script>
       $(document).ready(function() {
         $('#main').DataTable( {
-          "ajax": '/assets/json/khavalon_enchants.json',
+          "ajax": '/assets/json/enchants.json',
           "iDisplayLength": -1,
           "paging": false,
           "deferRender": true,
@@ -50,11 +50,11 @@
         margin-bottom: 30px;
       }
       tr:nth-of-type(odd) {
-        background-color: #17201c;
+        background: linear-gradient(90deg, rgb(11 14 20), rgb(24 31 44));
       }
       thead tr:nth-of-type(odd) {
-       background-color: #060a08;
-       cursor: pointer;
+        background: linear-gradient(90deg, rgb(21 27 40), rgb(34 45 68));
+        cursor: pointer;
       }
       .table-sm th, .table-sm td {
         padding: 1em;
@@ -64,10 +64,10 @@
   <body>
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/header.html'); ?>
     <main>
-      <div class="sub-title" style="background-image: url(/assets/images/khavalon/enchants-all-title.webp); background-position: center;">
+      <div class="sub-title" style="background-image: url(/assets/images/asthonia/enchants-all-title.webp); background-position: center;">
         <div>
-          <h1>Khavalon</h1>
-          <h2>Custom Enchantments > All</h2>
+          <h1>Custom Enchantments</h1>
+          <h2>List of All</h2>
         </div>
       </div>
       <div class="content">

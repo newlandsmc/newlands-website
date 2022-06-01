@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>SemiVanilla Studios | Asthonia | Skills and Abilities</title>
+    <title>SemiVanilla Studios | Features | Skills and Abilities</title>
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/seo.html'); ?>
     <script async type="module" src="/assets/javascript/jquery-3.6.0.min.js"></script>
     <script defer async type="module" src="/assets/javascript/nav.js"></script>
@@ -11,8 +11,8 @@
     <main>
       <div class="sub-title" style="background-image: url(/assets/images/asthonia/skills-title.webp); background-position: center;">
         <div>
-          <h1>Asthonia</h1>
-          <h2>Skills and Abilities</h2>
+          <h1>Skills + Abilities</h1>
+          <h2>By AureliumSkills</h2>
         </div>
       </div>
       <div class="content split-content">
@@ -20,7 +20,7 @@
         <div>
           <section>
             <h3>Skills</h3>
-            <p>There are 15 unique skills on Asthonia that you will level up as you play the game. You gain XP in each of them automatically by doing relevant activities.</p>
+            <p>There are 15 unique skills on Asthonia and Khavalon that you will level up as you play the game. You gain XP in each of them automatically by doing relevant activities.</p>
             <p>As you level up each skill, you will unlock special <strong>abilities</strong> and level up your <strong>stats</strong>.</p>
             <p>You can check your skills levels anytime with <strong>/skills</strong> or <strong>/&lt;skillname&gt;</strong>.
             <ul>

@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>SemiVanilla Studios | Asthonia | Land Claiming</title>
+    <title>SemiVanilla Studios | Features | Land Claiming</title>
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/seo.html'); ?>
     <script async type="module" src="/assets/javascript/jquery-3.6.0.min.js"></script>
     <script defer async type="module" src="/assets/javascript/nav.js"></script>
@@ -11,8 +11,8 @@
     <main>
       <div class="sub-title" style="background-image: url(/assets/images/asthonia/claiming-title.webp); background-position: center;">
         <div>
-          <h1>Asthonia</h1>
-          <h2>Land Claiming</h2>
+          <h1>Land Claiming</h1>
+          <h2>By GriefPrevention</h2>
         </div>
       </div>
       <div class="content split-content">
@@ -20,7 +20,7 @@
         <div>
           <section>
             <h3>Overview</h3>
-            <p>Land can be claimed on Asthonia using GriefPrevention. GriefPrevetion lets you select any rectangular area to protect. Claims automatically extend up to Y 320, and will extend downward as you build. Anything within a claimed area - builds, chests, villagers, animals, and more - is protected.</p>
+            <p>Land can be claimed on Asthonia and Khavalon using GriefPrevention. GriefPrevetion lets you select any rectangular area to protect. Claims automatically extend up to Y 320, and will extend downward as you build. Anything within a claimed area - builds, chests, villagers, animals, and more - is protected.</p>
             <p>Claim owners can control access to their land in several ways. There are different types of trust that you can give players to allow them complete access, only access to chests, or only access to use buttons/levers (access trust). Claims can also be divided into "subdivisions" to control access to specific parts of a claim.</p>
           </section>
           <section>

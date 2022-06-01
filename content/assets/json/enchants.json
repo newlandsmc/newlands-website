@@ -71,6 +71,13 @@
       "<span style='color: #ffffff;'>Common</span>"
     ],
     [
+      "Decapitation",
+      "<strong>Khavalon only.</strong> Opponents head drop on death.",
+      "Swords, Axes",
+      "1",
+      "<span style='color: #ffffff;'>Common</span>"
+    ],
+    [
       "Forcefield",
       "Chance to push away your opponent.",
       "Swords",
@@ -190,10 +197,24 @@
       "<span style='color: #ff55ff;'>Legendary</span>"
     ],
     [
+      "Reaper",
+      "<strong>Khavalon only.</strong> Chance to give your opponent the wither and blindness effects while dealing damage",
+      "Axes",
+      "4",
+      "<span style='color: #55ffff;'>Rare</span>"
+    ],
+    [
       "Nether Slayer",
       "Increases damage dealt to nether mobs.",
       "Swords, Axes",
       "5",
+      "<span style='color: #55ffff;'>Rare</span>"
+    ],
+    [
+      "Blind",
+      "<strong>Khavalon only.</strong> A chance of causing blindness when attacking.",
+      "Swords",
+      "3",
       "<span style='color: #55ffff;'>Rare</span>"
     ],
     [
@@ -260,6 +281,20 @@
       "<span style='color: #55ffff;'>Rare</span>"
     ],
     [
+      "Greatsword",
+      "<strong>Khavalon only.</strong> Increases damage against players who are wielding a Bows at the time they are hit.",
+      "Swords",
+      "5",
+      "<span style='color: #55ffff;'>Rare</span>"
+    ],
+    [
+      "Bowmaster",
+      "<strong>Khavalon only.</strong> Multiplies damage against players who are wielding a sword or axe at the time they are hit.",
+      "Bows, Crossbows",
+      "5",
+      "<span style='color: #55ffff;'>Rare</span>"
+    ],
+    [
       "Hardened",
       "Chance to recover durability when damaged.",
       "Boots, Leggings, Chestplates, Helmets",
@@ -293,6 +328,13 @@
       "Swords",
       "3",
       "<span style='color: #55ff55;'>Uncommon</span>"
+    ],
+    [
+      "Exalted",
+      "<strong>Khavalon only.</strong> A chance of removing bad potion effects.",
+      "Swords",
+      "4",
+      "<span style='color: #ff55ff;'>Legendary</span>"
     ],
     [
       "Arrow Deflect",
@@ -365,6 +407,13 @@
       "<span style='color: #ff55ff;'>Legendary</span>"
     ],
     [
+      "Shatter",
+      "<strong>Khavalon only.</strong> Chance to deal extra durability damage to all enemy armor with every attack.",
+      "Swords, Axes",
+      "4",
+      "<span style='color: #ff55ff;'>Legendary</span>"
+    ],
+    [
       "Heavy",
       "Decreases damage from enemy bows by 4% per level.",
       "Boots, Leggings, Chestplates, Helmets",
@@ -384,6 +433,13 @@
       "Pickaxes",
       "3",
       "<span style='color: #55ffff;'>Rare</span>"
+    ],
+    [
+      "Longbow",
+      "<strong>Khavalon only.</strong> Greatly increases damage dealt to enemy players that have a bow in their hands.",
+      "Bows",
+      "4",
+      "<span style='color: #ff55ff;'>Legendary</span>"
     ],
     [
       "Tank",
@@ -547,6 +603,20 @@
       "<span style='color: #ffaa00;'>Exotic</span>"
     ],
     [
+      "Neutralize",
+      "<strong>Khavalon only.</strong> Chance to disarm opponent if they are wielding a sword, axe or bow.",
+      "Bows, Crossbows",
+      "3",
+      "<span style='color: #ffff00;'>Fabled</span>"
+    ],
+    [
+      "Disarm",
+      "<strong>Khavalon only.</strong> Chance to disarm opponent if they are wielding a sword, axe or bow.",
+      "Swords, Axes",
+      "3",
+      "<span style='color: #ffff00;'>Fabled</span>"
+    ],
+    [
       "Strife",
       "Increases Trident melee damage.",
       "Tridents",
@@ -582,10 +652,24 @@
       "<span style='color: #ffaa00;'>Exotic</span>"
     ],
     [
+      "Confusion",
+      "<strong>Khavalon only.</strong> A chance to deal nausea to your victim.",
+      "Axes",
+      "3",
+      "<span style='color: #55ff55;'>Uncommon</span>"
+    ],
+    [
       "Endershift",
       "Gives speed/health boost at low hp. (Has cooldown)",
       "Helmets",
       "3",
+      "<span style='color: #55ff55;'>Uncommon</span>"
+    ],
+    [
+      "Skill Swipe",
+      "<strong>Khavalon only.</strong> A chance to steal some of your enemy's EXP every time you damage them.",
+      "Swords",
+      "5",
       "<span style='color: #55ff55;'>Uncommon</span>"
     ],
     [
@@ -606,6 +690,13 @@
       "Enrage",
       "Deal more damage on low HP.",
       "Swords",
+      "3",
+      "<span style='color: #ff55ff;'>Legendary</span>"
+    ],
+    [
+      "Demonic",
+      "<strong>Khavalon only.</strong> Chance to remove fire resistance from your enemy.",
+      "Swords, Axes",
       "3",
       "<span style='color: #ff55ff;'>Legendary</span>"
     ],
@@ -631,6 +722,27 @@
       "<span style='color: #ff55ff;'>Legendary</span>"
     ],
     [
+      "Eagle Eye",
+      "<strong>Khavalon only.</strong> Chance to deal 1-4 durability damage to ALL armor pieces of enemy player.",
+      "Bows, Crossbows",
+      "5",
+      "<span style='color: #ff55ff;'>Legendary</span>"
+    ],
+    [
+      "Unfocus",
+      "<strong>Khavalon only.</strong> Chance to Unfocus target player, reducing their out going bow damage by 50% for up to 10 seconds.",
+      "Bows, Crossbows",
+      "5",
+      "<span style='color: #ff55ff;'>Legendary</span>"
+    ],
+    [
+      "Stun",
+      "<strong>Khavalon only.</strong> Chance to slow opponent, make them feel weak, and remove slowness from you.",
+      "Axes",
+      "3",
+      "<span style='color: #ffaa00;'>Exotic</span>"
+    ],
+    [
       "Rage",
       "For every combo hit you land, chance to do 0.5 heart damage per combo to your opponent. Up to 5 max combo hits.",
       "Swords, Axes",
@@ -638,11 +750,32 @@
       "<span style='color: #ffaa00;'>Exotic</span>"
     ],
     [
+      "Silence",
+      "<strong>Khavalon only.</strong> Chance to disable all enemy armor enchantments for 3 seconds.",
+      "Swords, Axes, Tridents, Bows, Crossbows",
+      "4",
+      "<span style='color: #ffff00;'>Fabled</span>"
+    ],
+    [
       "Diminish",
       "When this effect procs, the next attack dealt to you cannot deal more than the (total amount of damage / 2) you took from the previous attack.",
       "Boots, Leggings, Chestplates, Helmets",
       "6",
       "<span style='color: #ffaa00;'>Exotic</span>"
+    ],
+    [
+      "Defuse",
+      "<strong>Khavalon only.</strong> Chance to disable all enemy defensive enchantment's for 7 seconds.",
+      "Swords, Axes, Tridents, Bows, Crossbows",
+      "5",
+      "<span style='color: #ffff00;'>Fabled</span>"
+    ],
+    [
+      "Deactivate",
+      "<strong>Khavalon only.</strong> Chance to disable all enemy offensive enchantment's for 7 seconds.",
+      "Swords, Axes, Tridents, Bows, Crossbows",
+      "5",
+      "<span style='color: #ffff00;'>Fabled</span>"
     ],
     [
       "Mark of the Beast",

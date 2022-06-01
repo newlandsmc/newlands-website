@@ -1,23 +1,29 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>SemiVanilla Studios | Khavalon | Rules</title>
+    <title>SemiVanilla Studios | Asthonia | Rules</title>
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/seo.html'); ?>
     <script async type="module" src="/assets/javascript/jquery-3.6.0.min.js"></script>
     <script defer async type="module" src="/assets/javascript/nav.js"></script>
+    <style>
+      section {
+        border-radius: 50px;
+        margin: 30px;
+      }
+    </style>
   </head>
   <body>
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/header.html'); ?>
     <main>
       <div class="sub-title">
         <div>
-          <h1>Khavalon</h1>
-          <h2>Server Rules</h2>
+          <h1>Rules</h1>
+          <h2>Be Careful, Kind, and Fair</h2>
         </div>
       </div>
-      <div class="content">
+      <div class="content" style="margin-top: 30px;">
         <div class="shadow"></div>
-        <section>
+        <section style="background: linear-gradient(90deg, rgb(15,19,28), rgb(30,39,58));">
           <h3>Be Careful</h3>
           <ul>
             <li class="rules">Trusting players is at-your-own-risk! (Set up your land claim roles and areas carefully!)</li>
@@ -26,10 +32,7 @@
             <li class="rules">Do not log out somewhere unsafe! (We are not responsible for deaths on log-in due to missing blocks, placed lava, etc.)</li>
           </ul>
         </section>
-        <section class="divider">
-          <div style="width: 50%; border-top: 3px dotted #23d37b;"></div>
-        </section>
-        <section>
+        <section style="background: linear-gradient(90deg, rgb(15 23 28), rgb(30 46 58));">
           <h3>Be Kind</h3>
           <ul>
             <li class="rules">Player traps are prohibited. ("Player traps" = something designed to kill or trap a player that isn't an obvious threat until after it has triggered.)</li>
@@ -40,10 +43,7 @@
             <li class="rules">Do not spam.</li>
           </ul>
         </section>
-        <section class="divider">
-          <div style="width: 50%; border-top: 3px dotted #23d37b;"></div>
-        </section>
-        <section>
+        <section style="background: linear-gradient(90deg, rgb(15 27 28), rgb(30 52 58));">
           <h3>Be Fair</h3>
           <ul>
             <li class="rules">Any hack or mod that gives you an unfair advantage in the game is not allowed.
@@ -57,10 +57,7 @@
             <li class="rules">Alt accounts are prohibited.</li>
           </ul>
         </section>
-        <section class="divider">
-          <div style="width: 50%; border-top: 3px dotted #23d37b;"></div>
-        </section>
-        <section>
+        <section style="background: linear-gradient(90deg, rgb(15 28 24), rgb(30 58 53));">
           <h3>Be SVMC</h3>
           <ul>
             <li class="rules">Do not discuss or appeal bans/mutes/etc in public channels. (An appeal email is provided in every punishment message, or on the Discord <strong>#faq</strong> page.)</li>
