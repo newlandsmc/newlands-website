@@ -88,10 +88,10 @@
           </div>
         </section>
         </section>
-        <section class="center" style="flex-direction: column; max-width: 600px;">
-          <h3>Ready?</h3>
+        <section class="center" style="flex-direction: column; width: fit-content; border-radius: 50px; background: linear-gradient(90deg, rgb(15,19,28), rgb(30 39 58));">
+          <h3 style="margin: 0;">Ready?</h3>
           <p>Click the button below to copy the IP!</p>
-          <button type="button" id="copybutton" onclick="copyToClipboard('copybutton','play.semivanilla.com','/assets/images/starshrew-bg.webp')">PLAY NOW!</button>
+          <button style="margin: 0;" type="button" id="copybutton" onclick="copyToClipboard('copybutton','play.semivanilla.com','/assets/images/starshrew-bg.webp')">PLAY NOW!</button>
         </section>
       </div>
       <div class="overlay">

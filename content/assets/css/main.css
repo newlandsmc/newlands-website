@@ -112,7 +112,7 @@ footer {
   justify-content: center;
   flex-wrap: wrap;
   padding: 100px 50px 100px 50px;
-  background-color: var(--tertiary);
+  background-color: var(--secondary);
   z-index: 1000;
 }
 
@@ -749,9 +749,6 @@ button:hover {
     .hide-mobile-2 {
       display: none;
     }
-    .landing-logo {
-      max-width: 100%;
-    }
     #main-nav {
       display: none;
     }
@@ -824,6 +821,7 @@ button:hover {
       display: none;
     }
     .landing-logo {
+      margin-top: -100px;
       max-width: 80%;
     }
     .split-content div {
@@ -838,10 +836,13 @@ button:hover {
     #mobile-nav {
       display: block;
     }
+    .title h2, .sub-title h1, #landing h1{
+      font-size: 2em;
+    }
   }
   @media (max-width: 450px) {
     .title h2, .sub-title h1, #landing h1{
-      font-size: 2em;
+      font-size: 1.5em;
     }
     .title h3, .sub-title h2, .ip {
       font-size: 1.2em;

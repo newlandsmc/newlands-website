@@ -42,7 +42,7 @@
       <div class="title" style="position: absolute; z-index: 3;">
         <div class="landing-title-text" style="text-align: center;">
           <img class="landing-logo" src="/assets/images/logo.webp" alt="SemiVanilla Logo" />
-          <h2 style="line-height: 1.5em;" class="hide-mobile-2">RPG Survival Network</h1>
+          <h2 style="line-height: 1.5em;">RPG Survival Network</h1>
           <p class="ip hide-mobile">play.semivanilla.com</p>
           <div style="width:100%">
             <button type="button" id="asthonia-button" onclick="copyToClipboard('asthonia-button','play.semivanilla.com','https://semivanilla.com/join','/assets/images/starshrew-bg.webp')">PLAY NOW!</button>
@@ -62,7 +62,7 @@
         <section class="center" style="background: linear-gradient(90deg, rgb(15,19,28), rgb(30 39 58)); border-radius: 50px;">
           <div>
             <h3>About Us</h3>
-            <p>We are a team of Minecraft players with almost 20 years combined experience running Minecraft servers. We specialize in vanilla+ servers that provide a unique survival experience that players new and old can all enjoy.</p>
+            <p>We are Minecraft players with almost 20 years combined experience running Minecraft servers. SemiVanilla MC is an old-school survival server with some classic addons, like mcMMO and land claiming, done to perfection.</p>
           </div>
           <div>
             <img class="small" src="/assets/images/logo.webp" alt="SemiVanilla Logo" />
@@ -74,20 +74,20 @@
           </div>
           <div>
             <h3>Asthonia</h3>
-            <p>Asthonia is a PVE survival RPG server focused on having a friendly, inviting community. This is a casual server designed for those who want to join an active and friendly community and have a place to relax and chat, even if not actively playing.</p>
+            <p>Asthonia is our PVE-only survival server. This is a casual server inspired by classic survival servers of the past. Asthonia offers RPG skills and abilities, custom enchants, and land claiming, in a vanilla 1.18.2 world.</p>
           </div>
         </section>
         <section class="center">
           <div>
             <h3>Khavalon</h3>
-            <p>Khavalon is a PVP ENABLED survival RPG server. This is semi-vanilla survival amplified in every way, designed for those who want a challenge and want to get involved in a fast-paced server that requires grinding to get to the top.</p>
+            <p>Khavalon is our PVP-enabled survival server. Khavalon offers all the same features as Asthonia, with RPG elements and land claiming, but adds an additional challenge for those who want it - PVP is on outside of claims.</p>
           </div>
           <div>
             <img class="wide" src="/assets/images/khavalon-logo.webp" alt="Khavalon Logo" />
           </div>
         </section>
       </div>
-      <div class="content" style="background: linear-gradient(var(--primary) 50%, var(--tertiary) 50%); margin-bottom: 0px; width: 100%; max-width: 100%;">
+      <div class="content" style="background: linear-gradient(var(--primary) 50%, var(--secondary) 50%); margin-bottom: 0px; width: 100%; max-width: 100%;">
         <section class="center" style=" background: linear-gradient(90deg, rgb(24 12 32), rgb(73 37 96)); border-radius: 50px; flex-direction: column; width: auto; max-width: 90%;">
           <h4 style="padding: 0px 30px;">JOIN OUR DISCORD!</h4>
           <a href="https://discord.gg/3WzZ3x6wGp" target="_blank"><button type="button">JOIN DISCORD!</button></a>
