@@ -1,6 +1,34 @@
-<nav>
-  <div id="sub-nav" style="height: 100%; display: flex; justify-content: space-around;">
-    <div class="hide-mobile-2" style="height: 100%;">
+<nav id="mobile-nav">
+  <div>
+    <!--A fake / hidden checkbox is used as click reciever, so you can use the :checked selector on it.-->
+    <input type="checkbox"></input>
+    <!--Some spans to act as a hamburger. They are acting like a real hamburger, not that McDonalds stuff.-->
+    <span class="hamburger"></span>
+    <span class="hamburger"></span>
+    <span class="hamburger"></span>
+    <!--Too bad the menu has to be inside of the button but hey, it's pure CSS magic.-->
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li>
+        <p>Features</p>
+        <ul>
+          <li><a href="/features/claiming/" style="padding-top: 20px; border-top-right-radius: 5px; border-top-left-radius: 5px">Land Claiming</a></li>
+          <li><a href="/features/skills/">Skills + Abilities</a></li>
+          <li><a href="/features/enchants/">Custom Enchants</a></li>
+          <li><a href="/features/map/">Live Map</a></li>
+          <li><a href="/features/other/" style="padding-bottom: 20px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px">More</a></li>
+        </ul>
+      </li>
+      <li><a href="/rules/">Rules</a></li>
+      <li><a href="/vote/">Vote</a></li>
+      <li><a href="https://store.semivanilla.com/" target="_blank">Store</a></li>
+      <li><a href="https://discord.gg/3WzZ3x6wGp" target="_blank">Discord</a></li>
+    </ul>
+  </div>
+</nav>
+<nav id="main-nav">
+  <div style="height: 100%; display: flex; justify-content: space-around;">
+    <div class="hide-mobile" style="height: 100%;">
       <a href="/" style="height: 100%; width: 110px; display: flex; align-items: center; justify-content: center;"><img src="/assets/images/logo.webp" alt="SemiVanilla MC Logo" /></a>
     </div>
     <ul>
@@ -17,8 +45,8 @@
       </li>
       <li><a href="/rules/">Rules</a></li>
       <li><a href="/vote/">Vote</a></li>
-      <li class="hide-mobile-2"><a href="https://store.semivanilla.com/" target="_blank">Store</a></li>
-      <li class="hide-mobile"><a href="https://discord.gg/3WzZ3x6wGp" target="_blank">Discord</a></li>
+      <li><a href="https://store.semivanilla.com/" target="_blank">Store</a></li>
+      <li><a href="https://discord.gg/3WzZ3x6wGp" target="_blank">Discord</a></li>
     </ul>
   </div>
 </nav>
