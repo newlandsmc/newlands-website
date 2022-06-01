@@ -20,7 +20,7 @@
         <div>
           <section>
             <h3>Available Enchants</h3>
-            <p>There are <strong>94</strong> custom enchants available on Asthonia and <strong>113</strong> on Khavalon. They are available for all types of weapons, armor, and tools.</p>
+            <p>There are <strong>45</strong> custom enchants available on Asthonia and <strong>55</strong> on Khavalon. They are available for all types of weapons, armor, and tools.</p>
             <p>To see a list of all available enchants, <a href="all/">click here</a>.</p>
           </section>
           <section>
