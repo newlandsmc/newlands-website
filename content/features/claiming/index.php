@@ -60,10 +60,10 @@ make sure you only trust people you know. We are not responsible for players abu
               <li><strong>/trust &lt;player&gt;</strong> - Allow someone to build and access your chests</li>
               <li><strong>/untrust &lt;player&gt;</strong> - Remove someones access</li>
               <li><strong>/trustlist</strong> - See all players you trusted</li>
-              <li><strong>/setclaimspawn</strong> - See claim spawn point</li>
-              <li><strong>/gptp &lt;claimID&gt;</strong> - Teleport to your claim spawn point</li>
-              <li><strong>/gptlist</strong> - List your claims and claimIDs</li>
-              <li><strong>/gptname</strong> - Name your claim (make them easier remember)</li>
+              <li><strong>/setspawn</strong> - Set claim spawn point</li>
+              <li><strong>/claims</strong> - See all of your claims</li>
+              <li><strong>/rename</strong> - Set your claim's name (for the GUI menu)</li>
+              <li><strong>/public</strong> - Toggle whether your claim is public or not</li>
             </ul>
           </section>
         </div>
