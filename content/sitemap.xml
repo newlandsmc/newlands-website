@@ -9,122 +9,72 @@
 
 <url>
   <loc>https://semivanilla.com/</loc>
-  <lastmod>2022-05-05T21:31:03+00:00</lastmod>
+  <lastmod>2022-06-01T23:08:43+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://semivanilla.com/khavalon/towny/</loc>
-  <lastmod>2022-05-05T21:31:03+00:00</lastmod>
+  <loc>https://semivanilla.com/features/claiming/</loc>
+  <lastmod>2022-06-01T23:08:43+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://semivanilla.com/khavalon/skills/</loc>
-  <lastmod>2022-05-05T21:31:03+00:00</lastmod>
+  <loc>https://semivanilla.com/features/skills/</loc>
+  <lastmod>2022-06-01T23:08:43+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://semivanilla.com/khavalon/mobs/</loc>
-  <lastmod>2022-05-05T21:31:03+00:00</lastmod>
+  <loc>https://semivanilla.com/features/enchants/</loc>
+  <lastmod>2022-06-01T23:08:43+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://semivanilla.com/khavalon/enchants/</loc>
-  <lastmod>2022-05-05T21:31:03+00:00</lastmod>
+  <loc>https://semivanilla.com/features/other/</loc>
+  <lastmod>2022-06-01T23:08:43+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://semivanilla.com/khavalon/map/</loc>
-  <lastmod>2022-05-05T21:31:03+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://semivanilla.com/khavalon/rules/</loc>
-  <lastmod>2022-05-05T21:31:03+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://semivanilla.com/khavalon/features/</loc>
-  <lastmod>2022-05-05T21:31:03+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://semivanilla.com/asthonia/claiming/</loc>
-  <lastmod>2022-05-05T21:31:03+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://semivanilla.com/asthonia/skills/</loc>
-  <lastmod>2022-05-05T21:31:03+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://semivanilla.com/asthonia/mobs/</loc>
-  <lastmod>2022-05-05T21:31:03+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://semivanilla.com/asthonia/enchants/</loc>
-  <lastmod>2022-05-05T21:31:03+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://semivanilla.com/asthonia/map/</loc>
-  <lastmod>2022-05-05T21:31:03+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://semivanilla.com/asthonia/rules/</loc>
-  <lastmod>2022-05-05T21:31:03+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://semivanilla.com/asthonia/features/</loc>
-  <lastmod>2022-05-05T21:31:03+00:00</lastmod>
+  <loc>https://semivanilla.com/rules/</loc>
+  <lastmod>2022-06-01T23:08:43+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://semivanilla.com/vote/</loc>
-  <lastmod>2022-05-05T21:31:03+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://semivanilla.com/khavalon/</loc>
-  <lastmod>2022-05-05T21:31:03+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://semivanilla.com/asthonia/</loc>
-  <lastmod>2022-05-05T21:31:03+00:00</lastmod>
+  <lastmod>2022-06-01T23:08:43+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://semivanilla.com/join/</loc>
-  <lastmod>2022-05-05T21:31:03+00:00</lastmod>
+  <lastmod>2022-06-01T23:08:43+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://semivanilla.com/potato/</loc>
-  <lastmod>2022-05-05T21:31:03+00:00</lastmod>
+  <lastmod>2022-06-01T23:08:43+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://semivanilla.com/khavalon/enchants/all/</loc>
-  <lastmod>2022-05-05T21:31:03+00:00</lastmod>
+  <loc>https://semivanilla.com/features/enchants/all/</loc>
+  <lastmod>2022-06-01T23:08:43+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://semivanilla.com/khavalon/features/recipes/</loc>
-  <lastmod>2022-05-05T21:31:03+00:00</lastmod>
+  <loc>https://semivanilla.com/features/map/asthonia/</loc>
+  <lastmod>2022-06-01T23:08:43+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://semivanilla.com/asthonia/enchants/all/</loc>
-  <lastmod>2022-05-05T21:31:03+00:00</lastmod>
+  <loc>https://semivanilla.com/features/map/khavalon/</loc>
+  <lastmod>2022-06-01T23:08:43+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://semivanilla.com/asthonia/features/recipes/</loc>
-  <lastmod>2022-05-05T21:31:03+00:00</lastmod>
+  <loc>https://semivanilla.com/features/other/recipes/</loc>
+  <lastmod>2022-06-01T23:08:43+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://semivanilla.com/features/other/crates/</loc>
+  <lastmod>2022-06-01T23:08:43+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 

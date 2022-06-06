@@ -8,25 +8,11 @@
       "<span style='color: #55ff55;'>Uncommon</span>"
     ],
     [
-      "Impact",
-      "Chance to double dealt damage.",
-      "Tridents",
-      "5",
-      "<span style='color: #55ffff;'>Rare</span>"
-    ],
-    [
       "Experience",
       "Chance to get more experience from ores.",
       "Pickaxes",
       "5",
       "<span style='color: #ffffff;'>Common</span>"
-    ],
-    [
-      "Featherweight",
-      "Chance to get a burst of haste.",
-      "Swords",
-      "3",
-      "<span style='color: #55ff55;'>Uncommon</span>"
     ],
     [
       "Rebreather",
@@ -94,7 +80,7 @@
     [
       "Allure",
       "Your attack pulls enemies towards you.",
-      "Swords",
+      "Swords, Bows",
       "3",
       "<span style='color: #55ffff;'>Rare</span>"
     ],
@@ -134,13 +120,6 @@
       "<span style='color: #ff55ff;'>Legendary</span>"
     ],
     [
-      "Block",
-      "Chance to negate an attack and deal up to 4 damage back.",
-      "Swords",
-      "3",
-      "<span style='color: #ff55ff;'>Legendary</span>"
-    ],
-    [
       "Trench",
       "Break in 3x3 area.",
       "Pickaxes, Shovels",
@@ -149,15 +128,15 @@
     ],
     [
       "Dodge",
-      "Chance to dodge physical enemy, chance increases when sneaking.",
-      "Leggings",
+      "Chance to dodge attack, chance increases when sneaking.",
+      "Boots, Leggings, Chestplate, Helmet",
       "5",
       "<span style='color: #ff55ff;'>Legendary</span>"
     ],
     [
       "Enderroots",
       "<strong>Khavalon Only.</strong> Chance of disabling enderpearls for your enemy up to 10 seconds.",
-      "Swords",
+      "Swords, Axes, Tridents, Bows, Crossbows",
       "3",
       "<span style='color: #ff55ff;'>Legendary</span>"
     ],
@@ -171,7 +150,7 @@
     [
       "Restore",
       "Upon breaking, item has a chance to lose this enchantment and repair half of its durability.",
-      "Pickaxes, Axes, Shovels",
+      "Pickaxes, Axes, Shovels, Hoes, Fishing Rods",
       "3",
       "<span style='color: #ffff00;'>Fabled</span>"
     ],
@@ -219,7 +198,7 @@
     ],
     [
       "Creeper Armor",
-      "Chance to be immune to explosive damage, at higher levels you have a chance to heal.",
+      "Chance to be immune to explosive damage.",
       "Boots, Leggings, Chestplates, Helmets",
       "3",
       "<span style='color: #ff55ff;'>Legendary</span>"
@@ -236,7 +215,7 @@
       "Walk on Lava.",
       "Boots",
       "1",
-      "<span style='color: #ffaa00;'>Exotic</span>"
+      "<span style='color: #ffff00;'>Fabled</span>"
     ],
     [
       "Chaos",
@@ -264,7 +243,7 @@
       "Chance to set all enemies in radius on fire.",
       "Axes, Swords",
       "3",
-      "<span style='color: #ffaa00;'>Exotic</span>"
+      "<span style='color: #ffff00;'>Fabled</span>"
     ],
     [
       "Kill Aura",
@@ -276,14 +255,14 @@
     [
       "Inquisitive",
       "Chance to increase EXP drops from mobs.",
-      "Swords",
+      "Swords, Axes, Tridents",
       "3",
       "<span style='color: #ffaa00;'>Exotic</span>"
     ],
     [
       "Blacksmith",
       "Chance to repair your weapon in exchange for dealing less damage.",
-      "Axes",
+      "Axes, Swords",
       "5",
       "<span style='color: #ffaa00;'>Exotic</span>"
     ],
@@ -316,11 +295,11 @@
       "<span style='color: #ff55ff;'>Legendary</span>"
     ],
     [
-      "Slingshot",
-      "Boost yourself into flight by right-clicking. (Has cooldown)",
+      "Momentum",
+      "Chance to gain speed boost with fireworks.",
       "Elytra",
-      "1",
-      "<span style='color: #ffaa00;'>Exotic</span>"
+      "3",
+      "<span style='color: #55ffff;'>Rare</span>"
     ],
     [
       "Concussion",
@@ -332,7 +311,7 @@
     [
       "Execute",
       "Damage buff when your target is at low HP.",
-      "Swords",
+      "Swords, Axes",
       "5",
       "<span style='color: #55ffff;'>Rare</span>"
     ],
@@ -344,9 +323,9 @@
       "<span style='color: #55ffff;'>Rare</span>"
     ],
     [
-      "Enrage",
+      "Rage",
       "Deal more damage on low HP.",
-      "Swords",
+      "Swords, Axes",
       "5",
       "<span style='color: #ff55ff;'>Legendary</span>"
     ],
@@ -360,20 +339,13 @@
     [
       "Impale",
       "Chance to deal double damage to your opponent, causing slowness for some time",
-      "Bows, Crossbows, Tridents",
-      "5",
-      "<span style='color: #ffaa00;'>Exotic</span>"
-    ],
-    [
-      "Rage",
-      "For every combo hit you land, chance to do 0.5 heart damage per combo to your opponent.",
-      "Swords, Axes",
+      "Tridents",
       "5",
       "<span style='color: #ffaa00;'>Exotic</span>"
     ],
     [
       "Diminish",
-      "When this effect procs, the next attack dealt to you cannot deal more than the (total amount of damage / 2) you took from the previous attack.",
+      "Chance to reduce incoming damage.",
       "Boots, Leggings, Chestplates, Helmets",
       "5",
       "<span style='color: #ffaa00;'>Exotic</span>"
@@ -384,6 +356,34 @@
       "Boots, Leggings, Chestplates, Helmets",
       "5",
       "<span style='color: #ffff00;'>Fabled</span>"
+    ],
+    [
+      "Reach",
+      "Increase range underwater",
+      "Tridents",
+      "1",
+      "<span style='color: #ffaa00;'>Exotic</span>"
+    ],
+    [
+      "Shockwave",
+      "Chance to knockback all nearby enemies on block",
+      "Shields",
+      "3",
+      "<span style='color: #55ffff;'>Rare</span>"
+    ],
+    [
+      "Rebuff",
+      "Chance to absorb enemy damage and reflect it back.",
+      "Shields",
+      "5",
+      "<span style='color: #ffff00;'>Fabled</span>"
+    ],
+    [
+      "Block",
+      "Chance to passively reduce damage",
+      "Shields",
+      "5",
+      "<span style='color: #ffaa01;'>Exotic</span>"
     ]
   ]
 }

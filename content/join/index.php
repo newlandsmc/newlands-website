@@ -4,7 +4,7 @@
     <title>SemiVanilla Studios | Join</title>
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/seo.html'); ?>
     <script async defer>
-      function copyToClipboard(id,ip,bg) {
+      function copyToClipboard(id,ip) {
         var aux = document.createElement("input");
         aux.setAttribute("value", ip);
         document.body.appendChild(aux);
@@ -12,7 +12,6 @@
         document.execCommand("copy");
         document.body.removeChild(aux);
         document.getElementById(id).style.backgroundColor = "var(--action-taken)";
-        document.getElementById('overlay-fg-1').style.background = "linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url(" + bg + ") 0px 0px/1280px";
         document.getElementById('overlay-ip').innerHTML = ip;
         $('.overlay').addClass('active');
       }
@@ -48,7 +47,7 @@
   <body>
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/header.html'); ?>
     <main>
-      <div class="sub-title" style="background: url(/assets/images/starshrew-bg.webp); background-size: cover; background-position: 85%;">
+      <div class="sub-title" style="background: url(/assets/images/minecraft-repainted.webp); background-size: cover; background-position: 85%;">
         <div>
           <h1>How to Join</h1>
           <h2 id="player-count">99 Players Online</h2>
@@ -91,12 +90,12 @@
         <section class="center" style="flex-direction: column; width: fit-content; border-radius: 50px; background: linear-gradient(90deg, rgb(15,19,28), rgb(30 39 58));">
           <h3 style="margin: 0;">Ready?</h3>
           <p>Click the button below to copy the IP!</p>
-          <button style="margin: 0;" type="button" id="copybutton" onclick="copyToClipboard('copybutton','play.semivanilla.com','/assets/images/starshrew-bg.webp')">PLAY NOW!</button>
+          <button style="margin: 0;" type="button" id="copybutton" onclick="copyToClipboard('copybutton','play.semivanilla.com')">PLAY NOW!</button>
         </section>
       </div>
       <div class="overlay">
         <div class="overlay-bg" onclick="overlayDismiss()"></div>
-        <div id="overlay-fg-1" class="overlay-fg">
+        <div class="overlay-fg">
           <p id="overlay-ip" class="ip">play.semivanilla.com</p>
           <p style="margin:10px 0 30px 0;">Copied to Clipboard!</p>
           <button type="button" onclick="overlayDismiss()">Okay</button>

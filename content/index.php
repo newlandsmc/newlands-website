@@ -6,7 +6,7 @@
     <script async type="module" src="/assets/javascript/jquery-3.6.0.min.js"></script>
     <script defer async type="module" src="/assets/javascript/nav.js"></script>
     <script async defer>
-      function copyToClipboard(id,ip,morehelp,bg) {
+      function copyToClipboard(id,ip,morehelp) {
         var aux = document.createElement("input");
         aux.setAttribute("value", ip);
         document.body.appendChild(aux);
@@ -14,7 +14,6 @@
         document.execCommand("copy");
         document.body.removeChild(aux);
         document.getElementById(id).style.backgroundColor = "var(--action-taken)";
-        document.getElementById('overlay-fg-1').style.background = "linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url(" + bg + ") 0px 0px/1280px";
         document.getElementById('overlay-more-help').href = morehelp;
         document.getElementById('overlay-ip').innerHTML = ip;
         $('.overlay').addClass('active');
@@ -45,7 +44,7 @@
           <h2 style="line-height: 1.5em;">RPG Survival Network</h1>
           <p class="ip hide-mobile">play.semivanilla.com</p>
           <div style="width:100%">
-            <button type="button" id="asthonia-button" onclick="copyToClipboard('asthonia-button','play.semivanilla.com','https://semivanilla.com/join','/assets/images/starshrew-bg.webp')">PLAY NOW!</button>
+            <button type="button" id="asthonia-button" onclick="copyToClipboard('asthonia-button','play.semivanilla.com','https://semivanilla.com/join')">PLAY NOW!</button>
           </div>
           <a id="scrollbutton" class="scroll" href="#welcome">
             <span></span>
@@ -95,7 +94,7 @@
       </div>
       <div class="overlay">
         <div class="overlay-bg" onclick="overlayDismiss()"></div>
-        <div id="overlay-fg-1" class="overlay-fg">
+        <div class="overlay-fg">
           <p id="overlay-ip" class="ip">play.semivanilla.com</p>
           <p style="margin:10px 0 30px 0;">Copied to Clipboard!</p>
           <a id="overlay-more-help"><button type="button">More Help</button></a>
