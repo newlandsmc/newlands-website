@@ -28,6 +28,7 @@
             <p>Trusting players is at-your-own-risk! Claim owners have control over who can access their claim and what they can do (containertrust, accesstrust, permissiontrust, and full trust). It is up to you to give people appropriate access, and 
 make sure you only trust people you know. We are not responsible for players abusing their trust to take your stuff or grief your claim.</p>
             <p>To grant someone access to a specific part of your claim, use subdivisions. You can divide your claim into subdivisions by using subdivision mode (hold a golden shovel and run <strong>/subdivideclaims</strong>). Creating subdivisions works exactly the same as creating regular claims. You are essentially creating mini-claims within your claim that you can use to grant people access to only specific areas.</p>
+            <p style="color:#4ad555;">By default, subdivisions inherit the same permissions as their parent (if someone was trusted to your main claim, they will be trusted within all your subdivisions too). To disable this, use <strong>/restrictsubclaim</strong>.</p>
           </section>
           <section>
             <h3>Limits</h3>
@@ -35,10 +36,6 @@ make sure you only trust people you know. We are not responsible for players abu
             <p>You will earn an additional 1000 claim blocks for every mining level you unlock. This means at maximum mining level (mining level 97) you will be able to claim up to 97,500 blocks.</p>
             <p>If you need additional claim blocks, you can ask a staff member for more. We will provide more on a case-by-case basis.</p>
             <p>You can create up to 15 separate claims. Your "claim blocks" limit is shared between all of your claims.</p>
-          </section>
-          <section>
-            <h3>Automatic Claim Delection</h3>
-            <p>If a claim owner is offline for 90 days, the claim will be deleted. After this, the land is free-game to be reused or raided by anyone.</p>
           </section>
         </div>
         <div>
@@ -51,6 +48,10 @@ make sure you only trust people you know. We are not responsible for players abu
             <img src="/assets/images/asthonia/claiming-border.webp" alt="Glowstone and gold block border around a claim in-game" style="border-radius: 5px;"></img>
           </section>
           <section>
+            <h3>Automatic Claim Delection</h3>
+            <p>If a claim owner is offline for 90 days, the claim will be deleted. After this, the land is free-game to be reused or raided by anyone.</p>
+          </section>
+          <section>
             <h3>Useful Commands</h3>
             <ul>
               <li><strong>/unclaim</strong> - Delete a claim</li>
@@ -61,9 +62,11 @@ make sure you only trust people you know. We are not responsible for players abu
               <li><strong>/untrust &lt;player&gt;</strong> - Remove someones access</li>
               <li><strong>/trustlist</strong> - See all players you trusted</li>
               <li><strong>/setspawn</strong> - Set claim spawn point</li>
-              <li><strong>/claims</strong> - See all of your claims</li>
+              <li><strong>/claims</strong> - Open claim teleportation GUI</li>
               <li><strong>/rename</strong> - Set your claim's name (for the GUI menu)</li>
-              <li><strong>/public</strong> - Toggle whether your claim is public or not</li>
+              <li><strong>/public</strong> - Toggle whether your claim is public for teleporting</li>
+              <li><strong>/subdivideclaim</strong> - Enable subdivision mode</li>
+              <li><strong>/restrictsubclaim</strong> - Disable subdivision inheriting parent permissions</li>
             </ul>
           </section>
         </div>

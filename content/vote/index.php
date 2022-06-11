@@ -50,28 +50,28 @@
         <div class="shadow"></div>
         <section style="height: fit-content; background: linear-gradient(90deg, rgb(15,19,28), rgb(30 39 58));" class="center" id="votelinks">
           <div>
-            <h3>minecraft.global</h3>
-            <a href="https://minecraft.global/server/130/vote" target="_blank"><button type="button" id="vote1" onclick="buttonClicked('vote1')">VOTE</button></a>
+            <h3>minecraft-mp.com</h3>
+            <a href="https://minecraft-mp.com/server/298736/vote/" target="_blank"><button type="button" id="vote1" onclick="buttonClicked('vote1')">Vote</button></a>
           </div>
           <div>
             <h3>topmcservers.com</h3>
-            <a href="https://topmcservers.com/server/1610/vote" target="_blank"><button type="button" id="vote2" onclick="buttonClicked('vote2')">VOTE</button></a>
+            <a href="https://topmcservers.com/server/1610/vote" target="_blank"><button type="button" id="vote2" onclick="buttonClicked('vote2')">Vote</button></a>
           </div>
           <div>
             <h3>minelist.net</h3>
-            <a href="https://minelist.net/vote/3953" target="_blank"><button type="button" id="vote3" onclick="buttonClicked('vote3')">VOTE</button></a>
+            <a href="https://minelist.net/vote/3953" target="_blank"><button type="button" id="vote3" onclick="buttonClicked('vote3')">Vote</button></a>
           </div>
           <div>
             <h3>planetminecraft.com</h3>
-            <a href="https://www.planetminecraft.com/server/semivanilla-mc/vote/" target="_blank"><button type="button" id="vote4" onclick="buttonClicked('vote4')">VOTE</button></a>
+            <a href="https://www.planetminecraft.com/server/semivanilla-mc/vote/" target="_blank"><button type="button" id="vote4" onclick="buttonClicked('vote4')">Vote</button></a>
           </div>
           <div>
             <h3>servers-minecraft.net</h3>
-            <a href="https://servers-minecraft.net/server-semivanilla-studios-1-18-2-survival.1274/vote" target="_blank"><button type="button" id="vote5" onclick="buttonClicked('vote5')">VOTE</button></a>
+            <a href="https://servers-minecraft.net/server-semivanilla-studios-1-18-2-survival.1274/vote" target="_blank"><button type="button" id="vote5" onclick="buttonClicked('vote5')">Vote</button></a>
           </div>
           <div>
-            <h3>mc-servers.com</h3>
-            <a href="https://mc-servers.com/mcvote/5117/" target="_blank"><button type="button" id="vote6" onclick="buttonClicked('vote6')">VOTE</button></a>
+            <h3>minecraft.buzz</h3>
+            <a href="https://minecraft.buzz/vote/3877" target="_blank"><button type="button" id="vote6" onclick="buttonClicked('vote6')">Vote</button></a>
           </div>
         </section>
         <div id="vote-info" style="max-width: 300px;">
@@ -85,7 +85,7 @@ FREE Premium Crate. Learn more: <a href="/features/other/crates/">What's in a Cr
             <h3>Reddit</h3>
             <p>We are also listed on /r/mcservers! Find our latest post to upvote and comment!</p>
             <p>Note: This site does not grant voting rewards.</p>
-            <a href="https://www.reddit.com/user/semivanillamc" target="_blank"><button type="button" id="vote7" onclick="buttonClicked('vote7')">VISIT REDDIT</button></a>
+            <a href="https://www.reddit.com/user/semivanillamc" target="_blank"><button type="button" id="vote7" onclick="buttonClicked('vote7')">Visit Reddit</button></a>
           </section>
         </div>
       </div>

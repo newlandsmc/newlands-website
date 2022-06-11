@@ -16,12 +16,17 @@
           <h3>Maps Available:</h3>
           <section style="display: flex; flex-wrap: wrap; justify-content: space-around; width:100%">
             <a href="asthonia/" target="_blank">
-              <button type="button">ASTHONIA</button>
+              <button type="button">Asthonia</button>
             </a>
             <a href="khavalon/" target="_blank">
-              <button type="button">KHAVALON</button>
+              <button type="button">Khavalon</button>
             </a>
           </section>
+        </div>
+        <div style="position: absolute; right: 0; bottom: 0;">
+          <a href="download/">
+            <button type="button">Downloads</button>
+          </a>
         </div>
       </div>
     </main>
