@@ -57,7 +57,8 @@
             <li class="rules">Alt accounts are prohibited.</li>
           </ul>
         </section>
-        <section style="background: linear-gradient(90deg, rgb(15 28 24), rgb(30 58 53));">
+        <section style="position: relative; background: linear-gradient(90deg, rgb(15 28 24), rgb(30 58 53));">
+          <img style="position: absolute; left: -150px; bottom: -150px; width: 180px;" class="hide-mobile" src="/assets/images/warden.webp" alt="Minecraft Warden">
           <h3>Be SVMC</h3>
           <ul>
             <li class="rules">Do not discuss or appeal bans/mutes/etc in public channels. (An appeal email is provided in every punishment message, or on the Discord <strong>#faq</strong> page.)</li>

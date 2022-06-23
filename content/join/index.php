@@ -47,7 +47,7 @@
   <body>
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/header.html'); ?>
     <main>
-      <div class="sub-title" style="background: url(/assets/images/minecraft-repainted.webp); background-size: cover; background-position: 85%;">
+      <div class="sub-title" style="background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url(/assets/images/join-title.webp); background-size: cover; background-position: 85%;">
         <div>
           <h1>How to Join</h1>
           <h2 id="player-count">99 Players Online</h2>

@@ -48,7 +48,8 @@
       </div>
       <div class="content" id="vote">
         <div class="shadow"></div>
-        <section style="height: fit-content; background: linear-gradient(90deg, rgb(15,19,28), rgb(30 39 58));" class="center" id="votelinks">
+        <section style="position: relative; height: fit-content; background: linear-gradient(90deg, rgb(15,19,28), rgb(30 39 58));" class="center" id="votelinks">
+          <img style="position: absolute; right: -10px; bottom: -100px; width: 180px;" class="hide-mobile" src="/assets/images/sweet-berries.webp" alt="Minecraft Sweet Berries">
           <div>
             <h3>minecraft-mp.com</h3>
             <a href="https://minecraft-mp.com/server/298736/vote/" target="_blank"><button type="button" id="vote1" onclick="buttonClicked('vote1')">Vote</button></a>
