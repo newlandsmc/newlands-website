@@ -35,8 +35,8 @@
     <style>
       #frog {
         position: absolute;
-        left: -120px;
-        top: 0px;
+        left: 30px;
+        top: -100px;
         width: 180px;
       }
       #allay {
