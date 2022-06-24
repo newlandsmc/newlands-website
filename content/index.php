@@ -56,7 +56,7 @@
   <body id="landing-body">
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/header.html'); ?>
     <main>
-      <div class="title" style="background: linear-gradient( rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 1) ), url(/assets/images/landing-title.webp); background-size: cover; background-position: 85%;">
+      <div class="title" style="background: linear-gradient( rgba(0, 0, 0, 0) 35%, rgba(0, 0, 0, 1) ), url(/assets/images/landing-title.webp); background-size: cover; background-position: 85%;">
       </div>
       <div class="title" style="position: absolute; z-index: 3;">
         <div class="landing-title-text" style="text-align: center;">
@@ -78,7 +78,7 @@
         <section class="center" style="flex-direction: column; margin: 50px;">
           <h1 style="font-size: 4em;">We Make Awesome Servers</h1>
         </section>
-        <section class="center" style="position: relative; background: linear-gradient(90deg, rgb(15,19,28), rgb(30 39 58)); border-radius: 50px;">
+        <section class="center" style="position: relative; background: linear-gradient(330deg, rgb(15,19,28), rgb(30 39 58)); border-radius: 50px;">
           <img id="frog" class="hide-mobile" src="/assets/images/frog.webp" alt="Minecraft Frog">
           <div>
             <h3>About Us</h3>

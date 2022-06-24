@@ -23,7 +23,7 @@
       </div>
       <div class="content" style="margin-top: 30px;">
         <div class="shadow"></div>
-        <section style="background: linear-gradient(90deg, rgb(15,19,28), rgb(30,39,58));">
+        <section style="background: linear-gradient(210deg, rgb(15,19,28), rgb(30,39,58));">
           <h3>Be Careful</h3>
           <ul>
             <li class="rules">Trusting players is at-your-own-risk! (Set up your land claim roles and areas carefully!)</li>
@@ -32,7 +32,7 @@
             <li class="rules">Do not log out somewhere unsafe! (We are not responsible for deaths on log-in due to missing blocks, placed lava, etc.)</li>
           </ul>
         </section>
-        <section style="background: linear-gradient(90deg, rgb(15 23 28), rgb(30 46 58));">
+        <section style="background: linear-gradient(210deg, rgb(15 23 28), rgb(30 46 58));">
           <h3>Be Kind</h3>
           <ul>
             <li class="rules">Player traps are prohibited. ("Player traps" = something designed to kill or trap a player that isn't an obvious threat until after it has triggered.)</li>
@@ -43,7 +43,7 @@
             <li class="rules">Do not spam.</li>
           </ul>
         </section>
-        <section style="background: linear-gradient(90deg, rgb(15 27 28), rgb(30 52 58));">
+        <section style="background: linear-gradient(210deg, rgb(15 27 28), rgb(30 52 58));">
           <h3>Be Fair</h3>
           <ul>
             <li class="rules">Any hack or mod that gives you an unfair advantage in the game is not allowed.
@@ -57,7 +57,7 @@
             <li class="rules">Alt accounts are prohibited.</li>
           </ul>
         </section>
-        <section style="position: relative; background: linear-gradient(90deg, rgb(15 28 24), rgb(30 58 53));">
+        <section style="position: relative; background: linear-gradient(210deg, rgb(15 28 24), rgb(30 58 53));">
           <img style="position: absolute; left: -150px; bottom: -150px; width: 180px;" class="hide-mobile" src="/assets/images/warden.webp" alt="Minecraft Warden">
           <h3>Be SVMC</h3>
           <ul>

@@ -48,7 +48,7 @@
       </div>
       <div class="content" id="vote">
         <div class="shadow"></div>
-        <section style="position: relative; height: fit-content; background: linear-gradient(90deg, rgb(15,19,28), rgb(30 39 58));" class="center" id="votelinks">
+        <section style="position: relative; height: fit-content; background: linear-gradient(130deg, rgb(15,19,28), rgb(30 39 58));" class="center" id="votelinks">
           <img style="position: absolute; right: -10px; bottom: -100px; width: 180px;" class="hide-mobile" src="/assets/images/sweet-berries.webp" alt="Minecraft Sweet Berries">
           <div>
             <h3>minecraft-mp.com</h3>
@@ -76,13 +76,13 @@
           </div>
         </section>
         <div id="vote-info" style="max-width: 300px;">
-          <section style="background: linear-gradient(90deg, rgb(15 23 28), rgb(30 46 58));" class="center">
+          <section style="background: linear-gradient(130deg, rgb(15 23 28), rgb(30 46 58));" class="center">
             <h3>Reward: Crates</h3>
             <p>Earn up to 7 Crates every day + 1 FREE Premium Crate each week!</p>
             <p>Every vote earns you a Vote Crate. Vote on all 6 sites to receive a Super Vote Crate. Vote 7 days in a row to receive a 
 FREE Premium Crate. Learn more: <a href="/features/other/crates/">What's in a Crate?</a></p>
           </section>
-          <section style="background: linear-gradient(90deg, rgb(15 27 28), rgb(30 52 58));" class="center">
+          <section style="background: linear-gradient(130deg, rgb(15 27 28), rgb(30 52 58));" class="center">
             <h3>Reddit</h3>
             <p>We are also listed on /r/mcservers! Find our latest post to upvote and comment!</p>
             <p>Note: This site does not grant voting rewards.</p>
