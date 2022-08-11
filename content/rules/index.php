@@ -54,6 +54,7 @@
             </li>
             <li class="rules">Do not exploit bugs in our server's features. Vanilla exploit are allowed, unless they involve duplicating items.</li>
             <lu class="rules">If you share your account, you are responsible for anything that happens on your account.</li>
+            <li class="rules">Do not purposely sit AFK on the server (no AFK machines, farms, etc).</li>
             <li class="rules">Alt accounts are prohibited.</li>
           </ul>
         </section>

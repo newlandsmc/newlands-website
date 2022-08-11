@@ -25,8 +25,17 @@
             <p>To see all custom recipes, <a href="recipes/">click here</a>.</p>
           </section>
           <section>
-            <h3>Trade System</h3>
-            <p>Trades and job agreements are at-your-own-risk! Be sure to use the <strong>/trade</strong> UI when trading with other players to avoid scams. You can open this UI any time by <strong>shift + right click</strong> on another player.</p>
+            <h3>Death Corpses</h3>
+            <p>Whenever you die in-game, from PVP or other causes, a corpse will appear. Corpses contain the items you lost on death, and are protected for 5 minutes so only YOU can claim the items from the corpse. After 5 minutes, anyone can loot the corpse.</p>
+            <p>Corpses "decay" (disappear) after 48 hours if unclaimed. Also, a player can never have more than 3 corpses.</p>
+          </section>
+          <section>
+            <h3>Sleep Voting</h3>
+            <p>To skip each night, the majority of players online must vote to skip the night. Sleeping in a bed for any amount of time will register your vote to skip the current night. You do NOT need to remain in bed, your vote will continue to count even if you get out of bed.</p>
+          </section>
+          <section>
+            <h3>Blood on Your Hands</h3>
+            <p><strong>Khavalon only.</strong> Whenever you kill a player in-game you receive "blood on your hands". This reduces your strength for a short amount of time afterwards. This effect starts at 10% damage reduction for 5 minutes, but can stack up for 50% damage reduction for 3 hours if you kill enough players!</p>
           </section>
         </div>
         <div>
@@ -40,6 +49,11 @@
             <p>Custom loot tables have been added for every natural chest! We've significantly buffed the loot tables, making exploration worth it, and providing more access to items that are normally limited in survival.</p>
             <p>Natural chests also regenerate loot every 2-12 hours, so there's always something to find even if someone else has already been there!</p>
             <p style="color:#ff674d;">Please do not break natural chests if you don't need to! Leave them for someone else to discover.</p>
+          </section>
+          <section>
+            <h3>Trade System</h3>
+            <p>Trades and job agreements are at-your-own-risk! Be sure to use the <strong>/trade</strong> UI when trading with other players 
+to avoid scams. You can open this UI any time by <strong>shift + right click</strong> on another player.</p>
           </section>
         </div>
       </div>

@@ -35,6 +35,10 @@
         width: 33%;
         min-width: 250px;
       }
+      #votelinks div h3 {
+        font-weight: normal;
+        color: var(--content);
+      }
     </style>
   </head>
   <body>
@@ -48,33 +52,47 @@
       </div>
       <div class="content" id="vote">
         <div class="shadow"></div>
-        <section style="position: relative; height: fit-content; background: linear-gradient(130deg, rgb(15,19,28), rgb(30 39 58));" class="center" id="votelinks">
-          <img style="position: absolute; right: -10px; bottom: -100px; width: 180px;" class="hide-mobile" src="/assets/images/sweet-berries.webp" alt="Minecraft Sweet Berries">
-          <div>
-            <h3>minecraft-mp.com</h3>
-            <a href="https://minecraft-mp.com/server/298736/vote/" target="_blank"><button type="button" id="vote1" onclick="buttonClicked('vote1')">Vote</button></a>
-          </div>
-          <div>
-            <h3>topmcservers.com</h3>
-            <a href="https://topmcservers.com/server/1610/vote" target="_blank"><button type="button" id="vote2" onclick="buttonClicked('vote2')">Vote</button></a>
-          </div>
-          <div>
-            <h3>minelist.net</h3>
-            <a href="https://minelist.net/vote/3953" target="_blank"><button type="button" id="vote3" onclick="buttonClicked('vote3')">Vote</button></a>
-          </div>
-          <div>
-            <h3>planetminecraft.com</h3>
-            <a href="https://www.planetminecraft.com/server/semivanilla-mc/vote/" target="_blank"><button type="button" id="vote4" onclick="buttonClicked('vote4')">Vote</button></a>
-          </div>
-          <div>
-            <h3>servers-minecraft.net</h3>
-            <a href="https://servers-minecraft.net/server-semivanilla-studios-1-18-2-survival.1274/vote" target="_blank"><button type="button" id="vote5" onclick="buttonClicked('vote5')">Vote</button></a>
-          </div>
-          <div>
-            <h3>minecraft.buzz</h3>
-            <a href="https://minecraft.buzz/vote/3877" target="_blank"><button type="button" id="vote6" onclick="buttonClicked('vote6')">Vote</button></a>
-          </div>
-        </section>
+        <div>
+          <section style="width: auto; position: relative; height: fit-content; background: linear-gradient(130deg, rgb(15,19,28), rgb(30 39 58));" class="center" id="votelinks">
+            <img style="position: absolute; right: -10px; bottom: -100px; width: 180px;" class="hide-mobile" src="/assets/images/sweet-berries.webp" alt="Minecraft Sweet Berries">
+            <h3 style="width: 100%">Reward Sites</h3>
+            <div>
+              <h3>minecraft-mp.com</h3>
+              <a href="https://minecraft-mp.com/server/298736/vote/" target="_blank"><button type="button" id="vote1" onclick="buttonClicked('vote1')">Vote</button></a>
+            </div>
+            <div>
+              <h3>topmcservers.com</h3>
+              <a href="https://topmcservers.com/server/1610/vote" target="_blank"><button type="button" id="vote2" onclick="buttonClicked('vote2')">Vote</button></a>
+            </div>
+            <div>
+              <h3>minelist.net</h3>
+              <a href="https://minelist.net/vote/3953" target="_blank"><button type="button" id="vote3" onclick="buttonClicked('vote3')">Vote</button></a>
+            </div>
+            <div>
+              <h3>minecraft-server.net</h3>
+              <a href="https://minecraft-server.net/vote/semivanilla_mc/" target="_blank"><button type="button" id="vote4" onclick="buttonClicked('vote4')">Vote</button></a>
+            </div>
+            <div>
+              <h3>serverlist101.com</h3>
+              <a href="https://serverlist101.com/server/2761/vote/" target="_blank"><button type="button" id="vote5" onclick="buttonClicked('vote5')">Vote</button></a>
+            </div>
+            <div>
+              <h3>minecraft.buzz</h3>
+              <a href="https://minecraft.buzz/vote/3877" target="_blank"><button type="button" id="vote6" onclick="buttonClicked('vote6')">Vote</button></a>
+            </div>
+          </section>
+          <section style="width: auto; z-index: 1; height: fit-content; background: linear-gradient(130deg, rgb(20 25 38), rgb(38 51 78));" class="center" id="votelinks">
+            <h3 style="width: 100%">Other Sites</h3>
+            <div>
+              <h3>minecraft-serverlist.com</h3>
+              <a href="https://minecraft-serverlist.com/server/199/vote" target="_blank"><button type="button" id="vote7" onclick="buttonClicked('vote7')">Vote</button></a>
+            </div>
+            <div>
+              <h3>planetminecraft.com</h3>
+              <a href="https://www.planetminecraft.com/server/semivanilla-mc/vote/" target="_blank"><button type="button" id="vote8" onclick="buttonClicked('vote8')">Vote</button></a>
+            </div>
+          </section>
+        </div>
         <div id="vote-info" style="max-width: 300px;">
           <section style="background: linear-gradient(130deg, rgb(15 23 28), rgb(30 46 58));" class="center">
             <h3>Reward: Crates</h3>

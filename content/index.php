@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>SemiVanilla Studios | 1.19 Minecraft Survival Network</title>
+    <title>SemiVanilla Studios | 1.19.2 Minecraft Survival Network</title>
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/seo.html'); ?>
     <script async type="module" src="/assets/javascript/jquery-3.6.0.min.js"></script>
     <script defer async type="module" src="/assets/javascript/nav.js"></script>
@@ -61,7 +61,7 @@
       <div class="title" style="position: absolute; z-index: 3;">
         <div class="landing-title-text" style="text-align: center;">
           <img class="landing-logo" src="/assets/images/logo.webp" alt="SemiVanilla Logo" />
-          <h2 style="margin: 30px;">1.19 Survival Network</h2>
+          <h2 style="margin: 30px;">1.19.2 Survival Network</h2>
           <p class="ip hide-mobile">play.semivanilla.com</p>
           <div style="width:100%">
             <button type="button" id="asthonia-button" onclick="copyToClipboard('asthonia-button','play.semivanilla.com','https://semivanilla.com/join')">Play Now!</button>
@@ -76,7 +76,7 @@
       <div class="content" id="landing">
         <div class="shadow"></div>
         <section class="center" style="flex-direction: column; margin: 50px;">
-          <h1 style="font-size: 4em;">We Make Awesome Servers</h1>
+          <h1 style="font-size: 4em;">Bedrock and Java Supported!</h1>
         </section>
         <section class="center" style="position: relative; background: linear-gradient(330deg, rgb(15,19,28), rgb(30 39 58)); border-radius: 50px;">
           <img id="frog" class="hide-mobile" src="/assets/images/frog.webp" alt="Minecraft Frog">
@@ -94,7 +94,7 @@
           </div>
           <div>
             <h3>Asthonia</h3>
-            <p>Asthonia is our PVE-only survival server. This is a casual server inspired by classic survival servers of the past. Asthonia offers RPG skills and abilities, custom enchants, and land claiming, in a vanilla 1.19 world.</p>
+            <p>Asthonia is our PVE-only survival server. This is a casual server inspired by classic survival servers of the past. Asthonia offers RPG skills and abilities, custom enchants, and land claiming, in a vanilla 1.19.2 world.</p>
           </div>
         </section>
         <section class="center">

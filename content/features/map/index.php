@@ -14,20 +14,25 @@
         <div>
           <h2>Select a Map</h2>
           <h3>Maps Available:</h3>
-          <section style="display: flex; flex-wrap: wrap; justify-content: space-around; width:100%">
+          <section id="map-buttons" style="display: flex; flex-wrap: wrap; justify-content: space-around; width:100%">
             <a href="asthonia/" target="_blank">
               <button type="button">Asthonia</button>
             </a>
             <a href="khavalon/" target="_blank">
               <button type="button">Khavalon</button>
             </a>
+            <a href="creative/" target="_blank">
+              <button type="button">Creative</button>
+            </a>
           </section>
         </div>
+        <!--
         <div style="position: absolute; right: 0; bottom: 0;">
           <a href="download/">
             <button type="button">Downloads</button>
           </a>
         </div>
+        -->
       </div>
     </main>
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/footer.html'); ?>

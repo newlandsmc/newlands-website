@@ -853,5 +853,9 @@ button:hover {
     section img.small {
       width: 50%;
     }
+    #map-buttons {
+      flex-direction: column;
+      align-content: center;
+    }
   }
 }

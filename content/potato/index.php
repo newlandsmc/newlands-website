@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Asthonia Minecraft Server | Optimize Potato PC</title>
+    <title>SemiVanilla Studios | Potato Optimization</title>
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/seo.html'); ?>
     <script async defer>
       function copyToClipboard(id) {
@@ -55,12 +55,17 @@
             <p>Some users have alternatively recommended trying <a href="https://www.lunarclient.com/" target="_blank">LunarClient.</a></p>
             <p>Our modpack:</p>
             <ul style="columns:2; -webkit-columns:2; -moz-columns:2;">
-              <li><a href="https://fabricmc.net/use/installer/" target="_blank">Fabric Core</a></li>
-              <li><a href="https://www.curseforge.com/minecraft/mc-mods/fabric-api" target="_blank">Fabric API</a></li>
               <li><a href="https://www.curseforge.com/minecraft/mc-mods/clumps" target="_blank">Clumps</a></li>
+              <li><a href="https://www.curseforge.com/minecraft/mc-mods/dark-loading-screen" target="_blank">Dark Loading Screen</a></li>
+              <li><a href="https://www.curseforge.com/minecraft/mc-mods/debugify" target="_blank">Debugify</a></li>
+              <li><a href="https://www.curseforge.com/minecraft/mc-mods/entityculling" target="_blank">Entity Culling</a></li>
+              <li><a href="https://www.curseforge.com/minecraft/mc-mods/ferritecore" target="_blank">FerriteCore</a></li>
               <li><a href="https://www.curseforge.com/minecraft/mc-mods/krypton" target="_blank">Krypton</a></li>
               <li><a href="https://www.curseforge.com/minecraft/mc-mods/lazy-language-loader" target="_blank">lazy-language-loader</a></li>
               <li><a href="https://www.curseforge.com/minecraft/mc-mods/lazydfu" target="_blank">LazyDFU</a></li>
+              <li><a href="https://www.curseforge.com/minecraft/mc-mods/lithium" target="_blank">Lithium</a></li>
+              <li><a href="https://www.curseforge.com/minecraft/mc-mods/memoryleakfix" target="_blank">MemoryLeakFix</a></li>
+              <li><a href="https://www.curseforge.com/minecraft/mc-mods/moreculling" target="_blank">MoreCulling</a></li>
               <li><a href="https://www.curseforge.com/minecraft/mc-mods/sodium" target="_blank">Sodium</a></li>
               <li><a href="https://www.curseforge.com/minecraft/mc-mods/starlight" target="_blank">Starlight</a></li>
             </ul>
