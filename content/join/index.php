@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>SemiVanilla Studios | Join</title>
+    <title>SemiVanilla MC | How to Join</title>
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/seo.html'); ?>
     <script async defer>
       function copyToClipboard(id,ip) {
@@ -90,7 +90,7 @@
         <section class="center" style="flex-direction: column; width: fit-content; border-radius: 50px; background: linear-gradient(90deg, rgb(15,19,28), rgb(30 39 58));">
           <h3 style="margin: 0;">Ready?</h3>
           <p>Click the button below to copy the IP!</p>
-          <button style="margin: 0;" type="button" id="copybutton" onclick="copyToClipboard('copybutton','play.semivanilla.com')">PLAY NOW!</button>
+          <button style="margin: 0;" type="button" id="copybutton" onclick="copyToClipboard('copybutton','play.semivanilla.com')">Join Now!</button>
         </section>
       </div>
       <div class="overlay">
@@ -98,7 +98,7 @@
         <div class="overlay-fg">
           <p id="overlay-ip" class="ip">play.semivanilla.com</p>
           <p style="margin:10px 0 30px 0;">Copied to Clipboard!</p>
-          <button type="button" onclick="overlayDismiss()">Okay</button>
+          <button type="button" onclick="overlayDismiss()">Okay!</button>
         </div>
       </div>
     </main>

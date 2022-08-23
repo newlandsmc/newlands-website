@@ -17,7 +17,7 @@
       <div class="sub-title" style="background-image: url(/assets/images/asthonia/features-recipes-title.webp); background-position: center;">
         <div>
           <h1>Custom Recipes</h1>
-          <h2>Found on SemiVanilla</h2>
+          <h2>Found on SemiVanilla MC</h2>
         </div>
       </div>
       <div class="content split-content">

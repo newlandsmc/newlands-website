@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>SemiVanilla Studios | 1.19.2 Minecraft Survival Network</title>
+    <title>SemiVanilla MC | 1.19.2 Minecraft Survival Community</title>
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/seo.html'); ?>
     <script async type="module" src="/assets/javascript/jquery-3.6.0.min.js"></script>
     <script defer async type="module" src="/assets/javascript/nav.js"></script>
@@ -33,6 +33,9 @@
       });
     </script>
     <style>
+      section img {
+        margin: 0px auto;
+      }
       #frog {
         position: absolute;
         left: 30px;
@@ -60,11 +63,11 @@
       </div>
       <div class="title" style="position: absolute; z-index: 3;">
         <div class="landing-title-text" style="text-align: center;">
-          <img class="landing-logo" src="/assets/images/logo.webp" alt="SemiVanilla Logo" />
-          <h2 style="margin: 30px;">1.19.2 Survival Network</h2>
+          <img class="landing-logo" src="/assets/images/logo.webp" alt="SemiVanilla MC Logo" />
+          <h2 style="margin: 30px;">1.19.2 Survival Community</h2>
           <p class="ip hide-mobile">play.semivanilla.com</p>
           <div style="width:100%">
-            <button type="button" id="asthonia-button" onclick="copyToClipboard('asthonia-button','play.semivanilla.com','https://semivanilla.com/join')">Play Now!</button>
+            <button type="button" id="asthonia-button" onclick="copyToClipboard('asthonia-button','play.semivanilla.com','https://semivanilla.com/join')">Join Now!</button>
           </div>
           <a id="scrollbutton" class="scroll" href="#welcome">
             <span></span>
@@ -76,34 +79,49 @@
       <div class="content" id="landing">
         <div class="shadow"></div>
         <section class="center" style="flex-direction: column; margin: 50px;">
-          <h1 style="font-size: 4em;">Bedrock and Java Supported!</h1>
+          <h1 id="grabber">Bedrock and Java Supported!</h1>
         </section>
         <section class="center" style="position: relative; background: linear-gradient(330deg, rgb(15,19,28), rgb(30 39 58)); border-radius: 50px;">
           <img id="frog" class="hide-mobile" src="/assets/images/frog.webp" alt="Minecraft Frog">
           <div>
             <h3>About Us</h3>
-            <p>We are Minecraft players with almost 20 years combined experience running Minecraft servers. SemiVanilla MC is an old-school survival server with some classic addons, like mcMMO and land claiming, done to perfection.</p>
+            <p>We are Minecraft players that built a place to call home. SemiVanilla MC is inspired by old-school servers, offering a classic survival experience with some custom features:</p>
           </div>
           <div>
-            <img class="small" src="/assets/images/logo.webp" alt="SemiVanilla Logo" />
-          </div>
-        </section>
-        <section class="center">
-          <div>
-            <img class="wide" src="/assets/images/asthonia-logo.webp" alt="Asthonia Logo" />
-          </div>
-          <div>
-            <h3>Asthonia</h3>
-            <p>Asthonia is our PVE-only survival server. This is a casual server inspired by classic survival servers of the past. Asthonia offers RPG skills and abilities, custom enchants, and land claiming, in a vanilla 1.19.2 world.</p>
+            <img class="small" src="/assets/images/logo.webp" alt="SemiVanilla MC Logo" />
           </div>
         </section>
         <section class="center">
           <div>
-            <h3>Khavalon</h3>
-            <p>Khavalon is our PVP-enabled survival server. Khavalon offers all the same features as Asthonia, with RPG elements and land claiming, but adds an additional challenge for those who want it - PVP is on outside of claims.</p>
+            <img class="wide" src="/assets/images/landing-alex.webp" alt="Alex laying in grass with items floating around" />
           </div>
           <div>
-            <img class="wide" src="/assets/images/khavalon-logo.webp" alt="Khavalon Logo" />
+            <h3>Death Corpses</h3>
+            <p>Don't lose your items! Find your corpse after death and get all your gear back. Your items are safe from despawning and safe from being stolen (for the first 5 minutes).</p>
+          </div>
+        </section>
+        <section class="center">
+          <div>
+            <h3>RPG Skills</h3>
+            <p>Level up your player in everything you do, from tree cutting to sword fighting, and unlock special abilities in those skills. Use mana to activate your abilities or apply custom enchants to your items for a permanent effect.</p>
+          </div>
+          <div>
+            <img class="wide" src="/assets/images/landing-steve.webp" alt="Steve with glowing diamond sword" />
+          </div>
+        </section>
+        <section class="center">
+          <div>
+            <img class="wide" src="/assets/images/landing-castle.webp" alt="Minecraft style castle" />
+          </div>
+          <div>
+            <h3>Land Protection</h3>
+            <p>Protect your hard work and have peace of mind when you are offline. Claim land using a golden shovel and everything inside your claim is safe from all types of griefing.</p>
+          </div>
+        </section>
+        <section class="center">
+          <div>
+            <h3>And <a href="/features/">More</a>...</h3>
+            <!-- <p>Learn about all of our features by exploring the "Features" pages: <a href="/features/claiming">Land Claiming</a>, <a href="/features/skills">Skills + Abilities</a>, <a href="/features/enchants">Custom Enchants</a>, <a href="/features/map">Live Map</a>, and <a href="/features/other">More</a>.</p> -->
           </div>
         </section>
       </div>
@@ -119,8 +137,8 @@
         <div class="overlay-fg">
           <p id="overlay-ip" class="ip">play.semivanilla.com</p>
           <p style="margin:10px 0 30px 0;">Copied to Clipboard!</p>
-          <a id="overlay-more-help"><button type="button">More Help</button></a>
-          <button type="button" onclick="overlayDismiss()">Okay</button>
+          <a id="overlay-more-help"><button type="button">More Help?</button></a>
+          <button type="button" onclick="overlayDismiss()">Okay!</button>
         </div>
       </div>
     </main>

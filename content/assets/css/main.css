@@ -264,6 +264,10 @@ main {
   z-index: 2;
 }
 
+#grabber {
+  font-size: 4em !important;
+}
+
 .sub-title {
   width: 100%;
   height: 400px;
@@ -813,6 +817,9 @@ button:hover {
     .content, #main-nav > div {
       width: 100%;
     }
+    #grabber {
+      font-size: 3em !important;
+    }
     #votelinks {
       margin: 50px;
       padding: 10px;
@@ -822,7 +829,6 @@ button:hover {
     }
     .landing-logo {
       margin-top: -100px;
-      max-width: 80%;
     }
     .split-content div {
       width: 100%;
@@ -841,9 +847,6 @@ button:hover {
     }
   }
   @media (max-width: 450px) {
-    .title h2, .sub-title h1, #landing h1{
-      font-size: 1.5em;
-    }
     .title h3, .sub-title h2, .ip {
       font-size: 1.2em;
     }
