@@ -36,7 +36,7 @@
           <h3>Be Kind</h3>
           <ul>
             <li class="rules">Player traps are prohibited. ("Player traps" = something designed to kill or trap a player that isn't an obvious threat until after it has triggered.)</li>
-            <li class="rules">Harassment, threats, verbal abuse, and hateful speech, and offensive generalizations are prohibited.</li>
+            <li class="rules">Harassment, threats, verbal abuse, hateful speech, and offensive generalizations are prohibited.</li>
             <li class="rules">No bullying. (Do not spawn camp, repeatedly kill the same player, or target new players.)</li>
             <li class="rules">No trolling or antagonizing. (Do not participate in actions intended only to upset others.)</li>
             <li class="rules">Keep other's feelings in mind when using chat. (Staff have the right to shut down a conversation if needed.)</li>
@@ -53,8 +53,8 @@
               </ul>
             </li>
             <li class="rules">Do not exploit bugs in our server's features. Vanilla exploit are allowed, unless they involve duplicating items.</li>
-            <lu class="rules">If you share your account, you are responsible for anything that happens on your account.</li>
-            <li class="rules">Do not purposely sit AFK on the server (no AFK machines, farms, etc).</li>
+            <li class="rules">If you share your account, you are responsible for anything that happens on your account.</li>
+            <li class="rules">Do not purposely sit AFK on the server. (no AFK machines, farms, etc.)</li>
             <li class="rules">Alt accounts are prohibited.</li>
           </ul>
         </section>
@@ -63,9 +63,9 @@
           <h3>Be SVMC</h3>
           <ul>
             <li class="rules">Do not discuss or appeal bans/mutes/etc in public channels. (An appeal email is provided in every punishment message, or on the Discord <strong>#faq</strong> page.)</li>
-            <li class="rules">Do not intentionally disparage, tarnish, or otherwise harm the server.</li>
+            <li class="rules">Do not intentionally disparage, tarnish, or otherwise harm the server or staff.</li>
             <li class="rules">Do not advertise other Minecraft servers or Discords.</li>
-            <li class="rules">Please only use English in public channels as we are generally unable to moderate other languages.</li>
+            <li class="rules">Please only use English in public channels. (We are generally unable to moderate other languages.)</li>
           </ul>
         </section>
       </div>

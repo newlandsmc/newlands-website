@@ -32,8 +32,8 @@ make sure you only trust people you know. We are not responsible for players abu
           </section>
           <section>
             <h3>Limits</h3>
-            <p>New players will start with 500 "claim blocks". Each "claim block" allows you to add 1 block to your claim size (only counting length and width - remember claims dont count height!).</p>
-            <p>You will earn an additional 1000 claim blocks for every mining level you unlock. This means at maximum mining level (mining level 97) you will be able to claim up to 97,500 blocks.</p>
+            <p>New players will start with 1000 "claim blocks". Each "claim block" allows you to add 1 block to your claim size (only counting length and width - remember claims dont count height!).</p>
+            <p>You will earn an additional 1000 claim blocks for every mining level you unlock. This means at maximum mining level (mining level 97) you will be able to claim up to 98,000 blocks.</p>
             <p>If you need additional claim blocks, you can ask a staff member for more. We will provide more on a case-by-case basis.</p>
             <p>You can create up to 15 separate claims. Your "claim blocks" limit is shared between all of your claims.</p>
           </section>
@@ -49,7 +49,7 @@ make sure you only trust people you know. We are not responsible for players abu
           </section>
           <section>
             <h3>Automatic Claim Delection</h3>
-            <p>If a claim owner is offline for 90 days, the claim will be deleted. After this, the land is free-game to be reused or raided by anyone.</p>
+            <p>If a claim owner has not reached Mining level 25, and is offline for 30 days, the claim will be deleted. After this, the land is free-game to be reused or raided by anyone. Players with Mining level 25 or higher are immune from claim deletion.</p>
           </section>
           <section>
             <h3>Useful Commands</h3>

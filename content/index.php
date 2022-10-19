@@ -85,7 +85,7 @@
           <img id="frog" class="hide-mobile" src="/assets/images/frog.webp" alt="Minecraft Frog">
           <div>
             <h3>About Us</h3>
-            <p>We are Minecraft players that built a place to call home. SemiVanilla MC is inspired by old-school servers, offering a classic survival experience with some custom features:</p>
+            <p>We are Minecraft players that built a place to call home. SemiVanilla MC is inspired by old-school servers, offering a classic survival experience with some extra features.</p>
           </div>
           <div>
             <img class="small" src="/assets/images/logo.webp" alt="SemiVanilla MC Logo" />

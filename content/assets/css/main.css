@@ -405,7 +405,7 @@ li.rules, .split-content li {
   width: 50%;
 }
 
-#landing div.narrow {
+div.narrow {
   width: 33%;
 }
 
@@ -745,7 +745,7 @@ button:hover {
       background-color: rgb(15 15 15 / 100%);
       position: absolute;
     }
-    #landing div, #landing div.narrow {
+    #landing div, div.narrow {
       width: 100%;
     }
   }
@@ -767,7 +767,7 @@ button:hover {
     .title h2, .sub-title h1, #landing h1{
       font-size: 3em;
     }
-    #landing div, #landing div.narrow {
+    #landing div, div.narrow {
       width: 100%;
     }
   }
@@ -847,7 +847,7 @@ button:hover {
     }
   }
   @media (max-width: 450px) {
-    .title h3, .sub-title h2, .ip {
+    h4, .title h3, .sub-title h2, .ip {
       font-size: 1.2em;
     }
     .content h3, #landing h3, .overlay h3 {
