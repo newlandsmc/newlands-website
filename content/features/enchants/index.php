@@ -20,7 +20,7 @@
         <div>
           <section>
             <h3>Available Enchants</h3>
-            <p>There are <strong>44</strong> custom enchants available on Asthonia and <strong>54</strong> on Khavalon. They are available for all types of weapons, armor, and tools.</p>
+            <p>There are <strong>54</strong> custom enchants on SVMC! They are available for all types of weapons, armor, and tools.</p>
             <p>To see a list of all available enchants, <a href="all/">click here</a>.</p>
           </section>
           <section>

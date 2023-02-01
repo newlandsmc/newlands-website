@@ -26,7 +26,7 @@
           </section>
           <section>
             <h3>Custom Recipes</h3>
-            <p>There are several custom recipes on Asthonia and Khavalon. They can be used to craft items not normally craftable in survival, or convert items back into their raw materials.</p>
+            <p>There are several custom recipes on SVMC! They can be used to craft items not normally craftable in survival, or convert items back into their raw materials.</p>
             <p>Custom recipes are unlocked in the recipe book just like vanilla recipes! You can see all available recipes to you in any crafting bench.</p>
             <p><a href="recipes/">Learn more here.</a></p>
           </section>
@@ -35,10 +35,6 @@
             <p>Whenever you die in-game, from PVP or other causes, a corpse will appear. Corpses contain the items you lost on death, and are protected for 5 minutes so only YOU can claim the items from the corpse. After 5 minutes, anyone can loot the corpse.</p>
             <p>Corpses "decay" (disappear) after 48 hours if unclaimed. Also, a player can never have more than 3 corpses.</p>
             <img style="width:70%" src="/assets/images/landing-alex.webp" alt="Alex laying in grass with items floating around" />
-          </section>
-          <section>
-            <h3>Blood on Your Hands</h3>
-            <p><strong>Khavalon only.</strong> Whenever you kill a player in-game you receive "blood on your hands". This reduces your strength for a short amount of time afterwards. This effect starts at 10% damage reduction for 5 minutes, but can stack up for 50% damage reduction for 3 hours if you kill enough players!</p>
           </section>
           <section>
             <h3>Live Map</h3>
@@ -51,7 +47,7 @@
           <section>
             <h3>Random Spawn</h3>
             <p>Every player spawns somewhere random within the overworld when they first join. This location is set as their spawnpoint - so they will always return there if they have no bed or respawn anchor.</p>
-            <p>There is no spawn on Asthonia and Khavalon.</p>
+            <p>There is no main spawn in the survival world.</p>
           </section>
           <section>
             <h3>RPG Skills</h3>

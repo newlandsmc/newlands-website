@@ -15,11 +15,8 @@
           <h2>Select a Map</h2>
           <h3>Maps Available:</h3>
           <section id="map-buttons" style="display: flex; flex-wrap: wrap; justify-content: space-around; width:100%">
-            <a href="asthonia/" target="_blank">
-              <button type="button">Asthonia</button>
-            </a>
-            <a href="khavalon/" target="_blank">
-              <button type="button">Khavalon</button>
+            <a href="survival/" target="_blank">
+              <button type="button">Survival</button>
             </a>
             <a href="creative/" target="_blank">
               <button type="button">Creative</button>

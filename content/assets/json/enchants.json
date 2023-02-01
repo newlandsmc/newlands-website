@@ -23,7 +23,7 @@
     ],
     [
       "Decapitation",
-      "<strong>Khavalon Only.</strong> Opponents head drop on death.",
+      "Opponents head drop on death.",
       "Swords, Axes",
       "1",
       "<span style='color: #ffffff;'>Common</span>"
@@ -93,14 +93,14 @@
     ],
     [
       "Greatsword",
-      "<strong>Khavalon Only.</strong> Increases damage against players who are wielding a Bows at the time they are hit.",
+      "Increases damage against players who are wielding a Bows at the time they are hit.",
       "Swords",
       "5",
       "<span style='color: #55ffff;'>Rare</span>"
     ],
     [
       "Bowmaster",
-      "<strong>Khavalon Only.</strong> Increases damage against players who are wielding a sword or axe at the time they are hit.",
+      "Increases damage against players who are wielding a sword or axe at the time they are hit.",
       "Bows, Crossbows",
       "5",
       "<span style='color: #55ffff;'>Rare</span>"
@@ -128,7 +128,7 @@
     ],
     [
       "Enderroots",
-      "<strong>Khavalon Only.</strong> Chance of disabling enderpearls for your enemy up to 10 seconds.",
+      "Chance of disabling enderpearls for your enemy up to 10 seconds.",
       "Swords, Axes, Tridents, Bows, Crossbows",
       "3",
       "<span style='color: #ff55ff;'>Legendary</span>"
@@ -157,27 +157,27 @@
     [
       "Heavy",
       "Decreases damage from enemy bows by 4% per level.",
-      "<strong>Khavalon Only.</strong> Boots, Leggings, Chestplates, Helmets",
+      "Boots, Leggings, Chestplates, Helmets",
       "5",
       "<span style='color: #ff55ff;'>Legendary</span>"
     ],
     [
       "Longbow",
-      "<strong>Khavalon Only.</strong> Increases damage dealt to enemy players that have a bow in their hands.",
+      "Increases damage dealt to enemy players that have a bow in their hands.",
       "Bows",
       "5",
       "<span style='color: #ff55ff;'>Legendary</span>"
     ],
     [
       "Tank",
-      "<strong>Khavalon Only.</strong> Decreases damage from enemy axes by 4% per level.",
+      "Decreases damage from enemy axes by 4% per level.",
       "Boots, Leggings, Chestplates, Helmets",
       "5",
       "<span style='color: #ff55ff;'>Legendary</span>"
     ],
     [
       "Valor",
-      "<strong>Khavalon Only.</strong> Decreases damage from enemy swords by 4% per level.",
+      "Decreases damage from enemy swords by 4% per level.",
       "Boots, Leggings, Chestplates, Helmets",
       "5",
       "<span style='color: #ff55ff;'>Legendary</span>"
@@ -296,7 +296,7 @@
     ],
     [
       "Concussion",
-      "<strong>Khavalon Only.</strong> A chance to deal nausea to your victim.",
+      "A chance to deal nausea to your victim.",
       "Axes",
       "3",
       "<span style='color: #55ff55;'>Uncommon</span>"
@@ -324,7 +324,7 @@
     ],
     [
       "Unfocus",
-      "<strong>Khavalon Only.</strong> Chance to Unfocus target player, reducing their out going bow damage by 50% for up to 10 seconds.",
+      "Chance to Unfocus target player, reducing their out going bow damage by 50% for up to 10 seconds.",
       "Bows, Crossbows",
       "5",
       "<span style='color: #ff55ff;'>Legendary</span>"

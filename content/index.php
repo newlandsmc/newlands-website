@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>SemiVanilla MC | 1.19.2 Minecraft Survival Community</title>
+    <title>SemiVanilla MC | 1.19.3 Minecraft Survival Community</title>
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/seo.html'); ?>
     <script async type="module" src="/assets/javascript/jquery-3.6.0.min.js"></script>
     <script defer async type="module" src="/assets/javascript/nav.js"></script>
@@ -64,7 +64,7 @@
       <div class="title" style="position: absolute; z-index: 3;">
         <div class="landing-title-text" style="text-align: center;">
           <img class="landing-logo" src="/assets/images/logo.webp" alt="SemiVanilla MC Logo" />
-          <h2 style="margin: 30px;">1.19.2 Survival Community</h2>
+          <h2 style="margin: 30px;">1.19.3 Survival Community</h2>
           <p class="ip hide-mobile">play.semivanilla.com</p>
           <div style="width:100%">
             <button type="button" id="asthonia-button" onclick="copyToClipboard('asthonia-button','play.semivanilla.com','https://semivanilla.com/join')">Join Now!</button>
