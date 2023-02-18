@@ -1,14 +1,17 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>SemiVanilla MC | Rules</title>
+    <title>SemiVanilla SMP | Rules</title>
+    <meta name="description" content="Rules and guidelines for the SemiVanilla SMP server. We provide a safe and inclusive environment on our Minecraft server!" />
+    <meta property="og:description" content="Rules and guidelines for the SemiVanilla SMP server. We provide a safe and inclusive environment on our Minecraft server!" />
+    <meta name="twitter:description" content="Rules and guidelines for the SemiVanilla SMP server. We provide a safe and inclusive environment on our Minecraft server!" />
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/seo.html'); ?>
     <script async type="module" src="/assets/javascript/jquery-3.6.0.min.js"></script>
     <script defer async type="module" src="/assets/javascript/nav.js"></script>
     <style>
       section {
         border-radius: 50px;
-        margin: 30px;
+        margin: 0px;
       }
     </style>
   </head>
@@ -23,7 +26,7 @@
       </div>
       <div class="content" style="margin-top: 30px;">
         <div class="shadow"></div>
-        <section style="background: linear-gradient(210deg, rgb(15,19,28), rgb(30,39,58));">
+        <section>
           <h3>Be Careful</h3>
           <ul>
             <li class="rules">Trusting players is at-your-own-risk! (Set up your land claim roles and areas carefully!)</li>
@@ -32,7 +35,7 @@
             <li class="rules">Do not log out somewhere unsafe! (We are not responsible for deaths on log-in due to missing blocks, placed lava, etc.)</li>
           </ul>
         </section>
-        <section style="background: linear-gradient(210deg, rgb(15 23 28), rgb(30 46 58));">
+        <section>
           <h3>Be Kind</h3>
           <ul>
             <li class="rules">Player traps are prohibited. ("Player traps" = something designed to kill or trap a player that isn't an obvious threat until after it has triggered.)</li>
@@ -43,7 +46,7 @@
             <li class="rules">Do not spam.</li>
           </ul>
         </section>
-        <section style="background: linear-gradient(210deg, rgb(15 27 28), rgb(30 52 58));">
+        <section>
           <h3>Be Fair</h3>
           <ul>
             <li class="rules">Any hack or mod that gives you an unfair advantage in the game is not allowed.
@@ -58,7 +61,7 @@
             <li class="rules">Alt accounts are prohibited.</li>
           </ul>
         </section>
-        <section style="position: relative; background: linear-gradient(210deg, rgb(15 28 24), rgb(30 58 53));">
+        <section>
           <img style="position: absolute; left: -150px; bottom: -150px; width: 180px;" class="hide-mobile" src="/assets/images/warden.webp" alt="Minecraft Warden">
           <h3>Be SVMC</h3>
           <ul>

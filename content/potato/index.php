@@ -1,7 +1,10 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>SemiVanilla MC | Potato Optimization</title>
+    <title>SemiVanilla SMP | Potato Optimization</title>
+    <meta name="description" content="How to optimize a slow computer to run Minecraft at the best FPS. Mods to improve Minecraft performance. Provided by SemiVanilla SMP!" />
+    <meta property="og:description" content="How to optimize a slow computer to run Minecraft at the best FPS. Mods to improve Minecraft performance. Provided by SemiVanilla SMP!" />
+    <meta name="twitter:description" content="How to optimize a slow computer to run Minecraft at the best FPS. Mods to improve Minecraft performance. Provided by SemiVanilla SMP!" />
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/seo.html'); ?>
     <script async defer>
       function copyToClipboard(id) {

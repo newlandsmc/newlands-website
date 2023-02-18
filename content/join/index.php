@@ -1,7 +1,10 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>SemiVanilla MC | How to Join</title>
+    <title>SemiVanilla SMP | How to Join</title>
+    <meta name="description" content="How to join a public Minecraft server on Java Edition or Bedrock! How to enter the IP of a Minecraft server! Provided by SemiVanilla SMP!" />
+    <meta property="og:description" content="How to join a public Minecraft server on Java Edition or Bedrock! How to enter the IP of a Minecraft server! Provided by SemiVanilla SMP!" />
+    <meta name="twitter:description" content="How to join a public Minecraft server on Java Edition or Bedrock! How to enter the IP of a Minecraft server! Provided by SemiVanilla SMP!" />
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/seo.html'); ?>
     <script async defer>
       function copyToClipboard(id,ip) {
@@ -29,7 +32,7 @@
           }
           else {
             // success
-            document.getElementById('player-count').innerHTML = json.players.online + ' Players Online';
+            document.getElementById('player-count').innerHTML = 'Join ' + json.players.online + ' players online now!';
           }
         });
       });
@@ -49,12 +52,12 @@
     <main>
       <div class="sub-title" style="background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url(/assets/images/join-title.webp); background-size: cover; background-position: 85%;">
         <div>
-          <h1>How to Join</h1>
-          <h2 id="player-count">9 Players Online</h2>
+          <h1>Welcome!</h1>
+          <h2 id="player-count">Join 9 players online now!</h2>
         </div>
         <div style="position:absolute; bottom:80px;" id="welcome"></div>
       </div>
-      <div class="content" id="landing" style="max-width:1400px;">
+      <div class="content" id="landing">
         <div class="shadow"></div>
         <section>
           <div class="narrow">
@@ -68,12 +71,12 @@
             </ol>
           </div>
           <div>
-            <img class="wide" src="/assets/images/join-java-edition.webp" alt="Minecraft Java Edition Screenshot" />
+            <img style="width:90%;" src="/assets/images/join-java-edition.webp" alt="Minecraft Java Edition Screenshot" />
           </div>
         </section>
         <section>
           <div>
-            <img class="wide" src="/assets/images/join-bedrock-edition.webp" alt="Minecraft Bedrock Edition Screenshot" />
+            <img style="width:90%;" src="/assets/images/join-bedrock-edition.webp" alt="Minecraft Bedrock Edition Screenshot" />
           </div>
           <div class="narrow">
             <h3>Bedrock Edition</h3>
@@ -87,18 +90,21 @@
           </div>
         </section>
         </section>
-        <section class="center" style="flex-direction: column; width: fit-content; border-radius: 50px; background: linear-gradient(90deg, rgb(15,19,28), rgb(30 39 58));">
+        <section class="center" style="margin: 50px; flex-direction: column; width: fit-content; border-radius: 50px; background: linear-gradient(90deg, rgb(15,19,28), rgb(30 39 58));">
           <h3 style="margin: 0;">Ready?</h3>
-          <p>Click the button below to copy the IP!</p>
-          <button style="margin: 0;" type="button" id="copybutton" onclick="copyToClipboard('copybutton','play.semivanilla.com')">Join Now!</button>
+          <p style="margin-bottom: 15px; line-height: 1.4em;" class="ip">play.semivanilla.com</p>
+          <div style="width:100%">
+            <button type="button" id="asthonia-button" onclick="copyToClipboard('asthonia-button','play.semivanilla.com','https://semivanilla.com/join')">Copy IP!</button>
+          </div>
         </section>
       </div>
       <div class="overlay">
         <div class="overlay-bg" onclick="overlayDismiss()"></div>
         <div class="overlay-fg">
           <p id="overlay-ip" class="ip">play.semivanilla.com</p>
-          <p style="margin:10px 0 30px 0;">Copied to Clipboard!</p>
+          <p style="margin:10px 0 10px 0;">IP Copied to Clipboard!</p>
           <button type="button" onclick="overlayDismiss()">Okay!</button>
+          <div id="overlay-close" onclick="overlayDismiss()"></div>
         </div>
       </div>
     </main>

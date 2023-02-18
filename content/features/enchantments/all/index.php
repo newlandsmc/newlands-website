@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>SemiVanilla MC | Features | Custom Enchants | All</title>
+    <title>SemiVanilla MC | Features | Custom Enchantments | All</title>
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/seo.html'); ?>
     <script src="/assets/javascript/jquery-3.6.0.min.js"></script>
     <script src="/assets/javascript/datatables.min.js"></script>
@@ -14,10 +14,13 @@
         margin-bottom: 30px;
       }
       tr:nth-of-type(odd) {
-        background: linear-gradient(90deg, rgb(11 14 20), rgb(24 31 44));
+        background: linear-gradient(90deg, rgb(38 26 18), rgb(24 17 12));
+      }
+      tr:nth-of-type(even) {
+        background: linear-gradient(90deg, rgb(26 18 12), rgb(16 10 6));
       }
       thead tr:nth-of-type(odd) {
-        background: linear-gradient(90deg, rgb(21 27 40), rgb(34 45 68));
+        background: linear-gradient(90deg, rgb(52 79 45), rgb(37 56 32));
         cursor: pointer;
       }
       .table-sm th, .table-sm td {
@@ -28,7 +31,7 @@
   <body>
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/header.html'); ?>
     <main>
-      <div class="sub-title" style="background-image: url(/assets/images/asthonia/enchants-all-title.webp); background-position: center;">
+      <div class="sub-title" style="background-image: url(/assets/images/asthonia/enchantments-all-title.webp); background-position: center;">
         <div>
           <h1>Custom Enchantments</h1>
           <h2>List of All</h2>
@@ -46,7 +49,7 @@
     <script>
       $(document).ready(function() {
         $('#main').DataTable( {
-          "ajax": '/assets/json/enchants.json',
+          "ajax": '/assets/json/enchantments.json',
           "iDisplayLength": -1,
           "paging": false,
           "deferRender": true,

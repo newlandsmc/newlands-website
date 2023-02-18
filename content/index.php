@@ -1,7 +1,10 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>SemiVanilla MC | 1.19.3 Minecraft Survival Community</title>
+    <title>SemiVanilla SMP | 1.19.3 Minecraft Survival Server</title>
+    <meta name="description" content="SemiVanilla SMP is a public survival Minecraft server with a relaxing vibe and friendly community! We always run on the latest version! Grief protection, optional PVP, and more!" />
+    <meta property="og:description" content="SemiVanilla SMP is a public survival Minecraft server with a relaxing vibe and friendly community! We always run on the latest version! Grief protection, optional PVP, and more!" />
+    <meta name="twitter:description" content="SemiVanilla SMP is a public survival Minecraft server with a relaxing vibe and friendly community! We always run on the latest version! Grief protection, optional PVP, and more!" />
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/seo.html'); ?>
     <script async type="module" src="/assets/javascript/jquery-3.6.0.min.js"></script>
     <script defer async type="module" src="/assets/javascript/nav.js"></script>
@@ -63,11 +66,11 @@
       </div>
       <div class="title" style="position: absolute; z-index: 3;">
         <div class="landing-title-text" style="text-align: center;">
-          <img class="landing-logo" src="/assets/images/logo.webp" alt="SemiVanilla MC Logo" />
-          <h2 style="margin: 30px;">1.19.3 Survival Community</h2>
-          <p class="ip hide-mobile">play.semivanilla.com</p>
+          <img class="landing-logo" src="/assets/images/logo.webp" alt="SemiVanilla SMP Logo" />
+          <h2 style="margin: 30px;">1.19.3 Survival Community!</h2>
+          <p class="ip">play.semivanilla.com</p>
           <div style="width:100%">
-            <button type="button" id="asthonia-button" onclick="copyToClipboard('asthonia-button','play.semivanilla.com','https://semivanilla.com/join')">Join Now!</button>
+            <button type="button" id="asthonia-button" onclick="copyToClipboard('asthonia-button','play.semivanilla.com','https://semivanilla.com/join')">Copy IP!</button>
           </div>
           <a id="scrollbutton" class="scroll" href="#welcome">
             <span></span>
@@ -79,13 +82,13 @@
       <div class="content" id="landing">
         <div class="shadow"></div>
         <section class="center" style="flex-direction: column; margin: 50px;">
-          <h1 id="grabber">Bedrock and Java Supported!</h1>
+          <h1 id="grabber">Bedrock and Java Support!</h1>
         </section>
-        <section class="center" style="position: relative; background: linear-gradient(330deg, rgb(15,19,28), rgb(30 39 58)); border-radius: 50px;">
+        <section class="center" style="position: relative; background: linear-gradient(330deg, rgb(110 14 44), rgb(11 36 90)); border-radius: 50px;">
           <img id="frog" class="hide-mobile" src="/assets/images/frog.webp" alt="Minecraft Frog">
           <div>
-            <h3>About Us</h3>
-            <p>We are Minecraft players that built a place to call home. SemiVanilla MC is inspired by old-school servers, offering a classic survival experience with some extra features.</p>
+            <h3>Welcome!</h3>
+            <p>SemiVanilla SMP is a public survival server with a relaxing vibe and friendly community! We always run on the <strong>latest version</strong> and offer many unique features... scroll down to learn more!</p>
           </div>
           <div>
             <img class="small" src="/assets/images/logo.webp" alt="SemiVanilla MC Logo" />
@@ -93,29 +96,29 @@
         </section>
         <section class="center">
           <div>
-            <img class="wide" src="/assets/images/landing-alex.webp" alt="Alex laying in grass with items floating around" />
+            <img class="medium" src="/assets/images/features-map.webp" alt="Digital art of a Minecraft map" />
           </div>
           <div>
-            <h3>Death Corpses</h3>
-            <p>Don't lose your items! Find your corpse after death and get all your gear back. Your items are safe from despawning and safe from being stolen (for the first 5 minutes).</p>
+            <h3>Unique Spawns</h3>
+            <p>Every player starts somewhere new! We do not have a main spawn, instead every player starts somewhere in the survival world, just like vanilla Minecraft!</p>
           </div>
         </section>
         <section class="center">
           <div>
             <h3>RPG Skills</h3>
-            <p>Level up your player in everything you do, from tree cutting to sword fighting, and unlock special abilities in those skills. Use mana to activate your abilities or apply custom enchants to your items for a permanent effect.</p>
+            <p>Level up in everything you do, from tree cutting to sword fighting, and unlock special abilities in those skills. Use mana to activate your abilities or apply custom enchants to your items for a permanent effect!</p>
           </div>
           <div>
-            <img class="wide" src="/assets/images/landing-steve.webp" alt="Steve with glowing diamond sword" />
+            <img class="wide" src="/assets/images/features-steve.webp" alt="Digital art of Minecraft Steve with glowing diamond sword" />
           </div>
         </section>
         <section class="center">
           <div>
-            <img class="wide" src="/assets/images/landing-castle.webp" alt="Minecraft style castle" />
+            <img class="wide" src="/assets/images/features-castle.webp" alt="Digital art of Minecraft style castle" />
           </div>
           <div>
             <h3>Land Protection</h3>
-            <p>Protect your hard work and have peace of mind when you are offline. Claim land using a golden shovel and everything inside your claim is safe from all types of griefing.</p>
+            <p>Protect your hard work and have peace of mind when you are offline. Claim land using a golden shovel and everything inside your claim is safe from all types of griefing!</p>
           </div>
         </section>
         <section class="center">
@@ -125,20 +128,20 @@
           </div>
         </section>
       </div>
-      <div class="content" style="background: linear-gradient(var(--primary) 50%, var(--secondary) 50%); margin-bottom: 0px; width: 100%; max-width: 100%;">
+      <div class="content" style=" margin-bottom: 0px; width: 100%; max-width: 100%;">
         <section class="center" style="position: relative; background: linear-gradient(90deg, rgb(24 12 32), rgb(73 37 96)); border-radius: 50px; flex-direction: column; width: auto; max-width: 90%;">
           <img id="allay" src="/assets/images/allay.webp" alt="Minecraft Allay">
-          <h4 style="padding: 0px 30px;">JOIN OUR DISCORD!</h4>
-          <a href="https://discord.gg/3WzZ3x6wGp" target="_blank"><button type="button" style="margin: 20px 0 0 0;">Join Discord!</button></a>
+          <h4 style="padding: 0px 30px;">WE'RE ON DISCORD!</h4>
+          <a href="https://discord.gg/3WzZ3x6wGp" target="_blank"><button type="button" style="margin: 20px 0 0 0;">Join our Discord!</button></a>
         </section>
       </div>
       <div class="overlay">
         <div class="overlay-bg" onclick="overlayDismiss()"></div>
         <div class="overlay-fg">
           <p id="overlay-ip" class="ip">play.semivanilla.com</p>
-          <p style="margin:10px 0 30px 0;">Copied to Clipboard!</p>
-          <a id="overlay-more-help"><button type="button">More Help?</button></a>
-          <button type="button" onclick="overlayDismiss()">Okay!</button>
+          <p style="margin:10px 0 10px 0;">IP Copied to Clipboard!</p>
+          <a id="overlay-more-help"><button type="button">How to Join?</button></a>
+          <div id="overlay-close" onclick="overlayDismiss()"></div>
         </div>
       </div>
     </main>

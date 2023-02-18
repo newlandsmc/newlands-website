@@ -1,7 +1,10 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>SemiVanilla MC | Vote</title>
+    <title>SemiVanilla SMP | Vote</title>
+    <meta name="description" content="Vote for the SemiVanilla SMP Minecraft server! Earn in-game rewards and support your favorite server. Best Minecraft survival server!" />
+    <meta property="og:description" content="Vote for the SemiVanilla SMP Minecraft server! Earn in-game rewards and support your favorite server. Best Minecraft survival server!" />
+    <meta name="twitter:description" content="Vote for the SemiVanilla SMP Minecraft server! Earn in-game rewards and support your favorite server. Best Minecraft survival server!" />
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/seo.html'); ?>
     <script async type="module" src="/assets/javascript/jquery-3.6.0.min.js"></script>
     <script async src="/assets/javascript/button_clicked.js"></script>
@@ -52,21 +55,21 @@
       </div>
       <div class="content" id="vote">
         <div class="shadow"></div>
-        <div>
-          <section style="width: auto; position: relative; height: fit-content; background: linear-gradient(130deg, rgb(15,19,28), rgb(30 39 58));" class="center" id="votelinks">
+        <div style="z-index:100">
+          <section style="width: auto; position: relative; height: fit-content; background: rgb(19 24 36);" class="center" id="votelinks">
             <img style="position: absolute; right: -10px; bottom: -100px; width: 180px;" class="hide-mobile" src="/assets/images/sweet-berries.webp" alt="Minecraft Sweet Berries">
             <h3 style="width: 100%">Reward Sites</h3>
             <div>
-              <h3>minecraft-mp.com</h3>
-              <a href="https://minecraft-mp.com/server/298736/vote/" target="_blank"><button type="button" id="vote1" onclick="buttonClicked('vote1')">Vote</button></a>
+              <h3>minecraftpocket-servers.com</h3>
+              <a href="https://minecraftpocket-servers.com/server/122390/vote/" target="_blank"><button type="button" id="vote1" onclick="buttonClicked('vote1')">Vote</button></a>
             </div>
             <div>
-              <h3>topmcservers.com</h3>
-              <a href="https://topmcservers.com/server/1610/vote" target="_blank"><button type="button" id="vote2" onclick="buttonClicked('vote2')">Vote</button></a>
+              <h3>minecraftsurvivalservers.net</h3>
+              <a href="https://minecraftsurvivalservers.net/server/47/vote" target="_blank"><button type="button" id="vote2" onclick="buttonClicked('vote2')">Vote</button></a>
             </div>
             <div>
-              <h3>minelist.net</h3>
-              <a href="https://minelist.net/vote/3953" target="_blank"><button type="button" id="vote3" onclick="buttonClicked('vote3')">Vote</button></a>
+              <h3>mc-servers.com</h3>
+              <a href="https://mc-servers.com/vote/5117" target="_blank"><button type="button" id="vote3" onclick="buttonClicked('vote3')">Vote</button></a>
             </div>
             <div>
               <h3>minecraft-server.net</h3>
@@ -81,7 +84,7 @@
               <a href="https://minecraft.buzz/vote/3877" target="_blank"><button type="button" id="vote6" onclick="buttonClicked('vote6')">Vote</button></a>
             </div>
           </section>
-          <section style="width: auto; z-index: 1; height: fit-content; background: linear-gradient(130deg, rgb(20 25 38), rgb(38 51 78));" class="center" id="votelinks">
+          <section style="width: auto; z-index: 1; height: fit-content; background: rgb(19 24 36);" class="center" id="votelinks">
             <h3 style="width: 100%">Other Sites</h3>
             <div>
               <h3>minecraft-serverlist.com</h3>
@@ -93,13 +96,13 @@
             </div>
           </section>
         </div>
-        <div id="vote-info" style="max-width: 300px;">
-          <section style="background: linear-gradient(130deg, rgb(15 23 28), rgb(30 46 58));" class="center">
+        <div id="vote-info" style="z-index:100; max-width: 300px;">
+          <section class="center">
             <h3>Reward: Crates</h3>
             <p>Earn up to 7 Crates every day + 1 FREE Premium Crate each week!</p>
             <p>Every vote earns you a Vote Crate. Vote 7 days in a row to receive a FREE Premium Crate. Learn more: <a href="/features/crates/">What's in a Crate?</a></p>
           </section>
-          <section style="background: linear-gradient(130deg, rgb(15 27 28), rgb(30 52 58));" class="center">
+          <section class="center">
             <h3>Reddit</h3>
             <p>We are also listed on /r/mcservers! Find our latest post to upvote and comment!</p>
             <p>Note: This site does not grant voting rewards.</p>
