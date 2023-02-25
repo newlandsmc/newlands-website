@@ -1,10 +1,10 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>SemiVanilla SMP | How to Join</title>
-    <meta name="description" content="How to join a public Minecraft server on Java Edition or Bedrock! How to enter the IP of a Minecraft server! Provided by SemiVanilla SMP!" />
-    <meta property="og:description" content="How to join a public Minecraft server on Java Edition or Bedrock! How to enter the IP of a Minecraft server! Provided by SemiVanilla SMP!" />
-    <meta name="twitter:description" content="How to join a public Minecraft server on Java Edition or Bedrock! How to enter the IP of a Minecraft server! Provided by SemiVanilla SMP!" />
+    <title>New Lands Survival | How to Join</title>
+    <meta name="description" content="How to join a public Minecraft server on Java Edition or Bedrock! How to enter the IP of a Minecraft server! Provided by New Lands Survival!" />
+    <meta property="og:description" content="How to join a public Minecraft server on Java Edition or Bedrock! How to enter the IP of a Minecraft server! Provided by New Lands Survival!" />
+    <meta name="twitter:description" content="How to join a public Minecraft server on Java Edition or Bedrock! How to enter the IP of a Minecraft server! Provided by New Lands Survival!" />
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/seo.html'); ?>
     <script async defer>
       function copyToClipboard(id,ip) {
@@ -27,7 +27,7 @@
     <script defer async type="module">
       import '/assets/javascript/jquery-3.6.0.min.js';
       $(document).ready(function () {
-        jQuery.getJSON("https://api.mcsrvstat.us/2/play.semivanilla.com",function(json){
+        jQuery.getJSON("https://api.mcsrvstat.us/2/play.newlandsmc.com",function(json){
           if (json.online == false) {
           }
           else {
@@ -44,6 +44,19 @@
       }
       section img {
         border-radius: 15px;
+      }
+      #allay {
+        position: absolute;
+        right: -80px;
+        top: 0px;
+        width: 120px;
+        margin-top: 0px;
+      }
+      @media (max-width: 650px) {
+        #allay {
+          right: -2px;
+          width: 80px;
+        }
       }
     </style>
   </head>
@@ -65,7 +78,7 @@
             <ol>
               <li>In Minecraft, go to <strong>Multiplayer</strong> and then <strong>Add Server</strong>.</li>
               <li>Enter a name, this can be anything you want!</li>
-              <li>Enter "play.semivanilla.com" for the <strong>Server Address</strong>.</li>
+              <li>Enter "play.newlandsmc.com" for the <strong>Server Address</strong>.</li>
               <li>Click <strong>Done</strong>.</li>
               <li>Select our server and join!</li>
             </ol>
@@ -84,24 +97,26 @@
               <li>In Minecraft, go to <strong>Play</strong> and then <strong>Servers</strong>.</li>
               <li>Scroll to the bottom and tap on <strong>Add Server</strong>.
               <li>Enter a name, this can be anything you want!</li>
-              <li>Enter "play.semivanilla.com" for the <strong>Server Address</strong>. Leave the default port (19132).</li>
+              <li>Enter "play.newlandsmc.com" for the <strong>Server Address</strong>. Leave the default port (19132).</li>
               <li>Tap <strong>Play</strong>!</li>
             </ol>
           </div>
         </section>
-        </section>
-        <section class="center" style="margin: 50px; flex-direction: column; width: fit-content; border-radius: 50px; background: linear-gradient(90deg, rgb(15,19,28), rgb(30 39 58));">
-          <h3 style="margin: 0;">Ready?</h3>
-          <p style="margin-bottom: 15px; line-height: 1.4em;" class="ip">play.semivanilla.com</p>
+      </div>
+      <div class="content" style="margin-top: 50px; margin-bottom: 0px; width: 100%; max-width: 100%;">
+        <section class="center" style="position: relative; background: linear-gradient(330deg, rgb(18 94 85), rgb(74 11 90)); border-radius: 50px; flex-direction: column; width: auto; max-width: 90%;">
+          <img id="allay" src="/assets/images/allay.webp" alt="Minecraft Allay">
+          <h4>Join Now!</h4>
+          <p style="margin-bottom: 15px;" class="ip">play.newlandsmc.com</p>
           <div style="width:100%">
-            <button type="button" id="asthonia-button" onclick="copyToClipboard('asthonia-button','play.semivanilla.com','https://semivanilla.com/join')">Copy IP!</button>
+            <button type="button" id="asthonia-button" onclick="copyToClipboard('asthonia-button','play.newlandsmc.com','https://newlandsmc.com/join')">Copy IP!</button>
           </div>
         </section>
       </div>
       <div class="overlay">
         <div class="overlay-bg" onclick="overlayDismiss()"></div>
         <div class="overlay-fg">
-          <p id="overlay-ip" class="ip">play.semivanilla.com</p>
+          <p id="overlay-ip" class="ip">play.newlandsmc.com</p>
           <p style="margin:10px 0 10px 0;">IP Copied to Clipboard!</p>
           <button type="button" onclick="overlayDismiss()">Okay!</button>
           <div id="overlay-close" onclick="overlayDismiss()"></div>

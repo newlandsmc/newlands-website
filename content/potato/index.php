@@ -1,15 +1,15 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>SemiVanilla SMP | Potato Optimization</title>
-    <meta name="description" content="How to optimize a slow computer to run Minecraft at the best FPS. Mods to improve Minecraft performance. Provided by SemiVanilla SMP!" />
-    <meta property="og:description" content="How to optimize a slow computer to run Minecraft at the best FPS. Mods to improve Minecraft performance. Provided by SemiVanilla SMP!" />
-    <meta name="twitter:description" content="How to optimize a slow computer to run Minecraft at the best FPS. Mods to improve Minecraft performance. Provided by SemiVanilla SMP!" />
+    <title>New Lands Survival | Potato Optimization</title>
+    <meta name="description" content="How to optimize a slow computer to run Minecraft at the best FPS. Mods to improve Minecraft performance. Provided by New Lands Survival!" />
+    <meta property="og:description" content="How to optimize a slow computer to run Minecraft at the best FPS. Mods to improve Minecraft performance. Provided by New Lands Survival!" />
+    <meta name="twitter:description" content="How to optimize a slow computer to run Minecraft at the best FPS. Mods to improve Minecraft performance. Provided by New Lands Survival!" />
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/seo.html'); ?>
     <script async defer>
       function copyToClipboard(id) {
         var aux = document.createElement("input");
-        aux.setAttribute("value", "play.semivanilla.com");
+        aux.setAttribute("value", "play.newlandsmc.com");
         document.body.appendChild(aux);
         aux.select();
         document.execCommand("copy");

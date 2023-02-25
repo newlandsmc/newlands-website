@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>SemiVanilla SMP | Features | Recipes</title>
+    <title>New Lands Survival | Features | Recipes</title>
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/seo.html'); ?>
     <script async type="module" src="/assets/javascript/jquery-3.6.0.min.js"></script>
     <script defer async type="module" src="/assets/javascript/nav.js"></script>
@@ -17,7 +17,7 @@
       <div class="sub-title" style="background-image: url(/assets/images/asthonia/features-recipes-title.webp); background-position: center;">
         <div>
           <h1>Custom Recipes</h1>
-          <h2>Found on SemiVanilla MC</h2>
+          <h2>Found on New Lands Survival MC</h2>
         </div>
       </div>
       <div class="content split-content">

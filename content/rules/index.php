@@ -1,10 +1,10 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>SemiVanilla SMP | Rules</title>
-    <meta name="description" content="Rules and guidelines for the SemiVanilla SMP server. We provide a safe and inclusive environment on our Minecraft server!" />
-    <meta property="og:description" content="Rules and guidelines for the SemiVanilla SMP server. We provide a safe and inclusive environment on our Minecraft server!" />
-    <meta name="twitter:description" content="Rules and guidelines for the SemiVanilla SMP server. We provide a safe and inclusive environment on our Minecraft server!" />
+    <title>New Lands Survival | Rules</title>
+    <meta name="description" content="Rules and guidelines for the New Lands Survival server. We provide a safe and inclusive environment on our Minecraft server!" />
+    <meta property="og:description" content="Rules and guidelines for the New Lands Survival server. We provide a safe and inclusive environment on our Minecraft server!" />
+    <meta name="twitter:description" content="Rules and guidelines for the New Lands Survival server. We provide a safe and inclusive environment on our Minecraft server!" />
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/seo.html'); ?>
     <script async type="module" src="/assets/javascript/jquery-3.6.0.min.js"></script>
     <script defer async type="module" src="/assets/javascript/nav.js"></script>
@@ -63,7 +63,7 @@
         </section>
         <section>
           <img style="position: absolute; left: -150px; bottom: -150px; width: 180px;" class="hide-mobile" src="/assets/images/warden.webp" alt="Minecraft Warden">
-          <h3>Be SVMC</h3>
+          <h3>Be New Lands Survival</h3>
           <ul>
             <li class="rules">Do not discuss or appeal bans/mutes/etc in public channels. (An appeal email is provided in every punishment message, or on the Discord <strong>#faq</strong> page.)</li>
             <li class="rules">Do not intentionally disparage, tarnish, or otherwise harm the server or staff.</li>

@@ -1,10 +1,10 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>SemiVanilla SMP | Features</title>
-    <meta name="description" content="There are many features on the SemiVanilla SMP Minecraft server! Land claiming, RPG Skills, a Live Map, and lots of custom features! Learn more here." />
-    <meta property="og:description" content="There are many features on the SemiVanilla SMP Minecraft server! Land claiming, RPG Skills, a Live Map, and lots of custom features! Learn more here." />
-    <meta name="twitter:description" content="There are many features on the SemiVanilla SMP Minecraft server! Land claiming, RPG Skills, a Live Map, and lots of custom features! Learn more here." />
+    <title>New Lands Survival | Features</title>
+    <meta name="description" content="There are many features on the New Lands Survival Minecraft server! Land claiming, RPG Skills, a Live Map, and lots of custom features! Learn more here." />
+    <meta property="og:description" content="There are many features on the New Lands Survival Minecraft server! Land claiming, RPG Skills, a Live Map, and lots of custom features! Learn more here." />
+    <meta name="twitter:description" content="There are many features on the New Lands Survival Minecraft server! Land claiming, RPG Skills, a Live Map, and lots of custom features! Learn more here." />
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/seo.html'); ?>
     <script async type="module" src="/assets/javascript/jquery-3.6.0.min.js"></script>
     <script defer async type="module" src="/assets/javascript/nav.js"></script>
@@ -15,7 +15,7 @@
       <div class="sub-title" style="background-image: url(/assets/images/asthonia/features-title.webp); background-position: center;">
         <div>
           <h1>All Features</h1>
-          <h2>Available on SemiVanilla SMP</h2>
+          <h2>Available on New Lands Survival</h2>
         </div>
       </div>
       <div class="content split-content">

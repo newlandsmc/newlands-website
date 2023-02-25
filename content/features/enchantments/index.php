@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>SemiVanilla SMP | Features | Custom Enchantments</title>
+    <title>New Lands Survival | Features | Custom Enchantments</title>
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/seo.html'); ?>
     <script async type="module" src="/assets/javascript/jquery-3.6.0.min.js"></script>
     <script defer async type="module" src="/assets/javascript/nav.js"></script>
@@ -20,7 +20,7 @@
         <div>
           <section>
             <h3>Available Enchantments</h3>
-            <p>There are <strong>54</strong> custom enchantments on SVMC! They are available for all types of weapons, armor, and tools.</p>
+            <p>There are <strong>54</strong> custom enchantments on New Lands Survival! They are available for all types of weapons, armor, and tools.</p>
             <p>To see a list of all available enchantments, <a href="all/">click here</a>.</p>
           </section>
           <section>

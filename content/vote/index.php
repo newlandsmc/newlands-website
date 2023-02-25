@@ -1,10 +1,10 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>SemiVanilla SMP | Vote</title>
-    <meta name="description" content="Vote for the SemiVanilla SMP Minecraft server! Earn in-game rewards and support your favorite server. Best Minecraft survival server!" />
-    <meta property="og:description" content="Vote for the SemiVanilla SMP Minecraft server! Earn in-game rewards and support your favorite server. Best Minecraft survival server!" />
-    <meta name="twitter:description" content="Vote for the SemiVanilla SMP Minecraft server! Earn in-game rewards and support your favorite server. Best Minecraft survival server!" />
+    <title>New Lands Survival | Vote</title>
+    <meta name="description" content="Vote for the New Lands Survival Minecraft server! Earn in-game rewards and support your favorite server. Best Minecraft survival server!" />
+    <meta property="og:description" content="Vote for the New Lands Survival Minecraft server! Earn in-game rewards and support your favorite server. Best Minecraft survival server!" />
+    <meta name="twitter:description" content="Vote for the New Lands Survival Minecraft server! Earn in-game rewards and support your favorite server. Best Minecraft survival server!" />
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/seo.html'); ?>
     <script async type="module" src="/assets/javascript/jquery-3.6.0.min.js"></script>
     <script async src="/assets/javascript/button_clicked.js"></script>
@@ -73,7 +73,7 @@
             </div>
             <div>
               <h3>minecraft-server.net</h3>
-              <a href="https://minecraft-server.net/vote/semivanilla_mc/" target="_blank"><button type="button" id="vote4" onclick="buttonClicked('vote4')">Vote</button></a>
+              <a href="https://minecraft-server.net/vote/newlandssurvival/" target="_blank"><button type="button" id="vote4" onclick="buttonClicked('vote4')">Vote</button></a>
             </div>
             <div>
               <h3>serverlist101.com</h3>
@@ -92,7 +92,7 @@
             </div>
             <div>
               <h3>planetminecraft.com</h3>
-              <a href="https://www.planetminecraft.com/server/semivanilla-mc/vote/" target="_blank"><button type="button" id="vote8" onclick="buttonClicked('vote8')">Vote</button></a>
+              <a href="https://www.planetminecraft.com/server/new-lands-survival/vote/" target="_blank"><button type="button" id="vote8" onclick="buttonClicked('vote8')">Vote</button></a>
             </div>
           </section>
         </div>
@@ -106,7 +106,7 @@
             <h3>Reddit</h3>
             <p>We are also listed on /r/mcservers! Find our latest post to upvote and comment!</p>
             <p>Note: This site does not grant voting rewards.</p>
-            <a href="https://www.reddit.com/user/semivanillamc" target="_blank"><button type="button" id="vote7" onclick="buttonClicked('vote7')">Visit Reddit</button></a>
+            <a href="https://www.reddit.com/user/New Lands Survivalmc" target="_blank"><button type="button" id="vote7" onclick="buttonClicked('vote7')">Visit Reddit</button></a>
           </section>
         </div>
       </div>

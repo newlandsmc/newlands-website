@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>New Lands Survival | 404</title>
+    <title>New Lands Survival | We Moved!</title>
     <meta name="robots" content="noindex" />
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/seo.html'); ?>
     <script async type="module" src="/assets/javascript/jquery-3.6.0.min.js"></script>
@@ -13,8 +13,10 @@
       <div class="title" style="background-image: url(/assets/images/404-title.webp);">
         <video id="landing-title-video" autoplay loop muted hidden-src="/assets/videos/404-video.mp4" poster="/assets/images/404-title.webp"></video>
         <div>
-          <h2>404</h2>
-          <h3>Page not found.</h3>
+          <h2>We Moved!</h2>
+          <h3>SemiVanilla MC is now <strong>New Lands Survival</strong>!</h3>
+          <h3>Please bookmark our new website:</h3>
+          <h3><a href="/">newlandsmc.com</a></h3>
         </div>
       </div>
     </main>
