@@ -4,8 +4,13 @@
     <title>New Lands Survival | Features | Map</title>
     <meta name="robots" content="noindex" />
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/seo.html'); ?>
-    <script async type="module" src="/assets/javascript/jquery-3.6.0.min.js"></script>
+    <script async type="module" src="/assets/javascript/jquery-3.6.3.min.js"></script>
     <script defer async type="module" src="/assets/javascript/nav.js"></script>
+    <style>
+      h2, h3 {
+        text-align: center;
+      }
+    </style>
   </head>
   <body>
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/header.html'); ?>

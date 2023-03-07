@@ -6,7 +6,7 @@
     <meta property="og:description" content="Rules and guidelines for the New Lands Survival server. We provide a safe and inclusive environment on our Minecraft server!" />
     <meta name="twitter:description" content="Rules and guidelines for the New Lands Survival server. We provide a safe and inclusive environment on our Minecraft server!" />
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/seo.html'); ?>
-    <script async type="module" src="/assets/javascript/jquery-3.6.0.min.js"></script>
+    <script async type="module" src="/assets/javascript/jquery-3.6.3.min.js"></script>
     <script defer async type="module" src="/assets/javascript/nav.js"></script>
     <style>
       section {
@@ -24,9 +24,9 @@
           <h2>Be Careful, Kind, and Fair</h2>
         </div>
       </div>
-      <div class="content" style="margin-top: 30px;">
+      <div class="content">
         <div class="shadow"></div>
-        <section>
+        <section style="padding-top: 30px;">
           <h3>Be Careful</h3>
           <ul>
             <li class="rules">Trusting players is at-your-own-risk! (Set up your land claim roles and areas carefully!)</li>

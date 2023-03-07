@@ -21,7 +21,7 @@
         $('.overlay').removeClass('active');
       }
     </script>
-    <script async type="module" src="/assets/javascript/jquery-3.6.0.min.js"></script>
+    <script async type="module" src="/assets/javascript/jquery-3.6.3.min.js"></script>
     <script defer async type="module" src="/assets/javascript/nav.js"></script>
     <style>
       section {

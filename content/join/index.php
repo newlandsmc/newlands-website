@@ -15,35 +15,34 @@
         document.execCommand("copy");
         document.body.removeChild(aux);
         document.getElementById(id).style.backgroundColor = "var(--action-taken)";
-        document.getElementById('overlay-ip').innerHTML = ip;
         $('.overlay').addClass('active');
       }
       function overlayDismiss() {
         $('.overlay').removeClass('active');
       }
     </script>
-    <script async type="module" src="/assets/javascript/jquery-3.6.0.min.js"></script>
+    <script async type="module" src="/assets/javascript/jquery-3.6.3.min.js"></script>
     <script defer async type="module" src="/assets/javascript/nav.js"></script>
     <script defer async type="module">
-      import '/assets/javascript/jquery-3.6.0.min.js';
+      import '/assets/javascript/jquery-3.6.3.min.js';
       $(document).ready(function () {
         jQuery.getJSON("https://api.mcsrvstat.us/2/play.newlandsmc.com",function(json){
           if (json.online == false) {
           }
           else {
             // success
-            document.getElementById('player-count').innerHTML = 'Join ' + json.players.online + ' players online now!';
+            document.getElementById('player-count').innerHTML = 'Players Online: ' + json.players.online;
           }
         });
       });
     </script>
     <style>
+      .howjoin {
+        width: 90%;
+      }
       section {
         justify-content: center;
         align-items: center;
-      }
-      section img {
-        border-radius: 15px;
       }
       #allay {
         position: absolute;
@@ -52,9 +51,13 @@
         width: 120px;
         margin-top: 0px;
       }
-      @media (max-width: 650px) {
+      @media (max-width: 700px) {
+        .howjoin {
+          width: 100%;
+        }
         #allay {
           right: -2px;
+          top: -50px;
           width: 80px;
         }
       }
@@ -66,7 +69,8 @@
       <div class="sub-title" style="background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url(/assets/images/join-title.webp); background-size: cover; background-position: 85%;">
         <div>
           <h1>Welcome!</h1>
-          <h2 id="player-count">Join 9 players online now!</h2>
+          <h2>How to Join New Lands Survival</h2>
+          <p id="player-count">Players Online:</p>
         </div>
         <div style="position:absolute; bottom:80px;" id="welcome"></div>
       </div>
@@ -84,12 +88,12 @@
             </ol>
           </div>
           <div>
-            <img style="width:90%;" src="/assets/images/join-java-edition.webp" alt="Minecraft Java Edition Screenshot" />
+            <img class="howjoin" src="/assets/images/join-java-edition-small.webp" alt="Minecraft Java Edition Screenshot" />
           </div>
         </section>
         <section>
           <div>
-            <img style="width:90%;" src="/assets/images/join-bedrock-edition.webp" alt="Minecraft Bedrock Edition Screenshot" />
+            <img class="howjoin" src="/assets/images/join-bedrock-edition-small.webp" alt="Minecraft Bedrock Edition Screenshot" />
           </div>
           <div class="narrow">
             <h3>Bedrock Edition</h3>
@@ -104,24 +108,16 @@
         </section>
       </div>
       <div class="content" style="margin-top: 50px; margin-bottom: 0px; width: 100%; max-width: 100%;">
-        <section class="center" style="position: relative; background: linear-gradient(330deg, rgb(18 94 85), rgb(74 11 90)); border-radius: 50px; flex-direction: column; width: auto; max-width: 90%;">
-          <img id="allay" src="/assets/images/allay.webp" alt="Minecraft Allay">
+        <section class="center joinnow" style="position: relative; background: linear-gradient(330deg, rgb(110 14 44), rgb(11 36 90)); border-radius: 50px; flex-direction: column; width: auto; max-width: 70%;">
+          <img id="allay" src="/assets/images/allay-small.webp" alt="Minecraft Allay">
           <h4>Join Now!</h4>
           <p style="margin-bottom: 15px;" class="ip">play.newlandsmc.com</p>
           <div style="width:100%">
-            <button type="button" id="asthonia-button" onclick="copyToClipboard('asthonia-button','play.newlandsmc.com','https://newlandsmc.com/join')">Copy IP!</button>
+            <button type="button" class="copyip-button" id="cb1" onclick="copyToClipboard('cb1','play.newlandsmc.com','https://newlandsmc.com/join')">Copy IP!</button>
           </div>
         </section>
       </div>
-      <div class="overlay">
-        <div class="overlay-bg" onclick="overlayDismiss()"></div>
-        <div class="overlay-fg">
-          <p id="overlay-ip" class="ip">play.newlandsmc.com</p>
-          <p style="margin:10px 0 10px 0;">IP Copied to Clipboard!</p>
-          <button type="button" onclick="overlayDismiss()">Okay!</button>
-          <div id="overlay-close" onclick="overlayDismiss()"></div>
-        </div>
-      </div>
+      <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/ip-overlay.html'); ?>
     </main>
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/footer.html'); ?>
   </body>

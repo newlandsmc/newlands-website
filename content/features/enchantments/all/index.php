@@ -3,8 +3,8 @@
   <head>
     <title>New Lands Survival MC | Features | Custom Enchantments | All</title>
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/seo.html'); ?>
-    <script src="/assets/javascript/jquery-3.6.0.min.js"></script>
-    <script src="/assets/javascript/datatables.min.js"></script>
+    <script async src="/assets/javascript/jquery-3.6.3.min.js"></script>
+    <script async src="/assets/javascript/datatables.min.js"></script>
     <script defer async type="module" src="/assets/javascript/nav.js"></script>
     <style>
       table {
@@ -31,7 +31,7 @@
   <body>
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/header.html'); ?>
     <main>
-      <div class="sub-title" style="background-image: url(/assets/images/asthonia/enchantments-all-title.webp); background-position: center;">
+      <div class="sub-title" style="background-image: url(/assets/images/enchantments-all-title.webp); background-position: center;">
         <div>
           <h1>Custom Enchantments</h1>
           <h2>List of All</h2>
@@ -46,7 +46,9 @@
       </div>
     </main>
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/footer.html'); ?>
-    <script>
+    <script defer async type="module">
+      import '/assets/javascript/jquery-3.6.3.min.js';
+      import '/assets/javascript/datatables.min.js';
       $(document).ready(function() {
         $('#main').DataTable( {
           "ajax": '/assets/json/enchantments.json',

@@ -3,13 +3,13 @@
   <head>
     <title>New Lands Survival | Features | Crates</title>
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/seo.html'); ?>
-    <script async type="module" src="/assets/javascript/jquery-3.6.0.min.js"></script>
+    <script async type="module" src="/assets/javascript/jquery-3.6.3.min.js"></script>
     <script defer async type="module" src="/assets/javascript/nav.js"></script>
   </head>
   <body>
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/header.html'); ?>
     <main>
-      <div class="sub-title" style="background-image: url(/assets/images/asthonia/features-title.webp); background-position: center;">
+      <div class="sub-title" style="background-image: url(/assets/images/features-title.webp); background-position: center;">
         <div>
           <h1>Loot Crates</h1>
           <h2>Possible Rewards</h2>

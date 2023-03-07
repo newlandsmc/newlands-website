@@ -3,13 +3,13 @@
   <head>
     <title>New Lands Survival | Features | Land Claiming</title>
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/seo.html'); ?>
-    <script async type="module" src="/assets/javascript/jquery-3.6.0.min.js"></script>
+    <script async type="module" src="/assets/javascript/jquery-3.6.3.min.js"></script>
     <script defer async type="module" src="/assets/javascript/nav.js"></script>
   </head>
   <body>
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/header.html'); ?>
     <main>
-      <div class="sub-title" style="background-image: url(/assets/images/asthonia/claiming-title.webp); background-position: center;">
+      <div class="sub-title" style="background-image: url(/assets/images/claiming-title.webp); background-position: center;">
         <div>
           <h1>Land Claiming</h1>
           <h2>By GriefPrevention</h2>
@@ -45,7 +45,7 @@ make sure you only trust people you know. We are not responsible for players abu
             <p>All claims are rectangular. Determine what size/shape rectangle you need to claim to protect your entire build. Then, use the golden shovel to right click two opposite corners of that rectangle. This will create a claim. You can visualize the claim by looking at the glowstone and gold blocks that are temporarily placed to outline the claim.</p>
             <p>To resize a claim, use the golden shovel to right click one of the corners (represented by glowstone) and then right click a new location you want that corner to be.</p>
             <p style="color:#4ad555;">Remember, claims automatically extend vertically! You only need to worry about the length/width of the claim, not the height.</p>
-            <img src="/assets/images/asthonia/claiming-border.webp" alt="Glowstone and gold block border around a claim in-game" style="border-radius: 5px;"></img>
+            <img src="/assets/images/claiming-border.webp" alt="Glowstone blocks and gold blocks creating a visual border around a claim in-game" style="border-radius: 5px;"></img>
           </section>
           <section>
             <h3>Automatic Claim Delection</h3>
