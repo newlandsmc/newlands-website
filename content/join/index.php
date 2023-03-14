@@ -68,8 +68,8 @@
     <main>
       <div class="sub-title" style="background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url(/assets/images/join-title.webp); background-size: cover; background-position: 85%;">
         <div>
-          <h1>Welcome!</h1>
-          <h2>How to Join New Lands Survival</h2>
+          <h1>How to Join</h1>
+          <h2>We Support Java and Bedrock!</h2>
           <p id="player-count">Players Online:</p>
         </div>
         <div style="position:absolute; bottom:80px;" id="welcome"></div>

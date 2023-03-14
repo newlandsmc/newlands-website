@@ -44,7 +44,7 @@
     <main>
       <div class="sub-title">
         <div>
-          <h1>Potato Optimization</h1>
+          <h1>PC Optimization</h1>
           <h2>How to run Minecraft on a Slow Computer</h2>
         </div>
         <div style="position:absolute; bottom:80px;" id="welcome"></div>

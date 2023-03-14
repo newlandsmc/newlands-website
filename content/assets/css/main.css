@@ -224,10 +224,6 @@ footer {
   opacity: 100%;
 }
 
-footer p {
-  color: white;
-}
-
 footer li a {
   font-family: 'mctext';
 }
@@ -333,12 +329,16 @@ h3, h4{
   text-shadow: 0 2px black, 2px 0 black;
 }
 
+footer p {
+  color: var(--content);
+}
+
 .content, #main-nav > div {
   width: 80%;
   max-width: 1020px;
 }
 
-.content {
+.content{
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -593,7 +593,7 @@ button:hover {
   background: linear-gradient( 45deg, rgb(104 156 223), rgb(9 58 100) );
   color: #dddddd;
   text-align: center;
-  border-radius: 50px;
+  border-radius: 25px;
   box-shadow: 5px 5px 15px 0px #000000;
   padding: 60px 0 50px 0;
   position: fixed;
@@ -729,13 +729,13 @@ button:hover {
 /* Make this absolute positioned at the top left of the screen */
 #mobile-nav > div > ul {
   position: absolute;
-  width: 300px;
-  height: 100vh;
-  margin: -100px 0 0 -50px;
+  width: 100vw;
+  min-height: 110vh;
+  margin: -100px 0 0 -45px;
   padding: 50px;
   padding-top: 125px;
-  /* background-color: var(--secondary-active); */
-  background: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0));
+  background-color: var(--secondary-active);
+  /* background: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0)); */
   transform-origin: 0% 0%;
   transform: translate(-100%, 0);
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
@@ -743,16 +743,26 @@ button:hover {
 
 #mobile-nav li {
   padding: 5px 0;
-  font-size: 22px;
+  font-size: 20px;
 }
 
-#mobile-nav a, #mobile-nav p {
+#mobile-nav a {
   color: white;
   font-family: 'mctext';
   display: block;
   width: 100%;
-  padding: 5px;
+  padding: 5px 0;
   /* text-shadow: 5px 5px 5px black; */
+}
+
+#mobile-nav p {
+  font-family: sans-serif;
+  font-size: 16px;
+  width: 100%;
+  color: #738592;
+  padding: 10px 0 5px 0;
+  display: block;
+  border-bottom: 2px solid #738592;
 }
 
 /* And let's fade it in from the left */
@@ -761,15 +771,8 @@ button:hover {
   opacity: 1;
 }
 
-#mobile-nav ul li:hover > ul, ul.hover_effect {
-  height: fit-content;
-}
-
 #mobile-nav ul ul {
-  display: block;
-  overflow: hidden;
-  height: 0;
-  transition: height, 0.3s;
+  padding-left: 0;
 }
 
 
@@ -783,16 +786,6 @@ button:hover {
   .hide-mobile {
     display: none;
   }
-  #vote {
-    flex-wrap: wrap;
-    max-width: 90%;
-  }
-  #vote section {
-    margin: 30px 0;
-  }
-  #vote-info { 
-    max-width: 600px !important;
-  }
 }
 
 @media (max-width: 700px) {
@@ -801,7 +794,7 @@ button:hover {
     margin: 0 !important;
   }
   .title {
-    top: -15px;
+    top: -35px;
   }
   #main-nav, #scrollbutton {
     display: none;
@@ -840,9 +833,11 @@ button:hover {
 }
 
 @media (max-width: 500px) {
+/*
   .landing-title-text h1 {
     font-size: 1.9em;
   }
+*/
   h1 {
     font-size: 2.5em;
   }
@@ -853,7 +848,7 @@ button:hover {
     font-size: 2.4em !important;
   }
   h3, h4 {
-    font-size: 1.5em;
+    font-size: 1.8em;
   }
   .ip {
     font-size: 1.2em;

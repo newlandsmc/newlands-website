@@ -86,7 +86,7 @@
         <section class="center" style="flex-direction: column; margin: 0 0 80px 0;">
           <h2 id="grabber">Bedrock, Java, and ViveCraft Support!</h2>
         </section>
-        <section class="center" style="position: relative; background: linear-gradient(330deg, rgb(110 14 44), rgb(11 36 90)); border-radius: 50px;">
+        <section class="center" style="position: relative; background: linear-gradient(330deg, rgb(110 14 44), rgb(11 36 90)); border-radius: 25px;">
           <img id="frog" class="hide-mobile" src="/assets/images/frog.webp" alt="Minecraft Frog">
           <div>
             <h3>Welcome!</h3>
@@ -125,7 +125,7 @@
         </section>
       </div>
       <div class="content" style="margin-top: 50px; margin-bottom: 0px; width: 100%; max-width: 100%;">
-        <section class="center joinnow" style="position: relative; background: linear-gradient(330deg, rgb(110 14 44), rgb(11 36 90)); border-radius: 50px; flex-direction: column; width: auto; max-width: 70%;">
+        <section class="center joinnow" style="position: relative; background: linear-gradient(330deg, rgb(110 14 44), rgb(11 36 90)); border-radius: 25px; flex-direction: column; width: auto; max-width: 70%;">
           <img id="allay" src="/assets/images/allay.webp" alt="Minecraft Allay">
           <h4>Join Now!</h4>
           <p style="margin-bottom: 15px;" class="ip">play.newlandsmc.com</p>

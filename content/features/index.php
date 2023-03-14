@@ -14,8 +14,8 @@
     <main>
       <div class="sub-title" style="background-image: url(/assets/images/features-title.webp); background-position: center;">
         <div>
-          <h1>All Features</h1>
-          <h2>Available on New Lands Survival</h2>
+          <h1>Features</h1>
+          <h2>What Makes Us Awesome</h2>
         </div>
       </div>
       <div class="content split-content">

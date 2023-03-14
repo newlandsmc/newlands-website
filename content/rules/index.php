@@ -20,8 +20,8 @@
     <main>
       <div class="sub-title">
         <div>
-          <h1>Rules</h1>
-          <h2>Be Careful, Kind, and Fair</h2>
+          <h1>Server Rules</h1>
+          <h2>Be: Careful, Kind, and Fair!</h2>
         </div>
       </div>
       <div class="content">
@@ -63,7 +63,7 @@
         </section>
         <section>
           <img style="position: absolute; left: -150px; bottom: -150px; width: 180px;" class="hide-mobile" src="/assets/images/warden.webp" alt="Minecraft Warden">
-          <h3>Be New Lands Survival</h3>
+          <h3>Other Rules</h3>
           <ul>
             <li class="rules">Do not discuss or appeal bans/mutes/etc in public channels. (An appeal email is provided in every punishment message, or on the Discord <strong>#faq</strong> page.)</li>
             <li class="rules">Do not intentionally disparage, tarnish, or otherwise harm the server or staff.</li>
