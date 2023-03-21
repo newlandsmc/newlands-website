@@ -428,18 +428,6 @@ div.narrow {
   align-items: center;
 }
 
-#player-count {
-  align-self: center;
-  /* text-align: center; */
-  width: fit-content;
-  margin: 4px auto;
-  padding: 4px 30px;
-  border-radius: 10px;
-  background: linear-gradient(330deg, rgb(110 14 44), rgb(11 36 90));
-  color: white;
-  /* font-family: mctext; */
-}
-
 button {
   padding: 10px;
   margin: 16px;
@@ -664,10 +652,6 @@ button:hover {
   margin: 30px;
 }
 
-#landing-body #mobile-nav > a > img {
-  display: none;
-}
-
 #mobile-nav div input {
   display: block;
   width: 33px;
@@ -789,15 +773,18 @@ button:hover {
 }
 
 @media (max-width: 700px) {
+  .sub-title {
+    background-size: 300%;
+  }
   .content {
     width: 90%;
     margin: 0 !important;
   }
-  .title {
-    top: -35px;
-  }
   #main-nav, #scrollbutton {
     display: none;
+  }
+  .title {
+    top: -15px;
   }
   #mobile-nav {
     display: block;
@@ -900,7 +887,7 @@ button:hover {
 }
 
 @media (max-height: 700px) {
-  .landing-title-text h1, .landing-title-text p {
+  .hide-mobile-2 {
     display: none !important;
   }
   .title {

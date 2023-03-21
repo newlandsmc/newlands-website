@@ -71,7 +71,7 @@
   <body>
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/header.html'); ?>
     <main>
-      <div class="sub-title" style="background-image: url(/assets/images/vote-title.webp); background-position: center;">
+      <div class="sub-title" style="background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(/assets/images/vote-title.webp); background-position: 50% 45%;">
         <div>
           <h1>Vote Daily!</h1>
           <h2>Earn Rewards Every Day!</h2>
@@ -122,7 +122,7 @@
         </div>
         <div class="votesection" id="votesection2">
           <section class="center">
-            <h3>Free Crates</h3>
+            <h3>Rewards!</h3>
             <p>1 Vote Crate for every vote!</p>
             <p>FREE Premium Crate(s) for voting 7 days in a row!</p>
             <p><strong>NEW!</strong> Claim a FREE premium rank and earn DOUBLE Premium Crates from voting!</p>

@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>New Lands Survival | 1.19.3 Minecraft Survival Server</title>
+    <title>New Lands Survival | 1.19.4 Minecraft Survival Server</title>
     <meta name="description" content="New Lands Survival is a hard difficulty survival Minecraft server with a relaxing vibe and friendly community! We always run on the latest version! Grief protection, optional PVP, and more!" />
     <meta property="og:description" content="New Lands Survival is a hard difficulty survival Minecraft server with a relaxing vibe and friendly community! We always run on the latest version! Grief protection, optional PVP, and more!" />
     <meta name="twitter:description" content="New Lands Survival is a hard difficulty survival Minecraft server with a relaxing vibe and friendly community! We always run on the latest version! Grief protection, optional PVP, and more!" />
@@ -64,12 +64,12 @@
   <body id="landing-body">
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/header.html'); ?>
     <main>
-      <div class="title" style="background: linear-gradient( rgba(0, 0, 0, 0) 35%, rgba(0, 0, 0, 1) ), url(/assets/images/landing-title.webp); background-size: cover; background-position: 85%;">
+      <div class="title" style="background: linear-gradient( rgba(0, 0, 0, 0) 45%, rgba(0, 0, 0, 1) ), url(/assets/images/landing-title.webp); background-size: cover; background-position: 40%;">
       </div>
       <div class="title" style="position: absolute; z-index: 3;">
         <div class="landing-title-text" style="text-align: center;">
-          <img class="landing-logo" src="/assets/images/logo.webp" alt="New Lands Survival Logo" />
-          <h1 style="margin: 30px;">1.19.3 Survival Community!</h1>
+          <img class="landing-logo hide-mobile-2" src="/assets/images/logo.webp" alt="New Lands Survival Logo" />
+          <h1 style="margin: 30px;">1.19.4 Survival Community!</h1>
           <p class="ip">play.newlandsmc.com</p>
           <div style="width:100%">
             <button type="button" class="copyip-button" id="cb1" onclick="copyToClipboard('cb1','play.newlandsmc.com','https://newlandsmc.com/join')">Copy IP!</button>

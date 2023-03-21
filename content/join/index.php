@@ -61,14 +61,24 @@
           width: 80px;
         }
       }
+      #player-count {
+        align-self: center;
+        width: fit-content;
+        margin: 4px auto;
+        padding: 4px 30px;
+        border-radius: 10px;
+        background: linear-gradient(330deg, rgb(110 14 44), rgb(11 36 90));
+        font-family: mctext;
+        color: var(--focus);
+      }
     </style>
   </head>
   <body>
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/header.html'); ?>
     <main>
-      <div class="sub-title" style="background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url(/assets/images/join-title.webp); background-size: cover; background-position: 85%;">
+      <div class="sub-title" style="background-image: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url(/assets/images/join-title.webp); background-position: 40%;">
         <div>
-          <h1>How to Join</h1>
+          <h1>How to Join!</h1>
           <h2>We Support Java and Bedrock!</h2>
           <p id="player-count">Players Online:</p>
         </div>

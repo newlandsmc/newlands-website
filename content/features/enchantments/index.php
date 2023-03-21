@@ -9,7 +9,7 @@
   <body>
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/header.html'); ?>
     <main>
-      <div class="sub-title" style="background-image: url(/assets/images/enchantments-title.webp); background-position: center;">
+      <div class="sub-title" style="background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(/assets/images/enchantments-title.webp); background-position: 50% 45%;">
         <div>
           <h1>Custom Enchantments</h1>
           <h2>By AdvancedEnchantments</h2>
