@@ -1,10 +1,10 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>New Lands Survival | How to Join</title>
-    <meta name="description" content="How to join a public Minecraft server on Java Edition or Bedrock! How to enter the IP of a Minecraft server! Provided by New Lands Survival!" />
-    <meta property="og:description" content="How to join a public Minecraft server on Java Edition or Bedrock! How to enter the IP of a Minecraft server! Provided by New Lands Survival!" />
-    <meta name="twitter:description" content="How to join a public Minecraft server on Java Edition or Bedrock! How to enter the IP of a Minecraft server! Provided by New Lands Survival!" />
+    <title>SemiVanilla | How to Join</title>
+    <meta name="description" content="How to join a public Minecraft server on Java Edition or Bedrock! How to enter the IP of a Minecraft server! Provided by SemiVanilla!" />
+    <meta property="og:description" content="How to join a public Minecraft server on Java Edition or Bedrock! How to enter the IP of a Minecraft server! Provided by SemiVanilla!" />
+    <meta name="twitter:description" content="How to join a public Minecraft server on Java Edition or Bedrock! How to enter the IP of a Minecraft server! Provided by SemiVanilla!" />
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/seo.html'); ?>
     <script async defer>
       function copyToClipboard(id,ip) {
@@ -26,7 +26,7 @@
     <script defer async type="module">
       import '/assets/javascript/jquery-3.6.3.min.js';
       $(document).ready(function () {
-        jQuery.getJSON("https://api.mcsrvstat.us/2/play.newlandsmc.com",function(json){
+        jQuery.getJSON("https://api.mcsrvstat.us/2/play.semivanilla.com",function(json){
           if (json.online == false) {
           }
           else {
@@ -66,7 +66,7 @@
         width: fit-content;
         margin: 4px auto;
         padding: 4px 30px;
-        border-radius: 10px;
+        border-radius: 1000px;
         background: linear-gradient(330deg, rgb(110 14 44), rgb(11 36 90));
         font-family: mctext;
         color: var(--focus);
@@ -80,7 +80,7 @@
         <div>
           <h1>How to Join!</h1>
           <h2>We Support Java and Bedrock!</h2>
-          <p id="player-count">Players Online:</p>
+          <p id="player-count">Players Online: ...</p>
         </div>
         <div style="position:absolute; bottom:80px;" id="welcome"></div>
       </div>
@@ -92,7 +92,7 @@
             <ol>
               <li>In Minecraft, go to <strong>Multiplayer</strong> and then <strong>Add Server</strong>.</li>
               <li>Enter a name, this can be anything you want!</li>
-              <li>Enter "play.newlandsmc.com" for the <strong>Server Address</strong>.</li>
+              <li>Enter "<span style="color: var(--confirm);">play.semivanilla.com</span>" for the <strong>Server Address</strong>.</li>
               <li>Click <strong>Done</strong>.</li>
               <li>Select our server and join!</li>
             </ol>
@@ -111,19 +111,19 @@
               <li>In Minecraft, go to <strong>Play</strong> and then <strong>Servers</strong>.</li>
               <li>Scroll to the bottom and tap on <strong>Add Server</strong>.
               <li>Enter a name, this can be anything you want!</li>
-              <li>Enter "play.newlandsmc.com" for the <strong>Server Address</strong>. Leave the default port (19132).</li>
+              <li>Enter "<span style="color: var(--confirm);">play.semivanilla.com</span>" for the <strong>Server Address</strong>. Leave the default port (19132).</li>
               <li>Tap <strong>Play</strong>!</li>
             </ol>
           </div>
         </section>
       </div>
-      <div class="content" style="margin-top: 50px; margin-bottom: 0px; width: 100%; max-width: 100%;">
+      <div class="content" style="width: 100%; max-width: 100%; margin-bottom: 50px !important;">
         <section class="center joinnow" style="position: relative; background: linear-gradient(330deg, rgb(110 14 44), rgb(11 36 90)); border-radius: 50px; flex-direction: column; width: auto; max-width: 70%;">
           <img id="allay" src="/assets/images/allay-small.webp" alt="Minecraft Allay">
           <h4>Join Now!</h4>
-          <p style="margin-bottom: 15px;" class="ip">play.newlandsmc.com</p>
+          <p style="margin-bottom: 15px;" class="ip">play.semivanilla.com</p>
           <div style="width:100%">
-            <button type="button" class="copyip-button" id="cb1" onclick="copyToClipboard('cb1','play.newlandsmc.com','https://newlandsmc.com/join')">Copy IP!</button>
+            <button type="button" class="copyip-button" id="cb1" onclick="copyToClipboard('cb1','play.semivanilla.com','https://semivanilla.com/join')">Copy IP!</button>
           </div>
         </section>
       </div>

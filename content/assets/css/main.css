@@ -10,6 +10,8 @@
   --highlight: #329dff;
   --content: #bfc1cf;
   --focus: #d5d7e7;
+  --alert: #ff674d;
+  --confirm: #4ad555;
 }
 
 /*
@@ -111,10 +113,18 @@ a:hover {
 footer {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
   padding: 100px 50px 100px 50px;
-  background: linear-gradient( rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.8) ), url(/assets/images/deepslate.webp);
+  background: linear-gradient( rgba(0, 0, 0, 0.90), rgba(0, 0, 0, 0.90)), url(/assets/images/gravel.webp);
   z-index: 1000;
+}
+
+#otherservers {
+  max-width: 220px;
+  margin-left: 20px;
+}
+
+footer img {
+  margin: 15px auto !important;
 }
 
 #main-nav {
@@ -178,13 +188,14 @@ footer {
 
 #main-nav li a, #main-nav li p {
   font-family: 'mctext';
+  font-size: 1.05rem;
   text-shadow: 2px 2px 2px black;
   padding: 12px 16px;
   color: white;
-  border-radius: 5px;
+  border-radius: 1000px;
   transition: background-color 0.3s;
   margin: 0px 5px;
-  line-height: 1em;
+  line-height: 1;
   display: block;
 }
 
@@ -229,7 +240,7 @@ footer li a {
 }
 
 footer li {
-  margin: 10px;
+  margin: 10px 10px 10px 0px;
 }
 
 #footer-divider {
@@ -244,7 +255,7 @@ main {
   justify-content: center;
   flex-wrap: wrap;
   align-content: flex-start;
-  background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.95) ), url(/assets/images/dirt.webp)
+  background: linear-gradient( rgba(0, 0, 0, 0.81), rgba(0, 0, 0, 0.87) ), url(/assets/images/stone.webp)
 }
 
 #landing-title-video {
@@ -299,16 +310,16 @@ main {
 h1 {
   font-family: 'mctext';
   color: white;
-  font-size: 3em;
+  font-size: 3rem;
   text-shadow: 0 2px black, 2px 0 black;
   text-align: center;
-  line-height: 1em;
+  line-height: 1;
 }
 
 h2 {
   font-family: 'mctext';
   color: var(--focus);
-  font-size: 2em;
+  font-size: 2rem;
   text-shadow: 0 2px black, 2px 0 black;
   text-align: center;
   margin-top: 10px;
@@ -316,16 +327,16 @@ h2 {
 
 #landing h2 {
   color: white;
-  font-size: 3em;
+  font-size: 3rem;
   text-align: center;
-  line-height: 1em;
+  line-height: 1;
   margin-top: 0;
 }
 
 h3, h4{
   font-family: 'mctext';
   color: var(--focus);
-  font-size: 1.6em;
+  font-size: 1.6rem;
   text-shadow: 0 2px black, 2px 0 black;
 }
 
@@ -333,9 +344,15 @@ footer p {
   color: var(--content);
 }
 
-.content, #main-nav > div {
+.content, #main-nav > div, footer > div {
   width: 80%;
   max-width: 1020px;
+}
+
+#main-nav > div, footer > div {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
 }
 
 .content{
@@ -368,7 +385,7 @@ div.shadow {
 section.center {
   align-items: center;
   justify-content: center;
-  line-height: 2em;
+  line-height: 2;
   text-align: center;
 }
 
@@ -432,8 +449,8 @@ button {
   padding: 10px;
   margin: 16px;
   min-width: 90px;
-  line-height: 1.5em;
-  border-radius: 5px;
+  line-height: 1.5;
+  border-radius: 1000px;
   background-color: var(--action);
   font-family: 'mctext';
   color: white;
@@ -463,10 +480,10 @@ button:hover {
 
 .ip {
   font-family: 'mctext';
-  font-size: 2em;
-  line-height: 1.5em;
+  font-size: 2rem;
+  line-height: 1.5;
   padding: 10px 30px;
-  border-radius: 15px;
+  border-radius: 1000px;
   background-color: rgb(0 0 0 / 35%);
   display: inline-block;
   color: var(--content);
@@ -519,9 +536,9 @@ button:hover {
 
 .copyip-button {
   -webkit-animation: breathing 1s ease-out infinite normal;
-  font-size: 1.2em;
+  font-size: 1.2rem;
   padding: 10px 20px;
-  border-radius: 8px;
+  border-radius: 1000px;
 }
 
 #copyip-button-2 {
@@ -770,9 +787,30 @@ button:hover {
   .hide-mobile {
     display: none;
   }
+  section img.wide {
+    width: 90%;
+  }
+  footer > div {
+    display: initial;
+  }
+  footer section {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  #otherservers {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+  footer li {
+    margin: 10px;
+  }
 }
 
 @media (max-width: 700px) {
+  section img.wide {
+    width: 100%;
+  }
   .sub-title {
     background-size: 300%;
   }
@@ -803,47 +841,47 @@ button:hover {
     width: 100%;
   }
   .landing-title-text h1 {
-    font-size: 2.5em;
+    font-size: 2.5rem;
   }
   h2 {
-    font-size: 1.7em;
+    font-size: 1.7rem;
   }
   #grabber {
     font-size: 3.2em !important;
   }
   h3, h4 {
-    font-size: 2em;
+    font-size: 2rem;
   }
   .ip {
-    font-size: 1.6em;
+    font-size: 1.6rem;
   }
 }
 
 @media (max-width: 500px) {
 /*
   .landing-title-text h1 {
-    font-size: 1.9em;
+    font-size: 1.9rem;
   }
 */
   h1 {
-    font-size: 2.5em;
+    font-size: 2.5rem;
   }
   h2 {
-    font-size: 1.3em;
+    font-size: 1.3rem;
   }
   #grabber {
     font-size: 2.4em !important;
   }
   h3, h4 {
-    font-size: 1.8em;
+    font-size: 1.8rem;
   }
   .ip {
-    font-size: 1.2em;
+    font-size: 1.2rem;
   }
   .copyip-button {
     padding: 10px;
     border-radius: 5px;
-    font-size: 1em;
+    font-size: 1rem;
   }
   .content {
     width: 100% !important;
@@ -859,13 +897,13 @@ button:hover {
       display: none;
     }
    .landing-title-text h1 {
-      font-size: 2.5em;
+      font-size: 2.5rem;
     }
     #grabber {
       font-size: 3.2em !important;
     }
     .ip {
-      font-size: 1.6em;
+      font-size: 1.6rem;
     }
   }
 
@@ -887,7 +925,7 @@ button:hover {
 }
 
 @media (max-height: 700px) {
-  .hide-mobile-2 {
+  .landing-logo {
     display: none !important;
   }
   .title {

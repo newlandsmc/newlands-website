@@ -1,5 +1,5 @@
 <nav id="mobile-nav">
-  <a aria-label="Homepage" href="/"><img src="/assets/images/logo.webp" alt="New Lands Survival Logo" /></a>
+  <a aria-label="Homepage" href="/"><img src="/assets/images/logo.webp" alt="SemiVanilla Logo" /></a>
   <div>
     <!--A fake / hidden checkbox is used as click reciever, so you can use the :checked selector on it.-->
     <input aria-label="Navigation menu" type="checkbox"></input>
@@ -10,46 +10,36 @@
     <!--Too bad the menu has to be inside of the button but hey, it's pure CSS magic.-->
     <ul>
       <li><a href="/">Home ></a></li>
-      <li>
-        <p>Features</p>
-        <ul>
-          <li><a href="/features/claiming/">Land Claiming ></a></li>
-          <li><a href="/features/skills/">RPG Skills ></a></li>
-          <li><a href="/features/enchantments/">Custom Enchantments ></a></li>
-          <li><a href="/features/map/">Live Map ></a></li>
-          <li><a href="/features/">See All ></a></li>
-        </ul>
-      </li>
-      <p>Other</p>
-      <li><a href="/rules/">Rules ></a></li>
+      <p>Server</p>
       <li><a href="/vote/">Vote ></a></li>
-      <li><a href="https://newlandsmc.tebex.io/" target="_blank">Store ></a></li>
-      <li><a href="https://discord.gg/CxQP7SD9Ah" target="_blank">Discord ></a></li>
+      <li><a href="http://semivanilla.tebex.io/" target="_blank">Store ></a></li>
+      <li><a href="https://discord.gg/zVYbPcVzny" target="_blank">Discord ></a></li>
+      <p>More</p>
+      <li><a href="/claiming/">Land Claiming ></a></li>
+      <li><a href="/map/" target="_blank">Live Map ></a></li>
+      <li><a href="/rules/">Rules ></a></li>
     </ul>
   </div>
 </nav>
 <nav id="main-nav">
   <div id="nav-bg"></div>
-  <div style="height: 100%; display: flex; justify-content: space-around;">
+  <div>
     <div class="hide-mobile" style="height: 100%;">
-      <a aria-label="Homepage" href="/" style="height: 100%; width: 110px; display: flex; align-items: center; justify-content: center;"><img src="/assets/images/logo.webp" alt="New Lands Survival Logo" /></a>
+      <a aria-label="Homepage" href="/" style="height: 100%; width: 110px; display: flex; align-items: center; justify-content: center;"><img src="/assets/images/logo.webp" alt="SemiVanilla Logo" /></a>
     </div>
     <ul>
-      <li><a aria-label="Homepage" href="/">Home</a></li>
+      <li><a id="nav-home" aria-label="Homepage" href="/">Home</a></li>
+      <li><a id="nav-vote" href="/vote/">Vote</a></li>
+      <li><a href="http://semivanilla.tebex.io/" target="_blank">Store</a></li>
+      <li><a href="https://discord.gg/zVYbPcVzny" target="_blank">Discord</a></li>
       <li>
-        <a href="/features/">Features</a>
+        <p id="nav-features">More</p>
         <ul>
-          <li><a href="/features/claiming/" style="padding-top: 20px; border-top-right-radius: 5px; border-top-left-radius: 5px">Land Claiming</a></li>
-          <li><a href="/features/skills/">RPG Skills</a></li>
-          <li><a href="/features/enchantments/">Custom Enchantments</a></li>
-          <li><a href="/features/map/">Live Map</a></li>
-          <li><a href="/features/" style="padding-bottom: 20px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px">See All</a></li>
+          <li><a href="/claiming/" style="padding-top: 20px; border-top-right-radius: 5px; border-top-left-radius: 5px">Land Claiming</a></li>
+          <li><a href="/map/" target="_blank">Live Map</a></li>
+          <li><a href="/rules/">Rules</a></li>
         </ul>
       </li>
-      <li><a href="/rules/">Rules</a></li>
-      <li><a href="/vote/">Vote</a></li>
-      <li><a href="https://newlandsmc.tebex.io/" target="_blank">Store</a></li>
-      <li><a href="https://discord.gg/CxQP7SD9Ah" target="_blank">Discord</a></li>
     </ul>
   </div>
 </nav>

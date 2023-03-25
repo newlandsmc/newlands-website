@@ -1,10 +1,14 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>New Lands Survival | Features | Crates</title>
+    <title>SemiVanilla | Features | Crates</title>
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/seo.html'); ?>
     <script async type="module" src="/assets/javascript/jquery-3.6.3.min.js"></script>
     <script defer async type="module" src="/assets/javascript/nav.js"></script>
+    <script async defer type="module">
+      import '/assets/javascript/jquery-3.6.3.min.js';
+      document.getElementById('nav-features').setAttribute('class','active');
+    </script>
   </head>
   <body>
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/header.html'); ?>
@@ -17,6 +21,11 @@
       </div>
       <div class="content split-content">
         <div class="shadow"></div>
+        <div style="width: 100%">
+          <h3 style="text-align: center; color: var(--alert);">This page is outdated!</h3>
+          <p style="text-align: center;">The contents of the crates have changed a lot since this page was last updated and this list should not be used!</p>
+          <p style="text-align: center;"><strong>This page does NOT include any of the custom items available in crates!</strong></p>
+        </div>
         <div>
          <section>
             <h3>Daily Crate</h3>

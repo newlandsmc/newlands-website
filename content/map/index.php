@@ -1,11 +1,15 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>New Lands Survival | Features | Map</title>
+    <title>SemiVanilla | Features | Map</title>
     <meta name="robots" content="noindex" />
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/seo.html'); ?>
     <script async type="module" src="/assets/javascript/jquery-3.6.3.min.js"></script>
     <script defer async type="module" src="/assets/javascript/nav.js"></script>
+    <script async defer type="module">
+      import '/assets/javascript/jquery-3.6.3.min.js';
+      document.getElementById('nav-features').setAttribute('class','active');
+    </script>
     <style>
       h2, h3 {
         text-align: center;
