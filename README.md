@@ -1,6 +1,6 @@
-# SemiVanilla MC Website
+# New Lands Survival Website
 
-URL: https://semivanilla.com
+URL: https://newlandsmc.com
 
-See this page for hosting information: [https://github.com/SemiVanilla-MC/host](https://github.com/SemiVanilla-MC/host)
+OUTDATED - See this page for hosting information: [https://github.com/SemiVanilla-MC/host](https://github.com/SemiVanilla-MC/host)
 

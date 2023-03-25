@@ -10,34 +10,30 @@
     <!--Too bad the menu has to be inside of the button but hey, it's pure CSS magic.-->
     <ul>
       <li><a href="/">Home ></a></li>
-      <li>
-        <p>Features</p>
-        <ul>
-          <li><a href="/features/claiming/">Land Claiming ></a></li>
-          <li><a href="/features/skills/">RPG Skills ></a></li>
-          <li><a href="/features/enchantments/">Custom Enchantments ></a></li>
-          <li><a href="/features/map/">Live Map ></a></li>
-          <li><a href="/features/">See All ></a></li>
-        </ul>
-      </li>
+      <p>Features</p>
+      <li><a href="/features/claiming/">Land Claiming ></a></li>
+      <li><a href="/features/skills/">RPG Skills ></a></li>
+      <li><a href="/features/enchantments/">Custom Enchantments ></a></li>
+      <li><a href="/features/map/">Live Map ></a></li>
+      <li><a href="/features/">See All ></a></li>
       <p>Other</p>
       <li><a href="/rules/">Rules ></a></li>
       <li><a href="/vote/">Vote ></a></li>
-      <li><a href="https://newlandsmc.tebex.io/" target="_blank">Store ></a></li>
+      <li><a href="https://store.newlandsmc.com/" target="_blank">Store ></a></li>
       <li><a href="https://discord.gg/CxQP7SD9Ah" target="_blank">Discord ></a></li>
     </ul>
   </div>
 </nav>
 <nav id="main-nav">
   <div id="nav-bg"></div>
-  <div style="height: 100%; display: flex; justify-content: space-around;">
+  <div style="height: 100%; display: flex; justify-content: space-between;">
     <div class="hide-mobile" style="height: 100%;">
       <a aria-label="Homepage" href="/" style="height: 100%; width: 110px; display: flex; align-items: center; justify-content: center;"><img src="/assets/images/logo.webp" alt="New Lands Survival Logo" /></a>
     </div>
     <ul>
-      <li><a aria-label="Homepage" href="/">Home</a></li>
+      <li><a id="nav-home" aria-label="Homepage" href="/">Home</a></li>
       <li>
-        <a href="/features/">Features</a>
+        <a id="nav-features" href="/features/">Features</a>
         <ul>
           <li><a href="/features/claiming/" style="padding-top: 20px; border-top-right-radius: 5px; border-top-left-radius: 5px">Land Claiming</a></li>
           <li><a href="/features/skills/">RPG Skills</a></li>
@@ -46,9 +42,9 @@
           <li><a href="/features/" style="padding-bottom: 20px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px">See All</a></li>
         </ul>
       </li>
-      <li><a href="/rules/">Rules</a></li>
-      <li><a href="/vote/">Vote</a></li>
-      <li><a href="https://newlandsmc.tebex.io/" target="_blank">Store</a></li>
+      <li><a id="nav-rules" href="/rules/">Rules</a></li>
+      <li><a id="nav-vote" href="/vote/">Vote</a></li>
+      <li><a href="https://store.newlandsmc.com/" target="_blank">Store</a></li>
       <li><a href="https://discord.gg/CxQP7SD9Ah" target="_blank">Discord</a></li>
     </ul>
   </div>

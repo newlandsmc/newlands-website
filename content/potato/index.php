@@ -107,7 +107,7 @@
             <h3>3. Launch Minecraft</h3>
             <p>Navigate to the "My Modpacks" tab, select our Modpack, and click "Play"!</p>
             <p>This will open a new Minecraft launcher with our mods pre-installed.</p>
-            <p style="color:#4ad555;">Note: This instance of Minecraft will not have your old worlds and servers. You can still access your old worlds and servers by opening Minecraft without using CurseForge App.</p>
+            <p style="color: var(--confirm);">Note: This instance of Minecraft will not have your old worlds and servers. You can still access your old worlds and servers by opening Minecraft without using CurseForge App.</p>
           </div>
         </section>
         <section>
@@ -115,12 +115,12 @@
             <h3>4. Minecraft Settings</h3>
             <p>Finally, let's apply some optimized settings. In Minecraft, click on "Options", then "Video Settings", and apply the following:</p>
             <ul>
-              <li><p><strong>General -> Render Distance</strong> - <span style="color:#4ad555;">8</span></p><p>(The server will not show over 10)</p></li>
-              <li><p><strong>General -> Simulation Distance</strong> - <span style="color:#4ad555;">6</span></p><p>(The server will not show over 8)</p></li>
-              <li><strong>Quality -> Graphics</strong> - <span style="color:#4ad555;">Fast</span></li>
-              <li><strong>Quality -> Clouds</strong> - <span style="color:#4ad555;">Fast</span></li>
-              <li><strong>Quality -> Particles</strong> - <span style="color:#4ad555;">Minimal</span></li>
-              <li><p><strong>Quality -> Mipmap Levels</strong> - <span style="color:#4ad555;">0</span></p><p>(Increase if possible)</p></li>
+              <li><p><strong>General -> Render Distance</strong> - <span style="color: var(--confirm);">8</span></p><p>(The server will not show over 10)</p></li>
+              <li><p><strong>General -> Simulation Distance</strong> - <span style="color: var(--confirm);">6</span></p><p>(The server will not show over 8)</p></li>
+              <li><strong>Quality -> Graphics</strong> - <span style="color: var(--confirm);">Fast</span></li>
+              <li><strong>Quality -> Clouds</strong> - <span style="color: var(--confirm);">Fast</span></li>
+              <li><strong>Quality -> Particles</strong> - <span style="color: var(--confirm);">Minimal</span></li>
+              <li><p><strong>Quality -> Mipmap Levels</strong> - <span style="color: var(--confirm);">0</span></p><p>(Increase if possible)</p></li>
             </ul>
           </div>
           <div>

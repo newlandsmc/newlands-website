@@ -5,6 +5,10 @@
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/seo.html'); ?>
     <script async type="module" src="/assets/javascript/jquery-3.6.3.min.js"></script>
     <script defer async type="module" src="/assets/javascript/nav.js"></script>
+    <script async defer type="module">
+      import '/assets/javascript/jquery-3.6.3.min.js';
+      document.getElementById('nav-features').setAttribute('class','active');
+    </script>
     <style>
       section img {
         border-radius: 5px;

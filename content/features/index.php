@@ -8,6 +8,10 @@
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/seo.html'); ?>
     <script async type="module" src="/assets/javascript/jquery-3.6.3.min.js"></script>
     <script defer async type="module" src="/assets/javascript/nav.js"></script>
+    <script async defer type="module">
+      import '/assets/javascript/jquery-3.6.3.min.js';
+      document.getElementById('nav-features').setAttribute('class','active');
+    </script>
   </head>
   <body>
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/header.html'); ?>
@@ -61,7 +65,7 @@
             <h3>Custom Loot Tables</h3>
             <p>All of the vanilla loot chests (villages, temples, etc) have been modified! We've significantly buffed the loot tables, making exploration worth it, and providing more access to items that are normally limited in survival!</p>
             <p>Natural chests also generate loot for EVERY player that opens them, so everyone can get something, not just the first person!</p>
-            <p style="color:#ff674d;">Please do not break natural chests if you don't need to! Leave them for someone else to discover.</p>
+            <p style="color:var(--alert);">Please do not break natural chests if you don't need to! Leave them for someone else to discover.</p>
           </section>
           <section>
             <h3>Trade System</h3>

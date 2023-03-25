@@ -9,6 +9,10 @@
     <script async type="module" src="/assets/javascript/jquery-3.6.3.min.js"></script>
     <script async src="/assets/javascript/button_clicked.js"></script>
     <script defer async type="module" src="/assets/javascript/nav.js"></script>
+    <script async defer type="module">
+      import '/assets/javascript/jquery-3.6.3.min.js';
+      document.getElementById('nav-vote').setAttribute('class','active');
+    </script>
     <style>
       .votesection {
         z-index: 2;
@@ -44,6 +48,9 @@
       }
       #votesection2 {
         width: 300px;
+      }
+      button {
+        border-radius: 8px;
       }
       @media (max-width: 1100px) {
         .votelinks div {
@@ -126,7 +133,7 @@
             <p>1 Vote Crate for every vote!</p>
             <p>FREE Premium Crate(s) for voting 7 days in a row!</p>
             <p><strong>NEW!</strong> Claim a FREE premium rank and earn DOUBLE Premium Crates from voting!</p>
-            <p><a target="_blank" href="https://newlandsmc.tebex.io/category/ranks">Click here to claim your FREE Awoken rank!</a></p>
+            <p><a target="_blank" href="https://store.newlandsmc.com/category/ranks">Click here to claim your FREE Awoken rank!</a></p>
           </section>
           <section class="center">
             <h3>Reddit</h3>

@@ -8,6 +8,10 @@
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/seo.html'); ?>
     <script async type="module" src="/assets/javascript/jquery-3.6.3.min.js"></script>
     <script defer async type="module" src="/assets/javascript/nav.js"></script>
+    <script async defer type="module">
+      import '/assets/javascript/jquery-3.6.3.min.js';
+      document.getElementById('nav-rules').setAttribute('class','active');
+    </script>
     <style>
       section {
         border-radius: 50px;
@@ -40,7 +44,7 @@
           <ul>
             <li class="rules">Player traps are prohibited! ("Player traps" = something designed to kill or trap a player that isn't an obvious threat until after it has triggered.)</li>
             <li class="rules">Harassment, threats, verbal abuse, hateful speech, and offensive generalizations are prohibited!</li>
-            <li class="rules">No bullying! (Do not spawn camp, repeatedly kill the same player, or target new players.)</li>
+            <li class="rules">No bullying!</li>
             <li class="rules">No trolling or antagonizing! (Do not participate in actions intended only to upset others.)</li>
             <li class="rules">Keep other's feelings in mind when using chat! (Staff have the right to shut down a conversation if needed.)</li>
             <li class="rules">Do not spam!</li>

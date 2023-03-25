@@ -33,6 +33,10 @@
         });
       });
     </script>
+    <script async defer type="module">
+      import '/assets/javascript/jquery-3.6.3.min.js';
+      document.getElementById('nav-home').setAttribute('class','active');
+    </script>
     <style>
       section img {
         margin: 0px auto;
@@ -84,7 +88,7 @@
       <div class="content" id="landing">
         <div class="shadow"></div>
         <section class="center" style="flex-direction: column; margin: 0 0 80px 0;">
-          <h2 id="grabber">Bedrock, Java, and ViveCraft Support!</h2>
+          <h2 id="grabber">Bedrock, Java, and ViveCraft support!</h2>
         </section>
         <section class="center" style="position: relative; background: linear-gradient(330deg, rgb(110 14 44), rgb(11 36 90)); border-radius: 25px;">
           <img id="frog" class="hide-mobile" src="/assets/images/frog.webp" alt="Minecraft Frog">
@@ -92,13 +96,10 @@
             <h3>Welcome!</h3>
             <p>New Lands Survival is a public survival server with a relaxing vibe, friendly community, and hard difficulty survival! We always run on the <strong>latest version</strong>, too! Scroll down to learn more.</p>
           </div>
-          <div>
-            <img class="small hide-mobile-2" src="/assets/images/campfire.webp" alt="Minecraft campfire" />
-          </div>
         </section>
         <section class="center">
           <div>
-            <img class="wide" style="-webkit-transform: scaleX(-1);" src="/assets/images/features-steve.webp" alt="Digital art of Minecraft Steve with glowing diamond sword" />
+            <img class="wide" style="max-width: 70%;" src="/assets/images/features-steve.webp" alt="Digital art of Minecraft Steve with glowing diamond sword" />
           </div>
           <div>
             <h3>Community</h3>
@@ -111,12 +112,12 @@
             <p>We protect your game with optional PVP, self-service land protection, and active admins ready to help! Your builds are completely safe with <a href="/features/claiming">GriefPrevention</a> land claiming, and PVP is always off unless you choose to enable it.</p>
           </div>
           <div>
-            <img class="wide" src="/assets/images/features-castle.webp" alt="Digital art of Minecraft style castle" />
+            <img class="wide" style="max-width: 70%;" src="/assets/images/features-castle.webp" alt="Digital art of Minecraft style castle" />
           </div>
         </section>
         <section class="center">
           <div>
-            <img class="medium" src="/assets/images/features-map.webp" alt="Digital art of a Minecraft map" />
+            <img class="medium" style="max-width: 70%;" src="/assets/images/features-map.webp" alt="Digital art of a Minecraft map" />
           </div>
           <div>
             <h3>Adventure</h3>
@@ -124,7 +125,7 @@
           </div>
         </section>
       </div>
-      <div class="content" style="margin-top: 50px; margin-bottom: 0px; width: 100%; max-width: 100%;">
+      <div class="content" style="width: 100%; max-width: 100%; margin-bottom: 50px !important;">
         <section class="center joinnow" style="position: relative; background: linear-gradient(330deg, rgb(110 14 44), rgb(11 36 90)); border-radius: 25px; flex-direction: column; width: auto; max-width: 70%;">
           <img id="allay" src="/assets/images/allay.webp" alt="Minecraft Allay">
           <h4>Join Now!</h4>

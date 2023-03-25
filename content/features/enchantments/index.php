@@ -5,6 +5,10 @@
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/seo.html'); ?>
     <script async type="module" src="/assets/javascript/jquery-3.6.3.min.js"></script>
     <script defer async type="module" src="/assets/javascript/nav.js"></script>
+    <script async defer type="module">
+      import '/assets/javascript/jquery-3.6.3.min.js';
+      document.getElementById('nav-features').setAttribute('class','active');
+    </script>
   </head>
   <body>
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/header.html'); ?>
@@ -39,7 +43,7 @@
             <h3>Obtaining Enchantments</h3>
             <p>Custom enchantments work just like vanilla enchantments! They can be obtained by enchanting an item in an Enchantment Table, or by using a Custom Enchantment Books.</p>
             <p>Custom Enchantment Books can be obtained by trading with villagers or found in loot chests around the world.</p>
-            <p style="color: #ff674d;">Warning: Books CANNOT receive custom enchantments in Enchantment Tables.</p>
+            <p style="color: var(--alert);">Warning: Books CANNOT receive custom enchantments in Enchantment Tables.</p>
           </section>
         </div>
         <div>
@@ -50,7 +54,7 @@
 description does NOT say those words, then A) the enchant activates every time the item is used, or B) the enchant activates randomly, and provides an "average benefit".</p>
             <p>For example, if an enchant provides an increase to damage dealt - it most likely applies randomly while the item is used,
 providing an increase in damage dealt overall.</p>
-            <p style="color: #ff674d;">Warning: Enchanted items do NOT work in offhand.</p>
+            <p style="color: var(--alert);">Warning: Enchanted items do NOT work in offhand.</p>
           </section>
           <section>
             <h3>Limits</h3>
