@@ -60,7 +60,7 @@
           width: 80px;
         }
         section img {
-          margin: 30px auto !important;
+          margin: 30px auto;
         }
       }
     </style>
