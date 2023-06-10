@@ -39,9 +39,34 @@
       </div>
       <div class="content">
         <div class="shadow"></div>
+        <section class="center">
+          <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4636767855327079" crossorigin="anonymous"></script>
+          <!-- NLMC-AllEnchants-Horizontal-Top -->
+          <ins class="adsbygoogle"
+            style="display:block; width:100%;"
+            data-ad-client="ca-pub-4636767855327079"
+            data-ad-slot="3668627513"
+            data-ad-format="auto"
+            data-full-width-responsive="true"></ins>
+          <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
+        </section>
         <section>
           <p id="error-code">Your browser failed to load the table.</p>
           <table class="table table-striped table-sm no-footer" style="width:100%" id="main"></table>
+        </section>
+        <section class="center">
+          <!-- NLMC-AllEnchants-Horizontal-Bottom -->
+          <ins class="adsbygoogle"
+            style="display:block; width:100%;"
+            data-ad-client="ca-pub-4636767855327079"
+            data-ad-slot="1337977647"
+            data-ad-format="auto"
+            data-full-width-responsive="true"></ins>
+          <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
         </section>
       </div>
     </main>

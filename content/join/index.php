@@ -98,12 +98,12 @@
             </ol>
           </div>
           <div>
-            <img class="howjoin" src="/assets/images/join-java-edition-small.webp" alt="Minecraft Java Edition Screenshot" />
+            <img class="howjoin" src="/assets/images/join-java-edition-small.webp" alt="Minecraft Java Edition - Edit Server Info Menu - Screenshot" />
           </div>
         </section>
         <section>
           <div>
-            <img class="howjoin" src="/assets/images/join-bedrock-edition-small.webp" alt="Minecraft Bedrock Edition Screenshot" />
+            <img class="howjoin" src="/assets/images/join-bedrock-edition-small.webp" alt="Minecraft Bedrock Edition - Add External Server Menu - Screenshot" />
           </div>
           <div class="narrow">
             <h3>Bedrock Edition</h3>

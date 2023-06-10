@@ -30,12 +30,25 @@
       </div>
       <div class="content">
         <div class="shadow"></div>
+        <section>
+          <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4636767855327079" crossorigin="anonymous"></script>
+          <!-- NLMC-Rules-Horizontal-Top -->
+          <ins class="adsbygoogle"
+            style="display:block; width:100%;"
+            data-ad-client="ca-pub-4636767855327079"
+            data-ad-slot="6713593253"
+            data-ad-format="auto"
+            data-full-width-responsive="true"></ins>
+          <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
+        </section>
         <section style="padding-top: 30px;">
           <h3>Be Careful!</h3>
           <ul>
+            <li class="rules">Unclaimed builds can be looted, reclaimed, or torn down!** (Do NOT intentionally destroy unclaimed builds just for the sake of destroying them!)</li>
             <li class="rules">Trusting players is at-your-own-risk! (Set up your land claim roles and areas carefully!)</li>
             <li class="rules">Trades and job agreements are at-your-own-risk! (Use the /trade GUI to avoid scams.)</li>
-            <li class="rules">Unclaimed builds can be griefed*! Make sure you protect your home. (Significant griefing done to people you know are active and with the intent to harm is not allowed.)</li>
             <li class="rules">Do not log out somewhere unsafe! (We are not responsible for deaths on log-in due to missing blocks, placed lava, etc.)</li>
           </ul>
         </section>
@@ -73,6 +86,18 @@
             <li class="rules">Do not advertise other Minecraft servers or Discords.</li>
             <li class="rules">Please only use English in public channels. (We are generally unable to moderate other languages.)</li>
           </ul>
+        </section>
+        <section>
+          <!-- NLMC-Rules-Horizontal-Bottom -->
+          <ins class="adsbygoogle"
+            style="display:block; width:100%;"
+            data-ad-client="ca-pub-4636767855327079"
+            data-ad-slot="8430101232"
+            data-ad-format="auto"
+            data-full-width-responsive="true"></ins>
+          <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
         </section>
       </div>
     </main>

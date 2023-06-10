@@ -35,6 +35,12 @@
         margin: 0 30px 30px 30px;
         position: relative !important;
       }
+      .othervotelinks div{
+        width: 100% !important;
+        display: flex;
+        justify-content: space-between;
+        text-align: left !important;
+      }
       .votelinks div {
         width: 50%;
         padding: 30px;
@@ -53,9 +59,6 @@
         border-radius: 8px;
       }
       @media (max-width: 1100px) {
-        .votelinks div {
-          padding: 30px 10px !important;;
-        }
         #votesection2 {
           width: 260px;
         }
@@ -87,6 +90,17 @@
       <div class="content">
         <div class="shadow"></div>
         <div class="votesection" id="votesection1">
+          <!-- <section>
+            <ins class="adsbygoogle"
+              style="display:block; width:100%;"
+              data-ad-client="ca-pub-4636767855327079"
+              data-ad-slot="5765636805"
+              data-ad-format="auto"
+              data-full-width-responsive="true"></ins>
+            <script>
+              (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+          </section> -->
           <section style="z-index: 3;" class="center votelinks">
             <img style="position: absolute; right: -25px; bottom: -105px; width: 180px;" class="hide-mobile" src="/assets/images/sweet-berries.webp" alt="Minecraft Sweet Berries">
             <h3>Reward Sites</h3>
@@ -115,7 +129,7 @@
               <a href="https://minecraft.buzz/vote/3877" target="_blank"><button type="button" id="vote6" onclick="buttonClicked('vote6')">Vote!</button></a>
             </div>
           </section>
-          <section class="center votelinks">
+          <section class="center votelinks othervotelinks">
             <h3>Other Sites</h3>
             <div>
               <h4>minecraft-serverlist.com</h4>
@@ -125,7 +139,74 @@
               <h4>planetminecraft.com</h4>
               <a href="https://www.planetminecraft.com/server/new-lands-survival/vote/" target="_blank"><button type="button" id="vote8" onclick="buttonClicked('vote8')">Vote!</button></a>
             </div>
+            <div>
+              <h4>topg.org</h4>
+              <a href="https://topg.org/minecraft-servers/server-639051" target="_blank"><button type="button" id="vote23" onclick="buttonClicked('vote23')">Vote!</button></a>
+            </div>
+            <div>
+              <h4>minelist.net</h4>
+              <a href="https://minelist.net/vote/3953" target="_blank"><button type="button" id="vote9" onclick="buttonClicked('vote9')">Vote!</button></a>
+            </div>
+            <div>
+              <h4>minecraft-servers-list.org</h4>
+              <a href="https://www.minecraft-servers-list.org/index.php?a=in&u=semivanillamc" target="_blank"><button type="button" id="vote10" onclick="buttonClicked('vote10')">Vote!</button></a>
+            </div>
+            <div>
+              <h4>craftlist.org</h4>
+              <a href="https://craftlist.org/newlandssurvival" target="_blank"><button type="button" id="vote11" onclick="buttonClicked('vote11')">Vote!</button></a>
+            </div>
+            <div>
+              <h4>minecraftservers.org</h4>
+              <a href="https://minecraftservers.org/vote/630602" target="_blank"><button type="button" id="vote12" onclick="buttonClicked('vote12')">Vote!</button></a>
+            </div>
+            <div>
+              <h4>minecraft-server-list.com</h4>
+              <a href="https://minecraft-server-list.com/server/484896/vote/" target="_blank"><button type="button" id="vote13" onclick="buttonClicked('vote13')">Vote!</button></a>
+            </div>
+            <div>
+              <h4>topminecraftservers.org</h4>
+              <a href="https://topminecraftservers.org/vote/24515" target="_blank"><button type="button" id="vote14" onclick="buttonClicked('vote14')">Vote!</button></a>
+            </div>
+            <div>
+              <h4>minecraft-mp.com</h4>
+              <a href="https://minecraft-mp.com/server/298736/vote/" target="_blank"><button type="button" id="vote15" onclick="buttonClicked('vote15')">Vote!</button></a>
+            </div>
+            <div>
+              <h4>best-minecraft-servers.co</h4>
+              <a href="https://best-minecraft-servers.co/server-new-lands-survival.3773/vote" target="_blank"><button type="button" id="vote16" onclick="buttonClicked('vote16')">Vote!</button></a>
+            </div>
+            <div>
+              <h4>minecraft-server-list.co</h4>
+              <a href="https://minecraft-server-list.co/server/new-lands-survival/vote/" target="_blank"><button type="button" id="vote17" onclick="buttonClicked('vote17')">Vote!</button></a>
+            </div>
+            <div>
+              <h4>minecraft.menu</h4>
+              <a href="https://minecraft.menu/server-new-lands-survival.1665/vote" target="_blank"><button type="button" id="vote18" onclick="buttonClicked('vote18')">Vote!</button></a>
+            </div>
+            <div>
+              <h4>minecraftlist.org</h4>
+              <a href="https://minecraftlist.org/vote/27172" target="_blank"><button type="button" id="vote19" onclick="buttonClicked('vote19')">Vote!</button></a>
+            </div>
+            <div>
+              <h4>mclike.com</h4>
+              <a href="https://mclike.com/vote-192303" target="_blank"><button type="button" id="vote20" onclick="buttonClicked('vote20')">Vote!</button></a>
+            </div>
+            <div>
+              <h4>servertilt.com</h4>
+              <a href="https://www.servertilt.com/server/new-lands-survival.198303/vote" target="_blank"><button type="button" id="vote21" onclick="buttonClicked('vote21')">Vote!</button></a>
+            </div>
           </section>
+          <!-- <section>
+            <ins class="adsbygoogle"
+              style="display:block; width:100%;"
+              data-ad-client="ca-pub-4636767855327079"
+              data-ad-slot="7381970805"
+              data-ad-format="auto"
+              data-full-width-responsive="true"></ins>
+            <script>
+              (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+          </section> -->
         </div>
         <div class="votesection" id="votesection2">
           <section class="center">
@@ -134,6 +215,19 @@
             <p>FREE Premium Crate(s) for voting 7 days in a row!</p>
             <p><strong>NEW!</strong> Claim a FREE premium rank and earn DOUBLE Premium Crates from voting!</p>
             <p><a target="_blank" href="https://store.newlandsmc.com/category/ranks">Click here to claim your FREE Awoken rank!</a></p>
+          </section>
+          <section class="center">
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4636767855327079" crossorigin="anonymous"></script>
+            <!-- NLMC-Vote-Vertical -->
+            <ins class="adsbygoogle"
+              style="display:block; width:100%;"
+              data-ad-client="ca-pub-4636767855327079"
+              data-ad-slot="4967560451"
+              data-ad-format="auto"
+              data-full-width-responsive="true"></ins>
+            <script>
+              (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
           </section>
           <section class="center">
             <h3>Reddit</h3>

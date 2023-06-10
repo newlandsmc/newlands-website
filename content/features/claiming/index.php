@@ -34,6 +34,18 @@ make sure you only trust people you know. We are not responsible for players abu
             <p>To grant someone access to a specific part of your claim, use subdivisions. You can divide your claim into subdivisions by using subdivision mode (hold a golden shovel and run <strong>/subdivideclaims</strong>). Creating subdivisions works exactly the same as creating regular claims. You are essentially creating mini-claims within your claim that you can use to grant people access to only specific areas.</p>
             <p style="color: var(--confirm);">By default, subdivisions inherit the same permissions as their parent (if someone was trusted to your main claim, they will be trusted within all your subdivisions too). To disable this, use <strong>/restrictsubclaim</strong>.</p>
           </section>
+          <!-- <section>
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4636767855327079" crossorigin="anonymous"></script>
+            <ins class="adsbygoogle"
+              style="display:block; width:100%;"
+              data-ad-client="ca-pub-4636767855327079"
+              data-ad-slot="1234035864"
+              data-ad-format="auto"
+              data-full-width-responsive="true"></ins>
+            <script>
+              (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+          </section> -->
           <section>
             <h3>Limits</h3>
             <p>New players will start with 1000 "claim blocks". Each "claim block" allows you to add 1 block to your claim size (only counting length and width - remember claims dont count height!).</p>

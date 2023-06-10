@@ -39,6 +39,18 @@
               <li><span style="color: #ffff00;">Fabled</span> - 2.5% chance</li>
             </ul>
           </section>
+          <!-- <section>
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4636767855327079" crossorigin="anonymous"></script>
+            <ins class="adsbygoogle"
+              style="display:block; width:100%;"
+              data-ad-client="ca-pub-4636767855327079"
+              data-ad-slot="19582537313"
+              data-ad-format="auto"
+              data-full-width-responsive="true"></ins>
+            <script>
+              (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+          </section> -->
           <section>
             <h3>Obtaining Enchantments</h3>
             <p>Custom enchantments work just like vanilla enchantments! They can be obtained by enchanting an item in an Enchantment Table, or by using a Custom Enchantment Books.</p>

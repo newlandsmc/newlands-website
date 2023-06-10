@@ -45,21 +45,26 @@
               <li><strong>Forging</strong> - Combine or apply books in an anvil to earn XP</li>
             </ul>
           </section>
+          <!-- <section>
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4636767855327079" crossorigin="anonymous"></script>
+            <ins class="adsbygoogle"
+              style="display:block; width:100%;"
+              data-ad-client="ca-pub-4636767855327079"
+              data-ad-slot="6905164943"
+              data-ad-format="auto"
+              data-full-width-responsive="true"></ins>
+            <script>
+              (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+          </section> -->
           <section>
-            <h3>XP Boosts</h3>
-            <p>You can purchase XP boosts in our <a href="https://New Lands Survival.tebex.io" target="_blank">online store</a>. XP Boosts apply to the <strong>ENTIRE</strong> server and last 2 hours.</p>
-            <p>Diamond players also receive a permanent small XP boost.</p>
-          </section>
-          <section>
-            <h3>Ranks</h3>
-            <p>Ranks on the server are tied to your Sorcery skill. Every 20 levels in Sorcery you will rank up. There are no benefits to ranks, but they do appear in chat before your name to indicate your experience level on the server.</p>
-            <p>There are currently 5 ranks on the server, as the max level for all skills is currently <strong>97</strong>.
+            <h3>Useful Commands</h3>
             <ul>
-              <li><strong>Vagrant</strong> - New player</li>
-              <li><strong>Awoken</strong> - Level 20</li>
-              <li><strong>Adept</strong> - Level 40</li>
-              <li><strong>Savant</strong> - Level 60</li>
-              <li><strong>Legend</strong> - Level 80</li>
+              <li><strong>/skills</strong> - View all skills</li>
+              <li><strong>/stats</strong> - View all your stats</li>
+              <li><strong>/&lt;skillname&gt;</strong> - View specific skill details</li>
+              <li><strong>/mana</strong> - View your mana level</li>
+              <li><strong>/abtoggle</strong> - Toggle actionbar messages</li>
             </ul>
           </section>
         </div>
@@ -91,14 +96,9 @@ the skill activates and is used.</p>
             <p>You can see which passive abilities are unlocked, or available, by looking at the GUI page for any skill.</p>
           </section>
           <section>
-            <h3>Useful Commands</h3>
-            <ul>
-              <li><strong>/skills</strong> - View all skills</li>
-              <li><strong>/stats</strong> - View all your stats</li>
-              <li><strong>/&lt;skillname&gt;</strong> - View specific skill details</li>
-              <li><strong>/mana</strong> - View your mana level</li>
-              <li><strong>/abtoggle</strong> - Toggle actionbar messages</li>
-            </ul>
+            <h3>XP Boosts</h3>
+            <p>You can purchase XP boosts in our <a href="https://store.newlandsmc.com" target="_blank">online store</a>. XP Boosts apply to the <strong>ENTIRE</strong> server and last 2 hours.</p>
+            <p>Founders also receive a permanent small XP boost <a href="https://store.newlandsmc.com/category/founder">(learn more here)</a>.</p>
           </section>
         </div>
       </div>
