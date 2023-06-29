@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>New Lands Survival | 1.20 Minecraft Survival Server</title>
+    <title>New Lands Survival | 1.20.1 Minecraft Survival Server</title>
     <meta name="description" content="New Lands Survival is a hard difficulty survival Minecraft server with a relaxing vibe and friendly community! We always run on the latest version! Grief protection, optional PVP, and more!" />
     <meta property="og:description" content="New Lands Survival is a hard difficulty survival Minecraft server with a relaxing vibe and friendly community! We always run on the latest version! Grief protection, optional PVP, and more!" />
     <meta name="twitter:description" content="New Lands Survival is a hard difficulty survival Minecraft server with a relaxing vibe and friendly community! We always run on the latest version! Grief protection, optional PVP, and more!" />
@@ -73,7 +73,7 @@
       <div class="title" style="position: absolute; z-index: 3;">
         <div class="landing-title-text" style="text-align: center;">
           <img class="landing-logo hide-mobile-2" src="/assets/images/logo.webp" alt="New Lands Survival Logo" />
-          <h1 style="margin: 30px;">1.20 Survival Community!</h1>
+          <h1 style="margin: 30px;">1.20.1 Survival Community!</h1>
           <p class="ip">play.newlandsmc.com</p>
           <div style="width:100%">
             <button type="button" class="copyip-button" id="cb1" onclick="copyToClipboard('cb1','play.newlandsmc.com','https://newlandsmc.com/join')">Copy IP!</button>

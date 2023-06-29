@@ -52,7 +52,7 @@ make sure you only trust people you know. We are not responsible for players abu
             <p>You will earn an additional 1000 claim blocks for every mining level you unlock. This means at maximum mining level (mining level 97) you will be able to claim up to 98,000 blocks.</p>
             <p>If you need additional claim blocks, you can ask a staff member for more. We will provide more on a case-by-case basis.</p>
             <p>You can create up to 3 separate claims by default. Your "claim blocks" limit is shared between all of your claims.</p>
-            <p style="color: var(--confirm);">Premium ranks have a higher claim limit and bonus claim blocks! <a href="https://store.newlandsmc.com/category/ranks">Learn more here.</a></p>
+            <p style="color: var(--confirm);">Premium ranks have a higher claim limit and bonus claim blocks! <a href="https://newlandsmc.tebex.io/category/ranks">Learn more here.</a></p>
           </section>
         </div>
         <div>

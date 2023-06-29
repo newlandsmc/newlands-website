@@ -214,7 +214,7 @@
             <p>1 Vote Crate for every vote!</p>
             <p>FREE Premium Crate(s) for voting 7 days in a row!</p>
             <p><strong>NEW!</strong> Claim a FREE premium rank and earn DOUBLE Premium Crates from voting!</p>
-            <p><a target="_blank" href="https://store.newlandsmc.com/category/ranks">Click here to claim your FREE Awoken rank!</a></p>
+            <p><a target="_blank" href="https://newlandsmc.tebex.io/category/ranks">Click here to claim your FREE Awoken rank!</a></p>
           </section>
           <section class="center">
             <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4636767855327079" crossorigin="anonymous"></script>

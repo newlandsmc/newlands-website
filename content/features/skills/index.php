@@ -97,8 +97,8 @@ the skill activates and is used.</p>
           </section>
           <section>
             <h3>XP Boosts</h3>
-            <p>You can purchase XP boosts in our <a href="https://store.newlandsmc.com" target="_blank">online store</a>. XP Boosts apply to the <strong>ENTIRE</strong> server and last 2 hours.</p>
-            <p>Founders also receive a permanent small XP boost <a href="https://store.newlandsmc.com/category/founder">(learn more here)</a>.</p>
+            <p>You can purchase XP boosts in our <a href="https://newlandsmc.tebex.io" target="_blank">online store</a>. XP Boosts apply to the <strong>ENTIRE</strong> server and last 2 hours.</p>
+            <p>Founders also receive a permanent small XP boost <a href="https://newlandsmc.tebex.io/category/founder">(learn more here)</a>.</p>
           </section>
         </div>
       </div>
