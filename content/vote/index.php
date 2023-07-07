@@ -84,7 +84,7 @@
       <div class="sub-title" style="background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(/assets/images/vote-title.webp); background-position: 50% 45%;">
         <div>
           <h1>Vote Daily!</h1>
-          <h2>Earn Rewards Every Day!</h2>
+          <h2>Help us grow and get rewarded!</h2>
         </div>
       </div>
       <div class="content">
@@ -152,48 +152,12 @@
               <a href="https://www.minecraft-servers-list.org/index.php?a=in&u=semivanillamc" target="_blank"><button type="button" id="vote10" onclick="buttonClicked('vote10')">Vote!</button></a>
             </div>
             <div>
-              <h4>craftlist.org</h4>
-              <a href="https://craftlist.org/newlandssurvival" target="_blank"><button type="button" id="vote11" onclick="buttonClicked('vote11')">Vote!</button></a>
-            </div>
-            <div>
-              <h4>minecraftservers.org</h4>
-              <a href="https://minecraftservers.org/vote/630602" target="_blank"><button type="button" id="vote12" onclick="buttonClicked('vote12')">Vote!</button></a>
-            </div>
-            <div>
               <h4>minecraft-server-list.com</h4>
               <a href="https://minecraft-server-list.com/server/484896/vote/" target="_blank"><button type="button" id="vote13" onclick="buttonClicked('vote13')">Vote!</button></a>
             </div>
             <div>
-              <h4>topminecraftservers.org</h4>
-              <a href="https://topminecraftservers.org/vote/24515" target="_blank"><button type="button" id="vote14" onclick="buttonClicked('vote14')">Vote!</button></a>
-            </div>
-            <div>
               <h4>minecraft-mp.com</h4>
               <a href="https://minecraft-mp.com/server/298736/vote/" target="_blank"><button type="button" id="vote15" onclick="buttonClicked('vote15')">Vote!</button></a>
-            </div>
-            <div>
-              <h4>best-minecraft-servers.co</h4>
-              <a href="https://best-minecraft-servers.co/server-new-lands-survival.3773/vote" target="_blank"><button type="button" id="vote16" onclick="buttonClicked('vote16')">Vote!</button></a>
-            </div>
-            <div>
-              <h4>minecraft-server-list.co</h4>
-              <a href="https://minecraft-server-list.co/server/new-lands-survival/vote/" target="_blank"><button type="button" id="vote17" onclick="buttonClicked('vote17')">Vote!</button></a>
-            </div>
-            <div>
-              <h4>minecraft.menu</h4>
-              <a href="https://minecraft.menu/server-new-lands-survival.1665/vote" target="_blank"><button type="button" id="vote18" onclick="buttonClicked('vote18')">Vote!</button></a>
-            </div>
-            <div>
-              <h4>minecraftlist.org</h4>
-              <a href="https://minecraftlist.org/vote/27172" target="_blank"><button type="button" id="vote19" onclick="buttonClicked('vote19')">Vote!</button></a>
-            </div>
-            <div>
-              <h4>mclike.com</h4>
-              <a href="https://mclike.com/vote-192303" target="_blank"><button type="button" id="vote20" onclick="buttonClicked('vote20')">Vote!</button></a>
-            </div>
-            <div>
-              <h4>servertilt.com</h4>
-              <a href="https://www.servertilt.com/server/new-lands-survival.198303/vote" target="_blank"><button type="button" id="vote21" onclick="buttonClicked('vote21')">Vote!</button></a>
             </div>
           </section>
           <!-- <section>

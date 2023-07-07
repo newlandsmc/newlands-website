@@ -50,9 +50,8 @@ make sure you only trust people you know. We are not responsible for players abu
             <h3>Limits</h3>
             <p>New players will start with 1000 "claim blocks". Each "claim block" allows you to add 1 block to your claim size (only counting length and width - remember claims dont count height!).</p>
             <p>You will earn an additional 1000 claim blocks for every mining level you unlock. This means at maximum mining level (mining level 97) you will be able to claim up to 98,000 blocks.</p>
-            <p>If you need additional claim blocks, you can ask a staff member for more. We will provide more on a case-by-case basis.</p>
-            <p>You can create up to 3 separate claims by default. Your "claim blocks" limit is shared between all of your claims.</p>
-            <p style="color: var(--confirm);">Premium ranks have a higher claim limit and bonus claim blocks! <a href="https://newlandsmc.tebex.io/category/ranks">Learn more here.</a></p>
+            <p>You can purchase more claim blocks in the <a href="https://newlandsmc.tebex.io/">donation store</a>. Premium ranks come with bonus claim blocks, up to a maximum of 500,000 bonus claim blocks. These stack on top of your accrued claim blocks from playtime. <a href="https://newlandsmc.tebex.io/category/ranks">Click here to learn more</a>.</p>
+            <p>You can create up to 3 separate claims by default (premium ranks can also increase this limit). Your "claim blocks" limit is shared between all of your claims.</p>
           </section>
         </div>
         <div>

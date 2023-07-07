@@ -25,14 +25,13 @@
       <div class="sub-title" style="background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(/assets/images/rules-title.webp); background-position: 50% 40%;">
         <div>
           <h1>Server Rules</h1>
-          <h2>Be: Careful, Kind, and Fair!</h2>
+          <h2>Please follow these server rules</h2>
         </div>
       </div>
       <div class="content">
         <div class="shadow"></div>
-        <section>
+        <!-- <section>
           <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4636767855327079" crossorigin="anonymous"></script>
-          <!-- NLMC-Rules-Horizontal-Top -->
           <ins class="adsbygoogle"
             style="display:block; width:100%;"
             data-ad-client="ca-pub-4636767855327079"
@@ -42,7 +41,7 @@
           <script>
             (adsbygoogle = window.adsbygoogle || []).push({});
           </script>
-        </section>
+        </section> -->
         <section style="padding-top: 30px;">
           <h3>Be Careful!</h3>
           <ul>
@@ -79,7 +78,7 @@
         </section>
         <section>
           <img style="position: absolute; left: -150px; bottom: -150px; width: 180px;" class="hide-mobile" src="/assets/images/warden.webp" alt="Minecraft Warden">
-          <h3>Other Rules</h3>
+          <h3>Be Considerate!</h3>
           <ul>
             <li class="rules">Do not discuss or appeal bans/mutes/etc in public channels. (An appeal email is provided in every punishment message, or on the Discord <strong>#faq</strong> page.)</li>
             <li class="rules">Do not intentionally disparage, tarnish, or otherwise harm the server or staff.</li>
@@ -87,8 +86,7 @@
             <li class="rules">Please only use English in public channels. (We are generally unable to moderate other languages.)</li>
           </ul>
         </section>
-        <section>
-          <!-- NLMC-Rules-Horizontal-Bottom -->
+        <!-- <section>
           <ins class="adsbygoogle"
             style="display:block; width:100%;"
             data-ad-client="ca-pub-4636767855327079"
@@ -98,7 +96,7 @@
           <script>
             (adsbygoogle = window.adsbygoogle || []).push({});
           </script>
-        </section>
+        </section> -->
       </div>
     </main>
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/footer.html'); ?>

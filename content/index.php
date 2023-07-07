@@ -73,7 +73,7 @@
       <div class="title" style="position: absolute; z-index: 3;">
         <div class="landing-title-text" style="text-align: center;">
           <img class="landing-logo hide-mobile-2" src="/assets/images/logo.webp" alt="New Lands Survival Logo" />
-          <h1 style="margin: 30px;">1.20.1 Survival Community!</h1>
+          <h1 style="margin: 30px;">Survival Community! 1.20.1!</h1>
           <p class="ip">play.newlandsmc.com</p>
           <div style="width:100%">
             <button type="button" class="copyip-button" id="cb1" onclick="copyToClipboard('cb1','play.newlandsmc.com','https://newlandsmc.com/join')">Copy IP!</button>
