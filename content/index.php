@@ -97,13 +97,16 @@
             <p>New Lands Survival is a public survival server with a relaxing vibe, friendly community, and hard difficulty survival! We always run on the <strong>latest version</strong>, too! Scroll down to learn more.</p>
           </div>
         </section>
-        <section class="center">
-          <div>
-            <img class="wide" style="max-width: 70%;" src="/assets/images/features-steve.webp" alt="Digital art of Minecraft Steve with glowing diamond sword" />
-          </div>
-          <div>
-            <h3>Community</h3>
-            <p>Community is at the heart of everything we do! We believe the most important ingredient to a survival server is a community you want to be part of. We're proud to be a friendly and inclusive server where everyone is welcome.</p>
+        <section class="center" id="discord-widget">
+          <img class="hide-mobile-3" src="/assets/images/community-writing.webp" alt="Word community with arrow pointing to Discord" style="position: absolute; top: 700px; left: -100px; width: 200px;">
+          <div style="width: 100%;">
+            <widgetbot
+              server="919286325486706759"
+              channel="973990099580764270"
+              width="90%"
+              height="500px"
+            ></widgetbot>
+            <script src="https://cdn.jsdelivr.net/npm/@widgetbot/html-embed"></script>
           </div>
         </section>
         <section class="center">

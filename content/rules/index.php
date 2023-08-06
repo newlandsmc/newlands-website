@@ -67,8 +67,7 @@
           <ul>
             <li class="rules">Any hack or mod that gives you an unfair advantage in the game is not allowed!
               <ul>
-                <li class="rules"><strong>Banned mods:</strong> minimaps</li>
-                <li class="rules"><strong>Approved mods:</strong> performance enhancers (like Optifine), shaders, gameplay recording, inventory management, status HUDs</li>
+                <li class="rules"><strong>Approved mods:</strong> performance enhancers (like Optifine), shaders, gameplay recording, additional inputs (like controller support), inventory management, status HUDs, minimaps (without x-ray like effects)</li>
               </ul>
             </li>
             <li class="rules">Do not exploit bugs in our server's features. Vanilla exploit are allowed, unless they involve duplicating items!</li>
@@ -80,7 +79,7 @@
           <img style="position: absolute; left: -150px; bottom: -150px; width: 180px;" class="hide-mobile" src="/assets/images/warden.webp" alt="Minecraft Warden">
           <h3>Be Considerate!</h3>
           <ul>
-            <li class="rules">Do not discuss or appeal bans/mutes/etc in public channels. (An appeal email is provided in every punishment message, or on the Discord <strong>#faq</strong> page.)</li>
+            <li class="rules">Do not discuss or appeal bans/mutes/etc in public channels. (An appeal email is provided in every punishment message, or you can use the #open-ticket channel on <a href="https://discord.gg/CxQP7SD9Ah">Discord</a>.)</li>
             <li class="rules">Do not intentionally disparage, tarnish, or otherwise harm the server or staff.</li>
             <li class="rules">Do not advertise other Minecraft servers or Discords.</li>
             <li class="rules">Please only use English in public channels. (We are generally unable to moderate other languages.)</li>
