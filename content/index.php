@@ -97,17 +97,9 @@
             <p>New Lands Survival is a public survival server with a relaxing vibe, friendly community, and hard difficulty survival! We always run on the <strong>latest version</strong>, too! Scroll down to learn more.</p>
           </div>
         </section>
-        <section class="center" id="discord-widget">
-          <img class="hide-mobile-3" src="/assets/images/community-writing.webp" alt="Word community with arrow pointing to Discord" style="position: absolute; top: 700px; left: -100px; width: 200px;">
-          <div style="width: 100%;">
-            <widgetbot
-              server="919286325486706759"
-              channel="973990099580764270"
-              width="90%"
-              height="500px"
-            ></widgetbot>
-            <script src="https://cdn.jsdelivr.net/npm/@widgetbot/html-embed"></script>
-          </div>
+        <section class="center" style="padding: 100px 0 0 0;">
+          <img class="hide-mobile-3" src="/assets/images/community-writing.webp" alt="Word community with arrow pointing to Discord" style="position: absolute; top: 700px; left: 80px; width: 200px;">
+          <iframe id="discord-iframe" src="https://discord.com/widget?id=919286325486706759&theme=dark" width="380px" height="500px" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
         </section>
         <section class="center">
           <div>
