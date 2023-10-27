@@ -32,21 +32,34 @@
             <img style="width:70%" src="/assets/images/features-castle.webp" alt="Digital art of Minecraft style castle" />
           </section>
           <section>
-            <h3>Custom Recipes</h3>
-            <p>We run a custom datapack with lots of custom recipes! Our recipes can be used to craft items not normally craftable in survival, or convert items back into their raw materials.</p>
-            <p>Custom recipes are unlocked in the recipe book just like vanilla recipes! You can see all available recipes to you in any crafting bench.</p>
-            <p><a href="recipes/">Learn more here!</a></p>
+            <h3>Custom Enchantments</h3>
+            <p>Custom enchantments can be applied to your weapons, armor, and more just like vanilla enchants! There are over 50+ custom enchantments available on our server!</p>
+            <p><a href="enchantments/">Learn more here!</a></p>
+          </section>
+          <section>
+            <h3>Vanilla Tweaks</h3>
+            <p>Multiple Vanilla Tweaks datapacks have been installed! The following are currently active:</p>
+            <ul>
+              <li>AFK Display</li>
+              <li>Bat Membranes</li>
+              <li>Confetti Creepers</li>
+              <li>Custom Nether Portals</li>
+              <li>Fast Leaf Decay</li>
+              <li>Graves</li>
+              <li>More Mob Heads</li>
+              <li>Multiplayer Sleep</li>
+              <li>Player Head Drops</li>
+              <li>Silence Mobs</li>
+              <li>Unlock All Recipes</li>
+              <li>XP Management</li>
+            </ul>
+            <p><a href="https://vanillatweaks.net/picker/datapacks/">Learn more here!</a></p>
           </section>
           <section>
             <h3>Live Map</h3>
             <p>The live map shows the entire in-game world in real time! It also shows player locations and claim information!</p>
             <p><a href="map/">See the maps here!</a></p>
             <img style="width:60%" src="/assets/images/features-map.webp" alt="Digital art of a Minecraft map" />
-          </section>
-          <section>
-            <h3>Sleep Voting</h3>
-            <p>Only 50% of players need to sleep to skip night on our server! Vote to skip night by laying in a bed. You do NOT need to remain in bed, your vote will continue to count even if you get out of bed!</p>
-            <img style="width:70%" src="/assets/images/features-bed.webp" alt="Minecraft character sleeping in bed" />
           </section>
         </div>
         <div>
@@ -62,20 +75,20 @@
             <img style="width:70%" src="/assets/images/features-steve.webp" alt="Digital art of Minecraft Steve with glowing diamond sword" />
           </section>
           <section>
-            <h3>Custom Loot Tables</h3>
-            <p>All of the vanilla loot chests (villages, temples, etc) have been modified! We've significantly buffed the loot tables, making exploration worth it, and providing more access to items that are normally limited in survival!</p>
-            <p>Natural chests also generate loot for EVERY player that opens them, so everyone can get something, not just the first person!</p>
-            <p style="color:var(--alert);">Please do not break natural chests if you don't need to! Leave them for someone else to discover.</p>
+            <h3>Custom Recipes</h3>
+            <p>We run a custom datapack with lots of custom recipes! Our recipes can be used to craft items not normally craftable in survival, or convert items back into their raw materials.</p>
+            <p>Custom recipes are unlocked in the recipe book just like vanilla recipes! You can see all available recipes to you in any crafting bench.</p>
+            <p><a href="recipes/">Learn more here!</a></p>
+          </section>
+          <section>
+            <h3>Sleep Voting</h3>
+            <p>Only 50% of players need to sleep to skip night on our server! Vote to skip night by laying in a bed. You do NOT need to remain in bed, your vote will continue to count even if you get out of bed!</p>
+            <img style="width:70%" src="/assets/images/features-bed.webp" alt="Minecraft character sleeping in bed" />
           </section>
           <section>
             <h3>Trade System</h3>
             <p>Make sure your items are safe when you trade by using the <strong>/trade</strong> UI when trading with other players! With the trade UI it is impossible to have your items stolen.</p>
             <p>You can open this UI any time by <strong>shift + right click</strong> on another player.</p>
-          </section>
-          <section>
-            <h3>Custom Enchantments</h3>
-            <p>Custom enchantments can be applied to your weapons, armor, and more just like vanilla enchants! There are over 50+ custom enchantments available on our server!</p>
-            <p><a href="enchantments/">Learn more here!</a></p>
           </section>
         </div>
       </div>

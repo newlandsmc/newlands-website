@@ -110,7 +110,7 @@
             </div>
             <div>
               <h4>minecraft-server-list.com</h4>
-              <a href="https://minecraft-server-list.com/server/484896/vote/" target="_blank"><button type="button" id="vote2" onclick="buttonClicked('vote2')">Vote!</button></a>
+              <a href="https://minecraft-server-list.com/server/499650/vote/" target="_blank"><button type="button" id="vote2" onclick="buttonClicked('vote2')">Vote!</button></a>
             </div>
             <div>
               <h4>mc-servers.com</h4>

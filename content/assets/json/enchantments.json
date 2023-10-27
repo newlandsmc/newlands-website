@@ -22,13 +22,6 @@
       "<span style='color: #ffffff;'>Common</span>"
     ],
     [
-      "Decapitation",
-      "Opponents head drop on death.",
-      "Swords, Axes",
-      "1",
-      "<span style='color: #ffffff;'>Common</span>"
-    ],
-    [
       "Reflect",
       "Chance to absorb enemy damage and reflect it back.",
       "Boots, Leggings, Chestplates, Helmets",
@@ -123,7 +116,7 @@
       "Dodge",
       "Chance to dodge attack, chance increases when sneaking.",
       "Boots, Leggings, Chestplate, Helmet",
-      "5",
+      "3",
       "<span style='color: #ff55ff;'>Legendary</span>"
     ],
     [
