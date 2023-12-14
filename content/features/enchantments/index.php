@@ -24,7 +24,7 @@
         <div>
           <section>
             <h3>Available Enchantments</h3>
-            <p>There are <strong>54</strong> custom enchantments on New Lands Survival! They are available for all types of weapons, armor, and tools.</p>
+            <p>There are <strong>51</strong> custom enchantments on New Lands Survival! They are available for all types of weapons, armor, and tools.</p>
             <p>To see a list of all available enchantments, <a href="all/">click here</a>.</p>
           </section>
           <section>

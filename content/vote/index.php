@@ -102,8 +102,17 @@
             </script>
           </section> -->
           <section style="z-index: 3;" class="center votelinks">
-            <img style="position: absolute; right: -25px; bottom: -105px; width: 180px;" class="hide-mobile" src="/assets/images/sweet-berries.webp" alt="Minecraft Sweet Berries">
+            <img style="position: absolute; right: -25px; bottom: -105px; width: 120px;" class="hide-mobile" src="/assets/images/sweet-berries.webp" alt="Minecraft Sweet Berries">
             <h3>Reward Sites</h3>
+            <p>There are no vote sites available right now.</p>
+            <!-- <div>
+              <h4>minecraft.menu</h4>
+              <a href="https://minecraft.menu/server-new-lands-survival.1665/vote" target="_blank"><button type="button" id="vote3" onclick="buttonClicked('vote3')">Vote!</button></a>
+            </div>
+            <div>
+              <h4>minecraft-server.net</h4>
+              <a href="https://minecraft-server.net/vote/newlandssurvival/" target="_blank"><button type="button" id="vote4" onclick="buttonClicked('vote4')">Vote!</button></a>
+            </div>
             <div>
               <h4>topminecraftservers.org</h4>
               <a href="https://topminecraftservers.org/vote/24515" target="_blank"><button type="button" id="vote1" onclick="buttonClicked('vote1')">Vote!</button></a>
@@ -113,14 +122,6 @@
               <a href="https://minecraft-server-list.com/server/499650/vote/" target="_blank"><button type="button" id="vote2" onclick="buttonClicked('vote2')">Vote!</button></a>
             </div>
             <div>
-              <h4>mc-servers.com</h4>
-              <a href="https://mc-servers.com/vote/5117" target="_blank"><button type="button" id="vote3" onclick="buttonClicked('vote3')">Vote!</button></a>
-            </div>
-            <div>
-              <h4>minecraft-server.net</h4>
-              <a href="https://minecraft-server.net/vote/newlandssurvival/" target="_blank"><button type="button" id="vote4" onclick="buttonClicked('vote4')">Vote!</button></a>
-            </div>
-            <div>
               <h4>minecraft-mp.com</h4>
               <a href="https://minecraft-mp.com/server/298736/vote/" target="_blank"><button type="button" id="vote5" onclick="buttonClicked('vote5')">Vote!</button></a>
             </div>
@@ -128,6 +129,7 @@
               <h4>minecraft.buzz</h4>
               <a href="https://minecraft.buzz/vote/3877" target="_blank"><button type="button" id="vote6" onclick="buttonClicked('vote6')">Vote!</button></a>
             </div>
+            -->
           </section>
         </div>
         <div class="votesection" id="votesection2">
@@ -135,14 +137,11 @@
             <h3>Rewards!</h3>
             <p>1 Vote Crate for every vote!</p>
             <p>FREE Premium Crate(s) for voting 7 days in a row!</p>
-            <p><strong>NEW!</strong> Claim a FREE premium rank and earn DOUBLE Premium Crates from voting!</p>
-            <p><a target="_blank" href="https://newlandsmc.tebex.io/category/ranks">Click here to claim your FREE Awoken rank!</a></p>
           </section>
           <section class="center">
             <h3>Reddit</h3>
             <p>We are also listed on /r/mcservers! Find our latest post to upvote and comment!</p>
             <p>Note: This site does not grant voting rewards.</p>
-            <a href="https://www.reddit.com/user/sudokouuu" target="_blank"><button type="button" id="vote7" onclick="buttonClicked('vote7')">Visit Reddit</button></a>
           </section>
         </div>
       </div>

@@ -1,13 +1,6 @@
 {
   "data": [
     [
-      "Replanter",
-      "Replants crops when you break them.",
-      "Hoes",
-      "1",
-      "<span style='color: #55ff55;'>Uncommon</span>"
-    ],
-    [
       "Experience",
       "Chance to get more experience from ores.",
       "Pickaxes",
@@ -342,13 +335,6 @@
       "Boots, Leggings, Chestplates, Helmets",
       "5",
       "<span style='color: #ffff00;'>Fabled</span>"
-    ],
-    [
-      "Reach",
-      "Increase range underwater",
-      "Tridents",
-      "1",
-      "<span style='color: #ffaa00;'>Exotic</span>"
     ],
     [
       "Shockwave",

@@ -20,197 +20,438 @@
         </div>
       </div>
       <div class="content split-content">
-        <div class="shadow"></div>
-        <div style="width: 100%">
-          <h3 style="text-align: center; color: var(--alert);">This page is outdated!</h3>
-          <p style="text-align: center;">The contents of the crates have changed a lot since this page was last updated and this list should not be used!</p>
-          <p style="text-align: center;"><strong>This page does NOT include any of the custom items available in crates!</strong></p>
-        </div>
         <div>
          <section>
             <h3>Daily Crate</h3>
+            <p>3 items from pool 1:</p>
             <ul>
-              <li>ACACIA_LOG</li>
-              <li>ALLIUM</li>
-              <li>AMETHYST_SHARD</li>
-              <li>ARROW</li>
-              <li>AXOLOTL_BUCKET</li>
-              <li>AZURE_BLUET</li>
-              <li>BEEF</li>
-              <li>BIRCH_LOG</li>
-              <li>BLUE_ORCHID</li>
-              <li>BONE</li>
-              <li>BOOK</li>
-              <li>BROWN_MUSHROOM</li>
-              <li>CARROT</li>
-              <li>CHICKEN</li>
-              <li>COAL</li>
-              <li>COBBLED_DEEPSLATE</li>
-              <li>COBBLESTONE</li>
-              <li>COD</li>
-              <li>CORNFLOWER</li>
-              <li>DANDELION</li>
-              <li>DARK_OAK_LOG</li>
-              <li>DIAMOND</li>
-              <li>DIRT</li>
-              <li>EGG</li>
-              <li>EMERALD</li>
-              <li>ENDER_PEARL</li>
-              <li>FEATHER</li>
-              <li>GLOW_BERRIES</li>
-              <li>GLOW_INK_SAC</li>
-              <li>GLOW_LICHEN</li>
-              <li>GOLDEN_APPLE</li>
-              <li>GRAVEL</li>
-              <li>GUNPOWDER</li>
-              <li>HONEYCOMB</li>
-              <li>HONEY_BOTTLE</li>
-              <li>ICE</li>
-              <li>INK_SAC</li>
-              <li>JUNGLE_LOG</li>
-              <li>LAPIS_LAZULI</li>
-              <li>LAVA_BUCKET</li>
-              <li>LEATHER</li>
-              <li>LILY_OF_THE_VALLEY</li>
-              <li>LILY_PAD</li>
-              <li>OAK_LOG</li>
-              <li>ORANGE_TULIP</li>
-              <li>OXEYE_DAISY</li>
-              <li>PINK_TULIP</li>
-              <li>POPPY</li>
-              <li>POTATO</li>
-              <li>PRISMARINE_CRYSTALS</li>
-              <li>PRISMARINE_SHARD</li>
-              <li>PUFFERFISH_BUCKET</li>
-              <li>RABBIT_FOOT</li>
-              <li>RAW_GOLD</li>
-              <li>RAW_IRON</li>
-              <li>REDSTONE</li>
-              <li>RED_MUSHROOM</li>
-              <li>RED_TULIP</li>
-              <li>SAND</li>
-              <li>SANDSTONE</li>
-              <li>SCUTE</li>
-              <li>SLIME_BALL</li>
-              <li>SPORE_BLOSSOM</li>
-              <li>SPRUCE_LOG</li>
-              <li>STRING</li>
-              <li>SWEET_BERRIES</li>
-              <li>TROPICAL_FISH_BUCKET</li>
-              <li>WHITE_TULIP</li>
-              <li>WHITE_WOOL</li>
+              <li>16-32 ACACIA_LOG (2%)</li>
+              <li>5-10 ALLIUM (2%)</li>
+              <li>16-32 ARROW (2%)</li>
+              <li>5-10 AZURE_BLUET (2%)</li>
+              <li>16-32 BEEF (2%)</li>
+              <li>16-32 BIRCH_LOG (2%)</li>
+              <li>5-10 BLUE_ORCHID (2%)</li>
+              <li>16-32 BONE (2%)</li>
+              <li>5-10 BROWN_MUSHROOM (2%)</li>
+              <li>16-32 CARROT (2%)</li>
+              <li>16-32 CHICKEN (2%)</li>
+              <li>5-10 COAL (2%)</li>
+              <li>16-32 COBBLED_DEEPSLATE (2%)</li>
+              <li>16-32 COBBLESTONE (2%)</li>
+              <li>16-32 COD (2%)</li>
+              <li>16-32 COOKED_BEEF (2%)</li>
+              <li>5-10 CORNFLOWER (2%)</li>
+              <li>16-32 CRIMSON_STEM (2%)</li>
+              <li>5-10 DANDELION (2%)</li>
+              <li>16-32 DARK_OAK_LOG (2%)</li>
+              <li>32-64 DIRT (2%)</li>
+              <li>5-10 EGG (2%)</li>
+              <li>16-32 FEATHER (2%)</li>
+              <li>5-10 GLASS_BOTTLE (2%)</li>
+              <li>5-10 GLOW_BERRIES (2%)</li>
+              <li>16-32 GRAVEL (2%)</li>
+              <li>3-6 INK_SAC (2%)</li>
+              <li>16-32 JUNGLE_LOG (2%)</li>
+              <li>5-10 LILY_OF_THE_VALLEY (2%)</li>
+              <li>5-10 LILY_PAD (2%)</li>
+              <li>1-16 MELON (2%)</li>
+              <li>8-16 MUSHROOM_STEM (2%)</li>
+              <li>3-5 NOTE_BLOCK (2%)</li>
+              <li>8-16 OCHRE_FROGLIGHT (2%)</li>
+              <li>5-10 ORANGE_TULIP (2%)</li>
+              <li>8-16 PEARLESCENT_FROGLIGHT (2%)</li>
+              <li>5-10 PINK_TULIP (2%)</li>
+              <li>5-10 POPPY (2%)</li>
+              <li>1-5 RAW_IRON (2%)</li>
+              <li>8-16 RED_MUSHROOM_BLOCK (2%)</li>
+              <li>1 SADDLE (2%)</li>
+              <li>16-32 SAND (2%)</li>
+              <li>1-2 SLIME_BLOCK (2%)</li>
+              <li>3-9 SPORE_BLOSSOM (2%)</li>
+              <li>1 SPYGLASS (2%)</li>
+              <li>5-10 STRING (2%)</li>
+              <li>5-10 SUGAR (2%)</li>
+              <li>8-16 WARPED_FUNGUS (2%)</li>
+              <li>5-10 WHITE_TULIP (2%)</li>
             </ul>
-          </section>
-          <section>
-            <h3>Vote Crate</h3>
+            <p>3 items from pool 2:</p>
             <ul>
-              <li>AMETHYST_SHARD</li>
-              <li>ANCIENT_DEBRIS</li>
-              <li>BLAZE_ROD</li>
-              <li>COAL</li>
-              <li>DIAMOND</li>
-              <li>EMERALD</li>
-              <li>ENDER_PEARL</li>
-              <li>GOLDEN_APPLE</li>
-              <li>GOLD_INGOT</li>
-              <li>HONEY_BLOCK</li>
-              <li>IRON_INGOT</li>
-              <li>LAPIS_LAZULI</li>
-              <li>NETHERITE_SCRAP</li>
-              <li>QUARTZ</li>
-              <li>REDSTONE</li>
-              <li>SCUTE</li>
-              <li>SHULKER_SHELL</li>
-              <li>SLIME_BLOCK</li>
-              <li>TURTLE_HELMET</li>
-              <li>WITHER_ROSE</li>
-              <li>WITHER_SKELETON_SKULL</li>
+              <li>8-16 AMETHYST_BLOCK (2.1%)</li>
+              <li>8-16 AMETHYST_SHARD (2.1%)</li>
+              <li>8-16 BONE_BLOCK (2.1%)</li>
+              <li>8-16 BOOK (2.1%)</li>
+              <li>8-16 BROWN_MUSHROOM_BLOCK (2.1%)</li>
+              <li>1 CAKE (2.1%)</li>
+              <li>1-64 COOKIE (2.1%)</li>
+              <li>8-16 CRIMSON_FUNGUS (2.1%)</li>
+              <li>8-16 DEEPSLATE_COPPER_ORE (2.1%)</li>
+              <li>8-16 END_STONE (2.1%)</li>
+              <li>1-16 ENDER_PEARL (2.1%)</li>
+              <li>16-32 GLASS (2.1%)</li>
+              <li>5-10 GLISTERING_MELON_SLICE (2.1%)</li>
+              <li>5-10 GLOW_INK_SAC (2.1%)</li>
+              <li>5-10 GLOW_LICHEN (2.1%)</li>
+              <li>5-10 GOLDEN_CARROT (2.1%)</li>
+              <li>5-10 GUNPOWDER (2.1%)</li>
+              <li>5-10 HONEY_BOTTLE (2.1%)</li>
+              <li>16-32 ICE (2.1%)</li>
+              <li>16-32 LAPIS_LAZULI (2.1%)</li>
+              <li>8-16 LEATHER (2.1%)</li>
+              <li>16-32 MELON_SLICE (2.1%)</li>
+              <li>5-10 OXEYE_DAISY (2.1%)</li>
+              <li>16-32 POTATO (2.1%)</li>
+              <li>1 POWDER_SNOW_BUCKET (2.1%)</li>
+              <li>8-16 PRISMARINE (2.1%)</li>
+              <li>16-32 PRISMARINE_CRYSTALS (2.1%)</li>
+              <li>1 PUFFERFISH_BUCKET (2.1%)</li>
+              <li>8-16 PUMPKIN (2.1%)</li>
+              <li>8-16 PURPUR_BLOCK (2.1%)</li>
+              <li>16-32 QUARTZ (2.1%)</li>
+              <li>1-7 RABBIT_FOOT (2.1%)</li>
+              <li>1-5 RAW_GOLD (2.1%)</li>
+              <li>5-10 RED_MUSHROOM (2.1%)</li>
+              <li>5-10 RED_TULIP (2.1%)</li>
+              <li>8-16 REDSTONE (2.1%)</li>
+              <li>3-5 SCULK_CATALYST (2.1%)</li>
+              <li>1-3 SCUTE (2.1%)</li>
+              <li>1 SHIELD (2.1%)</li>
+              <li>1-3 SHULKER_SHELL (2.1%)</li>
+              <li>8-16 SLIME_BALL (2.1%)</li>
+              <li>5-10 SPIDER_EYE (2.1%)</li>
+              <li>3-9 SPONGE (2.1%)</li>
+              <li>16-32 SPRUCE_LOG (2.1%)</li>
+              <li>8-16 VERDANT_FROGLIGHT (2.1%)</li>
+              <li>16-32 WARPED_STEM (2.1%)</li>
+              <li>1-64 WHITE_WOOL (2.1%)</li>
+            </ul>
+            <p>1 item from pool 3:</p>
+            <ul>
+              <li>1-2 ANCIENT_DEBRIS (2.3%)</li>
+              <li>1 AXOLOTL_BUCKET (2.3%)</li>
+              <li>1-10 BLAZE_ROD (2.3%)</li>
+              <li>1-2 BOOKSHELF (2.3%)</li>
+              <li>1-5 CHORUS_FLOWER (2.3%)</li>
+              <li>16-32 DARK_PRISMARINE (2.3%)</li>
+              <li>1-5 DEEPSLATE_GOLD_ORE (2.3%)</li>
+              <li>1-5 DEEPSLATE_IRON_ORE (2.3%)</li>
+              <li>1-5 DEEPSLATE_LAPIS_ORE (2.3%)</li>
+              <li>1-5 DEEPSLATE_REDSTONE_ORE (2.3%)</li>
+              <li>1-5 DIAMOND (2.3%)</li>
+              <li>1-2 ECHO_SHARD (2.3%)</li>
+              <li>1-5 EMERALD (2.3%)</li>
+              <li>5-10 END_ROD (2.3%)</li>
+              <li>1 ENDER_CHEST (2.3%)</li>
+              <li>16-32 FIREWORK_ROCKET (2.3%)</li>
+              <li>1-5 GHAST_TEAR (2.3%)</li>
+              <li>16-32 GLOWSTONE_DUST (2.3%)</li>
+              <li>1-5 GOLD_INGOT (2.3%)</li>
+              <li>1-5 GOLDEN_APPLE (2.3%)</li>
+              <li>1-6 HONEY_BLOCK (2.3%)</li>
+              <li>1-6 HONEYCOMB (2.3%)</li>
+              <li>1-5 IRON_INGOT (2.3%)</li>
+              <li>1 LAVA_BUCKET (2.3%)</li>
+              <li>2-8 LEAD (2.3%)</li>
+              <li>16-32 MYCELIUM (2.3%)</li>
+              <li>1-3 NAME_TAG (2.3%)</li>
+              <li>1 NETHER_STAR (2.3%)</li>
+              <li>1-3 NETHERITE_INGOT (2.3%)</li>
+              <li>1-2 NETHERITE_SCRAP (2.3%)</li>
+              <li>16-32 OAK_LOG (2.3%)</li>
+              <li>1-3 PAINTING (2.3%)</li>
+              <li>16-32 PRISMARINE_SHARD (2.3%)</li>
+              <li>1-8 PUMPKIN_PIE (2.3%)</li>
+              <li>16-32 SANDSTONE (2.3%)</li>
+              <li>8-16 SCULK (2.3%)</li>
+              <li>1-8 SEA_LANTERN (2.3%)</li>
+              <li>1 SHULKER_BOX (2.3%)</li>
+              <li>16-32 SWEET_BERRIES (2.3%)</li>
+              <li>1 TOTEM_OF_UNDYING (2.3%)</li>
+              <li>1-6 TURTLE_EGG (2.3%)</li>
+              <li>1 TURTLE_HELMET (2.3%)</li>
+              <li>1-10 WITHER_ROSE (2.3%)</li>
             </ul>
           </section>
         </div>
         <div>
           <section>
-            <h3>Super Vote Crate</h3>
+            <h3>Vote Crate</h3>
+            <p>3 items from pool 1:</p>
             <ul>
-              <li>AMETHYST_SHARD</li>
-              <li>ANCIENT_DEBRIS</li>
-              <li>BLAZE_ROD</li>
-              <li>BONE_BLOCK</li>
-              <li>BOOK</li>
-              <li>BUDDING_AMETHYST</li>
-              <li>COAL</li>
-              <li>COOKED_BEEF</li>
-              <li>CRIMSON_STEM</li>
-              <li>DARK_PRISMARINE</li>
-              <li>DIAMOND</li>
-              <li>EMERALD</li>
-              <li>ENCHANTED_BOOK</li>
-              <li>ENDER_PEARL</li>
-              <li>GHAST_TEAR</li>
-              <li>GOLDEN_APPLE</li>
-              <li>GOLDEN_CARROT</li>
-              <li>GOLD_INGOT</li>
-              <li>GUNPOWDER</li>
-              <li>HONEY_BLOCK</li>
-              <li>IRON_INGOT</li>
-              <li>LAPIS_LAZULI</li>
-              <li>NETHERITE_SCRAP</li>
-              <li>PRISMARINE</li>
-              <li>QUARTZ</li>
-              <li>REDSTONE</li>
-              <li>SCUTE</li>
-              <li>SEA_LANTERN</li>
-              <li>SHULKER_SHELL</li>
-              <li>SLIME_BLOCK</li>
-              <li>SPONGE</li>
-              <li>TURTLE_HELMET</li>
-              <li>WARPED_STEM</li>
-              <li>WITHER_ROSE</li>
-              <li>WITHER_SKELETON_SKULL</li>
+              <li>8-16 AMETHYST_BLOCK (0.8%)</li>
+              <li>8-16 AMETHYST_SHARD (0.8%)</li>
+              <li>1-2 ANCIENT_DEBRIS (1.1%)</li>
+              <li>1 ANVIL (0.7%)</li>
+              <li>1 AXOLOTL_BUCKET (1.1%)</li>
+              <li>1 BEACON (0.7%)</li>
+              <li>1-10 BLAZE_ROD (1.1%)</li>
+              <li>8-16 BONE_BLOCK (0.8%)</li>
+              <li>8-16 BOOK (0.8%)</li>
+              <li>1-2 BOOKSHELF (1.1%)</li>
+              <li>8-16 BROWN_MUSHROOM_BLOCK (0.8%)</li>
+              <li>1 BUDDING_AMETHYST (0.7%)</li>
+              <li>1 CAKE (0.8%)</li>
+              <li>1-5 CHORUS_FLOWER (1.1%)</li>
+              <li>1 CONDUIT (0.7%)</li>
+              <li>18-64 COOKIE (0.8%)</li>
+              <li>8-16 CRIMSON_FUNGUS (0.8%)</li>
+              <li>16-32 DARK_PRISMARINE (1.1%)</li>
+              <li>8-16 DEEPSLATE_COPPER_ORE (0.8%)</li>
+              <li>1-5 DEEPSLATE_DIAMOND_ORE (0.7%)</li>
+              <li>1-5 DEEPSLATE_EMERALD_ORE (0.7%)</li>
+              <li>1-5 DEEPSLATE_GOLD_ORE (1.1%)</li>
+              <li>1-5 DEEPSLATE_IRON_ORE (1.1%)</li>
+              <li>1-5 DEEPSLATE_LAPIS_ORE (1.1%)</li>
+              <li>1-5 DEEPSLATE_REDSTONE_ORE (1.1%)</li>
+              <li>1-5 DIAMOND (1.1%)</li>
+              <li>1 DIAMOND_PICKAXE W/ 2 ENCHANTS (0.4%)</li>
+              <li>1 DIAMOND_PICKAXE W/ 3 ENCHANTS (0.4%)</li>
+              <li>1 DIAMOND_SWORD W/ 2 ENCHANTS (0.7%)</li>
+              <li>16-32 DRAGON_BREATH (0.7%)</li>
+              <li>1 DRAGON_HEAD (0.7%)</li>
+              <li>1-2 ECHO_SHARD (1.1%)</li>
+              <li>1 ELYTRA W/ 2 ENCHANTS (0.7%)</li>
+              <li>1-5 EMERALD (1.1%)</li>
+              <li>1 ENCHANTED_BOOK (0.7%)</li>
+              <li>1 ENCHANTED_GOLDEN_APPLE (0.7%)</li>
+              <li>1 ENCHANTING_TABLE (0.7%)</li>
+              <li>5-10 END_ROD (1.1%)</li>
+              <li>8-16 END_STONE (0.8%)</li>
+              <li>1 ENDER_CHEST (1.1%)</li>
+              <li>16 ENDER_PEARL (0.8%)</li>
+              <li>16-32 FIREWORK_ROCKET (1.1%)</li>
+              <li>1-5 GHAST_TEAR (1.1%)</li>
+              <li>16-32 GLASS (0.8%)</li>
+              <li>5-10 GLISTERING_MELON_SLICE (0.8%)</li>
+              <li>5-10 GLOW_INK_SAC (0.8%)</li>
+              <li>5-10 GLOW_LICHEN (0.8%)</li>
+              <li>16-32 GLOWSTONE_DUST (1.1%)</li>
+              <li>1-5 GOLD_INGOT (1.1%)</li>
+              <li>1-5 GOLDEN_APPLE (1.1%)</li>
+              <li>5-10 GOLDEN_CARROT (0.8%)</li>
+              <li>5-10 GUNPOWDER (0.8%)</li>
+              <li>1-2 HEART_OF_THE_SEA (0.7%)</li>
+              <li>1-6 HONEY_BLOCK (1.1%)</li>
+              <li>5-10 HONEY_BOTTLE (0.8%)</li>
+              <li>1-6 HONEYCOMB (1.1%)</li>
+              <li>16-32 ICE (0.8%)</li>
+              <li>1-5 IRON_INGOT (1.1%)</li>
+              <li>16-32 LAPIS_LAZULI (0.8%)</li>
+              <li>1 LAVA_BUCKET (1.1%)</li>
+              <li>2-8 LEAD (1.1%)</li>
+              <li>8-16 LEATHER (0.8%)</li>
+              <li>1 LODESTONE (0.7%)</li>
+              <li>16-32 MELON_SLICE (0.8%)</li>
+              <li>16-32 MYCELIUM (1.1%)</li>
+              <li>3 NAME_TAG (1.1%)</li>
+              <li>1-8 NAUTILUS_SHELL (0.7%)</li>
+              <li>1 NETHER_STAR (1.1%)</li>
+              <li>16-32 NETHER_WART (0.7%)</li>
+              <li>1-3 NETHERITE_INGOT (1.1%)</li>
+              <li>1-2 NETHERITE_SCRAP (1.1%)</li>
+              <li>16-32 OAK_LOG (1.1%)</li>
+              <li>5-10 OXEYE_DAISY (0.8%)</li>
+              <li>1-3 PAINTING (1.1%)</li>
+              <li>16-32 POTATO (0.8%)</li>
+              <li>1 POWDER_SNOW_BUCKET (0.8%)</li>
+              <li>8-16 PRISMARINE (0.8%)</li>
+              <li>16-32 PRISMARINE_CRYSTALS (0.8%)</li>
+              <li>16-32 PRISMARINE_SHARD (1.1%)</li>
+              <li>1 PUFFERFISH_BUCKET (0.8%)</li>
+              <li>8-16 PUMPKIN (0.8%)</li>
+              <li>16 PUMPKIN_PIE (1.1%)</li>
+              <li>8-16 PURPUR_BLOCK (0.8%)</li>
+              <li>16-32 QUARTZ (0.8%)</li>
+              <li>7 RABBIT_FOOT (0.8%)</li>
+              <li>1-5 RAW_GOLD (0.8%)</li>
+              <li>1 RECOVERY_COMPASS (0.7%)</li>
+              <li>5-10 RED_MUSHROOM (0.8%)</li>
+              <li>5-10 RED_TULIP (0.8%)</li>
+              <li>8-16 REDSTONE (0.8%)</li>
+              <li>16-32 SANDSTONE (1.1%)</li>
+              <li>8-16 SCULK (1.1%)</li>
+              <li>3-5 SCULK_CATALYST (0.8%)</li>
+              <li>1-3 SCUTE (0.8%)</li>
+              <li>1-8 SEA_LANTERN (1.1%)</li>
+              <li>1 SHIELD (0.8%)</li>
+              <li>1-8 SHROOMLIGHT (0.7%)</li>
+              <li>1 SHULKER_BOX (1.1%)</li>
+              <li>1-3 SHULKER_SHELL (0.8%)</li>
+              <li>8-16 SLIME_BALL (0.8%)</li>
+              <li>5-10 SPIDER_EYE (0.8%)</li>
+              <li>3-9 SPONGE (0.8%)</li>
+              <li>16-32 SPRUCE_LOG (0.8%)</li>
+              <li>16-32 SWEET_BERRIES (1.1%)</li>
+              <li>1-2 TARGET (0.7%)</li>
+              <li>1 TOTEM_OF_UNDYING (1.1%)</li>
+              <li>1 TROPICAL_FISH_BUCKET (0.7%)</li>
+              <li>1-6 TURTLE_EGG (1.1%)</li>
+              <li>1 TURTLE_HELMET (1.1%)</li>
+              <li>8-16 VERDANT_FROGLIGHT (0.8%)</li>
+              <li>16-32 WARPED_STEM (0.8%)</li>
+              <li>1-64 WHITE_WOOL (0.8%)</li>
+              <li>1-10 WITHER_ROSE (1.1%)</li>
+              <li>1-2 WITHER_SKELETON_SKULL (0.7%)</li>
+              <li>1 Bacon's Blast Helm (<0.1%)</li>
+              <li>1 Bacon's Asbestos Vest (<0.1%)</li>
+              <li>1 Bacon's Khakis (<0.1%)</li>
+              <li>1 Bacon's Utility Boots (<0.1%)</li>
+              <li>1 Sudo's Quilled Cap (<0.1%)</li>
+              <li>1 Sudo's Thick Hide (<0.1%)</li>
+              <li>1 Sudo's Bug Free Pants (<0.1%)</li>
+              <li>1 Sudo's Freefall Boots (<0.1%)</li>
+              <li>1 Perfect Helm (<0.1%)</li>
+              <li>1 Perfect Chest (<0.1%)</li>
+              <li>1 Perfect Legs (<0.1%)</li>
+              <li>1 Perfect Boots (<0.1%)</li>
+              <li>1 Izzy's Eternal Bow (<0.1%)</li>
+              <li>1 Vorpal Sword (<0.1%)</li>
+              <li>1 Sudo's Axe (<0.1%)</li>
+              <li>1 Bacon's Hoe (<0.1%)</li>
+              <li>1 Silky (<0.1%)</li>
+              <li>1 Looty (<0.1%)</li>
+              <li>1 Holy Shovel (<0.1%)</li>
+              <li>1 Steadfast Trident (<0.1%)</li>
             </ul>
           </section>
           <section>
             <h3>Premium Crate</h3>
+            <p>8 items from pool 1:</p>
             <ul>
-              <li>BOW (enchanted)</li>
-              <li>DIAMOND_AXE (enchanted)</li>
-              <li>ELYTRA (enchanted)</li>
-              <li>TRIDENT (enchanted)</li>
-              <li>AMETHYST_SHARD</li>
-              <li>ANCIENT_DEBRIS</li>
-              <li>BLAZE_ROD</li>
-              <li>BONE_BLOCK</li>
-              <li>BUDDING_AMETHYST</li>
-              <li>COAL</li>
-              <li>COOKED_BEEF</li>
-              <li>CRIMSON_STEM</li>
-              <li>DIAMOND</li>
-              <li>EMERALD</li>
-              <li>ENCHANTED_BOOK</li>
-              <li>ENCHANTED_GOLDEN_APPLE</li>
-              <li>GHAST_TEAR</li>
-              <li>GOLDEN_APPLE</li>
-              <li>GOLDEN_CARROT</li>
-              <li>GOLD_INGOT</li>
-              <li>GUNPOWDER</li>
-              <li>HONEY_BLOCK</li>
-              <li>INK_SAC</li>
-              <li>IRON_INGOT</li>
-              <li>LAPIS_LAZULI</li>
-              <li>NETHERITE_INGOT</li>
-              <li>NETHERITE_SCRAP</li>
-              <li>NETHER_STAR</li>
-              <li>QUARTZ</li>
-              <li>REDSTONE</li>
-              <li>SCUTE</li>
-              <li>SEA_LANTERN</li>
-              <li>SHULKER_SHELL</li>
-              <li>SLIME_BLOCK</li>
-              <li>SPONGE</li>
-              <li>TURTLE_HELMET</li>
-              <li>WARPED_STEM</li>
-              <li>WITHER_ROSE</li>
-              <li>WITHER_SKELETON_SKULL</li>
+              <li>8-16 AMETHYST_BLOCK (0.3%)</li>
+              <li>8-16 AMETHYST_SHARD (0.3%)</li>
+              <li>1-2 ANCIENT_DEBRIS (1.2%)</li>
+              <li>1 ANVIL (1.9%)</li>
+              <li>1 AXOLOTL_BUCKET (1.2%)</li>
+              <li>1 BEACON (<0.1%)</li>
+              <li>1-10 BLAZE_ROD (1.2%)</li>
+              <li>8-16 BONE_BLOCK (0.3%)</li>
+              <li>8-16 BOOK (0.3%)</li>
+              <li>1-2 BOOKSHELF (1.2%)</li>
+              <li>8-16 BROWN_MUSHROOM_BLOCK (0.3%)</li>
+              <li>1 BUDDING_AMETHYST (1.9%)</li>
+              <li>1 CAKE (0.3%)</li>
+              <li>1-5 CHORUS_FLOWER  (1.2%)</li>
+              <li>1 CONDUIT (<0.1%)</li>
+              <li>18-64 COOKIE (0.3%)</li>
+              <li>8-16 CRIMSON_FUNGUS (0.3%)</li>
+              <li>16-32 DARK_PRISMARINE (1.2%)</li>
+              <li>8-16 DEEPSLATE_COPPER_ORE (0.3%)</li>
+              <li>1-5 DEEPSLATE_DIAMOND_ORE (1.9%)</li>
+              <li>1-5 DEEPSLATE_EMERALD_ORE (1.9%)</li>
+              <li>1-5 DEEPSLATE_GOLD_ORE (1.2%)</li>
+              <li>1-5 DEEPSLATE_IRON_ORE (1.2%)</li>
+              <li>1-5 DEEPSLATE_LAPIS_ORE (1.2%)</li>
+              <li>1-5 DEEPSLATE_REDSTONE_ORE (1.2%)</li>
+              <li>1-5 DIAMOND (1.2%)</li>
+              <li>1 DIAMOND_PICKAXE W/ 2 ENCHANTS (0.9%)</li>
+              <li>1 DIAMOND_PICKAXE W/ 3 ENCHANTS (0.9%)</li>
+              <li>1 DIAMOND_SWORD W/ 2 ENCHANTS (1.9%)</li>
+              <li>16-32 DRAGON_BREATH (1.9%)</li>
+              <li>1 DRAGON_HEAD (1.9%)</li>
+              <li>1-2 ECHO_SHARD (1.2%)</li>
+              <li>1 ELYTRA W/ 2 ENCHANTS (<0.1%)</li>
+              <li>1-5 EMERALD (1.2%)</li>
+              <li>1 ENCHANTED_BOOK (0.7%)</li>
+              <li>1 ENCHANTED_GOLDEN_APPLE (1.9%)</li>
+              <li>1 ENCHANTING_TABLE (1.9%)</li>
+              <li>5-10 END_ROD (1.2%)</li>
+              <li>8-16 END_STONE (0.3%)</li>
+              <li>1 ENDER_CHEST (1.2%)</li>
+              <li>16 ENDER_PEARL (0.3%)</li>
+              <li>16-32 FIREWORK_ROCKET (1.2%)</li>
+              <li>1-5 GHAST_TEAR (1.2%)</li>
+              <li>16-32 GLASS (0.3%)</li>
+              <li>5-10 GLISTERING_MELON_SLICE (0.3%)</li>
+              <li>5-10 GLOW_INK_SAC (0.3%)</li>
+              <li>5-10 GLOW_LICHEN (0.3%)</li>
+              <li>16-32 GLOWSTONE_DUST (1.2%)</li>
+              <li>1-5 GOLD_INGOT (1.2%)</li>
+              <li>1-5 GOLDEN_APPLE (1.2%)</li>
+              <li>5-10 GOLDEN_CARROT (0.3%)</li>
+              <li>5-10 GUNPOWDER (0.3%)</li>
+              <li>1-2 HEART_OF_THE_SEA (1.9%)</li>
+              <li>1-6 HONEY_BLOCK (1.2%)</li>
+              <li>5-10 HONEY_BOTTLE (0.3%)</li>
+              <li>1-6 HONEYCOMB (1.2%)</li>
+              <li>16-32 ICE (0.3%)</li>
+              <li>1-5 IRON_INGOT (1.2%)</li>
+              <li>16-32 LAPIS_LAZULI (0.3%)</li>
+              <li>1 LAVA_BUCKET (1.2%)</li>
+              <li>2-8 LEAD (1.2%)</li>
+              <li>8-16 LEATHER (0.3%)</li>
+              <li>1 LODESTONE (1.9%)</li>
+              <li>16-32 MELON_SLICE (0.3%)</li>
+              <li>16-32 MYCELIUM (1.2%)</li>
+              <li>3 NAME_TAG (1.2%)</li>
+              <li>1-8 NAUTILUS_SHELL (1.9%)</li>
+              <li>1 NETHER_STAR (1.2%)</li>
+              <li>16-32 NETHER_WART (1.9%)</li>
+              <li>1-3 NETHERITE_INGOT (1.2%)</li>
+              <li>1-2 NETHERITE_SCRAP (1.2%)</li>
+              <li>16-32 OAK_LOG (1.2%)</li>
+              <li>5-10 OXEYE_DAISY (0.3%)</li>
+              <li>1-3 PAINTING (1.2%)</li>
+              <li>16-32 POTATO (0.3%)</li>
+              <li>1 POWDER_SNOW_BUCKET (0.3%)</li>
+              <li>8-16 PRISMARINE (0.3%)</li>
+              <li>16-32 PRISMARINE_CRYSTALS (0.3%)</li>
+              <li>16-32 PRISMARINE_SHARD (1.2%)</li>
+              <li>1 PUFFERFISH_BUCKET (0.3%)</li>
+              <li>8-16 PUMPKIN (0.3%)</li>
+              <li>16 PUMPKIN_PIE (1.2%)</li>
+              <li>8-16 PURPUR_BLOCK (0.3%)</li>
+              <li>16-32 QUARTZ (0.3%)</li>
+              <li>7 RABBIT_FOOT (0.3%)</li>
+              <li>1-5 RAW_GOLD (0.3%)</li>
+              <li>1 RECOVERY_COMPASS (<0.1%)</li>
+              <li>5-10 RED_MUSHROOM (0.3%)</li>
+              <li>5-10 RED_TULIP (0.3%)</li>
+              <li>8-16 REDSTONE (0.3%)</li>
+              <li>16-32 SANDSTONE (1.2%)</li>
+              <li>8-16 SCULK (1.2%)</li>
+              <li>3-5 SCULK_CATALYST (0.3%)</li>
+              <li>1-3 SCUTE (0.3%)</li>
+              <li>1-8 SEA_LANTERN (1.2%)</li>
+              <li>1 SHIELD (0.3%)</li>
+              <li>1-8 SHROOMLIGHT (1.9%)</li>
+              <li>1 SHULKER_BOX (1.2%)</li>
+              <li>1-3 SHULKER_SHELL (0.3%)</li>
+              <li>8-16 SLIME_BALL (0.3%)</li>
+              <li>5-10 SPIDER_EYE (0.3%)</li>
+              <li>3-9 SPONGE (0.3%)</li>
+              <li>16-32 SPRUCE_LOG (0.3%)</li>
+              <li>16-32 SWEET_BERRIES (1.2%)</li>
+              <li>1-2 TARGET (1.9%)</li>
+              <li>1 TOTEM_OF_UNDYING (1.2%)</li>
+              <li>1 TROPICAL_FISH_BUCKET (1.9%)</li>
+              <li>1-6 TURTLE_EGG (1.2%)</li>
+              <li>1 TURTLE_HELMET (1.2%)</li>
+              <li>8-16 VERDANT_FROGLIGHT (0.3%)</li>
+              <li>16-32 WARPED_STEM (0.3%)</li>
+              <li>1-64 WHITE_WOOL (0.3%)</li>
+              <li>1-10 WITHER_ROSE (1.2%)</li>
+              <li>1-2 WITHER_SKELETON_SKULL (1.9%)</li>
+              <li>1 Bacon's Blast Helm (<0.1%)</li>
+              <li>1 Bacon's Asbestos Vest (<0.1%)</li>
+              <li>1 Bacon's Khakis (<0.1%)</li>
+              <li>1 Bacon's Utility Boots (<0.1%)</li>
+              <li>1 Sudo's Quilled Cap (<0.1%)</li>
+              <li>1 Sudo's Thick Hide (<0.1%)</li>
+              <li>1 Sudo's Bug Free Pants (<0.1%)</li>
+              <li>1 Sudo's Freefall Boots (<0.1%)</li>
+              <li>1 Perfect Helm (<0.1%)</li>
+              <li>1 Perfect Chest (<0.1%)</li>
+              <li>1 Perfect Legs (<0.1%)</li>
+              <li>1 Perfect Boots (<0.1%)</li>
+              <li>1 Izzy's Eternal Bow (<0.1%)</li>
+              <li>1 Vorpal Sword (<0.1%)</li>
+              <li>1 Sudo's Axe (<0.1%)</li>
+              <li>1 Bacon's Hoe (<0.1%)</li>
+              <li>1 Silky (<0.1%)</li>
+              <li>1 Looty (<0.1%)</li>
+              <li>1 Holy Shovel (<0.1%)</li>
+              <li>1 Steadfast Trident (<0.1%)</li>
             </ul>
           </section>
         </div>

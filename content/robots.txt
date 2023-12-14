@@ -1,6 +1,0 @@
-user-agent: * 
-sitemap: https://newlandsmc.com/sitemap.xml
-disallow: /features/map/survival/tiles/
-disallow: /features/map/creative/tiles/
-disallow: /assets/fonts/
-disallow: /assets/videos/
